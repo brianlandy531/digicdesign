@@ -1,0 +1,43 @@
+A 5 u Eddm_design_viewpoint 5d7256d1cba3.03.81.15.9a.a7.00.4d.6e 3 2 21 0
+V v 1 4 5d7256d1cba3.03.81.15.9a.a7.01.4d.6e
+F f 1 "default.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 5d7256d4199b.03.81.15.9a.a7.00.4d.6e
+F f 2 "default.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 5d7258e8006f.03.81.15.9a.a7.00.4d.6e
+F f 3 "default.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic" 3 mgc_schematic 5d7258e26caf.03.81.15.9a.a7.00.4d.6e 5d7254f7bb65.03.81.15.9a.a7.00.4d.6e
+R cspuv 1 "$PYXIS_SPT/digicdesign/inv/part" 1 Eddm_part 5d7256b86f66.03.81.15.9a.a7.00.4d.6e 5d7256b86f65.03.81.15.9a.a7.00.4d.6e
+R cspuv 2 "$PYXIS_SPT/digicdesign/inv/default/default" 1 Eddm_ba_mgr 5d7256d1e059.03.81.15.9a.a7.01.4d.6e 5d7256d1e059.03.81.15.9a.a7.00.4d.6e
+R cspuv 3 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 4 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 5 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 6 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
+R cspuv 7 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 8 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic" 2 mgc_schematic 5d7256b8d74a.03.81.15.9a.a7.00.4d.6e 5d7254f7bb65.03.81.15.9a.a7.00.4d.6e
+R cspuv 1 "$PYXIS_SPT/digicdesign/inv/part" 1 Eddm_part 5d7256b86f66.03.81.15.9a.a7.00.4d.6e 5d7256b86f65.03.81.15.9a.a7.00.4d.6e
+R cspuv 2 "$PYXIS_SPT/digicdesign/inv/default/default" 1 Eddm_ba_mgr 5d7256d1e059.03.81.15.9a.a7.01.4d.6e 5d7256d1e059.03.81.15.9a.a7.00.4d.6e
+R cspuv 3 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+R cspuv 4 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 5 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 6 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
+R cspuv 7 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
+R cspuv 8 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic" 2 mgc_schematic 5d7256b8d74a.03.81.15.9a.a7.00.4d.6e 5d7254f7bb65.03.81.15.9a.a7.00.4d.6e
+R cspuv 1 "$PYXIS_SPT/digicdesign/inv/part" 1 Eddm_part 5d7256b86f66.03.81.15.9a.a7.00.4d.6e 5d7256b86f65.03.81.15.9a.a7.00.4d.6e
+R cspuv 2 "$PYXIS_SPT/digicdesign/inv/default/default" 1 Eddm_ba_mgr 5d7256d1e059.03.81.15.9a.a7.01.4d.6e 5d7256d1e059.03.81.15.9a.a7.00.4d.6e

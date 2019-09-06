@@ -1,0 +1,58 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Friday, September 6, 2019 at 9:04:23 AM EDT
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ===== Open the window =====
+add workspace -name Workspace1 -active
+open window -position 27 27 -size 420 445 -divider 0.83
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <inv_default/DC>V(VOUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 306
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+// ===== Open the window =====
+open window -maximized -divider 0.92
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <inv_default/DC>V(VOUT) -transform "< none >"
+set axis properties -axis X -scale linear
+add waveform -row 1 -axis Y1 -color_index 1 <inv_default/DC>V(VIN) -transform "< none >"
+add waveform -row 1 -axis Y1 -color_index 2 <inv_default/DC>V(VIN) -transform "< none >"
+add waveform -row 1 -axis Y1 -color_index 3 <inv_default/DC>V(VOUT) -transform "< none >"
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 345
+
+// ===== Create row #2 =====
+add waveform -color_index 1 <inv_default/DC>V(VIN) -transform "< none >"
+add waveform -row 2 -axis Y1 -color_index 2 <inv_default/DC>V(VIN) -transform "< none >"
+set axis properties -row 2 -axis Y1 -autorange -zerolevel vt
+set user scale Voltage 1.0 V -row 2 -axis Y1
+set row height -row 2 -exact 345
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ===== Set X-axis min/max extents =====
+set axis properties -axis X -min 0.45 -max 0.75
+
+// ====== Create the cursors, markers and measurements =====
+measure intersect -xandy -noninverting -id1 #wf:1.y1.1 -id2 #wf:1.y1.2
+
+set active workspace Workspace1

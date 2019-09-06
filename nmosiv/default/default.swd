@@ -1,0 +1,44 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Friday, September 6, 2019 at 8:42:04 AM EDT
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ===== Open the window =====
+add workspace -name Workspace1 -active
+open window -position 32 10 -size 420 445 -divider 0.83
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <nmosiv_default/DC>I(M1.D) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Current 1.0 A -row 1 -axis Y1
+set row height -row 1 -exact 306
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+// ===== Open the window =====
+open window -position 5 -17 -size 1462 867 -divider 0.95
+
+// ===== Create row #1 =====
+add waveform -point_style 1 -color_index 0 <nmosiv_default/DC>I(M1.D) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Current 1.0 A -row 1 -axis Y1
+set row height -row 1 -exact 728
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+set active workspace Workspace1
