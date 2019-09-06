@@ -1,6 +1,6 @@
 //###########################################################
 //# EZwave - Saved Window File
-//# Friday, September 6, 2019 at 9:40:11 AM EDT
+//# Friday, September 6, 2019 at 9:46:28 AM EDT
 //#
 //# Note: This is an auto-generated file.
 //#
@@ -26,7 +26,7 @@ set user scale temperatureC 1.0 C -axis X
 // ====== Create the cursors, markers and measurements =====
 
 // ===== Open the window =====
-open window -position 27 27 -size 1320 765 -divider 0.89
+open window -position 27 27 -size 1320 765 -divider 0.98
 
 // ===== Create row #1 =====
 add waveform -point_style 1 -color_index 0 <inv_default/DC>V(VOUT) -transform "< none >"
@@ -54,7 +54,7 @@ set axis properties -axis X -min 0.45 -max 0.75
 // ====== Create the cursors, markers and measurements =====
 
 // ===== Open the window =====
-open window -position 27 27 -size 1320 746 -divider 0.90
+open window -position 27 27 -size 1320 746 -divider 0.98
 
 // ===== Create row #1 =====
 add waveform -color_index 0 <inv_default/TRAN>V(VOUT) -transform "< none >"
@@ -97,7 +97,7 @@ set user scale Time 1.0 s -axis X
 // ====== Create the cursors, markers and measurements =====
 
 // ===== Open the window =====
-open window -position 27 27 -size 564 746 -divider 0.42
+open window -position 27 27 -size 564 746 -divider 0.29
 
 // ===== Create row #1 =====
 add waveform -point_style 1 -color_index 0 <inv_default/DC>V(VOUT) -transform "< none >"
@@ -112,7 +112,7 @@ set user scale temperatureC 1.0 C -axis X
 // ====== Create the cursors, markers and measurements =====
 
 // ===== Open the window =====
-open window -position 27 27 -size 564 746 -divider 0.42
+open window -position 27 27 -size 564 746 -divider 0.29
 
 // ===== Create row #1 =====
 add waveform -color_index 0 <inv_default/TRAN>V(VOUT) -transform "< none >"
@@ -172,7 +172,7 @@ set user scale Time 1.0 s -axis X
 // ====== Create the cursors, markers and measurements =====
 
 // ===== Open the window =====
-open window -position 27 27 -size 564 746 -divider 0.42
+open window -position 27 27 -size 564 746 -divider 0.29
 
 // ===== Create row #1 =====
 add waveform -point_style 1 -color_index 0 <inv_default/DC>V(VOUT) -transform "< none >"
@@ -187,7 +187,7 @@ set user scale temperatureC 1.0 C -axis X
 // ====== Create the cursors, markers and measurements =====
 
 // ===== Open the window =====
-open window -maximized -divider 0.81
+open window -maximized -divider 0.92
 
 // ===== Create row #1 =====
 add waveform -color_index 0 <inv_default/TRAN>V(VOUT) -transform "< none >"
@@ -205,10 +205,13 @@ set row height -row 2 -exact 345
 // ===== Set X-axis data units =====
 set user scale Time 1.0 s -axis X
 
+// ===== Set X-axis min/max extents =====
+set axis properties -axis X -min 0.0 -max 1.6481481481481478E-8
+
 // ====== Create the cursors, markers and measurements =====
-measure fall -lower 0.1 -upper 0.9 -relative -id #wf:1.y1.1
 measure rise -lower 0.1 -upper 0.9 -relative -id #wf:1.y1.1
 measure delay -level1 0.5 -relative1 -level2 0.5 -relative2 -falling -inverting -id1 #wf:1.y1.1 -id2 #wf:2.y1.1
+measure fall -lower 0.1 -upper 0.9 -relative -id #wf:1.y1.1
 measure delay -level1 0.5 -relative1 -level2 0.5 -relative2 -rising -inverting -id1 #wf:1.y1.1 -id2 #wf:2.y1.1
 
 set active workspace Workspace1
