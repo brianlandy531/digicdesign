@@ -1,0 +1,21 @@
+A 5 u Eddm_design_viewpoint 5d725063dec4.03.81.15.9a.a7.00.2b.8c 2 2 3 0
+V v 1 4 5d725063dec4.03.81.15.9a.a7.01.2b.8c
+F f 1 "default.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 5d7250665d80.03.81.15.9a.a7.00.2b.8c
+F f 2 "default.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/nmosiv/schematic" 2 mgc_schematic 5d725026a44a.03.81.15.9a.a7.00.2b.8c 5d724d16e4a5.03.81.15.9a.a7.00.2b.8c
+R cspuv 1 "$PYXIS_SPT/digicdesign/nmosiv/part" 1 Eddm_part 5d72502681b8.03.81.15.9a.a7.01.2b.8c 5d72502681b8.03.81.15.9a.a7.00.2b.8c
+R cspuv 2 "$PYXIS_SPT/digicdesign/nmosiv/default/default" 1 Eddm_ba_mgr 5d725063ef8a.03.81.15.9a.a7.00.2b.8c 5d725063ef89.03.81.15.9a.a7.00.2b.8c
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/nmosiv/schematic" 2 mgc_schematic 5d725026a44a.03.81.15.9a.a7.00.2b.8c 5d724d16e4a5.03.81.15.9a.a7.00.2b.8c
+R cspuv 1 "$PYXIS_SPT/digicdesign/nmosiv/part" 1 Eddm_part 5d72502681b8.03.81.15.9a.a7.01.2b.8c 5d72502681b8.03.81.15.9a.a7.00.2b.8c
+R cspuv 2 "$PYXIS_SPT/digicdesign/nmosiv/default/default" 1 Eddm_ba_mgr 5d725063ef8a.03.81.15.9a.a7.00.2b.8c 5d725063ef89.03.81.15.9a.a7.00.2b.8c

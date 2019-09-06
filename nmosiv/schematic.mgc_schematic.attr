@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 5d724d16e4a5.03.81.15.9a.a7.00.2b.8c 2 2 1 0
+V v 1 1 5d724d16e4a5.03.81.15.9a.a7.01.2b.8c
+F o 0 ""
+V v 2 1 5d725026a44a.03.81.15.9a.a7.00.2b.8c
+F o 0 ""
+O 2
+R cspuv 0 "$PYXIS_SPT/digicdesign/nmosiv/schematic/sheet1" 1 mgc_sheet 5d724d170ca9.03.81.15.9a.a7.01.2b.8c 5d724d170ca9.03.81.15.9a.a7.00.2b.8c
+O 1
+R cspuv 0 "$PYXIS_SPT/digicdesign/nmosiv/schematic/sheet1" 1 mgc_sheet 5d724d170ca9.03.81.15.9a.a7.01.2b.8c 5d724d170ca9.03.81.15.9a.a7.00.2b.8c
+P "eddm__refer_state" "eddm__refer_floating"

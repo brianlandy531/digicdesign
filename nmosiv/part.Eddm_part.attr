@@ -1,0 +1,6 @@
+A 5 u Eddm_part 5d72502681b8.03.81.15.9a.a7.00.2b.8c 1 2 1 0
+V v 1 1 5d72502681b8.03.81.15.9a.a7.01.2b.8c
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/nmosiv/schematic" 1 mgc_schematic 5d724d16e4a5.03.81.15.9a.a7.01.2b.8c 5d724d16e4a5.03.81.15.9a.a7.00.2b.8c
