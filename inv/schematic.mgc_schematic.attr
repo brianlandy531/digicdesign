@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 5d7254f7bb65.03.81.15.9a.a7.00.4d.6e 4 2 1 0
-V v 2 1 5d7256b8d74a.03.81.15.9a.a7.00.4d.6e
-F o 0 ""
+A 5 u mgc_schematic 5d7254f7bb65.03.81.15.9a.a7.00.4d.6e 5 2 1 0
 V v 3 1 5d7258e26caf.03.81.15.9a.a7.00.4d.6e
 F o 0 ""
 V v 4 1 5d7259bf0076.03.81.15.9a.a7.00.4d.6e
 F o 0 ""
+V v 5 1 5d726119bc60.03.81.15.9a.a7.00.4d.6e
+F o 0 ""
+O 5
+R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic/sheet1" 4 mgc_sheet 5d726119b4f6.03.81.15.9a.a7.00.4d.6e 5d7254f7d755.03.81.15.9a.a7.00.4d.6e
 O 4
 R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic/sheet1" 3 mgc_sheet 5d7259beeca6.03.81.15.9a.a7.00.4d.6e 5d7254f7d755.03.81.15.9a.a7.00.4d.6e
 O 3
 R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic/sheet1" 2 mgc_sheet 5d7258e258e9.03.81.15.9a.a7.00.4d.6e 5d7254f7d755.03.81.15.9a.a7.00.4d.6e
-O 2
-R cspuv 0 "$PYXIS_SPT/digicdesign/inv/schematic/sheet1" 1 mgc_sheet 5d7254f7d756.03.81.15.9a.a7.00.4d.6e 5d7254f7d755.03.81.15.9a.a7.00.4d.6e

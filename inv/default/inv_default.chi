@@ -14,14 +14,14 @@
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
 *** MEM   : 15241028 kB
-*** Date  : Fri Sep  6 09:07:49 2019
+*** Date  : Fri Sep  6 09:43:02 2019
 
 /tools/mentor/ams/2013.12.2d/aol/bin/eldo_64.exe -i /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv/default/inv_default.cir -64b -gwl JWDB 
 
 
 ***** PRE-PROCESSING ...
 
-1******* 6-Sep-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******09:07:49******
+1******* 6-Sep-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******09:43:02******
 
 0* Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
 
@@ -30,7 +30,7 @@
 0***********************************************************************
     2  
     3  ** including /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv/default/netlist.spi
-    1  * ELDO netlist generated with ICnet by 'bxl1703' on Fri Sep  6 2019 at 09:07:48
+    1  * ELDO netlist generated with ICnet by 'bxl1703' on Fri Sep  6 2019 at 09:43:01
     2  
     3  .CONNECT GROUND 0
     4  
@@ -76,11 +76,11 @@
    12  .OP
    13  
    14  * - Analysis Setup - Trans
-   15  .TRAN 0.0 40n
+   15  .TRAN 0.0 40n 0
    16  
    17  * --- Forces
-   18  VFORCE__Vdd VDD GROUND DC 1.2
-   19  VFORCE__Vin VIN GROUND DC 1.2
+   18  VFORCE__Vdd VDD GROUND DC 1.08
+   19  VFORCE__Vin VIN GROUND PULSE (0 1.08 5n 0.1n 0.1n 5n 10n)
    20  
    21  * --- Global Outputs
    22  .PROBE V SG
@@ -90,7 +90,7 @@
    26  .PLOT TRAN V(VOUT)
    27  
    28  * --- Params
-   29  .TEMP 25
+   29  .TEMP 125
    30  
    31  * --- Libsetup
    32  .LIB KEY=MOS  $GENERIC13/models/lib.eldo  TT
@@ -6810,7 +6810,7 @@ Warning 107:  NODE "N$4": Less than two connections.
 INFORMATION ABOUT COMPILATION 
 
 
-Memory space allocated (MB):    251
+Memory space allocated (MB):    250
 5 elements
 4 nodes 
 2 input signals
@@ -6836,16 +6836,16 @@ Warning 109: NODE "N$4": This bulk node is not biased.
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE:  6-Sep-2019 09:07:49
+*** DATE:  6-Sep-2019 09:43:02
 
 *** TITLE: * Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
 
-TEMPERATURE : 25.000000 degrees C
+TEMPERATURE : 125.000000 degrees C
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv
-0****                 MODELS PARAMETERS                                    TEMPERATURE =   25.000 DEG C
+0****                 MODELS PARAMETERS                                    TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -6937,7 +6937,7 @@ NOIB    = 5.0000E+04 1/V     NOIC    =-1.4000E-12 unit3   EM      = 4.1000E+07 V
 
  * Sidewall parasitic capacitances at gate side *
    --------------------------------------------  
-MJSWG   = 4.0870E-01 -       PBSWG   = 7.9560E-01 V       CJSWG   = 5.0462E-10 F/m    
+MJSWG   = 4.0870E-01 -       PBSWG   = 6.5290E-01 V       CJSWG   = 5.1865E-10 F/m    
 
  * BSIM3V3.2 Extra Model Parameters *
    --------------------------------  
@@ -6989,14 +6989,14 @@ DW      = 0.0        m       LDIF    = 8.0000E-08 m       HDIF    = 1.3500E-07 m
 WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
 XJ      = 1.9000E-07 m       
  * Static bulk-diode related parameters *
-DIOLEV  = 7          -       JS      = 1.0000E-05 A/m^2   JSW     = 1.5500E-10 A/m    
-IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+DIOLEV  = 7          -       JS      = 3.0681E+00 A/m^2   JSW     = 4.7555E-05 A/m    
+IS      = 3.0681E-09 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
 VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
  * Dynamic bulk-diode related parameters *
 DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
-CBS     = 0.0        F       CJ      = 1.3760E-03 F/m^2   CJSW    = 2.0600E-10 F/m    
+CBS     = 0.0        F       CJ      = 1.5008E-03 F/m^2   CJSW    = 2.1173E-10 F/m    
 FC      = 0.0        -       MJ      = 4.5280E-01 -       MJSW    = 2.3230E-01 -      
-TT      = 0.0        s       PB      = 7.9560E-01 V       PBSW    = 7.9560E-01 V      
+TT      = 0.0        s       PB      = 6.5290E-01 V       PBSW    = 6.5290E-01 V      
  * Temperature related Parameters 
 EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
 TNOM    = 2.5000E+01 degC    TLEV    = 1          -       TLEVC   = 1          -      
@@ -7099,7 +7099,7 @@ NOIB    = 2.4000E+03 1/V     NOIC    = 1.4000E-12 unit3   EM      = 4.1000E+07 V
 
  * Sidewall parasitic capacitances at gate side *
    --------------------------------------------  
-MJSWG   = 4.4130E-01 -       PBSWG   = 9.0000E-01 V       CJSWG   = 4.5312E-10 F/m    
+MJSWG   = 4.4130E-01 -       PBSWG   = 7.3570E-01 V       CJSWG   = 4.6662E-10 F/m    
 
  * BSIM3V3.2 Extra Model Parameters *
    --------------------------------  
@@ -7148,14 +7148,14 @@ DW      = 0.0        m       LDIF    = 8.0000E-08 m       HDIF    = 1.3500E-07 m
 WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
 XJ      = 2.1000E-07 m       
  * Static bulk-diode related parameters *
-DIOLEV  = 7          -       JS      = 8.0000E-07 A/m^2   JSW     = 6.0550E-11 A/m    
-IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+DIOLEV  = 7          -       JS      = 2.4545E-01 A/m^2   JSW     = 1.8577E-05 A/m    
+IS      = 3.0681E-09 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
 VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
  * Dynamic bulk-diode related parameters *
 DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
-CBS     = 0.0        F       CJ      = 1.3693E-03 F/m^2   CJSW    = 9.8000E-11 F/m    
+CBS     = 0.0        F       CJ      = 1.4907E-03 F/m^2   CJSW    = 1.0092E-10 F/m    
 FC      = 0.0        -       MJ      = 4.2340E-01 -       MJSW    = 1.7160E-01 -      
-TT      = 0.0        s       PB      = 9.0000E-01 V       PBSW    = 9.0000E-01 V      
+TT      = 0.0        s       PB      = 7.3570E-01 V       PBSW    = 7.3570E-01 V      
  * Temperature related Parameters 
 EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
 TNOM    = 2.5000E+01 degC    TLEV    = 1          -       TLEVC   = 1          -      
@@ -7176,10 +7176,10 @@ unit6 represents 1/degK^2
 
 
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
-0****                 OPTION SUMMARY                                        TEMPERATURE =   25.000 DEG C
+0****                 OPTION SUMMARY                                        TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -7247,42 +7247,42 @@ TIMING         = 0        MODWL          = 1        ULOGIC         = 0
 
 ***> DC CPU TIME 0s 000ms <***
 
-DC:1 iterations FOR DC analysis
+DC:4 iterations FOR DC analysis
 
 
 
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
-0****                 DC OPERATING POINT                                   TEMPERATURE =   25.000 DEG C
+0****                 DC OPERATING POINT                                   TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
 
   NODE         VOLTAGE      NODE         VOLTAGE      NODE         VOLTAGE    
-N$4           58.3813N    VDD           1.2000      VIN           1.2000      
-VOUT          116.7625N   
+N$4           24.3140M    VDD           1.0800      VIN           0.0000      
+VOUT          1.0799      
 
 
    VOLTAGE SOURCE CURRENT
 
 NAME      CURRENT      VOLTAGE      POWER        
-VFORCE__VDD  -75.9486P     1.2000      -91.1383P    
-VFORCE__VIN   0.0000       1.2000       0.0000      
+VFORCE__VDD  -16.1884N     1.0800      -17.4834N    
+VFORCE__VIN   0.0000       0.0000       0.0000      
 
-   TOTAL POWER DISSIPATION:  91.1383P    WATTS
-
-
+   TOTAL POWER DISSIPATION:  17.4834N    WATTS
 
 
 
 
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+
+
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
-0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   25.000 DEG C
+0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -7310,16 +7310,16 @@ Total number of elements simulated  5
 Number of equations                 6
 Number of non-zero terms            18
 Percent Zeros                         50
-Evaluation of active devices        9
-Memory size (MB)                      258
+Evaluation of active devices        28
+Memory size (MB)                    257.6
 
-***>CPU TIME 0s 000ms <***
+***>CPU TIME 0s 010ms <***
 
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv
-0****                 OPERATING POINT INFORMATION                          TEMPERATURE =   25.000 DEG C
+0****                 OPERATING POINT INFORMATION                          TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -7328,108 +7328,108 @@ Memory size (MB)                      258
 
 MODEL          NMOS.12      
 MFACTOR         1.0000      
-ID              75.9487P    
+ID              16.1885N    
 IG              0.0000      
-IS             -75.9487P    
-IB              0.0000A     
-VGS             1.2000      
-VDS             116.7625N   
-VBS             58.3813N    
-VTH             376.6729M   
-VDSAT           374.1273M   
-GM              56.9081P    
-GDS             653.2072U   
-RON             1.5309K     
-GMB             13.8970P    
-Cdd             997.8299A   
-Cdg            -266.0040A   
-Cds            -309.5836A   
-Cdb            -422.2423A   
-Cgd            -259.5433A   
-Cgg             533.0238A   
-Cgs            -273.3723A   
-Cgb            -0.1082A     
-Csd            -173.4092A   
-Csg            -266.0040A   
-Css             861.6555A   
-Csb            -422.2424A   
-Cbd            -564.8774A   
-Cbg            -1.0159A     
-Cbs            -278.6996A   
-Cbb             844.5929A   
+IS             -16.1886N    
+IB              90.3051F    
+VGS             0.0000      
+VDS             1.0799      
+VBS             24.3140M    
+VTH             300.3461M   
+VDSAT           57.6715M    
+GM              324.6876N   
+GDS             7.1928N     
+RON             139.0286MEG 
+GMB             64.8319N    
+Cdd             386.4227A   
+Cdg            -96.2501A    
+Cds             0.0001A     
+Cdb            -290.1727A   
+Cgd            -96.2473A    
+Cgg             258.8822A   
+Cgs            -99.9091A    
+Cgb            -62.7257A    
+Csd            -0.0031A     
+Csg            -96.4948A    
+Css             510.4516A   
+Csb            -413.9538A   
+Cbd            -290.1723A   
+Cbg            -66.1373A    
+Cbs            -410.5427A   
+Cbb             766.8522A   
 PHI             910.9145M   
 VBI             1.0417      
-Region         linear       
-VTH_D           823.3271M   
+Region         subthreshold 
+VTH_D          -300.3461M   
 
                M2           
 
 MODEL          PMOS.12      
 MFACTOR         1.0000      
-ID             -75.9486P    
+ID             -16.1884N    
 IG              0.0000      
-IS              74.7484P    
-IB              1.2001P     
-VGS             0.0000      
-VDS            -1.2000      
+IS              16.1883N    
+IB              53.7546F    
+VGS            -1.0800      
+VDS            -82.5414U    
 VBS             0.0000      
-VTH            -387.0841M   
-VDSAT          -46.3862M    
-GM              2.2743N     
-GDS             50.3059P    
-RON             19.8784G    
-GMB             575.2427P   
-Cdd             548.5776A   
-Cdg            -153.3742A   
-Cds             0.0000A     
-Cdb            -395.2033A   
-Cgd            -153.3742A   
-Cgg             472.2665A   
-Cgs            -153.3817A   
-Cgb            -165.5106A   
-Csd            -0.0000A     
-Csg            -153.3761A   
-Css             707.6652A   
-Csb            -554.2891A   
-Cbd            -395.2033A   
-Cbg            -165.5162A   
-Cbs            -554.2835A   
-Cbb             1.1150F     
+VTH            -340.0182M   
+VDSAT          -626.0975M   
+GM              16.5600N    
+GDS             196.2506U   
+RON             5.0955K     
+GMB             6.1693N     
+Cdd             1.8368F     
+Cdg            -514.1596A   
+Cds            -654.7432A   
+Cdb            -667.9219A   
+Cgd            -501.7001A   
+Cgg             1.0308F     
+Cgs            -529.1282A   
+Cgb             0.0431A     
+Csd            -374.9176A   
+Csg            -514.1713A   
+Css             1.5570F     
+Csb            -667.9564A   
+Cbd            -960.2070A   
+Cbg            -2.4544A     
+Cbs            -373.1738A   
+Cbb             1.3358F     
 PHI             919.7382M   
 VBI             1.0461      
-Region         subthreshold 
-VTH_D          -387.0841M   
+Region         linear       
+VTH_D           739.9818M   
 
-Searching Operating Point between -1.200000E+00V and 
-                                  2.400000E+00V
+Searching Operating Point between -1.080000E+00V and 
+                                  2.160000E+00V
 
 ***> DC CPU TIME 0s 010ms <***
 
-DC:1 iterations FOR DC analysis
+DC:2 iterations FOR DC analysis
 
 
 
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
-0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   25.000 DEG C
+0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
 
   NODE         VOLTAGE      NODE         VOLTAGE      NODE         VOLTAGE    
-N$4           58.3812N    VDD           1.2000      VIN           1.2000      
-VOUT          116.7624N   
+N$4           24.2800M    VDD           1.0800      VIN           0.0000      
+VOUT          1.0799      
 
 
    VOLTAGE SOURCE CURRENT
 
 NAME      CURRENT      VOLTAGE      POWER        
-VFORCE__VDD  -75.9486P     1.2000      -91.1383P    
-VFORCE__VIN   0.0000       1.2000       0.0000      
+VFORCE__VDD  -16.1863N     1.0800      -17.4812N    
+VFORCE__VIN   0.0000       0.0000       0.0000      
 
-   TOTAL POWER DISSIPATION:  91.1383P    WATTS
+   TOTAL POWER DISSIPATION:  17.4812N    WATTS
 
 
 
@@ -7438,39 +7438,39 @@ VFORCE__VIN   0.0000       1.2000       0.0000
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
 
 ................................................
-Simulation progress                : 10% (t = 4.5550 N)
+Simulation progress                : 10% (t = 5.0000 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
+CPU Usage                          : 100%               (100%)
+................................................
+Simulation progress                : 20% (t = 8.4281 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          :   0%               (  0%)
 ................................................
-Simulation progress                : 20% (t = 8.5550 N)
+Simulation progress                : 30% (t = 13.6079 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 30% (t = 12.5550 N)
+Simulation progress                : 40% (t = 16.7628 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
+CPU Usage                          :   0%               (  0%)
+................................................
+Simulation progress                : 50% (t = 20.1000 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 40% (t = 16.5550 N)
+Simulation progress                : 60% (t = 25.0000 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
+CPU Usage                          :   0%               (  0%)
+................................................
+Simulation progress                : 70% (t = 28.4286 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 50% (t = 20.5550 N)
+Simulation progress                : 80% (t = 33.6077 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
+CPU Usage                          :   0%               (  0%)
 ................................................
-Simulation progress                : 60% (t = 24.5550 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 70% (t = 28.5550 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 80% (t = 32.5550 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 90% (t = 36.5550 N)
+Simulation progress                : 90% (t = 36.7631 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
@@ -7480,10 +7480,10 @@ CPU Usage                          : 100%               (  0%)
 
 
 
-1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:07:49*****************
+1*************** 6-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************09:43:02*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
-0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   25.000 DEG C
+0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -7511,14 +7511,14 @@ Total number of elements simulated  5
 Number of equations                 6
 Number of non-zero terms            18
 Percent Zeros                         50
-Number of Newton iterations         28
-Average number of Newton iterations     1
-Number of accepted time steps       28
+Number of Newton iterations         285
+Average number of Newton iterations 2.478
+Number of accepted time steps       115
 Number of rejected time steps       0
       due to LTE                    0
       due to Newton                 0
-Evaluation of active devices        30
-Memory size (MB)                      258
+Evaluation of active devices        345
+Memory size (MB)                    257.6
 
 ***>CPU TIME 0s 000ms <***
 
@@ -7530,8 +7530,8 @@ Memory size (MB)                      258
 ***>GLOBAL ELAPSED TIME 1s <***
 
 
-  Job started at  6-Sep-2019 09:07:49
-  Job end at      6-Sep-2019 09:07:50
+  Job started at  6-Sep-2019 09:43:02
+  Job end at      6-Sep-2019 09:43:03
 
   Run on eng-2500-29 (Linux 3.10.0-957.12.2.el7.x86_64)
 

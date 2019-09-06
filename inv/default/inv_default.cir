@@ -12,11 +12,11 @@
 .OP
 
 * - Analysis Setup - Trans
-.TRAN 0.0 40n
+.TRAN 0.0 40n 0
 
 * --- Forces
-VFORCE__Vdd VDD GROUND DC 1.2
-VFORCE__Vin VIN GROUND DC 1.2
+VFORCE__Vdd VDD GROUND DC 1.08
+VFORCE__Vin VIN GROUND PULSE (0 1.08 5n 0.1n 0.1n 5n 10n)
 
 * --- Global Outputs
 .PROBE V SG
@@ -26,7 +26,7 @@ VFORCE__Vin VIN GROUND DC 1.2
 .PLOT TRAN V(VOUT)
 
 * --- Params
-.TEMP 25
+.TEMP 125
 
 * --- Libsetup
 .LIB KEY=MOS "$GENERIC13/models/lib.eldo" TT

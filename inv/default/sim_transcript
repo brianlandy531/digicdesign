@@ -57,7 +57,7 @@ SUBJECT TO LICENSE TERMS.
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
 *** MEM   : 15241028 kB
-*** Date  : Fri Sep  6 09:07:49 2019
+*** Date  : Fri Sep  6 09:43:02 2019
 
 
 ***** PRE-PROCESSING ...
@@ -113,7 +113,7 @@ Warning 107:  NODE "N$4": Less than two connections.
 INFORMATION ABOUT COMPILATION...
 
 
-Memory space allocated (MB):    251
+Memory space allocated (MB):    250
 5 elements
 4 nodes
 2 input signals
@@ -124,11 +124,11 @@ Warning 109: NODE "N$4": This bulk node is not biased.
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE:  6-Sep-2019 09:07:49
+*** DATE:  6-Sep-2019 09:43:02
 
 *** TITLE: * Component: $PYXIS_SPT/digicdesign/inv Viewpoint: default
 
-TEMPERATURE : 25.000000 degrees C
+TEMPERATURE : 125.000000 degrees C
 
 
 Performing DC analysis...
@@ -137,16 +137,16 @@ Performing DC analysis...
 
 ***> DC CPU TIME 0s 000ms <***
 
-DC:1 iterations FOR DC analysis
-N$4           58.3813N   
-VDD           1.2000     
-VIN           1.2000     
-VOUT          116.7625N  
+DC:4 iterations FOR DC analysis
+N$4           24.3140M   
+VDD           1.0800     
+VIN           0.0000     
+VOUT          1.0799     
 
-   TOTAL POWER DISSIPATION:  91.1383P    WATTS
+   TOTAL POWER DISSIPATION:  17.4834N    WATTS
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost eng-2500-29 -jwdbport 46696
+connected to wdb server : -jwdbhost eng-2500-29 -jwdbport 42488
 
 
 
@@ -156,67 +156,67 @@ connected to wdb server : -jwdbhost eng-2500-29 -jwdbport 46696
 
 
 SIMULATION INFORMATION 
-memory size allocated in Mbytes    258
+memory size allocated in Mbytes  257.6
 nb of components: 5
 nb of nodes: 8
-nb of MOS or BIP calls: 9
+nb of MOS or BIP calls: 28
 Number of steps computed: 0
 
-***>CPU TIME 0s 000ms <***
+***>CPU TIME 0s 010ms <***
 
-Searching Operating Point between -1.200000e+00V and 
-                                  2.400000e+00V
+Searching Operating Point between -1.080000e+00V and 
+                                  2.160000e+00V
 
 --> Partitioning circuit...
 
 ***> DC CPU TIME 0s 010ms <***
 
-DC:1 iterations FOR DC analysis
-N$4           58.3812N   
-VDD           1.2000     
-VIN           1.2000     
-VOUT          116.7624N  
+DC:2 iterations FOR DC analysis
+N$4           24.2800M   
+VDD           1.0800     
+VIN           0.0000     
+VOUT          1.0799     
 
-   TOTAL POWER DISSIPATION:  91.1383P    WATTS
+   TOTAL POWER DISSIPATION:  17.4812N    WATTS
 
 
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
 
 Compute from 0.000000 Nano to 40.000000 Nano
 ................................................
-Simulation progress                : 10% (t = 4.5550 N)
+Simulation progress                : 10% (t = 5.0000 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
+CPU Usage                          : 100%               (100%)
+................................................
+Simulation progress                : 20% (t = 8.4281 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          :   0%               (  0%)
 ................................................
-Simulation progress                : 20% (t = 8.5550 N)
+Simulation progress                : 30% (t = 13.6079 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 30% (t = 12.5550 N)
+Simulation progress                : 40% (t = 16.7628 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
+CPU Usage                          :   0%               (  0%)
+................................................
+Simulation progress                : 50% (t = 20.1000 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 40% (t = 16.5550 N)
+Simulation progress                : 60% (t = 25.0000 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
+CPU Usage                          :   0%               (  0%)
+................................................
+Simulation progress                : 70% (t = 28.4286 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 50% (t = 20.5550 N)
+Simulation progress                : 80% (t = 33.6077 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
+CPU Usage                          :   0%               (  0%)
 ................................................
-Simulation progress                : 60% (t = 24.5550 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 70% (t = 28.5550 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 80% (t = 32.5550 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 90% (t = 36.5550 N)
+Simulation progress                : 90% (t = 36.7631 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
@@ -231,13 +231,13 @@ CPU Usage                          : 100%               (  0%)
 
 
 SIMULATION INFORMATION 
-memory size allocated in Mbytes    258
+memory size allocated in Mbytes  257.6
 Latency: 0.000000%
-average number of newton iterations: 1.000000
+average number of newton iterations: 2.478261
 nb of components: 5
 nb of nodes: 8
-nb of MOS or BIP calls: 30
-Number of steps computed: 28
+nb of MOS or BIP calls: 345
+Number of steps computed: 115
 
 ***>CPU TIME 0s 000ms <***
 
