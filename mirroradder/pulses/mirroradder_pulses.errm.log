@@ -1,0 +1,35 @@
+START report: Fri Sep 13 09:52:38 2019 
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter ISA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter BFA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter NFA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RBA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter REA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RCA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RBMA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter CJEA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter CJCA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 235)  In file "./netlist.spi" line 39:
++   OBJECT "C2":  Capacitance value is zero.
+** Warning: (eldo - 235)  In file "./netlist.spi" line 40:
++   OBJECT "C1":  Capacitance value is zero.
+** Warning: (eldo - 1615)  In file "./mirroradder_pulses.cir" line 15:
++   COMMAND ".TRAN": TPRINT can not be <= 0.0.
++   It is set to TSTOP/20.0 = 1.000e-08 s.
