@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 5d7b854d35ea.03.81.15.9a.a7.00.33.cb 2 2 1 0
+V v 1 1 5d7b854d35ea.03.81.15.9a.a7.01.33.cb
+F o 0 ""
+V v 2 1 5d7b95631346.03.81.15.9a.a7.00.33.cb
+F o 0 ""
+O 2
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder/sheet1" 1 mgc_sheet 5d7b854d5282.03.81.15.9a.a7.01.33.cb 5d7b854d5282.03.81.15.9a.a7.00.33.cb
+O 1
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder/sheet1" 1 mgc_sheet 5d7b854d5282.03.81.15.9a.a7.01.33.cb 5d7b854d5282.03.81.15.9a.a7.00.33.cb
+P "eddm__refer_state" "eddm__refer_floating"

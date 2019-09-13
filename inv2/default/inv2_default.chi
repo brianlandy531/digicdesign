@@ -14,14 +14,14 @@
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
 *** MEM   : 15240904 kB
-*** Date  : Thu Sep 12 23:50:18 2019
+*** Date  : Thu Sep 12 23:54:14 2019
 
 /tools/mentor/ams/2013.12.2d/aol/bin/eldo_64.exe -i /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/default/inv2_default.cir -64b -gwl JWDB 
 
 
 ***** PRE-PROCESSING ...
 
-1*******12-Sep-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******23:50:18******
+1*******12-Sep-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******23:54:14******
 
 0* Component: $PYXIS_SPT/digicdesign/inv2 Viewpoint: default
 
@@ -30,7 +30,7 @@
 0***********************************************************************
     2  
     3  ** including /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/default/netlist.spi
-    1  * ELDO netlist generated with ICnet by 'bxl1703' on Thu Sep 12 2019 at 23:50:17
+    1  * ELDO netlist generated with ICnet by 'bxl1703' on Thu Sep 12 2019 at 23:54:14
     2  
     3  .CONNECT GROUND 0
     4  
@@ -6829,13 +6829,13 @@ Warning 109: NODE "N$50": This bulk node is not biased.
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE: 12-Sep-2019 23:50:18
+*** DATE: 12-Sep-2019 23:54:14
 
 *** TITLE: * Component: $PYXIS_SPT/digicdesign/inv2 Viewpoint: default
 
 TEMPERATURE : 25.000000 degrees C
 
-1***************12-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************23:50:18*****************
+1***************12-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************23:54:14*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv2
 0****                 MODELS PARAMETERS                                    TEMPERATURE =   25.000 DEG C
@@ -7169,7 +7169,7 @@ unit6 represents 1/degK^2
 
 
 
-1***************12-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************23:50:18*****************
+1***************12-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************23:54:14*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv2 Viewpoint: default
 0****                 OPTION SUMMARY                                        TEMPERATURE =   25.000 DEG C
@@ -7240,7 +7240,7 @@ TIMING         = 0        MODWL          = 1        ULOGIC         = 0
 
 
 
-1***************12-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************23:50:18*****************
+1***************12-Sep-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************23:54:14*****************
 
 0* Component: $PYXIS_SPT/digicdesign/inv2 Viewpoint: default
 0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   25.000 DEG C
@@ -7277,18 +7277,18 @@ Average number of Newton iterations 1.501e+00
 Evaluation of active devices        2674
 Memory size (MB)                      258
 
-***>CPU TIME 0s 020ms <***
+***>CPU TIME 0s 010ms <***
 
 ***>MESSAGE SUMMARY: 12 warnings
 
-***>GLOBAL CPU TIME 0s 090ms <***
+***>GLOBAL CPU TIME 0s 100ms <***
 
 
 ***>GLOBAL ELAPSED TIME 1s <***
 
 
-  Job started at 12-Sep-2019 23:50:18
-  Job end at     12-Sep-2019 23:50:19
+  Job started at 12-Sep-2019 23:54:14
+  Job end at     12-Sep-2019 23:54:15
 
   Run on eng-2500-01 (Linux 3.10.0-957.12.2.el7.x86_64)
 
