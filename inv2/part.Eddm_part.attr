@@ -1,0 +1,11 @@
+A 5 u Eddm_part 5d7b038184b3.03.81.15.9a.06.02.48.a0 2 2 1 0
+V v 1 1 5d7256b86f66.03.81.15.9a.a7.00.4d.6e
+F f 1 "part.part_1"
+V v 2 1 5d7b0383eaec.03.81.15.9a.06.00.4d.4b
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/inv2/schematic" 1 mgc_schematic 5d7254f7bb66.03.81.15.9a.a7.00.4d.6e 5d7b038184b3.03.81.15.9a.06.03.48.a0
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/inv2/schematic" 1 mgc_schematic 5d7254f7bb66.03.81.15.9a.a7.00.4d.6e 5d7b038184b3.03.81.15.9a.06.03.48.a0

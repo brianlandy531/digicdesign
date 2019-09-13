@@ -1,0 +1,59 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Thursday, September 12, 2019 at 11:17:31 PM EDT
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ===== Open the window =====
+add workspace -name Workspace1 -active
+open window -position 0 0 -size 1241 828 -divider 0.90
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <inv2_default/DC>V(VOUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 689
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+// ===== Open the window =====
+open window -position 27 27 -size 1227 745 -divider 0.90
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <inv2_default/DC>V(VOUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 606
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+// ===== Open the window =====
+open window -maximized -divider 0.91
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <inv2_default/DC>V(VOUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 668
+
+// ===== Set X-axis data units =====
+set user scale Voltage 1.0 V -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+set active workspace Workspace1

@@ -1,0 +1,157 @@
+
+Running eldo on eng-2500-01
+with Eldo libraries :
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldoudm_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomos1_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldoekv_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomosp9_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldocsem_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomos2_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomos3_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldobip_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldodio_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldojfet_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldosoi_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomos4_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldoasitft_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldohisim_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldospmod_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldopsp_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomosvar_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldolegtft_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldomoto_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldost_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldobnr_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldorockw_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldopubhicum_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldotftsh_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldobta_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldofas_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldofascm_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldosdsim_64.so
+/tools/mentor/ams/2013.12.2d/aol/lib/libeldowire_64.so
+Unable to load VerilogA library libogr_64.so,
+
+
+
+Copyright 1988 Mentor Graphics Corporation
+All Rights Reserved
+
+THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY
+INFORMATION WHICH ARE THE PROPERTY OF MENTOR
+GRAPHICS CORPORATION OR ITS LICENSORS AND IS
+SUBJECT TO LICENSE TERMS.
+
+
+
+***** SYSTEM INFORMATION ...
+
+*** User  : bxl1703@eng-2500-01
+*** OS    : \S [VCO = aol]
+*** CPU   :
+    AMD A10-7850K APU with Radeon(TM) R7 Graphics
+    Number of physical processors     : 1
+    Hyper-Threading Technology        : enabled
+    Number of cpu cores               : 2
+    Number of logical processors      : 4
+*** Freq  : 3700.000MHz
+*** Cache : 2048 KB
+*** MEM   : 15240904 kB
+*** Date  : Thu Sep 12 23:50:18 2019
+
+
+***** PRE-PROCESSING ...
+
+
+***** ANALYSIS ....
+
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter ISA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter BFA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter NFA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RBA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter REA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RCA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RBMA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter CJEA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter CJCA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+
+***** 0  error(s). 
+***** 9  warning(s). 
+
+
+***** GENERATION ...
+
+Warning 235: In file "./netlist.spi" line 15:
++   OBJECT "C1":  Capacitance value is zero.
+Warning 107:  NODE "N$50": Less than two connections.
+
+***** 0  error(s). 
+***** 11  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (MB):    251
+5 elements
+4 nodes
+2 input signals
+
+***> Parsing CPU TIME 0h 0mn 0s 050ms <***
+
+Warning 109: NODE "N$50": This bulk node is not biased. 
+
+Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
+
+*** DATE: 12-Sep-2019 23:50:18
+
+*** TITLE: * Component: $PYXIS_SPT/digicdesign/inv2 Viewpoint: default
+
+TEMPERATURE : 25.000000 degrees C
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost eng-2500-01 -jwdbport 36945
+
+
+--> Partitioning circuit...
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in Mbytes    258
+nb of components: 5
+nb of nodes: 8
+nb of MOS or BIP calls: 2674
+Number of steps computed: 0
+
+***>CPU TIME 0s 020ms <***
+
+***>MESSAGE SUMMARY: 12 warnings
+
+***>GLOBAL CPU TIME 0s 090ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
