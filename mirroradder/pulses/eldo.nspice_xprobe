@@ -52,12 +52,6 @@ Cell #top#
    Net Cout COUT
    Net S S
    Global ground GROUND
-   Inst M21 M21 NMOS
-   Inst M29 M29 NMOS
-   Inst M3 M3 PMOS
-   Inst M2 M2 PMOS
-   Inst M1 M1 NMOS
-   Inst M28 M28 NMOS
    Inst M23 M23 NMOS
    Inst M22 M22 NMOS
    Inst M27 M27 NMOS
@@ -82,5 +76,11 @@ Cell #top#
    Inst M6 M6 PMOS
    Inst M5 M5 PMOS
    Inst M4 M4 PMOS
+   Inst M21 M21 NMOS
+   Inst M29 M29 NMOS
+   Inst M3 M3 PMOS
+   Inst M2 M2 PMOS
+   Inst M1 M1 NMOS
+   Inst M28 M28 NMOS
 End Cell
 

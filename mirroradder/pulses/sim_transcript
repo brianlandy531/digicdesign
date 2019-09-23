@@ -1,5 +1,5 @@
 
-Running eldo on eng-2500-29
+Running eldo on eng-2500-28
 with Eldo libraries :
 /tools/mentor/ams/2013.12.2d/aol/lib/libeldoudm_64.so
 /tools/mentor/ams/2013.12.2d/aol/lib/libeldomos1_64.so
@@ -46,7 +46,7 @@ SUBJECT TO LICENSE TERMS.
 
 ***** SYSTEM INFORMATION ...
 
-*** User  : bxl1703@eng-2500-29
+*** User  : bxl1703@eng-2500-28
 *** OS    : \S [VCO = aol]
 *** CPU   :
     AMD A10-7850K APU with Radeon(TM) R7 Graphics
@@ -56,8 +56,8 @@ SUBJECT TO LICENSE TERMS.
     Number of logical processors      : 4
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
-*** MEM   : 15241028 kB
-*** Date  : Fri Sep 13 09:52:38 2019
+*** MEM   : 15241148 kB
+*** Date  : Wed Sep 18 20:17:40 2019
 
 
 ***** PRE-PROCESSING ...
@@ -99,16 +99,12 @@ Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/
 
 ***** GENERATION ...
 
-Warning 235: In file "./netlist.spi" line 39:
-+   OBJECT "C2":  Capacitance value is zero.
-Warning 235: In file "./netlist.spi" line 40:
-+   OBJECT "C1":  Capacitance value is zero.
 Warning 1615: In file "./mirroradder_pulses.cir" line 15:
 +   COMMAND ".TRAN": TPRINT can not be <= 0.0.
 +   It is set to TSTOP/20.0 = 1.000e-08 s.
 
 ***** 0  error(s). 
-***** 12  warning(s). 
+***** 10  warning(s). 
 
 
 INFORMATION ABOUT COMPILATION...
@@ -124,7 +120,7 @@ Memory space allocated (MB):    250
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE: 13-Sep-2019 09:52:38
+*** DATE: 18-Sep-2019 20:17:41
 
 *** TITLE: * Component: $PYXIS_SPT/digicdesign/mirroradder Viewpoint: pulses
 
@@ -135,7 +131,7 @@ Performing DC analysis...
 
 --> Partitioning circuit...
 
-***> DC CPU TIME 0s 000ms <***
+***> DC CPU TIME 0s 010ms <***
 
 DC:8 iterations FOR DC analysis
 A             0.0000     
@@ -160,7 +156,7 @@ VDD           1.2000
    TOTAL POWER DISSIPATION:  5.4415N     WATTS
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost eng-2500-29 -jwdbport 45104
+connected to wdb server : -jwdbhost eng-2500-28 -jwdbport 46339
 
 
 
@@ -213,43 +209,43 @@ Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
 Compute from 0.000000 Nano to 200.000000 Nano
 ................................................
 Simulation progress                : 10% (t = 21.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  20   ( 0h  0mn  0s  20)
-CPU Usage                          : 100%               (100%)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  10)
+CPU Usage                          :  90%               ( 90%)
 ................................................
 Simulation progress                : 20% (t = 41.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  30)
-CPU Usage                          : 100%               (100%)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  20)
+CPU Usage                          : 100%               ( 95%)
 ................................................
 Simulation progress                : 30% (t = 61.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  40)
-CPU Usage                          :  83%               (100%)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  30)
+CPU Usage                          :  90%               ( 93%)
 ................................................
 Simulation progress                : 40% (t = 81.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  50)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  40)
 CPU Usage                          : 100%               (100%)
 ................................................
 Simulation progress                : 50% (t = 101.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  60)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  50)
 CPU Usage                          : 100%               (100%)
 ................................................
 Simulation progress                : 60% (t = 121.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  70)
-CPU Usage                          : 100%               (100%)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  60)
+CPU Usage                          :  90%               ( 98%)
 ................................................
 Simulation progress                : 70% (t = 141.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  80)
-CPU Usage                          :  83%               (100%)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  70)
+CPU Usage                          :  90%               ( 97%)
 ................................................
 Simulation progress                : 80% (t = 161.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  90)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  80)
 CPU Usage                          : 100%               (100%)
 ................................................
 Simulation progress                : 90% (t = 181.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s 100)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  90)
 CPU Usage                          : 100%               (100%)
 ................................................
 Simulation progress                : 100% (t = 200.0000 N)
-Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s 110)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s 100)
 CPU Usage                          : 100%               (100%)
 
 
@@ -261,18 +257,18 @@ CPU Usage                          : 100%               (100%)
 SIMULATION INFORMATION 
 memory size allocated in Mbytes  257.6
 Latency: 0.000000%
-average number of newton iterations: 3.163170
+average number of newton iterations: 3.137592
 nb of components: 34
 nb of nodes: 74
-nb of MOS or BIP calls: 17432
-Number of steps computed: 427
+nb of MOS or BIP calls: 17074
+Number of steps computed: 407
 
-***>CPU TIME 0s 110ms <***
+***>CPU TIME 0s 100ms <***
 
-***>MESSAGE SUMMARY: 12 warnings
+***>MESSAGE SUMMARY: 10 warnings
 
 ***>GLOBAL CPU TIME 0s 190ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 2s <***
 

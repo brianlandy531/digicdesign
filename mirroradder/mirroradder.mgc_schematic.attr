@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 5d7b854d35ea.03.81.15.9a.a7.00.33.cb 8 2 1 0
-V v 6 1 5d7b9dab851f.03.81.15.9a.a7.00.33.cb
-F o 0 ""
+A 5 u mgc_schematic 5d7b854d35ea.03.81.15.9a.a7.00.33.cb 9 2 1 0
 V v 7 1 5d7b9e7b09f9.03.81.15.9a.a7.00.33.cb
 F o 0 ""
 V v 8 1 5d7b9f203fa2.03.81.15.9a.a7.00.33.cb
 F o 0 ""
+V v 9 1 5d82c7d11d3d.03.81.15.9a.97.00.15.be
+F o 0 ""
+O 9
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder/sheet1" 8 mgc_sheet 5d82c7d11032.03.81.15.9a.97.00.15.be 5d7b854d5282.03.81.15.9a.a7.00.33.cb
 O 8
 R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder/sheet1" 7 mgc_sheet 5d7b9f203997.03.81.15.9a.a7.00.33.cb 5d7b854d5282.03.81.15.9a.a7.00.33.cb
 O 7
 R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder/sheet1" 6 mgc_sheet 5d7b9e7b042c.03.81.15.9a.a7.00.33.cb 5d7b854d5282.03.81.15.9a.a7.00.33.cb
-O 6
-R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder/sheet1" 5 mgc_sheet 5d7b9dab7d52.03.81.15.9a.a7.00.33.cb 5d7b854d5282.03.81.15.9a.a7.00.33.cb
