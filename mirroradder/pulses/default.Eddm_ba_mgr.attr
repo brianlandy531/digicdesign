@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 5d7b97fbd24e.03.81.15.9a.a7.00.33.cb 1 2 1 0
+V v 1 1 5d7b97fbd24e.03.81.15.9a.a7.01.33.cb
+F f 1 "default.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/pulses" 1 Eddm_design_viewpoint 5d7b97fbc4cb.03.81.15.9a.a7.01.33.cb 5d7b97fbc4cb.03.81.15.9a.a7.00.33.cb

@@ -1,0 +1,64 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Wednesday, September 18, 2019 at 8:33:08 PM EDT
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ===== Open the window =====
+add workspace -name Workspace1 -active
+open window -maximized -divider 0.92
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <mirroradder_pulses/TRAN>V(A) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 142
+
+// ===== Create row #2 =====
+add waveform -color_index 1 <mirroradder_pulses/TRAN>V(B) -transform "< none >"
+set axis properties -row 2 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 2 -axis Y1
+set row height -row 2 -exact 142
+
+// ===== Create row #3 =====
+add waveform -color_index 2 <mirroradder_pulses/TRAN>V(CIN) -transform "< none >"
+set axis properties -row 3 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 3 -axis Y1
+set row height -row 3 -exact 142
+
+// ===== Create row #4 =====
+add waveform -color_index 3 <mirroradder_pulses/TRAN>V(COUT) -transform "< none >"
+set axis properties -row 4 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 4 -axis Y1
+set row height -row 4 -exact 142
+
+// ===== Create row #5 =====
+add waveform -color_index 4 <mirroradder_pulses/TRAN>V(S) -transform "< none >"
+set axis properties -row 5 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 5 -axis Y1
+set row height -row 5 -exact 143
+
+// ===== Set X-axis data units =====
+set user scale Time 1.0 s -axis X
+
+// ===== Set X-axis min/max extents =====
+set axis properties -axis X -min 8.236220472440945E-8 -max 1.0283464566929133E-7
+
+// ====== Create the cursors, markers and measurements =====
+measure rise -x1 1.5748031496062991E-10 -x2 6.614173228346457E-9 -lower 0.1 -upper 0.9 -relative -id #wf:4.y1.1
+measure rise -x1 1.5748031496062991E-10 -x2 6.614173228346457E-9 -lower 0.1 -upper 0.9 -relative -id #wf:5.y1.1
+measure delay -x1 1.5748031496062991E-10 -x2 6.614173228346457E-9 -level1 0.5 -relative1 -level2 0.5 -relative2 -noninverting -id1 #wf:4.y1.1 -id2 #wf:1.y1.1
+measure delay -x1 1.5748031496062991E-10 -x2 6.614173228346457E-9 -level1 0.5 -relative1 -level2 0.5 -relative2 -noninverting -id1 #wf:5.y1.1 -id2 #wf:1.y1.1
+measure fall -x1 4.5826771653543306E-8 -x2 6.188976377952755E-8 -lower 0.1 -upper 0.9 -relative -id #wf:4.y1.1
+measure delay -x1 4.5826771653543306E-8 -x2 6.188976377952755E-8 -level1 0.5 -relative1 -level2 0.5 -relative2 -noninverting -id1 #wf:4.y1.1 -id2 #wf:1.y1.1
+measure fall -x1 8.929133858267716E-8 -x2 9.401574803149606E-8 -lower 0.1 -upper 0.9 -relative -id #wf:5.y1.1
+measure delay -x1 8.929133858267716E-8 -x2 9.401574803149606E-8 -level1 0.5 -relative1 -level2 0.5 -relative2 -noninverting -id1 #wf:5.y1.1 -id2 #wf:1.y1.1
+
+set active workspace Workspace1

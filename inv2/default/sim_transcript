@@ -57,7 +57,7 @@ SUBJECT TO LICENSE TERMS.
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
 *** MEM   : 15240904 kB
-*** Date  : Thu Sep 12 23:50:18 2019
+*** Date  : Thu Sep 12 23:54:14 2019
 
 
 ***** PRE-PROCESSING ...
@@ -121,14 +121,14 @@ Warning 109: NODE "N$50": This bulk node is not biased.
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE: 12-Sep-2019 23:50:18
+*** DATE: 12-Sep-2019 23:54:14
 
 *** TITLE: * Component: $PYXIS_SPT/digicdesign/inv2 Viewpoint: default
 
 TEMPERATURE : 25.000000 degrees C
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost eng-2500-01 -jwdbport 36945
+connected to wdb server : -jwdbhost eng-2500-01 -jwdbport 40565
 
 
 --> Partitioning circuit...
@@ -146,11 +146,11 @@ nb of nodes: 8
 nb of MOS or BIP calls: 2674
 Number of steps computed: 0
 
-***>CPU TIME 0s 020ms <***
+***>CPU TIME 0s 010ms <***
 
 ***>MESSAGE SUMMARY: 12 warnings
 
-***>GLOBAL CPU TIME 0s 090ms <***
+***>GLOBAL CPU TIME 0s 100ms <***
 
 
 ***>GLOBAL ELAPSED TIME 1s <***
