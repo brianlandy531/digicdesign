@@ -4,83 +4,83 @@
 version 1.0
 
 Globals
-   ground GROUND
+   ground ground
 End Globals
 
-Cell NMOS
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
+Cell pmos
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
 End Cell
 
-Cell PMOS
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
+Cell nmos
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
 End Cell
 
-Cell IDEAL_CAPACITOR
-   Pin POS POS
-   Pin NEG NEG
+Cell ideal_capacitor
+   Pin POS pos
+   Pin NEG neg
 End Cell
 
 Cell #top#
-   Pin Cout COUT
-   Pin S S
-   Pin A A
-   Pin B B
-   Pin Cin CIN
-   Pin Vdd VDD
-   Net N$183 N$183
-   Net N$182 N$182
-   Net N$185 N$185
-   Net N$131 N$131
-   Net N$132 N$132
-   Net N$125 N$125
-   Net N$106 N$106
-   Net N$161 N$161
-   Net N$37 N$37
-   Net N$26 N$26
-   Net N$156 N$156
-   Net N$121 N$121
-   Net A A
-   Net B B
-   Net Cin CIN
-   Net Vdd VDD
-   Net Cout COUT
-   Net S S
-   Global ground GROUND
-   Inst M23 M23 NMOS
-   Inst M22 M22 NMOS
-   Inst M27 M27 NMOS
-   Inst M25 M25 NMOS
-   Inst M12 M12 PMOS
-   Inst M26 M26 NMOS
-   Inst M20 M20 PMOS
-   Inst C2 C2 IDEAL_CAPACITOR
-   Inst C1 C1 IDEAL_CAPACITOR
-   Inst M19 M19 NMOS
-   Inst M18 M18 PMOS
-   Inst M17 M17 NMOS
-   Inst M16 M16 NMOS
-   Inst M15 M15 NMOS
-   Inst M14 M14 NMOS
-   Inst M13 M13 PMOS
-   Inst M11 M11 PMOS
-   Inst M10 M10 PMOS
-   Inst M9 M9 PMOS
-   Inst M8 M8 PMOS
-   Inst M7 M7 PMOS
-   Inst M6 M6 PMOS
-   Inst M5 M5 PMOS
-   Inst M4 M4 PMOS
-   Inst M21 M21 NMOS
-   Inst M29 M29 NMOS
-   Inst M3 M3 PMOS
-   Inst M2 M2 PMOS
-   Inst M1 M1 NMOS
-   Inst M28 M28 NMOS
+   Pin Cout cout
+   Pin S s
+   Pin A a
+   Pin B b
+   Pin Cin cin
+   Pin Vdd vdd
+   Net N$183 n$183
+   Net N$182 n$182
+   Net N$185 n$185
+   Net N$131 n$131
+   Net N$132 n$132
+   Net N$125 n$125
+   Net N$106 n$106
+   Net N$161 n$161
+   Net N$37 n$37
+   Net N$26 n$26
+   Net N$156 n$156
+   Net N$121 n$121
+   Net A a
+   Net B b
+   Net Cin cin
+   Net Vdd vdd
+   Net Cout cout
+   Net S s
+   Global ground ground
+   Inst M10 m10 pmos
+   Inst M9 m9 pmos
+   Inst M8 m8 pmos
+   Inst M7 m7 pmos
+   Inst M6 m6 pmos
+   Inst M5 m5 pmos
+   Inst M4 m4 pmos
+   Inst M21 m21 nmos
+   Inst M29 m29 nmos
+   Inst M3 m3 pmos
+   Inst M2 m2 pmos
+   Inst M1 m1 nmos
+   Inst M28 m28 nmos
+   Inst M23 m23 nmos
+   Inst M22 m22 nmos
+   Inst M27 m27 nmos
+   Inst M25 m25 nmos
+   Inst M12 m12 pmos
+   Inst M26 m26 nmos
+   Inst M20 m20 pmos
+   Inst C2 c2 ideal_capacitor
+   Inst C1 c1 ideal_capacitor
+   Inst M19 m19 nmos
+   Inst M18 m18 pmos
+   Inst M17 m17 nmos
+   Inst M16 m16 nmos
+   Inst M15 m15 nmos
+   Inst M14 m14 nmos
+   Inst M13 m13 pmos
+   Inst M11 m11 pmos
 End Cell
 
