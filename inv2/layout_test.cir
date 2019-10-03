@@ -1,0 +1,38 @@
+* Example circuit file for simulating PEX
+
+.INCLUDE "/home/arf8856/Pyxis_SPT_HEP/ic_settings/MGC_WD/inverter_layout.pex.netlist"
+
+.LIB /home/arf8856/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT
+
+* - Instantiate your parasitic netlist and add the load capacitor
+** FORMAT : 
+* XLAYOUT [all inputs as listed by the ".subckt" line in the included netlist, in the order that they appear there] [name of the subcircuit as listed in the included netlist]
+XLAYOUT VOUT VIN INVERTER_LAYOUT
+COUT VOUT 0 120f
+
+* - Analysis Setup - DC sweep
+* FORMAT : .DC [name] [low] [high] [step]
+.DC VFORCE__VIN 0 1.08 0.01
+
+* - Analysis Setup - Trans
+* FORMAT : .TRAN [start time] [end time] [time step]
+.TRAN 0 20n 0.001n
+
+* --- Forces
+* FORMAT -- PULSE : [name] [port] [reference (0 means ground)] PULSE [low] [high] [delay] [fall time] [rise time] [pulse width] [period]
+*
+* FORMAT -- DC    : [name] [port] [reference (0 means ground)] DC [voltage]
+*
+VFORCE__Vin VIN 0 PULSE (0 1.08 5n 0.1n 0.1n 5n 10n)
+VFORCE__Vdd VDD 0 DC 1.08
+VFORCE__VSS VSS 0 DC 0
+
+* --- Waveform Outputs
+.PLOT DC V(VIN)
+.PLOT DC V(VOUT)
+.PLOT TRAN V(VIN)
+.PLOT TRAN V(VOUT)
+
+* --- Params
+.TEMP 125
+

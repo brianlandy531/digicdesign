@@ -1,12 +1,11 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1570142697 1570142698
+lvs_ExtRunTimes 1570143549 1570143550
 lvs_ExtOutFile RUNDIR /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal
-lvs_ExtOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/_LVS_
+lvs_ExtOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/_PEX_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
-lvs_ExtInfoErcSummary {0 0 0 0 0 4 4 4 4 1 0}
+lvs_ExtInfoErcSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/lay.net
-lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext
-lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/inv2.pathchk.erc
-lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/inv2.pathchk.rep
+lvs_ExtOutFile LAYOUT_NETLIST svdb/inv2.sp
+lvs_ExtOutFile EXTRACTION_REPORT inv2.lvs.report.ext
+lvs_ExtOutFile SOFTCHK_DATABASE svdb/inv2.softchk

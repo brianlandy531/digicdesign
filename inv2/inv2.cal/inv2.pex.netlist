@@ -1,0 +1,21 @@
+* File: inv2.pex.netlist
+* Created: Thu Oct  3 18:59:15 2019
+* Program "Calibre xRC"
+* Version "v2013.4_26.18"
+* 
+.global VDD VSS 
+.include "inv2.pex.netlist.pex"
+.subckt INV2  GROUND VOUT VIN
+* 
+* VIN	VIN
+* VDD	VDD
+* VOUT	VOUT
+* GROUND	GROUND
+M0 N_VOUT_M0_d N_VIN_M0_g N_GROUND_M0_s N_GROUND_M0_b NMOS L=1.3e-07 W=2.6e-07
+M1 N_VOUT_M1_d N_VIN_M1_g N_VDD_M1_s N_VDD_M1_b PMOS L=1.3e-07 W=5.2e-07
+*
+.include "inv2.pex.netlist.INV2.pxi"
+*
+.ends
+*
+*
