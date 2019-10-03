@@ -1,7 +1,4 @@
-A 5 u Ic_cell_template 5d8dfc0aa641.03.81.15.9a.a7.00.39.3e 5 4 3 0
-V v 1 2 5d8e12b9eee7.03.81.15.9a.a7.00.39.3e
-F f 1 "inv2.iccel_1"
-F o 0 ""
+A 5 u Ic_cell_template 5d8dfc0aa641.03.81.15.9a.a7.00.39.3e 6 4 3 0
 V v 2 2 5d923d9c5e5a.03.81.15.9a.95.00.47.10
 F f 2 "inv2.iccel_2"
 F o 0 ""
@@ -14,6 +11,12 @@ F o 0 ""
 V v 5 2 5d9519e41de8.03.81.15.9a.a7.00.37.7d
 F f 5 "inv2.iccel_5"
 F o 0 ""
+V v 6 2 5d960a654ddb.03.81.15.9a.a7.00.45.ad
+F f 6 "inv2.iccel_6"
+F o 0 ""
+O 6
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
 O 5
 R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
 R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
@@ -24,8 +27,5 @@ O 3
 R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
 R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
 O 2
-R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
-R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
-O 1
 R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
 R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
