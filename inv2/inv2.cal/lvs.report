@@ -15,7 +15,7 @@ REPORT FILE NAME:         lvs.report
 LAYOUT NAME:              /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/lay.net ('inv2')
 SOURCE NAME:              /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/inv2.calibre.src.net ('inv2')
 RULE FILE:                /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/_LVS_
-CREATION TIME:            Thu Oct  3 18:44:59 2019
+CREATION TIME:            Fri Oct  4 07:58:12 2019
 CURRENT DIRECTORY:        /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal
 USER NAME:                bxl1703
 CALIBRE VERSION:          v2013.4_26.18    Fri Dec 13 14:55:29 PST 2013

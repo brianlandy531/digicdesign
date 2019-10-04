@@ -1,0 +1,35 @@
+START report: Fri Oct  4 08:47:50 2019 
+** Warning: (eldo - 406)  In file "./layout_test.cir" line 7:
++   COMMAND .LIB cannot find corner TT_lwt in library /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo
+** Warning: (eldo - 406)  In file "./layout_test.cir" line 8:
++   COMMAND .LIB cannot find corner TT_hwt in library /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter ISA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter BFA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter NFA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RBA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter REA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RCA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter RBMA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter CJEA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
++   Double definition for parameter CJCA
++   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 1615)  In file "./layout_test.cir" line 39:
++   COMMAND ".TRAN": TPRINT can not be <= 0.0.
++   It is set to TSTOP/20.0 = 1.000e-09 s.

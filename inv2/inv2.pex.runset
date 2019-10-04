@@ -1,7 +1,18 @@
 *pexRulesFile: /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/PEX
 *pexRunDir: /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal
-*pexLayoutPaths: inv2.calibre.gds
+*pexLayoutPaths: /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2_custom.gdsii
 *pexLayoutPrimary: inv2
-*pexLayoutGetFromViewer: 1
-*pexResultsFile: inv2.pex.results
-*pexSummaryFile: inv2.pex.summary
+*pexSourcePath: inv2.src.net
+*pexSourcePrimary: inv2
+*pexPexNetlistType: RC
+*pexEnvVars: {PEX_FMT_SOURCE_BASED_FLOW {} Unset}
+*pexReportFile: inv2.lvs.report
+*pexPexNetlistFile: inv2.pex.netlist
+*pexPexNetlistNameSource: LAYOUTNAMES
+*pexPexReportFile: inv2.pex.report
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDIDEFLayoutPath: inv2.def
