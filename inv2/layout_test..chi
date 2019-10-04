@@ -1,0 +1,22 @@
+  Run on eng-2500-01 (Linux 3.10.0-957.12.2.el7.x86_64)
+
+
+***** SYSTEM INFORMATION ...
+
+*** User  : bxl1703@eng-2500-01
+*** OS    : \S [VCO = aol]
+*** CPU   :
+    AMD A10-7850K APU with Radeon(TM) R7 Graphics
+    Number of physical processors     : 1
+    Hyper-Threading Technology        : enabled
+    Number of cpu cores               : 2
+    Number of logical processors      : 4
+*** Freq  : 3700.000MHz
+*** Cache : 2048 KB
+*** MEM   : 15240904 kB
+*** Date  : Fri Oct  4 11:45:36 2019
+
+/tools/mentor/ams/2013.12.2d/aol/bin/eldo_64.exe -i layout_test. 
+
+ERROR 1: Unable to open file layout_test.
++   No such file or directory

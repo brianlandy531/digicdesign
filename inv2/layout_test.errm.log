@@ -1,4 +1,4 @@
-START report: Fri Oct  4 08:47:50 2019 
+START report: Fri Oct  4 11:45:40 2019 
 ** Warning: (eldo - 406)  In file "./layout_test.cir" line 7:
 +   COMMAND .LIB cannot find corner TT_lwt in library /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo
 ** Warning: (eldo - 406)  In file "./layout_test.cir" line 8:
