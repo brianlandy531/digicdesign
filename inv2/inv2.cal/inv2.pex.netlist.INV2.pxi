@@ -1,5 +1,5 @@
 * File: inv2.pex.netlist.INV2.pxi
-* Created: Fri Oct  4 11:25:15 2019
+* Created: Fri Oct  4 15:57:17 2019
 * 
 x_PM_INV2_GROUND N_GROUND_M0_s N_GROUND_M0_b GROUND PM_INV2_GROUND
 x_PM_INV2_VOUT N_VOUT_M0_d N_VOUT_M1_d VOUT PM_INV2_VOUT

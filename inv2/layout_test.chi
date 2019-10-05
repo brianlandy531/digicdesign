@@ -1,9 +1,9 @@
-  Run on eng-2500-01 (Linux 3.10.0-957.12.2.el7.x86_64)
+  Run on eng-2500-29 (Linux 3.10.0-957.12.2.el7.x86_64)
 
 
 ***** SYSTEM INFORMATION ...
 
-*** User  : bxl1703@eng-2500-01
+*** User  : bxl1703@eng-2500-29
 *** OS    : \S [VCO = aol]
 *** CPU   :
     AMD A10-7850K APU with Radeon(TM) R7 Graphics
@@ -13,15 +13,15 @@
     Number of logical processors      : 4
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
-*** MEM   : 15240904 kB
-*** Date  : Fri Oct  4 11:45:40 2019
+*** MEM   : 15241024 kB
+*** Date  : Sat Oct  5 15:08:53 2019
 
 /tools/mentor/ams/2013.12.2d/aol/bin/eldo_64.exe -i layout_test.cir 
 
 
 ***** PRE-PROCESSING ...
 
-1******* 4-Oct-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******11:45:40******
+1******* 5-Oct-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******15:08:53******
 
 0* Example circuit file for simulating PEX
 
@@ -31,14 +31,14 @@
     2  
     3  ** including /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/inv2.pex.netlist
     1  * File: inv2.pex.netlist
-    2  * Created: Fri Oct  4 11:25:15 2019
+    2  * Created: Fri Oct  4 15:57:17 2019
     3  * Program "Calibre xRC"
     4  * Version "v2013.4_26.18"
     5  * 
     6  .GLOBAL VDD VSS 
     7  ** including /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/inv2.pex.netlist.pex
     1  * File: inv2.pex.netlist.pex
-    2  * Created: Fri Oct  4 11:25:15 2019
+    2  * Created: Fri Oct  4 15:57:17 2019
     3  * Program "Calibre xRC"
     4  * Version "v2013.4_26.18"
     5  * Nominal Temperature: 27C
@@ -119,7 +119,7 @@
    16  *
    17  ** including /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/inv2/inv2.cal/inv2.pex.netlist.INV2.pxi
     1  * File: inv2.pex.netlist.INV2.pxi
-    2  * Created: Fri Oct  4 11:25:15 2019
+    2  * Created: Fri Oct  4 15:57:17 2019
     3  * 
     4  X_PM_INV2_GROUND N_GROUND_M0_S N_GROUND_M0_B GROUND PM_INV2_GROUND
     5  X_PM_INV2_VOUT N_VOUT_M0_D N_VOUT_M1_D VOUT PM_INV2_VOUT
@@ -4028,31 +4028,33 @@ Warning 46: In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/
    32  
    33  * - Analysis Setup - DC sweep
    34  * FORMAT : .DC [name] [low] [high] [step]
-   35  .DC VFORCE__VIN 0 1.20 0.01
+   35  .DC VFORCE__VIN 0 1.08 0.01
    36  
    37  * - Analysis Setup - Trans
    38  * FORMAT : .TRAN [start time] [end time] [time step]
-   39  .TRAN 0 20n 0.001n
+   39  .TRAN 0 200n 0.001n
    40  
    41  * --- Forces
    42  * FORMAT -- PULSE : [name] [port] [reference (0 means ground)] PULSE [low] [high] [delay] [fall time] [rise time] [pulse width] [period]
    43  *
    44  * FORMAT -- DC    : [name] [port] [reference (0 means ground)] DC [voltage]
    45  *
-   46  VFORCE__Vin VIN 0 PULSE (0 1.2 5n 0.1n 0.1n 5n 10n)
-   47  VFORCE__Vdd VDD 0 DC 1.2
-   48  VFORCE__VSS VSS 0 DC 0
+   46  VFORCE__Vin VIN 0 PULSE (0 1.08 50n 0.1n 0.1n 50n 100n)
+   47  VFORCE__Vdd VDD 0 DC 1.08
+   48  *VFORCE__VSS VSS 0 DC 0
    49  
-   50  * --- Waveform Outputs
-   51  .PLOT DC V(VIN)
-   52  .PLOT DC V(VOUT)
-   53  .PLOT TRAN V(VIN)
-   54  .PLOT TRAN V(VOUT)
-   55  
-   56  * --- Params
-   57  .TEMP 25
-   58  
-   59  .END
+   50  VFORCE__GROUND GROUND 0 DC 0
+   51  
+   52  * --- Waveform Outputs
+   53  .PLOT DC V(VIN)
+   54  .PLOT DC V(VOUT)
+   55  .PLOT TRAN V(VIN)
+   56  .PLOT TRAN V(VOUT)
+   57  
+   58  * --- Params
+   59  .TEMP 125
+   60  
+   61  .END
 
 End of file 
 
@@ -4065,7 +4067,7 @@ End of file
 
 Warning 1615: In file "./layout_test.cir" line 39:
 +   COMMAND ".TRAN": TPRINT can not be <= 0.0.
-+   It is set to TSTOP/20.0 = 1.000e-09 s.
++   It is set to TSTOP/20.0 = 1.000e-08 s.
 Warning 107:  NODE "VSS": Less than two connections.
 
 ***** 0  error(s). 
@@ -4097,19 +4099,20 @@ Number of MOS                       2
 Number of SWITCHES                  0
 Number of transmission lines        0
 Total number of elements simulated  57
+Warning 117:  NODE "VSS": Not connected to any power supply.
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE:  4-Oct-2019 11:45:40
+*** DATE:  5-Oct-2019 15:08:53
 
 *** TITLE: * Example circuit file for simulating PEX
 
-TEMPERATURE : 25.000000 degrees C
+TEMPERATURE : 125.000000 degrees C
 
-1*************** 4-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************11:45:40*****************
+1*************** 5-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:08:53*****************
 
 0* Example circuit file for simulating PE
-0****                 MODELS PARAMETERS                                    TEMPERATURE =   25.000 DEG C
+0****                 MODELS PARAMETERS                                    TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -4201,7 +4204,7 @@ NOIB    = 5.0000E+04 1/V     NOIC    =-1.4000E-12 unit3   EM      = 4.1000E+07 V
 
  * Sidewall parasitic capacitances at gate side *
    --------------------------------------------  
-MJSWG   = 4.0870E-01 -       PBSWG   = 7.9560E-01 V       CJSWG   = 5.0462E-10 F/m    
+MJSWG   = 4.0870E-01 -       PBSWG   = 6.5290E-01 V       CJSWG   = 5.1865E-10 F/m    
 
  * BSIM3V3.2 Extra Model Parameters *
    --------------------------------  
@@ -4253,14 +4256,14 @@ DW      = 0.0        m       LDIF    = 8.0000E-08 m       HDIF    = 1.3500E-07 m
 WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
 XJ      = 1.9000E-07 m       
  * Static bulk-diode related parameters *
-DIOLEV  = 7          -       JS      = 1.0000E-05 A/m^2   JSW     = 1.5500E-10 A/m    
-IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+DIOLEV  = 7          -       JS      = 3.0681E+00 A/m^2   JSW     = 4.7555E-05 A/m    
+IS      = 3.0681E-09 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
 VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
  * Dynamic bulk-diode related parameters *
 DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
-CBS     = 0.0        F       CJ      = 1.3760E-03 F/m^2   CJSW    = 2.0600E-10 F/m    
+CBS     = 0.0        F       CJ      = 1.5008E-03 F/m^2   CJSW    = 2.1173E-10 F/m    
 FC      = 0.0        -       MJ      = 4.5280E-01 -       MJSW    = 2.3230E-01 -      
-TT      = 0.0        s       PB      = 7.9560E-01 V       PBSW    = 7.9560E-01 V      
+TT      = 0.0        s       PB      = 6.5290E-01 V       PBSW    = 6.5290E-01 V      
  * Temperature related Parameters 
 EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
 TNOM    = 2.5000E+01 degC    TLEV    = 1          -       TLEVC   = 1          -      
@@ -4363,7 +4366,7 @@ NOIB    = 2.4000E+03 1/V     NOIC    = 1.4000E-12 unit3   EM      = 4.1000E+07 V
 
  * Sidewall parasitic capacitances at gate side *
    --------------------------------------------  
-MJSWG   = 4.4130E-01 -       PBSWG   = 9.0000E-01 V       CJSWG   = 4.5312E-10 F/m    
+MJSWG   = 4.4130E-01 -       PBSWG   = 7.3570E-01 V       CJSWG   = 4.6662E-10 F/m    
 
  * BSIM3V3.2 Extra Model Parameters *
    --------------------------------  
@@ -4412,14 +4415,14 @@ DW      = 0.0        m       LDIF    = 8.0000E-08 m       HDIF    = 1.3500E-07 m
 WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
 XJ      = 2.1000E-07 m       
  * Static bulk-diode related parameters *
-DIOLEV  = 7          -       JS      = 8.0000E-07 A/m^2   JSW     = 6.0550E-11 A/m    
-IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+DIOLEV  = 7          -       JS      = 2.4545E-01 A/m^2   JSW     = 1.8577E-05 A/m    
+IS      = 3.0681E-09 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
 VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
  * Dynamic bulk-diode related parameters *
 DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
-CBS     = 0.0        F       CJ      = 1.3693E-03 F/m^2   CJSW    = 9.8000E-11 F/m    
+CBS     = 0.0        F       CJ      = 1.4907E-03 F/m^2   CJSW    = 1.0092E-10 F/m    
 FC      = 0.0        -       MJ      = 4.2340E-01 -       MJSW    = 1.7160E-01 -      
-TT      = 0.0        s       PB      = 9.0000E-01 V       PBSW    = 9.0000E-01 V      
+TT      = 0.0        s       PB      = 7.3570E-01 V       PBSW    = 7.3570E-01 V      
  * Temperature related Parameters 
 EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
 TNOM    = 2.5000E+01 degC    TLEV    = 1          -       TLEVC   = 1          -      
@@ -4440,10 +4443,10 @@ unit6 represents 1/degK^2
 
 
 
-1*************** 4-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************11:45:40*****************
+1*************** 5-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:08:53*****************
 
 0* Example circuit file for simulating PEX
-0****                 OPTION SUMMARY                                        TEMPERATURE =   25.000 DEG C
+0****                 OPTION SUMMARY                                        TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -4511,10 +4514,10 @@ TIMING         = 0        MODWL          = 1        ULOGIC         = 0
 
 
 
-1*************** 4-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************11:45:40*****************
+1*************** 5-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:08:53*****************
 
 0* Example circuit file for simulating PEX
-0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   25.000 DEG C
+0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -4539,84 +4542,84 @@ Number of MOS                       2
 Number of SWITCHES                  0
 Number of transmission lines        0
 Total number of elements simulated  57
-Number of equations                 38
-Number of non-zero terms            158
-Percent Zeros                      89.06
-Number of DC points                 121
-Number of Newton iterations         132
-Average number of Newton iterations 1.091e+00
-Evaluation of active devices        568
+Number of equations                 37
+Number of non-zero terms            139
+Percent Zeros                      89.85
+Number of DC points                 109
+Number of Newton iterations         193
+Average number of Newton iterations 1.771e+00
+Evaluation of active devices        518
 Memory size (MB)                    257.8
 
-***>CPU TIME 0s 010ms <***
+***>CPU TIME 0s 000ms <***
 
-Searching Operating Point between -1.200000E+00V and 
-                                  2.400000E+00V
+Searching Operating Point between -1.080000E+00V and 
+                                  2.160000E+00V
 
 ***> DC CPU TIME 0s 000ms <***
 
-DC:2 iterations FOR DC analysis
+DC:6 iterations FOR DC analysis
 
 
 
 
-1*************** 4-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************11:45:40*****************
+1*************** 5-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:08:53*****************
 
 0* Example circuit file for simulating PEX
-0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   25.000 DEG C
+0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
 
   NODE         VOLTAGE    
- GROUND       1.2000E+00
- VDD       1.2000E+00
+ GROUND       0.0       
+ VDD       1.0800E+00
  VIN       0.0       
- VOUT       1.2000E+00
+ VOUT       1.0799E+00
  VSS       0.0       
- XLAYOUT.N_GROUND_M0_B       1.2000E+00
- XLAYOUT.N_GROUND_M0_S       1.2000E+00
- XLAYOUT.N_VDD_M1_B       1.2000E+00
- XLAYOUT.N_VDD_M1_S       1.2000E+00
- XLAYOUT.N_VIN_M0_G       4.4409E-16
- XLAYOUT.N_VIN_M1_G       4.4409E-16
- XLAYOUT.N_VOUT_M0_D       1.2000E+00
- XLAYOUT.N_VOUT_M1_D       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.10       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.13       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.14       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.17       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.19       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.22       1.2000E+00
- XLAYOUT.X_PM_INV2_GROUND.8       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.10       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.13       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.15       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.19       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.21       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.7       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.8       1.2000E+00
- XLAYOUT.X_PM_INV2_VDD.9       1.2000E+00
- XLAYOUT.X_PM_INV2_VIN.10       4.4409E-16
- XLAYOUT.X_PM_INV2_VIN.18       4.4409E-16
- XLAYOUT.X_PM_INV2_VIN.20       4.4409E-16
- XLAYOUT.X_PM_INV2_VOUT.11       1.2000E+00
- XLAYOUT.X_PM_INV2_VOUT.13       1.2000E+00
- XLAYOUT.X_PM_INV2_VOUT.16       1.2000E+00
- XLAYOUT.X_PM_INV2_VOUT.18       1.2000E+00
- XLAYOUT.X_PM_INV2_VOUT.4       1.2000E+00
- XLAYOUT.X_PM_INV2_VOUT.5       1.2000E+00
+ XLAYOUT.N_GROUND_M0_B       1.1784E-07
+ XLAYOUT.N_GROUND_M0_S       2.0955E-07
+ XLAYOUT.N_VDD_M1_B       1.0800E+00
+ XLAYOUT.N_VDD_M1_S       1.0800E+00
+ XLAYOUT.N_VIN_M0_G       0.0       
+ XLAYOUT.N_VIN_M1_G       0.0       
+ XLAYOUT.N_VOUT_M0_D       1.0799E+00
+ XLAYOUT.N_VOUT_M1_D       1.0799E+00
+ XLAYOUT.X_PM_INV2_GROUND.10       3.2028E-09
+ XLAYOUT.X_PM_INV2_GROUND.13       1.3781E-09
+ XLAYOUT.X_PM_INV2_GROUND.14       7.3648E-10
+ XLAYOUT.X_PM_INV2_GROUND.17       1.7106E-09
+ XLAYOUT.X_PM_INV2_GROUND.19       4.1076E-09
+ XLAYOUT.X_PM_INV2_GROUND.22       9.3347E-10
+ XLAYOUT.X_PM_INV2_GROUND.8       1.0464E-09
+ XLAYOUT.X_PM_INV2_VDD.10       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.13       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.15       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.19       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.21       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.7       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.8       1.0800E+00
+ XLAYOUT.X_PM_INV2_VDD.9       1.0800E+00
+ XLAYOUT.X_PM_INV2_VIN.10       0.0       
+ XLAYOUT.X_PM_INV2_VIN.18       0.0       
+ XLAYOUT.X_PM_INV2_VIN.20       0.0       
+ XLAYOUT.X_PM_INV2_VOUT.11       1.0799E+00
+ XLAYOUT.X_PM_INV2_VOUT.13       1.0799E+00
+ XLAYOUT.X_PM_INV2_VOUT.16       1.0799E+00
+ XLAYOUT.X_PM_INV2_VOUT.18       1.0799E+00
+ XLAYOUT.X_PM_INV2_VOUT.4       1.0799E+00
+ XLAYOUT.X_PM_INV2_VOUT.5       1.0799E+00
 
 
 
    VOLTAGE SOURCE CURRENT
 
 NAME      CURRENT      VOLTAGE      POWER        
-VFORCE__VIN   4.0116E-17   0.0          0.0         
-VFORCE__VDD   0.0          1.2000E+00   0.0         
-VFORCE__VSS   0.0          0.0          0.0         
+VFORCE__VIN   0.0          0.0          0.0         
+VFORCE__VDD  -1.4668E-08   1.0800E+00  -1.5841E-08  
+VFORCE__GROUND   1.4668E-08   0.0          0.0         
 
-   TOTAL POWER DISSIPATION:  0.0        WATTS
+   TOTAL POWER DISSIPATION:  1.5841E-08 WATTS
 
 
 
@@ -4625,52 +4628,52 @@ VFORCE__VSS   0.0          0.0          0.0
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
 
 ................................................
-Simulation progress                : 10% (t = 2.5550 N)
+Simulation progress                : 10% (t = 20.4750 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          :   0%               (  0%)
 ................................................
-Simulation progress                : 20% (t = 5.0000 N)
+Simulation progress                : 20% (t = 40.9550 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 30% (t = 6.0921 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 40% (t = 9.0659 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 50% (t = 10.1000 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 60% (t = 12.1833 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 70% (t = 14.1659 N)
-Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
-CPU Usage                          : 100%               (  0%)
-................................................
-Simulation progress                : 80% (t = 16.0921 N)
+Simulation progress                : 30% (t = 61.4626 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          :   0%               (  0%)
 ................................................
-Simulation progress                : 90% (t = 19.0659 N)
+Simulation progress                : 40% (t = 91.6422 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
 ................................................
-Simulation progress                : 100% (t = 20.0000 N)
+Simulation progress                : 50% (t = 100.1000 N)
 Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s   0)
 CPU Usage                          : 100%               (  0%)
+................................................
+Simulation progress                : 60% (t = 124.5805 N)
+Elapsed CPU time                   :  0h  0mn  0s  10   ( 0h  0mn  0s  10)
+CPU Usage                          : 100%               (100%)
+................................................
+Simulation progress                : 70% (t = 146.9927 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s  10)
+CPU Usage                          : 100%               (100%)
+................................................
+Simulation progress                : 80% (t = 161.4631 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s  10)
+CPU Usage                          : 100%               (100%)
+................................................
+Simulation progress                : 90% (t = 191.6442 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s  10)
+CPU Usage                          : 100%               (100%)
+................................................
+Simulation progress                : 100% (t = 200.0000 N)
+Elapsed CPU time                   :  0h  0mn  0s   0   ( 0h  0mn  0s  10)
+CPU Usage                          : 100%               (100%)
 
 
 
-1*************** 4-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************11:45:40*****************
+1*************** 5-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:08:53*****************
 
 0* Example circuit file for simulating PEX
-0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   25.000 DEG C
+0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   125.000 DEG C
 
 0*************************************************************************************************************************
 
@@ -4695,21 +4698,21 @@ Number of MOS                       2
 Number of SWITCHES                  0
 Number of transmission lines        0
 Total number of elements simulated  57
-Number of equations                 38
-Number of non-zero terms            166
-Percent Zeros                       88.5
-Number of Newton iterations         78
-Average number of Newton iterations   1.5
-Number of accepted time steps       52
+Number of equations                 37
+Number of non-zero terms            149
+Percent Zeros                      89.12
+Number of Newton iterations         144
+Average number of Newton iterations 2.028
+Number of accepted time steps       71
 Number of rejected time steps       0
       due to LTE                    0
       due to Newton                 0
-Evaluation of active devices        640
+Evaluation of active devices        723
 Memory size (MB)                    257.8
 
-***>CPU TIME 0s 000ms <***
+***>CPU TIME 0s 010ms <***
 
-***>MESSAGE SUMMARY: 13 warnings
+***>MESSAGE SUMMARY: 14 warnings
 
 ***>GLOBAL CPU TIME 0s 070ms <***
 
@@ -4717,8 +4720,8 @@ Memory size (MB)                    257.8
 ***>GLOBAL ELAPSED TIME 1s <***
 
 
-  Job started at  4-Oct-2019 11:45:40
-  Job end at      4-Oct-2019 11:45:41
+  Job started at  5-Oct-2019 15:08:53
+  Job end at      5-Oct-2019 15:08:54
 
-  Run on eng-2500-01 (Linux 3.10.0-957.12.2.el7.x86_64)
+  Run on eng-2500-29 (Linux 3.10.0-957.12.2.el7.x86_64)
 

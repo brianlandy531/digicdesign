@@ -32,19 +32,19 @@ COUT VOUT 0 120f
 
 * - Analysis Setup - DC sweep
 * FORMAT : .DC [name] [low] [high] [step]
-.DC VFORCE__VIN 0 1.20 0.01
+.DC VFORCE__VIN 0 1.08 0.01
 
 * - Analysis Setup - Trans
 * FORMAT : .TRAN [start time] [end time] [time step]
-.TRAN 0 20n 0.001n
+.TRAN 0 200n 0.001n
 
 * --- Forces
 * FORMAT -- PULSE : [name] [port] [reference (0 means ground)] PULSE [low] [high] [delay] [fall time] [rise time] [pulse width] [period]
 *
 * FORMAT -- DC    : [name] [port] [reference (0 means ground)] DC [voltage]
 *
-VFORCE__Vin VIN 0 PULSE (0 1.2 5n 0.1n 0.1n 5n 10n)
-VFORCE__Vdd VDD 0 DC 1.2
+VFORCE__Vin VIN 0 PULSE (0 1.08 50n 0.1n 0.1n 50n 100n)
+VFORCE__Vdd VDD 0 DC 1.08
 *VFORCE__VSS VSS 0 DC 0
 
 VFORCE__GROUND GROUND 0 DC 0
@@ -56,5 +56,5 @@ VFORCE__GROUND GROUND 0 DC 0
 .PLOT TRAN V(VOUT)
 
 * --- Params
-.TEMP 25
+.TEMP 125
 
