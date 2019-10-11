@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 5da072379ae4.03.81.15.9a.a7.00.40.83 2 2 1 0
+V v 1 1 5da072379ae4.03.81.15.9a.a7.01.40.83
+F o 0 ""
+V v 2 1 5da08828cde0.03.81.15.9a.a7.00.40.83
+F o 0 ""
+O 2
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/schematic/sheet1" 1 mgc_sheet 5da07237b9ca.03.81.15.9a.a7.01.40.83 5da07237b9ca.03.81.15.9a.a7.00.40.83
+O 1
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/schematic/sheet1" 1 mgc_sheet 5da07237b9ca.03.81.15.9a.a7.01.40.83 5da07237b9ca.03.81.15.9a.a7.00.40.83
+P "eddm__refer_state" "eddm__refer_floating"

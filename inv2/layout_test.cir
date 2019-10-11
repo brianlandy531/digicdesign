@@ -28,7 +28,7 @@
 ** FORMAT : 
 * XLAYOUT [all inputs as listed by the ".subckt" line in the included netlist, in the order that they appear there] [name of the subcircuit as listed in the included netlist]
 XLAYOUT GROUND VOUT VIN INV2
-COUT VOUT 0 120f
+COUT VOUT 0 0f
 
 * - Analysis Setup - DC sweep
 * FORMAT : .DC [name] [low] [high] [step]

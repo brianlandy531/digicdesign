@@ -1,4 +1,4 @@
-START report: Sat Oct  5 15:08:53 2019 
+START report: Thu Oct 10 22:59:50 2019 
 ** Warning: (eldo - 406)  In file "./layout_test.cir" line 7:
 +   COMMAND .LIB cannot find corner TT_lwt in library /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo
 ** Warning: (eldo - 406)  In file "./layout_test.cir" line 8:
@@ -30,6 +30,8 @@ START report: Sat Oct  5 15:08:53 2019
 ** Warning: (eldo - 46)  In file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 6767:
 +   Double definition for parameter CJCA
 +   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
+** Warning: (eldo - 235)  In file "./layout_test.cir" line 31:
++   OBJECT "COUT":  Capacitance value is zero.
 ** Warning: (eldo - 1615)  In file "./layout_test.cir" line 39:
 +   COMMAND ".TRAN": TPRINT can not be <= 0.0.
 +   It is set to TSTOP/20.0 = 1.000e-08 s.

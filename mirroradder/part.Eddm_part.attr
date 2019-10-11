@@ -1,6 +1,12 @@
-A 5 u Eddm_part 5d7b9562daf3.03.81.15.9a.a7.00.33.cb 1 2 1 0
+A 5 u Eddm_part 5d7b9562daf3.03.81.15.9a.a7.00.33.cb 2 2 2 0
 V v 1 1 5d7b9562daf3.03.81.15.9a.a7.01.33.cb
 F f 1 "part.part_1"
+V v 2 1 5da072efe028.03.81.15.9a.a7.00.61.09
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_schematic 5d7b854d35ea.03.81.15.9a.a7.01.33.cb 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
+R csduv 1 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_symbol 5da072e5566a.03.81.15.9a.a7.01.61.09 5da072e5566a.03.81.15.9a.a7.00.61.09
 O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_schematic 5d7b854d35ea.03.81.15.9a.a7.01.33.cb 5d7b854d35ea.03.81.15.9a.a7.00.33.cb

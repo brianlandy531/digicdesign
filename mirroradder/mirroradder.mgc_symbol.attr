@@ -1,0 +1,6 @@
+A 5 u mgc_symbol 5da072e5566a.03.81.15.9a.a7.00.61.09 1 2 1 0
+V v 1 2 5da072e5566a.03.81.15.9a.a7.01.61.09
+F f 1 "mirroradder.smbl_1"
+F o 0 
+O 1
+R csduv 0 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
