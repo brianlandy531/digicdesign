@@ -1,0 +1,414 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs.report
+LAYOUT NAME:              /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal/lay.net ('mirroradder')
+SOURCE NAME:              /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal/mirroradder.calibre.src.net ('mirroradder')
+RULE FILE:                /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal/_LVS_
+CREATION TIME:            Tue Oct 22 13:50:15 2019
+CURRENT DIRECTORY:        /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal
+USER NAME:                bxl1703
+CALIBRE VERSION:          v2013.4_26.18    Fri Dec 13 14:55:29 PST 2013
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of instances.
+  Error:    Property errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      mirroradder                   mirroradder
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VD33" "AVDDB" "DVDD" "VDDG" "AVDDG" "AHVDD" "AVDDBG" "AHVDDB" "VDD5V" "DHVDD" "TAVDDPST"
+                                          "TAVD33PST" "VDWELL" "AHVDDG" "AVDWELL" "AVDDR" "VDDSA" "TAVDD" "VDDPST" "TAVD33"
+                                          "AHVDDR" "HVDDWELL" "AHVDDWELL" "VDD" "AVDD"
+   LVS GROUND NAME                        "DVSS" "VSSG" "AVSSG" "AHVSS" "AVSSBG" "AHVSSB" "DHVSS" "TAVSSPST" "AHVSSG" "AVSSR"
+                                          "VS33" "TAVSS" "VSSPST" "VSSUB" "AVSSUB" "AHVSSR" "GND" "AGND" "HVSSUB" "VSS" "AHVSSUB"
+                                          "AVSS" "AVSSB"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       YES
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  YES
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        65536
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 NO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  r(rm1)  r r 0.2
+   TRACE PROPERTY  r(rm2)  r r 0.2
+   TRACE PROPERTY  r(rm3)  r r 0.2
+   TRACE PROPERTY  r(rm4)  r r 0.2
+   TRACE PROPERTY  r(rm5)  r r 0.2
+   TRACE PROPERTY  r(rm6)  r r 0.2
+   TRACE PROPERTY  r(rm7)  r r 0.2
+   TRACE PROPERTY  r(rm8)  r r 0.2
+   TRACE PROPERTY  mimcap_g13  a a 0
+   TRACE PROPERTY  mimcap_g13  m m 0
+   TRACE PROPERTY  r(rndiffs)  w w 0
+   TRACE PROPERTY  r(rndiffs)  l l 0
+   TRACE PROPERTY  r(rpdiffs)  w w 0
+   TRACE PROPERTY  r(rpdiffs)  l l 0
+   TRACE PROPERTY  r(rndiffwo)  w w 0
+   TRACE PROPERTY  r(rndiffwo)  l l 0
+   TRACE PROPERTY  r(rpdiffwo)  w w 0
+   TRACE PROPERTY  r(rpdiffwo)  l l 0
+   TRACE PROPERTY  r(rnwod)  w w 0
+   TRACE PROPERTY  r(rnwod)  l l 0
+   TRACE PROPERTY  r(rnwsti)  w w 0
+   TRACE PROPERTY  r(rnwsti)  l l 0
+   TRACE PROPERTY  r(rnpolylo)  w w 0
+   TRACE PROPERTY  r(rnpolylo)  l l 0
+   TRACE PROPERTY  r(rppolylo)  w w 0
+   TRACE PROPERTY  r(rppolylo)  l l 0
+   TRACE PROPERTY  r(rnpolyhi)  w w 0
+   TRACE PROPERTY  r(rnpolyhi)  l l 0
+   TRACE PROPERTY  r(rppolyhi)  w w 0
+   TRACE PROPERTY  r(rppolyhi)  l l 0
+   TRACE PROPERTY  mn(nmos)  l l 0
+   TRACE PROPERTY  mn(nmos)  w w 0
+   TRACE PROPERTY  mn(nmos_na)  l l 0
+   TRACE PROPERTY  mn(nmos_na)  w w 0
+   TRACE PROPERTY  mn(nmos_lvt)  l l 0
+   TRACE PROPERTY  mn(nmos_lvt)  w w 0
+   TRACE PROPERTY  mn(nmos_hvt)  l l 0
+   TRACE PROPERTY  mn(nmos_hvt)  w w 0
+   TRACE PROPERTY  mn(nmos_33)  l l 0
+   TRACE PROPERTY  mn(nmos_33)  w w 0
+   TRACE PROPERTY  mn(nmos_na33)  l l 0
+   TRACE PROPERTY  mn(nmos_na33)  w w 0
+   TRACE PROPERTY  mp(pmos)  l l 0
+   TRACE PROPERTY  mp(pmos)  w w 0
+   TRACE PROPERTY  mp(pmos_lvt)  l l 0
+   TRACE PROPERTY  mp(pmos_lvt)  w w 0
+   TRACE PROPERTY  mp(pmos_hvt)  l l 0
+   TRACE PROPERTY  mp(pmos_hvt)  w w 0
+   TRACE PROPERTY  mp(pmos_33)  l l 0
+   TRACE PROPERTY  mp(pmos_33)  w w 0
+   TRACE PROPERTY  d(ndiode)  a a 0.5
+   TRACE PROPERTY  d(ndiode_33)  a a 0.5
+   TRACE PROPERTY  d(pdiode)  a a 0.5
+   TRACE PROPERTY  d(pdiode_33)  a a 0.5
+   TRACE PROPERTY  d(nwdiode)  a a 0.5
+   TRACE PROPERTY  c(nmosvar)  lr lr 0
+   TRACE PROPERTY  c(nmosvar)  wr wr 0
+   TRACE PROPERTY  mp(pmos_rf25)  rl rl 0
+   TRACE PROPERTY  mp(pmos_rf25)  nr nr 0
+   TRACE PROPERTY  mp(pmos_rf)  rl rl 0
+   TRACE PROPERTY  mp(pmos_rf)  nr nr 0
+   TRACE PROPERTY  mn(nmos_rf)  nr nr 0
+   TRACE PROPERTY  mn(nmos_rf25)  nr nr 0
+   TRACE PROPERTY  c(moscap_rf)  nr nr 0
+   TRACE PROPERTY  c(moscap_rf25)  nr nr 0
+   TRACE PROPERTY  c(mimcap)  lt lt 0
+   TRACE PROPERTY  c(xjvar)  nr nr 0
+   TRACE PROPERTY  spiral_inductor_lvs  nr nr 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of instances (see below).
+  Error:    Property errors.
+
+LAYOUT CELL NAME:         mirroradder
+SOURCE CELL NAME:         mirroradder
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              7         7
+
+ Nets:              19        19
+
+ Instances:         14        14         MN (4 pins)
+                    14        14         MP (4 pins)
+                ------    ------
+ Total Inst:        28        28
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              7         7
+
+ Nets:               9         9
+
+ Instances:          2         0    *    MN (4 pins)
+                     1         1         SPUP_2_1 (4 pins)
+                     1         1         SPUP_3_1 (5 pins)
+                     1         1         SPMN_2_1 (5 pins)
+                     0         1    *    SPMN_3_1 (6 pins)
+                     2         2         _invv (4 pins)
+                     2         1    *    _smn2v (4 pins)
+                     1         1         _smn3v (5 pins)
+                     1         1         _smp2v (4 pins)
+                     1         1         _smp3v (5 pins)
+                ------    ------
+ Total Inst:        12        10
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    M5(-1069.890,640.335)  MN(NMOS)                           ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    M6(-1067.440,640.335)  MN(NMOS)                           ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    (_smn2v)                                                  ** missing injected instance **
+
+       Devices: 
+         M7(-1064.990,640.335)  MN(NMOS)
+         M8(-1062.540,640.335)  MN(NMOS)
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    ** missing gate **                                        (SPMN_3_1)
+
+                                                                 Transistors:
+                                                                   M26  MN(NMOS)
+                                                                   M25  MN(NMOS)
+                                                                   M27  MN(NMOS)
+                                                                   M28  MN(NMOS)
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+  5    M17(-1074.790,644.645)  MP(PMOS)                          M6  MP(PMOS)
+       w: 0.52 u                                                 w: 1.04 u                     50%
+
+  6    M18(-1072.340,644.695)  MP(PMOS)                          M5  MP(PMOS)
+       w: 0.52 u                                                 w: 1.04 u                     50%
+
+  7    M3(-1074.790,640.285)  MN(NMOS)                           M17  MN(NMOS)
+       l: 0.135 u                                                l: 0.13 u                   3.85%
+       w: 0.26 u                                                 w: 0.52 u                     50%
+
+  8    M4(-1072.350,640.335)  MN(NMOS)                           M16  MN(NMOS)
+       l: 0.145 u                                                l: 0.13 u                   11.5%
+       w: 0.26 u                                                 w: 0.52 u                     50%
+
+  9    M24(-1057.640,644.695)  MP(PMOS)                          M12  MP(PMOS)
+       w: 0.52 u                                                 w: 1.56 u                   66.7%
+
+ 10    M23(-1060.090,644.695)  MP(PMOS)                          M20  MP(PMOS)
+       w: 0.52 u                                                 w: 1.56 u                   66.7%
+
+ 11    M25(-1055.190,644.695)  MP(PMOS)                          M11  MP(PMOS)
+       w: 0.52 u                                                 w: 1.56 u                   66.7%
+
+ 12    M9(-1060.090,640.335)  MN(NMOS)                           M21  MN(NMOS)
+       w: 0.26 u                                                 w: 0.7 u                    62.9%
+
+ 13    M11(-1055.190,640.335)  MN(NMOS)                          M23  MN(NMOS)
+       w: 0.26 u                                                 w: 0.7 u                    62.9%
+
+ 14    M10(-1057.640,640.335)  MN(NMOS)                          M22  MN(NMOS)
+       w: 0.26 u                                                 w: 0.7 u                    62.9%
+
+ 15    M14(-1082.140,644.635)  MP(PMOS)                          M2  MP(PMOS)
+       w: 0.52 u                                                 w: 1.04 u                     50%
+
+ 16    M15(-1079.690,644.645)  MP(PMOS)                          M3  MP(PMOS)
+       w: 0.52 u                                                 w: 1.04 u                     50%
+
+ 17    M16(-1077.240,644.645)  MP(PMOS)                          M4  MP(PMOS)
+       w: 0.52 u                                                 w: 1.04 u                     50%
+
+ 18    M19(-1069.890,644.695)  MP(PMOS)                          M8  MP(PMOS)
+       w: 0.52 u                                                 w: 1.3 u                      60%
+
+ 19    M20(-1067.440,644.695)  MP(PMOS)                          M9  MP(PMOS)
+       w: 0.52 u                                                 w: 1.3 u                      60%
+
+ 20    M21(-1064.990,644.695)  MP(PMOS)                          M7  MP(PMOS)
+       w: 0.52 u                                                 w: 1.3 u                      60%
+
+ 21    M22(-1062.540,644.695)  MP(PMOS)                          M10  MP(PMOS)
+       w: 0.52 u                                                 w: 1.3 u                      60%
+
+ 22    M1(-1079.690,640.285)  MN(NMOS)                           M15  MN(NMOS)
+       w: 0.26 u                                                 w: 0.52 u                     50%
+
+ 23    M0(-1082.140,640.275)  MN(NMOS)                           M1  MN(NMOS)
+       w: 0.26 u                                                 w: 0.52 u                     50%
+
+ 24    M2(-1077.240,640.285)  MN(NMOS)                           M14  MN(NMOS)
+       w: 0.26 u                                                 w: 0.52 u                     50%
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               7          7            0            0
+
+   Nets:                9          9            0            0
+
+   Instances:           0          0            2            0    MN(NMOS)
+                        1          1            0            0    SPUP_2_1
+                        1          1            0            0    SPUP_3_1
+                        1          1            0            0    SPMN_2_1
+                        0          0            0            1    SPMN_3_1
+                        2          2            0            0    _invv
+                        1          1            1            0    _smn2v
+                        1          1            0            0    _smn3v
+                        1          1            0            0    _smp2v
+                        1          1            0            0    _smp3v
+                  -------    -------    ---------    ---------
+   Total Inst:          9          9            3            1
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD GROUND S COUT B CIN A
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

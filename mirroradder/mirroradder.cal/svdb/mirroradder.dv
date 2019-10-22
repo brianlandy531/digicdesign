@@ -1,0 +1,110 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/mirroradder.dv
+dv_start unmatched                                
+dv_cell {mirroradder} {mirroradder} unmatched
+dv_obj_count -transformed_nets {9 9} -transformed_inst {12 10} -transformed_port {7 7}
+dv_discrep 1 {Incorrect Instances}
+dv_discrep_line {} -ldev {M5} {} -lloc {(-1069.890,640.335)} {  MN(NMOS)                           ** missing instance **}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Instances}
+dv_discrep_line {} -ldev {M6} {} -lloc {(-1067.440,640.335)} {  MN(NMOS)                           ** missing instance **}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Instances}
+dv_discrep_line {(_smn2v)                                                  ** missing injected instance **}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {M7} {} -lloc {(-1064.990,640.335)} {  MN(NMOS)}
+dv_discrep_line {  } -ldev {M8} {} -lloc {(-1062.540,640.335)} {  MN(NMOS)}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Instances}
+dv_discrep_line {** missing gate **                                        (SPMN_3_1)}
+dv_discrep_line {}
+dv_discrep_line {                                                          Transistors:}
+dv_discrep_line {                                                            } -sdev {M26} {  MN(NMOS)}
+dv_discrep_line {                                                            } -sdev {M25} {  MN(NMOS)}
+dv_discrep_line {                                                            } -sdev {M27} {  MN(NMOS)}
+dv_discrep_line {                                                            } -sdev {M28} {  MN(NMOS)}
+dv_discrep_line {}
+dv_discrep 5 {Property Errors}
+dv_discrep_line {} -ldev {M17} {} -lloc {(-1074.790,644.645)} {  MP(PMOS)                          } -sdev {M6} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.04 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 6 {Property Errors}
+dv_discrep_line {} -ldev {M18} {} -lloc {(-1072.340,644.695)} {  MP(PMOS)                          } -sdev {M5} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.04 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 7 {Property Errors}
+dv_discrep_line {} -ldev {M3} {} -lloc {(-1074.790,640.285)} {  MN(NMOS)                           } -sdev {M17} {  MN(NMOS)}
+dv_discrep_line {}  {l} {: }  {0.135 u} {                                                }  {l} {: }  {0.13 u} {             }  {      3.85%} {}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.52 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 8 {Property Errors}
+dv_discrep_line {} -ldev {M4} {} -lloc {(-1072.350,640.335)} {  MN(NMOS)                           } -sdev {M16} {  MN(NMOS)}
+dv_discrep_line {}  {l} {: }  {0.145 u} {                                                }  {l} {: }  {0.13 u} {             }  {      11.5%} {}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.52 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 9 {Property Errors}
+dv_discrep_line {} -ldev {M24} {} -lloc {(-1057.640,644.695)} {  MP(PMOS)                          } -sdev {M12} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.56 u} {             }  {      66.7%} {}
+dv_discrep_line {}
+dv_discrep 10 {Property Errors}
+dv_discrep_line {} -ldev {M23} {} -lloc {(-1060.090,644.695)} {  MP(PMOS)                          } -sdev {M20} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.56 u} {             }  {      66.7%} {}
+dv_discrep_line {}
+dv_discrep 11 {Property Errors}
+dv_discrep_line {} -ldev {M25} {} -lloc {(-1055.190,644.695)} {  MP(PMOS)                          } -sdev {M11} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.56 u} {             }  {      66.7%} {}
+dv_discrep_line {}
+dv_discrep 12 {Property Errors}
+dv_discrep_line {} -ldev {M9} {} -lloc {(-1060.090,640.335)} {  MN(NMOS)                           } -sdev {M21} {  MN(NMOS)}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.7 u} {              }  {      62.9%} {}
+dv_discrep_line {}
+dv_discrep 13 {Property Errors}
+dv_discrep_line {} -ldev {M11} {} -lloc {(-1055.190,640.335)} {  MN(NMOS)                          } -sdev {M23} {  MN(NMOS)}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.7 u} {              }  {      62.9%} {}
+dv_discrep_line {}
+dv_discrep 14 {Property Errors}
+dv_discrep_line {} -ldev {M10} {} -lloc {(-1057.640,640.335)} {  MN(NMOS)                          } -sdev {M22} {  MN(NMOS)}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.7 u} {              }  {      62.9%} {}
+dv_discrep_line {}
+dv_discrep 15 {Property Errors}
+dv_discrep_line {} -ldev {M14} {} -lloc {(-1082.140,644.635)} {  MP(PMOS)                          } -sdev {M2} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.04 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 16 {Property Errors}
+dv_discrep_line {} -ldev {M15} {} -lloc {(-1079.690,644.645)} {  MP(PMOS)                          } -sdev {M3} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.04 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 17 {Property Errors}
+dv_discrep_line {} -ldev {M16} {} -lloc {(-1077.240,644.645)} {  MP(PMOS)                          } -sdev {M4} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.04 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 18 {Property Errors}
+dv_discrep_line {} -ldev {M19} {} -lloc {(-1069.890,644.695)} {  MP(PMOS)                          } -sdev {M8} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.3 u} {              }  {        60%} {}
+dv_discrep_line {}
+dv_discrep 19 {Property Errors}
+dv_discrep_line {} -ldev {M20} {} -lloc {(-1067.440,644.695)} {  MP(PMOS)                          } -sdev {M9} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.3 u} {              }  {        60%} {}
+dv_discrep_line {}
+dv_discrep 20 {Property Errors}
+dv_discrep_line {} -ldev {M21} {} -lloc {(-1064.990,644.695)} {  MP(PMOS)                          } -sdev {M7} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.3 u} {              }  {        60%} {}
+dv_discrep_line {}
+dv_discrep 21 {Property Errors}
+dv_discrep_line {} -ldev {M22} {} -lloc {(-1062.540,644.695)} {  MP(PMOS)                          } -sdev {M10} {  MP(PMOS)}
+dv_discrep_line {}  {w} {: }  {0.52 u} {                                                 }  {w} {: }  {1.3 u} {              }  {        60%} {}
+dv_discrep_line {}
+dv_discrep 22 {Property Errors}
+dv_discrep_line {} -ldev {M1} {} -lloc {(-1079.690,640.285)} {  MN(NMOS)                           } -sdev {M15} {  MN(NMOS)}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.52 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 23 {Property Errors}
+dv_discrep_line {} -ldev {M0} {} -lloc {(-1082.140,640.275)} {  MN(NMOS)                           } -sdev {M1} {  MN(NMOS)}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.52 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_discrep 24 {Property Errors}
+dv_discrep_line {} -ldev {M2} {} -lloc {(-1077.240,640.285)} {  MN(NMOS)                           } -sdev {M14} {  MN(NMOS)}
+dv_discrep_line {}  {w} {: }  {0.26 u} {                                                 }  {w} {: }  {0.52 u} {             }  {        50%} {}
+dv_discrep_line {}
+dv_end

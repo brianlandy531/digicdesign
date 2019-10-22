@@ -1,0 +1,41 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT mimcap_g13 plus minus
+.ENDS
+***************************************
+.SUBCKT spiral_inductor_lvs pos neg
+.ENDS
+***************************************
+.SUBCKT mirroradder Vdd GROUND S Cout B Cin A
+** N=75 EP=7 IP=0 FDC=28
+M0 GROUND A 1 GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1082140 $Y=640275 $D=19
+M1 1 B GROUND GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1079690 $Y=640285 $D=19
+M2 4 Cin 1 GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1077240 $Y=640285 $D=19
+M3 5 A 4 GROUND nmos L=1.35e-07 W=2.6e-07 $X=-1074790 $Y=640285 $D=19
+M4 GROUND B 5 GROUND nmos L=1.45e-07 W=2.6e-07 $X=-1072350 $Y=640335 $D=19
+M5 GROUND Cin GROUND GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1069890 $Y=640335 $D=19
+M6 GROUND B GROUND GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1067440 $Y=640335 $D=19
+M7 6 A GROUND GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1064990 $Y=640335 $D=19
+M8 7 4 6 GROUND nmos L=1.45e-07 W=2.6e-07 $X=-1062540 $Y=640335 $D=19
+M9 8 Cin 7 GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1060090 $Y=640335 $D=19
+M10 9 B 8 GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1057640 $Y=640335 $D=19
+M11 GROUND A 9 GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1055190 $Y=640335 $D=19
+M12 S 7 GROUND GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1052740 $Y=640335 $D=19
+M13 Cout 4 GROUND GROUND nmos L=1.3e-07 W=2.6e-07 $X=-1050290 $Y=640335 $D=19
+M14 Vdd A 12 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1082140 $Y=644635 $D=25
+M15 12 B Vdd Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1079690 $Y=644645 $D=25
+M16 4 Cin 12 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1077240 $Y=644645 $D=25
+M17 21 A 4 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1074790 $Y=644645 $D=25
+M18 Vdd B 21 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1072340 $Y=644695 $D=25
+M19 26 Cin Vdd Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1069890 $Y=644695 $D=25
+M20 Vdd B 26 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1067440 $Y=644695 $D=25
+M21 26 A Vdd Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1064990 $Y=644695 $D=25
+M22 7 4 26 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1062540 $Y=644695 $D=25
+M23 35 Cin 7 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1060090 $Y=644695 $D=25
+M24 38 B 35 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1057640 $Y=644695 $D=25
+M25 Vdd A 38 Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1055190 $Y=644695 $D=25
+M26 S 7 Vdd Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1052740 $Y=644695 $D=25
+M27 Cout 4 Vdd Vdd pmos L=1.3e-07 W=5.2e-07 $X=-1050290 $Y=644695 $D=25
+.ENDS
+***************************************

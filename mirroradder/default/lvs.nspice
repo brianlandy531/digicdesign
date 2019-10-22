@@ -1,0 +1,42 @@
+* LVS netlist generated with ICnet by 'bxl1703' on Tue Oct 22 2019 at 13:50:14
+
+*
+* Globals.
+*
+.global ground
+
+*
+* Component pathname : $PYXIS_SPT/digicdesign/mirroradder
+*
+.subckt mirroradder  Cout S A B Cin Vdd
+
+        M10 N$185 N$37 N$121 Vdd pmos l=0.13u w=1.3u m=1
+        M9 N$121 B Vdd Vdd pmos l=0.13u w=1.3u m=1
+        M8 N$121 Cin Vdd Vdd pmos l=0.13u w=1.3u m=1
+        M7 N$121 A Vdd Vdd pmos l=0.13u w=1.3u m=1
+        M6 N$37 A N$125 Vdd pmos l=0.13u w=1.04u m=1
+        M5 N$125 B Vdd Vdd pmos l=0.13u w=1.04u m=1
+        M4 N$37 Cin N$132 Vdd pmos l=0.13u w=1.04u m=1
+        M21 N$185 Cin N$182 ground nmos l=0.13u w=0.7u m=1
+        M29 S N$185 ground ground nmos l=0.13u w=0.26u m=1
+        M3 N$132 B Vdd Vdd pmos l=0.13u w=1.04u m=1
+        M2 N$132 A Vdd Vdd pmos l=0.13u w=1.04u m=1
+        M1 N$131 A ground ground nmos l=0.13u w=0.52u m=1
+        M28 N$185 N$37 N$106 ground nmos l=0.13u w=0.65u m=1
+        M23 N$183 A ground ground nmos l=0.13u w=0.7u m=1
+        M22 N$182 B N$183 ground nmos l=0.13u w=0.7u m=1
+        M27 N$106 B ground ground nmos l=0.13u w=0.65u m=1
+        M25 N$106 A ground ground nmos l=0.13u w=0.65u m=1
+        M12 N$161 B N$156 Vdd pmos l=0.13u w=1.56u m=1
+        M26 N$106 Cin ground ground nmos l=0.13u w=0.65u m=1
+        M20 N$185 Cin N$161 Vdd pmos l=0.13u w=1.56u m=1
+        M19 Cout N$37 ground ground nmos l=0.13u w=0.26u m=1
+        M18 Cout N$37 Vdd Vdd pmos l=0.13u w=0.52u m=1
+        M17 N$37 A N$26 ground nmos l=0.13u w=0.52u m=1
+        M16 N$26 B ground ground nmos l=0.13u w=0.52u m=1
+        M15 N$131 B ground ground nmos l=0.13u w=0.52u m=1
+        M14 N$37 Cin N$131 ground nmos l=0.13u w=0.52u m=1
+        M13 S N$185 Vdd Vdd pmos l=0.13u w=0.52u m=1
+        M11 N$156 A Vdd Vdd pmos l=0.13u w=1.56u m=1
+.ends mirroradder
+

@@ -1,0 +1,25 @@
+A 5 u Ic_cell_template 5daf3562728e.03.81.15.9a.06.00.06.f1 4 4 4 0
+V v 1 2 5da9a9bc9df7.03.81.15.9a.a7.00.1f.ed
+F f 1 "mirroradder.iccel_1"
+F o 0 ""
+V v 2 2 5da9c3b80b6e.03.81.15.9a.a7.00.20.7f
+F f 2 "mirroradder.iccel_2"
+F o 0 ""
+V v 3 2 5daf30f69dd2.03.81.15.9a.06.00.7d.e0
+F f 3 "mirroradder.iccel_3"
+F o 0 ""
+V v 4 2 5daf42a3af6a.03.81.15.9a.38.00.3d.d4
+F f 4 "mirroradder.iccel_4"
+F o 0 ""
+O 4
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 3 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+O 3
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 3 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+O 2
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 3 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+O 1
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csdni 2 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
