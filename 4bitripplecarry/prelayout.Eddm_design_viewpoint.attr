@@ -1,9 +1,4 @@
-A 5 u Eddm_design_viewpoint 5dafa41ce30e.03.81.15.9a.38.00.1c.5f 4 2 30 0
-V v 2 4 5dafa41e61c3.03.81.15.9a.38.00.1c.5f
-F f 2 "prelayout.dvpt_2"
-F o 0 ""
-F o 0 ""
-F o 0 ""
+A 5 u Eddm_design_viewpoint 5dafa41ce30e.03.81.15.9a.38.00.1c.5f 5 2 34 0
 V v 3 4 5dafb690324b.03.81.15.9a.38.00.1c.5f
 F f 3 "prelayout.dvpt_3"
 F o 0 ""
@@ -14,6 +9,20 @@ F f 4 "prelayout.dvpt_4"
 F o 0 ""
 F o 0 ""
 F o 0 ""
+V v 5 4 5dafd3069c71.03.81.15.9a.38.00.67.d6
+F f 5 "prelayout.dvpt_5"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry" 5 mgc_schematic 5dafc577a520.03.81.15.9a.38.00.26.d4 5da072379ae4.03.81.15.9a.a7.00.40.83
+R cspuv 1 "$PYXIS_SPT/digicdesign/4bitripplecarry/part" 2 Eddm_part 5dafb68fede9.03.81.15.9a.38.00.1c.5f 5da088289302.03.81.15.9a.a7.00.40.83
+R cspuv 2 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout/default" 1 Eddm_ba_mgr 5dafa41ce9d9.03.81.15.9a.38.01.1c.5f 5dafa41ce9d9.03.81.15.9a.38.00.1c.5f
+R cspuv 3 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
+R cspuv 5 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 13 mgc_schematic 5dafb85a0b55.03.81.15.9a.38.00.1c.5f 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
+R cspuv 14 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 15 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
 O 4
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry" 3 mgc_schematic 5dafb690095a.03.81.15.9a.38.00.1c.5f 5da072379ae4.03.81.15.9a.a7.00.40.83
@@ -32,20 +41,6 @@ O 3
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry" 3 mgc_schematic 5dafb690095a.03.81.15.9a.38.00.1c.5f 5da072379ae4.03.81.15.9a.a7.00.40.83
 R cspuv 1 "$PYXIS_SPT/digicdesign/4bitripplecarry/part" 2 Eddm_part 5dafb68fede9.03.81.15.9a.38.00.1c.5f 5da088289302.03.81.15.9a.a7.00.40.83
-R cspuv 2 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout/default" 1 Eddm_ba_mgr 5dafa41ce9d9.03.81.15.9a.38.01.1c.5f 5dafa41ce9d9.03.81.15.9a.38.00.1c.5f
-R cspuv 3 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
-R cspuv 4 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 5 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 12 mgc_schematic 5daf3e4aa1ed.03.81.15.9a.38.00.3f.ef 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
-R cspuv 6 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_symbol 5da072e5566a.03.81.15.9a.a7.01.61.09 5da072e5566a.03.81.15.9a.a7.00.61.09
-R cspuv 7 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b
-R cspuv 14 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
-R cspuv 15 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
-R cspuv 16 "$GENERIC13/symbols/pmos/pmos" 27 mgc_symbol 4f3c5315ac6d.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.02.11.a3
-R cspuv 17 "$GENERIC13/symbols/nmos/nmos" 41 mgc_symbol 4f3c52ec7400.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0b.11.a3
-O 2
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry" 2 mgc_schematic 5da08828cde0.03.81.15.9a.a7.00.40.83 5da072379ae4.03.81.15.9a.a7.00.40.83
-R cspuv 1 "$PYXIS_SPT/digicdesign/4bitripplecarry/part" 1 Eddm_part 5da088289303.03.81.15.9a.a7.00.40.83 5da088289302.03.81.15.9a.a7.00.40.83
 R cspuv 2 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout/default" 1 Eddm_ba_mgr 5dafa41ce9d9.03.81.15.9a.38.01.1c.5f 5dafa41ce9d9.03.81.15.9a.38.00.1c.5f
 R cspuv 3 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
 R cspuv 4 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b

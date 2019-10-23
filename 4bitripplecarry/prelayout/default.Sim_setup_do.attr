@@ -1,10 +1,15 @@
-A 5 u Sim_setup_do 5dafa41e6ab8.03.81.15.9a.38.00.1c.5f 3 2 12 0
-V v 1 1 5dafb6858424.03.81.15.9a.38.00.1c.5f
-F f 1 "default.db_1"
+A 5 u Sim_setup_do 5dafa41e6ab8.03.81.15.9a.38.00.1c.5f 4 2 16 0
 V v 2 1 5dafb857156f.03.81.15.9a.38.00.1c.5f
 F f 2 "default.db_2"
 V v 3 1 5dafc23a381c.03.81.15.9a.38.00.26.d4
 F f 3 "default.db_3"
+V v 4 1 5dafe4455a29.03.81.15.9a.38.00.67.d6
+F f 4 "default.db_4"
+O 4
+R csdni 12 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
+R csduv 13 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout" 4 Eddm_design_viewpoint 5dafb897f2b9.03.81.15.9a.38.00.26.d4 5dafa41ce30e.03.81.15.9a.38.00.1c.5f
+R csdni 14 "$GENERIC13/models/include_all" 1 Mgc_file
+R csdni 15 "$GENERIC13/models/lib.eldo" 1 Mgc_file
 O 3
 R csdni 8 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
 R csduv 9 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout" 4 Eddm_design_viewpoint 5dafb897f2b9.03.81.15.9a.38.00.26.d4 5dafa41ce30e.03.81.15.9a.38.00.1c.5f
@@ -15,8 +20,3 @@ R csdni 4 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
 R csduv 5 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout" 3 Eddm_design_viewpoint 5dafb690324b.03.81.15.9a.38.00.1c.5f 5dafa41ce30e.03.81.15.9a.38.00.1c.5f
 R csdni 6 "$GENERIC13/models/include_all" 1 Mgc_file
 R csdni 7 "$GENERIC13/models/lib.eldo" 1 Mgc_file
-O 1
-R csdni 0 "$MGC_HOME/shared/pkgs/daicsim/userware/En_na" 1 Mgc_container
-R csduv 1 "$PYXIS_SPT/digicdesign/4bitripplecarry/prelayout" 2 Eddm_design_viewpoint 5dafa41e61c3.03.81.15.9a.38.00.1c.5f 5dafa41ce30e.03.81.15.9a.38.00.1c.5f
-R csdni 2 "$GENERIC13/models/include_all" 1 Mgc_file
-R csdni 3 "$GENERIC13/models/lib.eldo" 1 Mgc_file

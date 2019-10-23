@@ -1,0 +1,106 @@
+//###########################################################
+//# ELDO 12.2d (64 bits) - Saved Window File
+//# Released Mon Dec 16 16:33:30 GMT 2013
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+
+// ===== Open new window =====
+OPEn WIndow -POSition 0 0 -MAXimized
+
+// ===== Create row #1 =====
+ADD WAveform  <layout_test/TRAN>V(CIN0) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 1 -zerolevel on
+
+// ===== Create row #2 =====
+ADD WAveform  <layout_test/TRAN>V(COUT) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 2 -zerolevel on
+
+// ===== Create row #3 =====
+ADD WAveform  <layout_test/TRAN>V(A0) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 3 -zerolevel on
+
+// ===== Create row #4 =====
+ADD WAveform  <layout_test/TRAN>V(A1) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 4 -zerolevel on
+
+// ===== Create row #5 =====
+ADD WAveform  <layout_test/TRAN>V(A2) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 5 -zerolevel on
+
+// ===== Create row #6 =====
+ADD WAveform  <layout_test/TRAN>V(A3) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 6 -zerolevel on
+
+// ===== Create row #7 =====
+ADD WAveform  <layout_test/TRAN>V(B0) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 7 -zerolevel on
+
+// ===== Create row #8 =====
+ADD WAveform  <layout_test/TRAN>V(B1) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 8 -zerolevel on
+
+// ===== Create row #9 =====
+ADD WAveform  <layout_test/TRAN>V(B2) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 9 -zerolevel on
+
+// ===== Create row #10 =====
+ADD WAveform  <layout_test/TRAN>V(B3) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 10 -zerolevel on
+
+// ===== Format rows =====
+SET ROw Height -All -MAX
+
+// ===== Open new window =====
+OPEn WIndow -POSition 0 0 -MAXimized
+
+// ===== Create row #1 =====
+ADD WAveform  <layout_test/TRAN>V(S0) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 1 -zerolevel on
+
+// ===== Create row #2 =====
+ADD WAveform  <layout_test/TRAN>V(S1) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 2 -zerolevel on
+
+// ===== Create row #3 =====
+ADD WAveform  <layout_test/TRAN>V(S2) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 3 -zerolevel on
+
+// ===== Create row #4 =====
+ADD WAveform  <layout_test/TRAN>V(S3) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 4 -zerolevel on
+
+// ===== Format rows =====
+SET ROw Height -All -MAX

@@ -4,128 +4,116 @@
 version 1.0
 
 Globals
-   ground GROUND
+   ground ground
 End Globals
 
-Cell IDEAL_CAPACITOR
-   Pin POS POS
-   Pin NEG NEG
+Cell nmos
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
 End Cell
 
-Cell NMOS
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
+Cell pmos
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
 End Cell
 
-Cell PMOS
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
-End Cell
-
-Cell MIRRORADDER
-   Pin Cout COUT
-   Pin S S
-   Pin A A
-   Pin B B
-   Pin Cin CIN
-   Pin Vdd VDD
-   Net N$183 N$183
-   Net N$182 N$182
-   Net N$185 N$185
-   Net N$131 N$131
-   Net N$132 N$132
-   Net N$125 N$125
-   Net N$106 N$106
-   Net N$161 N$161
-   Net N$37 N$37
-   Net N$26 N$26
-   Net N$156 N$156
-   Net N$121 N$121
-   Net A A
-   Net B B
-   Net Cout COUT
-   Net Cin CIN
-   Net Vdd VDD
-   Net S S
-   Global ground GROUND
-   Inst M28 M28 NMOS
-   Inst M23 M23 NMOS
-   Inst M22 M22 NMOS
-   Inst M27 M27 NMOS
-   Inst M25 M25 NMOS
-   Inst M12 M12 PMOS
-   Inst M26 M26 NMOS
-   Inst M20 M20 PMOS
-   Inst M19 M19 NMOS
-   Inst M18 M18 PMOS
-   Inst M17 M17 NMOS
-   Inst M16 M16 NMOS
-   Inst M15 M15 NMOS
-   Inst M14 M14 NMOS
-   Inst M13 M13 PMOS
-   Inst M11 M11 PMOS
-   Inst M10 M10 PMOS
-   Inst M9 M9 PMOS
-   Inst M8 M8 PMOS
-   Inst M7 M7 PMOS
-   Inst M6 M6 PMOS
-   Inst M5 M5 PMOS
-   Inst M4 M4 PMOS
-   Inst M21 M21 NMOS
-   Inst M29 M29 NMOS
-   Inst M3 M3 PMOS
-   Inst M2 M2 PMOS
-   Inst M1 M1 NMOS
+Cell mirroradder
+   Pin Cout cout
+   Pin S s
+   Pin A a
+   Pin B b
+   Pin Cin cin
+   Pin Vdd vdd
+   Net N$183 n$183
+   Net N$182 n$182
+   Net N$185 n$185
+   Net N$131 n$131
+   Net N$132 n$132
+   Net N$125 n$125
+   Net N$106 n$106
+   Net N$161 n$161
+   Net N$37 n$37
+   Net N$26 n$26
+   Net N$156 n$156
+   Net N$121 n$121
+   Net A a
+   Net B b
+   Net Cout cout
+   Net Cin cin
+   Net Vdd vdd
+   Net S s
+   Global ground ground
+   Inst M28 m28 nmos
+   Inst M23 m23 nmos
+   Inst M22 m22 nmos
+   Inst M27 m27 nmos
+   Inst M25 m25 nmos
+   Inst M12 m12 pmos
+   Inst M26 m26 nmos
+   Inst M20 m20 pmos
+   Inst M19 m19 nmos
+   Inst M18 m18 pmos
+   Inst M17 m17 nmos
+   Inst M16 m16 nmos
+   Inst M15 m15 nmos
+   Inst M14 m14 nmos
+   Inst M13 m13 pmos
+   Inst M11 m11 pmos
+   Inst M10 m10 pmos
+   Inst M9 m9 pmos
+   Inst M8 m8 pmos
+   Inst M7 m7 pmos
+   Inst M6 m6 pmos
+   Inst M5 m5 pmos
+   Inst M4 m4 pmos
+   Inst M21 m21 nmos
+   Inst M29 m29 nmos
+   Inst M3 m3 pmos
+   Inst M2 m2 pmos
+   Inst M1 m1 nmos
 End Cell
 
 Cell #top#
-   Pin Cout COUT
-   Pin S0 S0
-   Pin S1 S1
-   Pin S2 S2
-   Pin S3 S3
-   Pin A0 A0
-   Pin A1 A1
-   Pin A2 A2
-   Pin A3 A3
-   Pin B0 B0
-   Pin B1 B1
-   Pin B2 B2
-   Pin B3 B3
-   Pin Cin0 CIN0
-   Pin VDD VDD
-   Net N$57 N$57
-   Net N$56 N$56
-   Net N$52 N$52
-   Net N$41 N$41
-   Net A0 A0
-   Net A1 A1
-   Net A3 A3
-   Net S3 S3
-   Net B0 B0
-   Net Cin0 CIN0
-   Net Cout COUT
-   Net VDD VDD
-   Net B1 B1
-   Net B2 B2
-   Net B3 B3
-   Net S0 S0
-   Net S1 S1
-   Net A2 A2
-   Net S2 S2
-   Global ground GROUND
-   Inst C5 C5 IDEAL_CAPACITOR
-   Inst C4 C4 IDEAL_CAPACITOR
-   Inst C8 C8 IDEAL_CAPACITOR
-   Inst C7 C7 IDEAL_CAPACITOR
-   Inst C6 C6 IDEAL_CAPACITOR
-   Inst MIRRORADDER4 X_MIRRORADDER4 MIRRORADDER
-   Inst MIRRORADDER3 X_MIRRORADDER3 MIRRORADDER
-   Inst MIRRORADDER2 X_MIRRORADDER2 MIRRORADDER
-   Inst MIRRORADDER1 X_MIRRORADDER1 MIRRORADDER
+   Pin Cout cout
+   Pin S0 s0
+   Pin S1 s1
+   Pin S2 s2
+   Pin S3 s3
+   Pin A0 a0
+   Pin A1 a1
+   Pin A2 a2
+   Pin A3 a3
+   Pin B0 b0
+   Pin B1 b1
+   Pin B2 b2
+   Pin B3 b3
+   Pin Cin0 cin0
+   Pin VDD vdd
+   Net N$56 n$56
+   Net N$52 n$52
+   Net N$41 n$41
+   Net A0 a0
+   Net A1 a1
+   Net A3 a3
+   Net B0 b0
+   Net Cin0 cin0
+   Net VDD vdd
+   Net B1 b1
+   Net B2 b2
+   Net B3 b3
+   Net S0 s0
+   Net A2 a2
+   Net S1 s1
+   Net S3 s3
+   Net S2 s2
+   Net Cout cout
+   Inst MIRRORADDER4 x_mirroradder4 mirroradder
+   Inst MIRRORADDER3 x_mirroradder3 mirroradder
+   Inst MIRRORADDER2 x_mirroradder2 mirroradder
+   Inst MIRRORADDER1 x_mirroradder1 mirroradder
 End Cell
 
