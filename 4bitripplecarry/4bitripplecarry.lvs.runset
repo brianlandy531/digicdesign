@@ -3,10 +3,9 @@
 *lvsLayoutPaths: 4bitripplecarry.calibre.gds
 *lvsLayoutPrimary: 4bitripplecarry
 *lvsLayoutGetFromViewer: 1
+*lvsResultsFile: 4bitripplecarry.lvs.results
+*lvsSummaryFile: 4bitripplecarry.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
 *lvsSourcePath: 4bitripplecarry.calibre.src.net
 *lvsSourcePrimary: 4bitripplecarry
-*lvsSourceGetFromViewer: 1
-*cmnApplyTemplates: 0
-*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
-*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
-*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}

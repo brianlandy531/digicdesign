@@ -6,4 +6,4 @@ lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal/4bitripplecarry.calibre.src.net
 lvs_LvsOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal/_LVS_
-lvs_LvsRunTimes 1571801033 1571801033
+lvs_LvsRunTimes 1571850182 1571850182

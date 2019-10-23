@@ -1,11 +1,12 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1571803069 1571803069
+lvs_ExtRunTimes 1571850181 1571850182
 lvs_ExtOutFile RUNDIR /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal
-lvs_ExtOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal/_PEX_
+lvs_ExtOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal/_LVS_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
-lvs_ExtInfoErcSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {0 0 0 0 0 4 280 448 56 1 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST svdb/4bitripplecarry.sp
-lvs_ExtOutFile EXTRACTION_REPORT 4bitripplecarry.lvs.report.ext
-lvs_ExtOutFile SOFTCHK_DATABASE svdb/4bitripplecarry.softchk
+lvs_ExtOutFile LAYOUT_NETLIST /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext
+lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/4bitripplecarry.pathchk.erc
+lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/4bitripplecarry.pathchk.rep
