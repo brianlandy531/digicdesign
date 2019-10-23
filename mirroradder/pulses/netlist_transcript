@@ -21,17 +21,14 @@
 // Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' succeeded.
 // Parsing file '/tools/mentor/pyxis/current/pyxis_home/mgc_icstd_lib/global.ncf' succeeded.
 // Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' succeeded.
-// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
-//       are being scanned to create the pin names for the top level subckt.
-Processing [$PYXIS_SPT/digicdesign/mirroradder] [mirroradder/mirroradder] [mirroradder] (NCF entry line: 17 file: $NCF_GLOBAL) (Param#1: i$11_ad=0.5304p,i$11_as=0.5304p,i$11_pd=2.24u,i$11_ps=2.24u,i$11_w=1.56u,i$12_ad=0.5304p,i$12_as=0.5304p,i$12_pd=2.24u,i$12_ps=2.24u,i$12_w=1.56u,i$13_ad=0.5304p,i$13_as=0.5304p,i$13_pd=2.24u,i$13_ps=2.24u,i$13_w=1.56u,i$14_ad=0.5304p,i$14_as=0.5304p,i$14_pd=2.24u,i$14_ps=2.24u,i$14_w=1.56u,i$29_capacitance=0f,i$30_capacitance=0f,i$40_ad=0.2652p,i$40_as=0.2652p,i$40_pd=1.46u,i$40_ps=1.46u,i$40_w=0.78u,i$41_ad=0.2652p,i$41_as=0.2652p,i$41_pd=1.46u,i$41_ps=1.46u,i$41_w=0.78u,i$42_ad=0.2652p,i$42_as=0.2652p,i$42_pd=1.46u,i$42_ps=1.46u,i$42_w=0.78u,i$44_ad=0.2652p,i$44_as=0.2652p,i$44_pd=1.46u,i$44_ps=1.46u,i$44_w=0.78u)
+Processing [$PYXIS_SPT/digicdesign/mirroradder] [mirroradder/mirroradder] [mirroradder] (NCF entry line: 17 file: $NCF_GLOBAL) (Param#1: i$11_ad=0.5304p,i$11_as=0.5304p,i$11_pd=2.24u,i$11_ps=2.24u,i$11_w=1.56u,i$12_ad=0.5304p,i$12_as=0.5304p,i$12_pd=2.24u,i$12_ps=2.24u,i$12_w=1.56u,i$13_ad=0.5304p,i$13_as=0.5304p,i$13_pd=2.24u,i$13_ps=2.24u,i$13_w=1.56u,i$14_ad=0.5304p,i$14_as=0.5304p,i$14_pd=2.24u,i$14_ps=2.24u,i$14_w=1.56u,i$40_ad=0.2652p,i$40_as=0.2652p,i$40_pd=1.46u,i$40_ps=1.46u,i$40_w=0.78u,i$41_ad=0.2652p,i$41_as=0.2652p,i$41_pd=1.46u,i$41_ps=1.46u,i$41_w=0.78u,i$42_ad=0.2652p,i$42_as=0.2652p,i$42_pd=1.46u,i$42_ps=1.46u,i$42_w=0.78u,i$44_ad=0.2652p,i$44_as=0.2652p,i$44_pd=1.46u,i$44_ps=1.46u,i$44_w=0.78u)
 Primitive [$GENERIC13/symbols/pmos] [pmos/pmos] [ELDOSPICE=M] (NCF entry line: 19 file: $GENERIC13/symbols/pmos/@ncf.dir/pmos.ncf)
 Primitive [$GENERIC13/symbols/nmos] [nmos/nmos] [ELDOSPICE=M] (NCF entry line: 19 file: $GENERIC13/symbols/nmos/@ncf.dir/nmos.ncf)
-Primitive [$MGC_IC_DEVICE_LIB/ideal_capacitor] [ideal_capacitor/ideal_capacitor] [SPICE=C] (NCF entry line: 72 file: $NCF_GLOBAL) (NCF entry line: 126 file: $NCF_GLOBAL)
 
 **** Writing <$PYXIS_SPT/digicdesign/mirroradder/pulses> netlist for ELDO ****
 
-Number of cells: 4
-Number of primitive instances: 30
+Number of cells: 3
+Number of primitive instances: 28
 
 Done...
 // Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' closed.

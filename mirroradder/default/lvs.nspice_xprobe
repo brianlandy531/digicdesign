@@ -7,14 +7,14 @@ Globals
    ground ground
 End Globals
 
-Cell pmos
+Cell nmos
    Pin D D
    Pin G G
    Pin S S
    Pin B B
 End Cell
 
-Cell nmos
+Cell pmos
    Pin D D
    Pin G G
    Pin S S
@@ -47,18 +47,6 @@ Cell #top#
    Net Vdd Vdd
    Net S S
    Global ground ground
-   Inst M10 M10 pmos
-   Inst M9 M9 pmos
-   Inst M8 M8 pmos
-   Inst M7 M7 pmos
-   Inst M6 M6 pmos
-   Inst M5 M5 pmos
-   Inst M4 M4 pmos
-   Inst M21 M21 nmos
-   Inst M29 M29 nmos
-   Inst M3 M3 pmos
-   Inst M2 M2 pmos
-   Inst M1 M1 nmos
    Inst M28 M28 nmos
    Inst M23 M23 nmos
    Inst M22 M22 nmos
@@ -75,5 +63,17 @@ Cell #top#
    Inst M14 M14 nmos
    Inst M13 M13 pmos
    Inst M11 M11 pmos
+   Inst M10 M10 pmos
+   Inst M9 M9 pmos
+   Inst M8 M8 pmos
+   Inst M7 M7 pmos
+   Inst M6 M6 pmos
+   Inst M5 M5 pmos
+   Inst M4 M4 pmos
+   Inst M21 M21 nmos
+   Inst M29 M29 nmos
+   Inst M3 M3 pmos
+   Inst M2 M2 pmos
+   Inst M1 M1 nmos
 End Cell
 

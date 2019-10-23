@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 5dafa159d5b4.03.81.15.9a.38.00.50.10 1 2 1 0
+V v 1 1 5dafa159d5b4.03.81.15.9a.38.01.50.10
+F f 1 "default.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/PreLayout" 1 Eddm_design_viewpoint 5dafa159d169.03.81.15.9a.38.01.50.10 5dafa159d169.03.81.15.9a.38.00.50.10

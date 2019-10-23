@@ -1,0 +1,7 @@
+A 5 u mgc_cms_sim_db 5dafa159f0bc.03.81.15.9a.38.00.50.10 2 2 0 0
+V v 1 1 5dafa159f0bc.03.81.15.9a.38.01.50.10
+F f 1 "sim_settings.simdb_1"
+V v 2 1 5dafa171290f.03.81.15.9a.38.00.50.10
+F f 2 "sim_settings.simdb_2"
+O 2
+O 1

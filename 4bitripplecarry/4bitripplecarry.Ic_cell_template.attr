@@ -1,0 +1,25 @@
+A 5 u Ic_cell_template 5daf9609dc53.03.81.15.9a.38.00.7e.fa 3 4 5 0
+V v 1 2 5dafa2538ffa.03.81.15.9a.38.00.7e.fa
+F f 1 "4bitripplecarry.iccel_1"
+F o 0 ""
+V v 2 2 5dafc56d4b71.03.81.15.9a.38.00.2b.67
+F f 2 "4bitripplecarry.iccel_2"
+F o 0 ""
+V v 3 2 5dafc8061449.03.81.15.9a.38.00.47.c8
+F f 3 "4bitripplecarry.iccel_3"
+F o 0 ""
+O 3
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csduv 2 "$PYXIS_SPT/digicdesign/4bitripplecarry/viewpoints/4bitripplecarry_SDL_Flat" 1 Eddm_design_viewpoint 5daf9609ce06.03.81.15.9a.38.01.7e.fa 5daf9609ce06.03.81.15.9a.38.00.7e.fa
+R csduv 3 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 7 Ic_cell_template 5dafc55f9169.03.81.15.9a.38.00.3a.7a 5daf3562728e.03.81.15.9a.06.00.06.f1
+R csdni 4 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+O 2
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csduv 2 "$PYXIS_SPT/digicdesign/4bitripplecarry/viewpoints/4bitripplecarry_SDL_Flat" 1 Eddm_design_viewpoint 5daf9609ce06.03.81.15.9a.38.01.7e.fa 5daf9609ce06.03.81.15.9a.38.00.7e.fa
+R csduv 3 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 6 Ic_cell_template 5dafa24a3fbe.03.81.15.9a.38.00.4d.2a 5daf3562728e.03.81.15.9a.06.00.06.f1
+R csdni 4 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file
+O 1
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csduv 2 "$PYXIS_SPT/digicdesign/4bitripplecarry/viewpoints/4bitripplecarry_SDL_Flat" 1 Eddm_design_viewpoint 5daf9609ce06.03.81.15.9a.38.01.7e.fa 5daf9609ce06.03.81.15.9a.38.00.7e.fa
+R csduv 3 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 5 Ic_cell_template 5daf5fa69bc8.03.81.15.9a.38.00.5b.71 5daf3562728e.03.81.15.9a.06.00.06.f1
+R csdni 4 "$GENERIC13/process/sdl_process_rules" 1 Mgc_file

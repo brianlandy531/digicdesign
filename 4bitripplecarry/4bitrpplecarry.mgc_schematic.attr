@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5da072379ae4.03.81.15.9a.a7.00.40.83 5 2 1 0
+V v 3 1 5dafb690095a.03.81.15.9a.38.00.1c.5f
+F o 0 ""
+V v 4 1 5dafc2e48d7a.03.81.15.9a.38.00.26.d4
+F o 0 ""
+V v 5 1 5dafc577a520.03.81.15.9a.38.00.26.d4
+F o 0 ""
+O 5
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry/sheet1" 4 mgc_sheet 5dafc577a360.03.81.15.9a.38.00.26.d4 5da07237b9ca.03.81.15.9a.a7.00.40.83
+O 4
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry/sheet1" 3 mgc_sheet 5dafc2e48610.03.81.15.9a.38.00.26.d4 5da07237b9ca.03.81.15.9a.a7.00.40.83
+O 3
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry/sheet1" 2 mgc_sheet 5dafb6900499.03.81.15.9a.38.00.1c.5f 5da07237b9ca.03.81.15.9a.a7.00.40.83

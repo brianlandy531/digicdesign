@@ -1,0 +1,12 @@
+*lvsRulesFile: /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS
+*lvsRunDir: /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/4bitripplecarry/4bitripplecarry.cal
+*lvsLayoutPaths: 4bitripplecarry.calibre.gds
+*lvsLayoutPrimary: 4bitripplecarry
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: 4bitripplecarry.calibre.src.net
+*lvsSourcePrimary: 4bitripplecarry
+*lvsSourceGetFromViewer: 1
+*cmnApplyTemplates: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}

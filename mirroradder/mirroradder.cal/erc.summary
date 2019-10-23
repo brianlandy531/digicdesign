@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Tue Oct 22 13:50:15 2019
+Execution Date/Time:          Tue Oct 22 23:13:16 2019
 Calibre Version:              v2013.4_26.18    Fri Dec 13 14:55:29 PST 2013
 Rule File Pathname:           /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal/_LVS_
 Rule File Title:              
@@ -42,14 +42,14 @@ Invalid PATHCHK request "! POWER && ! GROUND": no GROUND nets present, operation
 --- ORIGINAL LAYER STATISTICS
 ---
 LAYER RHDMY ..... TOTAL Original Geometry Count = 0   (0)
-LAYER POLYG ..... TOTAL Original Geometry Count = 15  (15)
+LAYER POLYG ..... TOTAL Original Geometry Count = 14  (14)
 LAYER RPO ....... TOTAL Original Geometry Count = 0   (0)
 LAYER RODMY ..... TOTAL Original Geometry Count = 0   (0)
 LAYER OD ........ TOTAL Original Geometry Count = 62  (62)
 LAYER RPDMY ..... TOTAL Original Geometry Count = 0   (0)
 LAYER NWDMY ..... TOTAL Original Geometry Count = 0   (0)
-LAYER NWELL ..... TOTAL Original Geometry Count = 14  (14)
-LAYER NP ........ TOTAL Original Geometry Count = 16  (16)
+LAYER NWELL ..... TOTAL Original Geometry Count = 1   (1)
+LAYER NP ........ TOTAL Original Geometry Count = 4   (4)
 LAYER OD2 ....... TOTAL Original Geometry Count = 0   (0)
 LAYER NTN ....... TOTAL Original Geometry Count = 0   (0)
 LAYER VTL_N ..... TOTAL Original Geometry Count = 0   (0)
@@ -57,19 +57,19 @@ LAYER VTH_N ..... TOTAL Original Geometry Count = 0   (0)
 LAYER DNW ....... TOTAL Original Geometry Count = 0   (0)
 LAYER PSUB2 ..... TOTAL Original Geometry Count = 0   (0)
 LAYER RFDUMMY ... TOTAL Original Geometry Count = 0   (0)
-LAYER CONT ...... TOTAL Original Geometry Count = 73  (73)
+LAYER CONT ...... TOTAL Original Geometry Count = 74  (74)
 LAYER VARDMY .... TOTAL Original Geometry Count = 0   (0)
-LAYER PP ........ TOTAL Original Geometry Count = 16  (16)
+LAYER PP ........ TOTAL Original Geometry Count = 3   (3)
 LAYER VTL_P ..... TOTAL Original Geometry Count = 0   (0)
 LAYER VTH_P ..... TOTAL Original Geometry Count = 0   (0)
 LAYER DIODMY .... TOTAL Original Geometry Count = 0   (0)
 LAYER BJTDMY .... TOTAL Original Geometry Count = 0   (0)
 LAYER DUM1 ...... TOTAL Original Geometry Count = 0   (0)
-LAYER M1 ........ TOTAL Original Geometry Count = 100 (100)
+LAYER M1 ........ TOTAL Original Geometry Count = 106 (106)
 LAYER M1SLOT .... TOTAL Original Geometry Count = 0   (0)
 LAYER RMDMY ..... TOTAL Original Geometry Count = 0   (0)
 LAYER DUM2 ...... TOTAL Original Geometry Count = 0   (0)
-LAYER M2 ........ TOTAL Original Geometry Count = 13  (13)
+LAYER M2 ........ TOTAL Original Geometry Count = 16  (16)
 LAYER M2SLOT .... TOTAL Original Geometry Count = 0   (0)
 LAYER DUM3 ...... TOTAL Original Geometry Count = 0   (0)
 LAYER M3 ........ TOTAL Original Geometry Count = 2   (2)
@@ -103,7 +103,7 @@ LAYER PNP1DMY ... TOTAL Original Geometry Count = 0   (0)
 LAYER PNP2DMY ... TOTAL Original Geometry Count = 0   (0)
 LAYER PNP3DMY ... TOTAL Original Geometry Count = 0   (0)
 LAYER var_lvs ... TOTAL Original Geometry Count = 0   (0)
-LAYER VIA1 ...... TOTAL Original Geometry Count = 23  (23)
+LAYER VIA1 ...... TOTAL Original Geometry Count = 27  (27)
 LAYER VIA2 ...... TOTAL Original Geometry Count = 5   (5)
 LAYER VIA3 ...... TOTAL Original Geometry Count = 0   (0)
 LAYER VIA4 ...... TOTAL Original Geometry Count = 0   (0)
@@ -123,7 +123,7 @@ LAYER VIA6 ...... TOTAL Original Geometry Count = 0   (0)
 ---
 TOTAL CPU Time:                              0
 TOTAL REAL Time:                             0
-TOTAL Original Layer Geometries:             339 (339)
+TOTAL Original Layer Geometries:             314 (314)
 TOTAL ERC PATHCHK Operations Executed:       4
 TOTAL ERC PATHCHK POLYGON Results Generated: 56 (56)
 TOTAL ERC PATHCHK NET Results Generated:     56

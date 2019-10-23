@@ -2,8 +2,8 @@
 lvs_LvsOutFile RUNDIR /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal
 lvs_LvsfVersion 2
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {5 0 2 0}
+lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal/mirroradder.calibre.src.net
 lvs_LvsOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/mirroradder/mirroradder.cal/_LVS_
-lvs_LvsRunTimes 1571766615 1571766615
+lvs_LvsRunTimes 1571800396 1571800396

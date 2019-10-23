@@ -1,0 +1,151 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Tuesday, October 22, 2019 at 11:00:10 PM EDT
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ====== Create the expressions =====
+evalinwfc Group0=group(wf("<4bitripplecarry_prelayout/TRAN>V(A0)"),wf("<4bitripplecarry_prelayout/TRAN>V(A1)"),wf("<4bitripplecarry_prelayout/TRAN>V(A2)"),wf("<4bitripplecarry_prelayout/TRAN>V(A3)"))
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(A3) -threshold 0.54 Dig_V(A3)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(A2) -threshold 0.54 Dig_V(A2)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(A1) -threshold 0.54 Dig_V(A1)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(A0) -threshold 0.54 Dig_V(A0)
+w.create expressionbus V(A <calc>Dig_V(A3) <calc>Dig_V(A2) <calc>Dig_V(A1) <calc>Dig_V(A0)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(B3) -threshold 0.54 Dig_V(B3)_1
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(B2) -threshold 0.54 Dig_V(B2)_0
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(B1) -threshold 0.54 Dig_V(B1)_0
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(B0) -threshold 0.54 Dig_V(B0)_0
+w.create expressionbus V(B.0 <calc>Dig_V(B3)_1 <calc>Dig_V(B2)_0 <calc>Dig_V(B1)_0 <calc>Dig_V(B0)_0
+evalinwfc Group1=group(wf("<4bitripplecarry_prelayout/TRAN>V(B0)"),wf("<4bitripplecarry_prelayout/TRAN>V(B1)"),wf("<4bitripplecarry_prelayout/TRAN>V(B2)"),wf("<4bitripplecarry_prelayout/TRAN>V(B3)"))
+evalinwfc Group2=group(wf("<4bitripplecarry_prelayout/TRAN>V(S0)"),wf("<4bitripplecarry_prelayout/TRAN>V(S1)"),wf("<4bitripplecarry_prelayout/TRAN>V(S2)"),wf("<4bitripplecarry_prelayout/TRAN>V(S3)"))
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(S3) -threshold 0.53963 Dig_V(S3)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(S2) -threshold 0.53963 Dig_V(S2)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(S1) -threshold 0.53963 Dig_V(S1)
+analog2digital -sourcewf <4bitripplecarry_prelayout/TRAN>V(S0) -threshold 0.53963 Dig_V(S0)
+w.create expressionbus V(S <calc>Dig_V(S3) <calc>Dig_V(S2) <calc>Dig_V(S1) <calc>Dig_V(S0)
+
+
+// ===== Open the window =====
+add workspace -name Workspace1 -active
+open window -position 0 0 -size 1017 686 -divider 0.87
+
+// ===== Create row #1 =====
+add waveform -point_style 1 -color_index 0 <4bitripplecarry_prelayout/DC>V(COUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 273
+
+// ===== Create row #2 =====
+add waveform -point_style 1 -color_index 1 <4bitripplecarry_prelayout/DC>V(S0) -transform "< none >"
+add waveform -row 2 -axis Y1 -point_style 2 -color_index 2 <4bitripplecarry_prelayout/DC>V(S1) -transform "< none >"
+add waveform -row 2 -axis Y1 -point_style 3 -color_index 3 <4bitripplecarry_prelayout/DC>V(S2) -transform "< none >"
+add waveform -row 2 -axis Y1 -point_style 4 -color_index 4 <4bitripplecarry_prelayout/DC>V(S3) -transform "< none >"
+set axis properties -row 2 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 2 -axis Y1
+set row height -row 2 -exact 274
+
+// ===== Set X-axis data units =====
+set user scale temperatureC 1.0 C -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+// ===== Open the window =====
+open window -position 27 27 -size 1017 686 -divider 0.87
+
+// ===== Create row #1 =====
+add waveform -color_index 0 <4bitripplecarry_prelayout/TRAN>V(COUT) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 273
+
+// ===== Create row #2 =====
+add waveform -color_index 1 <4bitripplecarry_prelayout/TRAN>V(S0) -transform "< none >"
+add waveform -row 2 -axis Y1 -color_index 2 <4bitripplecarry_prelayout/TRAN>V(S1) -transform "< none >"
+add waveform -row 2 -axis Y1 -color_index 3 <4bitripplecarry_prelayout/TRAN>V(S2) -transform "< none >"
+add waveform -row 2 -axis Y1 -color_index 4 <4bitripplecarry_prelayout/TRAN>V(S3) -transform "< none >"
+set axis properties -row 2 -axis Y1 -autorange -zerolevel on
+set user scale Voltage 1.0 V -row 2 -axis Y1
+set row height -row 2 -exact 274
+
+// ===== Set X-axis data units =====
+set user scale Time 1.0 s -axis X
+
+// ====== Create the cursors, markers and measurements =====
+
+// ===== Open the window =====
+open window -maximized -divider 0.80
+
+// ===== Create row #1 =====
+add waveform <calc>Group0 -transform "< none >"
+set axis properties -axis X -scale linear
+
+// ===== Create row #2 =====
+add waveform <calc>V(A -transform "< none >" -binary
+
+// ===== Create row #3 =====
+add waveform <calc>V(B.0 -transform "< none >" -binary
+
+// ===== Create row #4 =====
+add waveform <calc>Group1 -transform "< none >"
+
+// ===== Create row #5 =====
+add waveform <calc>Group2 -transform "< none >"
+
+// ===== Create row #6 =====
+add waveform <calc>V(S -transform "< none >" -binary
+
+// ===== Create row #7 =====
+add waveform -color_index 0 <4bitripplecarry_prelayout/TRAN>V(CIN0) -transform "< none >"
+set axis properties -row 7 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 7 -axis Y1
+set row height -row 7 -exact 105
+
+// ===== Create row #8 =====
+add waveform -color_index 1 <4bitripplecarry_prelayout/TRAN>V(COUT) -transform "< none >"
+set axis properties -row 8 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 8 -axis Y1
+set row height -row 8 -exact 108
+
+// ===== Create row #9 =====
+add waveform -color_index 2 <4bitripplecarry_prelayout/TRAN>V(S3) -transform "< none >"
+set axis properties -row 9 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 9 -axis Y1
+set row height -row 9 -exact 108
+
+// ===== Create row #10 =====
+add waveform -color_index 3 <4bitripplecarry_prelayout/TRAN>V(B3) -transform "< none >"
+set axis properties -row 10 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 10 -axis Y1
+set row height -row 10 -exact 108
+
+// ===== Create row #11 =====
+add waveform -color_index 4 <4bitripplecarry_prelayout/TRAN>V(A3) -transform "< none >"
+set axis properties -row 11 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 11 -axis Y1
+set row height -row 11 -exact 110
+
+// ===== Set X-axis data units =====
+set user scale Time 1.0 s -axis X
+
+// ===== Set X-axis min/max extents =====
+set axis properties -axis X -min 0.0 -max 1.6666666666666668E-7
+
+// ====== Create the cursors, markers and measurements =====
+measure delay -level1 0.5 -relative1 -level2 0.5 -relative2 -noninverting -id1 #wf:9.y1.1 -id2 #wf:7.y1.1
+measure fall -lower 0.1 -upper 0.9 -relative -id #wf:8.y1.1
+measure delay -level1 0.5 -relative1 -level2 0.5 -relative2 -inverting -id1 #wf:8.y1.1 -id2 #wf:7.y1.1
+measure delay -level1 0.5 -relative1 -level2 0.5 -relative2 -noninverting -id1 #wf:8.y1.1 -id2 #wf:11.y1.1
+measure delay -level1 0.5 -relative1 -level2 0.5 -relative2 -inverting -id1 #wf:9.y1.1 -id2 #wf:11.y1.1
+measure fall -lower 0.1 -upper 0.9 -relative -id #wf:9.y1.1
+measure rise -lower 0.1 -upper 0.9 -relative -id #wf:9.y1.1
+measure rise -lower 0.1 -upper 0.9 -relative -id #wf:8.y1.1
+
+set active workspace Workspace1

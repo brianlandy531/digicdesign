@@ -1,0 +1,36 @@
+A 5 u Eddm_design_viewpoint 5dafa159d169.03.81.15.9a.38.00.50.10 3 2 23 0
+V v 1 4 5dafa159d169.03.81.15.9a.38.01.50.10
+F f 1 "PreLayout.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 5dafa15a4864.03.81.15.9a.38.00.50.10
+F f 2 "PreLayout.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 5dafa1711f05.03.81.15.9a.38.00.50.10
+F f 3 "PreLayout.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 12 mgc_schematic 5daf3e4aa1ed.03.81.15.9a.38.00.3f.ef 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
+R cspuv 1 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
+R cspuv 3 "$PYXIS_SPT/digicdesign/mirroradder/PreLayout/default" 1 Eddm_ba_mgr 5dafa159d5b4.03.81.15.9a.38.01.50.10 5dafa159d5b4.03.81.15.9a.38.00.50.10
+R cspuv 4 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 5 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 12 mgc_schematic 5daf3e4aa1ed.03.81.15.9a.38.00.3f.ef 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
+R cspuv 1 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
+R cspuv 3 "$PYXIS_SPT/digicdesign/mirroradder/PreLayout/default" 1 Eddm_ba_mgr 5dafa159d5b4.03.81.15.9a.38.01.50.10 5dafa159d5b4.03.81.15.9a.38.00.50.10
+R cspuv 4 "$GENERIC13/symbols/pmos/part" 24 Eddm_part 4f3c5315ac7a.03.93.22.28.e1.00.55.af 488e22b57236.03.93.22.28.e1.03.11.a3
+R cspuv 5 "$GENERIC13/symbols/nmos/part" 33 Eddm_part 4f3c52ec7414.03.93.22.28.e1.00.55.af 488e22b57232.03.93.22.28.e1.0a.11.a3
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 12 mgc_schematic 5daf3e4aa1ed.03.81.15.9a.38.00.3f.ef 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
+R cspuv 1 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
+R cspuv 2 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_symbol 5da072e5566a.03.81.15.9a.a7.01.61.09 5da072e5566a.03.81.15.9a.a7.00.61.09
+R cspuv 3 "$PYXIS_SPT/digicdesign/mirroradder/PreLayout/default" 1 Eddm_ba_mgr 5dafa159d5b4.03.81.15.9a.38.01.50.10 5dafa159d5b4.03.81.15.9a.38.00.50.10

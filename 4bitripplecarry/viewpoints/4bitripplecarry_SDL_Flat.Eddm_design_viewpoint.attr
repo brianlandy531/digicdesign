@@ -1,0 +1,16 @@
+A 5 u Eddm_design_viewpoint 5daf9609ce06.03.81.15.9a.38.00.7e.fa 1 2 7 0
+V v 1 4 5daf9609ce06.03.81.15.9a.38.01.7e.fa
+F f 1 "4bitripplecarry_SDL_Flat.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/4bitripplecarry/part" 1 Eddm_part 5da088289303.03.81.15.9a.a7.00.40.83 5da088289302.03.81.15.9a.a7.00.40.83
+R cspuv 1 "$PYXIS_SPT/digicdesign/4bitripplecarry/4bitrpplecarry" 2 mgc_schematic 5da08828cde0.03.81.15.9a.a7.00.40.83 5da072379ae4.03.81.15.9a.a7.00.40.83
+R cspuv 2 "$PYXIS_SPT/digicdesign/mirroradder/part" 2 Eddm_part 5da072efe028.03.81.15.9a.a7.00.61.09 5d7b9562daf3.03.81.15.9a.a7.00.33.cb
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 7 Eddm_part 52ce5fe01e9f.03.89.ca.95.24.00.3c.63 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 4 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_schematic 5d7b854d35ea.03.81.15.9a.a7.01.33.cb 5d7b854d35ea.03.81.15.9a.a7.00.33.cb
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 5 "$PYXIS_SPT/digicdesign/mirroradder/mirroradder" 1 mgc_symbol 5da072e5566a.03.81.15.9a.a7.01.61.09 5da072e5566a.03.81.15.9a.a7.00.61.09
+R cspuv 6 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 7 mgc_symbol 52ce5fe01e99.03.89.ca.95.24.00.3c.63 3900e8d588b1.03.93.22.22.60.00.56.1b

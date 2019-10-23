@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/4bitripplecarry.dv
+dv_start matched                                  
+dv_cell {4bitripplecarry} {4bitripplecarry} matched
+dv_obj_count -transformed_nets {27 27} -transformed_inst {40 40} -transformed_port {16 16}
+dv_end
