@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5db5f4b24bed.03.81.15.9a.a7.00.68.80 2 2 2 0
+V v 1 1 5db5f4b24bed.03.81.15.9a.a7.01.68.80
+F f 1 "part.part_1"
+V v 2 1 5db5f4b33a1b.03.81.15.9a.a7.00.68.80
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/Register8/Register8" 1 mgc_symbol 5db5f4afcb6a.03.81.15.9a.a7.01.68.80 5db5f4afcb6a.03.81.15.9a.a7.00.68.80
+R csduv 1 "$PYXIS_SPT/digicdesign/Register8/schematic" 1 mgc_schematic 5db5f4b278f3.03.81.15.9a.a7.01.68.80 5db5f4b278f3.03.81.15.9a.a7.00.68.80
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/Register8/Register8" 1 mgc_symbol 5db5f4afcb6a.03.81.15.9a.a7.01.68.80 5db5f4afcb6a.03.81.15.9a.a7.00.68.80

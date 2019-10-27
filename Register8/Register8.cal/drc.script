@@ -1,0 +1,10 @@
+#!/bin/sh
+MGC_HOME=/tools/mentor/calibre/2013.4_26.18/aoi_cal_2013.4_26.18 ; export MGC_HOME
+$MGC_HOME/bin/calibre -gui -drc -drcLayoutPaths $PYXIS_SPT/digicdesign/Register8/Register8.cal/.Register8.bin -drcRulesFile $GENERIC13/rule_deck/DRC -drcResultsFile $PYXIS_SPT/digicdesign/Register8/Register8.cal/Register8.drc.results -drcLayoutPrimary Register8 -runset /dev/null -cmnRunHier 0 -batch  > /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/Register8/Register8.cal/drc.log
+rm /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/Register8/Register8.cal/.Register8.bin
+result_count=`grep "TOTAL RESULTS" /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/Register8/Register8.cal/drc.log | awk '{ print $6 }'`
+if [ "$result_count" = "" ]; then
+result_count=-1
+fi
+MGC_HOME=/tools/mentor/pyxis/current/pyxis_home ; export MGC_HOME
+$MGC_HOME/bin/send2ic 9189 calibre_drc_done_rve /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/Register8/Register8 /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/Register8/Register8.cal $result_count

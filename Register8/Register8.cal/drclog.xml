@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="bxl1703"
+ datestamp="Sun Oct 27 16:18:19 2019
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1572207499" drc_file="$PYXIS_SPT/digicdesign/Register8/Register8.cal/Register8.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="resource_not_found/resource_not_found"/>
+</drc_log>
