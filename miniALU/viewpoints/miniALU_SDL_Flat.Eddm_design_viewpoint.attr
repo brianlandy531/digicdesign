@@ -1,0 +1,57 @@
+A 5 u Eddm_design_viewpoint 5dc9b33c9312.03.81.15.9a.06.00.73.79 1 2 38 0
+V v 1 4 5dc9b33c9312.03.81.15.9a.06.01.73.79
+F f 1 "miniALU_SDL_Flat.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU/part" 5 Eddm_part 5dc57ee6e6c8.03.81.15.9a.a7.00.20.13 5dc57ec01d93.03.81.15.9a.a7.00.16.ed
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU/miniALU" 1 mgc_symbol 5dc57ee37171.03.81.15.9a.a7.01.20.13 5dc57ee37171.03.81.15.9a.a7.00.20.13
+R cspuv 2 "$PYXIS_SPT/digicdesign/miniALU/schematic" 6 mgc_schematic 5dc580ee8b69.03.81.15.9a.a7.00.2d.39 5dc57ee6626e.03.81.15.9a.a7.00.20.13
+R cspuv 3 "$PYXIS_SPT/digicdesign/fake_gnd/part" 1 Eddm_part 5dc57d7aa60a.03.81.15.9a.a7.00.7b.0b 5dc57d7aa609.03.81.15.9a.a7.00.7b.0b
+R cspuv 4 "$GDKGATES/latch/part" 4 Eddm_part 50c7b7a6a3d9.03.93.22.28.46.00.02.c8 503d3cc570ce.03.93.22.28.96.02.7e.63
+R cspuv 5 "$GDKGATES/aoi21/part" 3 Eddm_part 503d442a4324.03.93.22.28.96.00.34.40 503d3ceec93c.03.93.22.28.96.13.7e.63
+R cspuv 6 "$GDKGATES/mux21/part" 6 Eddm_part 503e417a4993.03.93.22.28.96.00.79.ff 503d3cc570ce.03.93.22.28.96.14.7e.63
+R cspuv 7 "$GDKGATES/ao22/part" 4 Eddm_part 503d4367ceeb.03.93.22.28.96.00.34.40 503d3ceec93c.03.93.22.28.96.01.7e.63
+R cspuv 8 "$GDKGATES/or02/part" 3 Eddm_part 503d932d29e4.03.93.22.28.96.00.09.b3 503d3d68681e.03.93.22.28.96.01.7e.63
+R cspuv 9 "$GDKGATES/xnor2/part" 3 Eddm_part 503d949195c9.03.93.22.28.96.00.09.b3 503d3d68681f.03.93.22.28.96.0f.7e.63
+R cspuv 10 "$GDKGATES/inv01/part" 3 Eddm_part 503d52b54dca.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.08.7e.63
+R cspuv 11 "$GDKGATES/nor02ii/part" 3 Eddm_part 503d799f4002.03.93.22.28.96.00.4f.76 503d3cc570cf.03.93.22.28.96.1f.7e.63
+R cspuv 12 "$GDKGATES/and03/part" 5 Eddm_part 503d416059f6.03.93.22.28.96.00.34.40 503d3ceec93b.03.93.22.28.96.14.7e.63
+R cspuv 13 "$GDKGATES/latchr/part" 4 Eddm_part 50c7b82709f4.03.93.22.28.46.00.0b.ff 503d3cc570ce.03.93.22.28.96.08.7e.63
+R cspuv 14 "$GDKGATES/buf02/part" 3 Eddm_part 503d51b242b6.03.93.22.28.96.00.4f.76 503d3cc570cb.03.93.22.28.96.1e.7e.63
+R cspuv 15 "$GDKGATES/buf02/schematic" 2 mgc_schematic 4e72c82bc4e6.03.93.22.28.e1.00.60.94 503d3cc570cb.03.93.22.28.96.1f.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 16 "$GDKGATES/buf02/buf02" 10 mgc_symbol 503d51b24260.03.93.22.28.96.00.4f.76 503d3cc570cb.03.93.22.28.96.1c.7e.63
+R cspuv 17 "$GDKGATES/latchr/schematic" 2 mgc_schematic 4e72c88fc2a8.03.93.22.28.e1.00.60.94 503d3cc570ce.03.93.22.28.96.09.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 18 "$GDKGATES/latchr/latchr" 10 mgc_symbol 503d77af8e10.03.93.22.28.96.00.4f.76 503d3cc570ce.03.93.22.28.96.06.7e.63
+R cspuv 19 "$GDKGATES/and03/schematic" 5 mgc_schematic 50345994011e.03.93.22.28.46.00.32.e5 503d3ceec93b.03.93.22.28.96.15.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 20 "$GDKGATES/and03/and03" 18 mgc_symbol 503d416059dd.03.93.22.28.96.00.34.40 503d3ceec93b.03.93.22.28.96.12.7e.63
+R cspuv 21 "$GDKGATES/nor02ii/schematic" 2 mgc_schematic 4e72c8cad50f.03.93.22.28.e1.00.60.94 503d3cc570cf.03.93.22.28.96.20.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 22 "$GDKGATES/nor02ii/nor02ii" 10 mgc_symbol 503d799f3fed.03.93.22.28.96.00.4f.76 503d3cc570cf.03.93.22.28.96.1d.7e.63
+R cspuv 23 "$GDKGATES/inv01/schematic" 2 mgc_schematic 4e72c874b901.03.93.22.28.e1.00.60.94 503d3cc570cd.03.93.22.28.96.09.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 24 "$GDKGATES/inv01/inv01" 10 mgc_symbol 503d52b54db4.03.93.22.28.96.00.4f.76 503d3cc570cd.03.93.22.28.96.06.7e.63
+R cspuv 25 "$GDKGATES/xnor2/schematic" 2 mgc_schematic 4e72c95959be.03.93.22.28.e1.00.60.94 503d3d68681f.03.93.22.28.96.10.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 26 "$GDKGATES/xnor2/xnor2" 10 mgc_symbol 503d949195af.03.93.22.28.96.00.09.b3 503d3d68681f.03.93.22.28.96.11.7e.63
+R cspuv 27 "$GDKGATES/or02/schematic" 2 mgc_schematic 4e72c9108d55.03.93.22.28.e1.00.60.94 503d3d68681e.03.93.22.28.96.02.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 28 "$GDKGATES/or02/or02" 10 mgc_symbol 503d932d29cd.03.93.22.28.96.00.09.b3 503d3d68681d.03.93.22.28.96.0d.7e.63
+R cspuv 29 "$GDKGATES/ao22/schematic" 2 mgc_schematic 4e72c7eab702.03.93.22.28.e1.00.60.94 503d3ceec93c.03.93.22.28.96.02.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 30 "$GDKGATES/ao22/ao22" 11 mgc_symbol 503d4367cec1.03.93.22.28.96.00.34.40 503d3ceec93b.03.93.22.28.96.24.7e.63
+R cspuv 31 "$GDKGATES/mux21/schematic" 2 mgc_schematic 4e72c8a8766a.03.93.22.28.e1.00.60.94 503d3cc570ce.03.93.22.28.96.15.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 32 "$GDKGATES/mux21/mux21" 12 mgc_symbol 503d77f4dab5.03.93.22.28.96.00.4f.76 503d3cc570ce.03.93.22.28.96.12.7e.63
+R cspuv 33 "$GDKGATES/aoi21/schematic" 2 mgc_schematic 4e72c7f67373.03.93.22.28.e1.00.60.94 503d3ceec93c.03.93.22.28.96.14.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 34 "$GDKGATES/aoi21/aoi21" 10 mgc_symbol 503d442a4307.03.93.22.28.96.00.34.40 503d3ceec93c.03.93.22.28.96.11.7e.63
+R cspuv 35 "$GDKGATES/latch/schematic" 2 mgc_schematic 4e72c88b71c8.03.93.22.28.e1.00.60.94 503d3cc570ce.03.93.22.28.96.03.7e.63
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 36 "$GDKGATES/latch/latch" 10 mgc_symbol 503d77933e7f.03.93.22.28.96.00.4f.76 503d3cc570ce.03.93.22.28.96.00.7e.63
+R cspuv 37 "$PYXIS_SPT/digicdesign/fake_gnd/fake_gnd" 1 mgc_symbol 5dc57d78e82d.03.81.15.9a.a7.01.7b.0b 5dc57d78e82d.03.81.15.9a.a7.00.7b.0b

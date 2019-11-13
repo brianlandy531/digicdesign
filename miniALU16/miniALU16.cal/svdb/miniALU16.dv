@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/miniALU16.dv
+dv_start matched                                  
+dv_cell {miniALU16} {miniALU16} matched
+dv_obj_count -transformed_nets {277 277} -transformed_inst {468 468} -transformed_port {53 53}
+dv_end

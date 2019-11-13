@@ -1,0 +1,362 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VSS VSS
+   VDD VDD
+End Globals
+
+Cell pmos
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell nmos
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell buf02
+   Pin Y Y
+   Pin A A
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$5 N$5
+   Net Y Y
+   Net A A
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP1 MP1 pmos
+   Inst MN1 MN1 nmos
+   Inst MP2 MP2 pmos
+   Inst MN2 MN2 nmos
+End Cell
+
+Cell latchr
+   Pin QB QB
+   Pin CLK CLK
+   Pin D D
+   Pin R R
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$14 N$14
+   Net N$11 N$11
+   Net N$10 N$10
+   Net N$9 N$9
+   Net N$8 N$8
+   Net N$219 N$219
+   Net N$2 N$2
+   Net N$1 N$1
+   Net D D
+   Net CLK CLK
+   Net QB QB
+   Net R R
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP7 MP7 pmos
+   Inst MN5 MN5 nmos
+   Inst MN7 MN7 nmos
+   Inst MP5 MP5 pmos
+   Inst MP8 MP8 pmos
+   Inst MN3 MN3 nmos
+   Inst MP6 MP6 pmos
+   Inst MN4 MN4 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP4 MP4 pmos
+   Inst MN6 MN6 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN8 MN8 nmos
+End Cell
+
+Cell and03
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin VDD VDD
+   Pin VSS VSS
+   Net A A
+   Net N$215 N$215
+   Net N$214 N$214
+   Net A2 A2
+   Net A0 A0
+   Net Y Y
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP3 MP3 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MN3 MN3 nmos
+   Inst MN4 MN4 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MP4 MP4 pmos
+End Cell
+
+Cell nor02ii
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$4 N$4
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN1 MN1 nmos
+   Inst MP1 MP1 pmos
+   Inst MN4 MN4 nmos
+   Inst MN2 MN2 nmos
+   Inst MP4 MP4 pmos
+   Inst MP2 MP2 pmos
+End Cell
+
+Cell inv01
+   Pin Y Y
+   Pin A A
+   Pin VDD VDD
+   Pin VSS VSS
+   Net Y Y
+   Net A A
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP1 MP1 pmos
+   Inst MN1 MN1 nmos
+End Cell
+
+Cell xnor2
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$9 N$9
+   Net N$8 N$8
+   Net N$3 N$3
+   Net N$1 N$1
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP5 MP5 pmos
+   Inst MP4 MP4 pmos
+   Inst MN4 MN4 nmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN5 MN5 nmos
+End Cell
+
+Cell or02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$5 N$5
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP4 MP4 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MN3 MN3 nmos
+End Cell
+
+Cell ao22
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin B1 B1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$13 N$13
+   Net N$6 N$6
+   Net N$2 N$2
+   Net N$1 N$1
+   Net B1 B1
+   Net Y Y
+   Net B0 B0
+   Net A0 A0
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN4 MN4 nmos
+   Inst MP4 MP4 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP5 MP5 pmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN3 MN3 nmos
+   Inst MN5 MN5 nmos
+End Cell
+
+Cell mux21
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin S0 S0
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$231 N$231
+   Net N$11 N$11
+   Net N$3 N$3
+   Net N$7 N$7
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net S0 S0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN4 MN4 nmos
+   Inst M1 M1 pmos
+   Inst MN5 MN5 nmos
+   Inst M2 M2 nmos
+   Inst MP5 MP5 pmos
+   Inst MP4 MP4 pmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MP2 MP2 pmos
+   Inst MN1 MN1 nmos
+   Inst MP1 MP1 pmos
+   Inst MP3 MP3 pmos
+End Cell
+
+Cell aoi21
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net B0 B0
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst I$11 M_I$11 nmos
+   Inst I$7 M_I$7 pmos
+   Inst I$6 M_I$6 pmos
+   Inst I$5 M_I$5 pmos
+   Inst I$4 M_I$4 nmos
+   Inst I$12 M_I$12 nmos
+End Cell
+
+Cell latch
+   Pin Q Q
+   Pin CLK CLK
+   Pin D D
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$1 N$1
+   Net N$11 N$11
+   Net N$6 N$6
+   Net N$5 N$5
+   Net N$3 N$3
+   Net N$2 N$2
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP7 MP7 pmos
+   Inst MN6 MN6 nmos
+   Inst MN5 MN5 nmos
+   Inst MN4 MN4 nmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP5 MP5 pmos
+   Inst MP6 MP6 pmos
+   Inst MP4 MP4 pmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN7 MN7 nmos
+End Cell
+
+Cell fake_gnd
+   Pin Y Y
+End Cell
+
+Cell #top#
+   Pin Cout Cout
+   Pin Output[0] Output[0]
+   Pin Control[1] Control[1]
+   Pin Control[0] Control[0]
+   Pin Input1[0] Input1[0]
+   Pin Input2[0] Input2[0]
+   Net nx5 nx5
+   Net nx184 nx184
+   Net bigin2_0 bigin2_0
+   Net nx199 nx199
+   Net bigin1_0 bigin1_0
+   Net nx40 nx40
+   Net nx197 nx197
+   Net nx6 nx6
+   Net nx0 nx0
+   Net outandcarry_0 outandcarry_0
+   Net nx22 nx22
+   Net nx186 nx186
+   Net nx42 nx42
+   Net outandcarry_1 outandcarry_1
+   Net nx62 nx62
+   Net nx168 nx168
+   Net Input1[0] Input1[0]
+   Net Input2[0] Input2[0]
+   Net Output[0] Output[0]
+   Net Cout Cout
+   Net Control[1] Control[1]
+   Net Control[0] Control[0]
+   Global VSS VSS
+   Global VDD VDD
+   Inst lat_bigin2_0__u3 X_lat_bigin2_0__u3 buf02
+   Inst lat_bigin2_0__u1 X_lat_bigin2_0__u1 latchr
+   Inst ix23 X_ix23 and03
+   Inst ix200 X_ix200 nor02ii
+   Inst lat_bigin2_0__u2 X_lat_bigin2_0__u2 inv01
+   Inst ix187 X_ix187 inv01
+   Inst ix41 X_ix41 xnor2
+   Inst ix43 X_ix43 xnor2
+   Inst ix1 X_ix1 or02
+   Inst ix7 X_ix7 ao22
+   Inst ix53 X_ix53 mux21
+   Inst ix198 X_ix198 aoi21
+   Inst ix63 X_ix63 aoi21
+   Inst lat_outandcarry_0 X_lat_outandcarry_0 latch
+   Inst lat_bigin1_0 X_lat_bigin1_0 latch
+   Inst lat_outandcarry_1 X_lat_outandcarry_1 latch
+   Inst lat_Cout X_lat_Cout latch
+   Inst ix169 X_ix169 fake_gnd
+End Cell
+

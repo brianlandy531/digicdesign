@@ -1,0 +1,6 @@
+A 5 u mgc_symbol 5dca1377769a.03.81.15.9a.06.00.50.71 1 2 1 0
+V v 1 2 5dca1377769a.03.81.15.9a.06.01.50.71
+F f 1 "miniALU16.smbl_1"
+F o 0 
+O 1
+R csduv 0 "$PYXIS_SPT/digicdesign/miniALU16/part" 5 Eddm_part 5dca137a68fa.03.81.15.9a.06.00.50.71 5dca0eed4bc2.03.81.15.9a.06.00.02.d6

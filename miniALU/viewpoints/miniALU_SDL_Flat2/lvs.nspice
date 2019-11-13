@@ -1,0 +1,209 @@
+* LVS netlist generated with ICnet by 'bxl1703' on Mon Nov 11 2019 at 17:28:06
+
+*
+* Globals.
+*
+.global VSS VDD
+
+
+*
+* Component pathname : $PYXIS_SPT/digicdesign/fake_gnd [SPICE]
+*
+*       .include '/home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/fake_gnd/asim_lib/fake_gnd'
+
+*
+* Component pathname : $GDKGATES/buf02
+*
+.subckt buf02  Y A VDD_esc1 VSS_esc2
+
+        MP1 N$5 A VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN1 N$5 A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP2 Y N$5 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN2 Y N$5 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends buf02
+
+*
+* Component pathname : $GDKGATES/latchr
+*
+.subckt latchr  QB CLK D R VDD_esc1 VSS_esc2
+
+        MP7 N$10 N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN5 N$9 N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN7 N$11 N$14 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 N$14 CLK N$10 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP8 N$11 R N$8 VDD_esc1 pmos l=0.14u w=1.26u m=1
+        MN3 N$219 CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP6 N$8 N$14 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.26u m=1
+        MN4 QB N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN2 N$2 CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN1 N$14 D N$2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP4 QB N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN6 N$14 N$219 N$9 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP3 N$14 D N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 N$1 N$219 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP1 N$219 CLK VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN8 N$11 R VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends latchr
+
+*
+* Component pathname : $GDKGATES/and03
+*
+.subckt and03  Y A0 A1 A2 VDD_esc1 VSS_esc2
+
+        MP3 A A2 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.4u m=1
+        MN2 A A0 N$214 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN1 N$215 A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN3 N$214 A1 N$215 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN4 Y A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP2 A A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.4u m=1
+        MP1 A A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.4u m=1
+        MP4 Y A VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+.ends and03
+
+*
+* Component pathname : $GDKGATES/nor02ii
+*
+.subckt nor02ii  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MN1 N$4 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP1 N$4 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN4 Y A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN2 Y N$4 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP4 Y N$4 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+.ends nor02ii
+
+*
+* Component pathname : $GDKGATES/inv01
+*
+.subckt inv01  Y A VDD_esc1 VSS_esc2
+
+        MP1 Y A VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN1 Y A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends inv01
+
+*
+* Component pathname : $GDKGATES/xnor2
+*
+.subckt xnor2  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP5 N$9 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP4 N$9 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN4 N$9 A0 N$8 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 N$3 N$9 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A0 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 Y A1 N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 Y N$9 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN5 N$8 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends xnor2
+
+*
+* Component pathname : $GDKGATES/or02
+*
+.subckt or02  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP4 Y N$5 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN2 N$5 A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN1 N$5 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP3 N$5 A1 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN3 Y N$5 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends or02
+
+*
+* Component pathname : $GDKGATES/ao22
+*
+.subckt ao22  Y A0 A1 B0 B1 VDD_esc1 VSS_esc2
+
+        MN4 N$13 B0 N$2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP4 N$13 B1 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN2 N$1 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 N$13 A0 N$1 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 Y N$13 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP3 N$13 B0 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$6 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN3 N$2 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN5 Y N$13 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends ao22
+
+*
+* Component pathname : $GDKGATES/mux21
+*
+.subckt mux21  Y A0 A1 S0 VDD_esc1 VSS_esc2
+
+        MN4 N$11 A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M1 Y N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN5 N$3 S0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M2 Y N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 N$11 A1 N$2 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP4 N$2 N$231 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN3 N$1 N$231 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$11 A0 N$1 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP2 N$7 S0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN1 N$231 S0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP1 N$231 S0 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP3 N$11 A0 N$7 VDD_esc1 pmos l=0.14u w=1.54u m=1
+.ends mux21
+
+*
+* Component pathname : $GDKGATES/aoi21
+*
+.subckt aoi21  Y A0 A1 B0 VDD_esc1 VSS_esc2
+
+        M_I$11 Y A0 N$2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$7 Y B0 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$6 N$1 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$5 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$4 Y B0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        M_I$12 N$2 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends aoi21
+
+*
+* Component pathname : $GDKGATES/latch
+*
+.subckt latch  Q CLK D VDD_esc1 VSS_esc2
+
+        MP7 Q N$6 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN6 N$1 CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN5 N$11 N$6 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN4 N$5 N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN3 N$6 N$1 N$5 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN2 N$3 CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN1 N$6 D N$3 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP5 N$6 CLK N$5 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP6 N$11 N$6 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP4 N$5 N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP3 N$6 D N$2 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 N$2 N$1 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP1 N$1 CLK VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN7 Q N$6 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends latch
+
+*
+* Component pathname : $PYXIS_SPT/digicdesign/miniALU
+*
+.subckt miniALU  Cout Output[0] Control[1] Control[0] Input1[0] Input2[0]
+
+        X_lat_bigin2_0__u3 nx188 nx5 VDD VSS buf02
+        X_lat_bigin2_0__u1 nx5 Control[1] Input2[0] nx172 VDD VSS latchr
+        X_ix23 nx22 nx188 Control[1] Control[0] VDD VSS and03
+        X_ix204 nx203 Control[0] Control[1] VDD VSS nor02ii
+        X_lat_bigin2_0__u2 bigin2_0 nx5 VDD VSS inv01
+        X_ix191 nx190 nx40 VDD VSS inv01
+        X_ix41 nx40 bigin1_0 nx203 VDD VSS xnor2
+        X_ix43 nx42 nx201 nx40 VDD VSS xnor2
+        X_ix1 nx0 Input1[0] Input2[0] VDD VSS or02
+        X_ix7 nx6 Input2[0] Input1[0] Control[0] nx0 VDD VSS ao22
+        X_ix53 Output[0] nx6 outandcarry_0 Control[1] VDD VSS mux21
+        X_ix202 nx201 bigin2_0 nx203 nx22 VDD VSS aoi21
+        X_ix63 nx62 nx188 Control[1] nx190 VDD VSS aoi21
+        X_lat_outandcarry_0 outandcarry_0 Control[1] nx42 VDD VSS latch
+        X_lat_bigin1_0 bigin1_0 Control[1] Input1[0] VDD VSS latch
+        X_lat_outandcarry_1 outandcarry_1 Control[1] nx62 VDD VSS latch
+        X_lat_Cout Cout Control[1] outandcarry_1 VDD VSS latch
+        X_ix173 nx172 fake_gnd
+.ends miniALU
+

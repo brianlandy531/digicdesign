@@ -1,0 +1,10 @@
+A 5 u Eddm_design_viewpoint 5dca13408591.03.81.15.9a.06.00.4b.57 1 2 2 0
+V v 1 4 5dca13408591.03.81.15.9a.06.01.4b.57
+F f 1 "default.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU16/part" 3 Eddm_part 5dca12591511.03.81.15.9a.06.00.3f.6c 5dca0eed4bc2.03.81.15.9a.06.00.02.d6
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU16/miniALU16" 1 mgc_symbol 5dca0eea07d5.03.81.15.9a.06.01.02.d6 5dca0eea07d5.03.81.15.9a.06.00.02.d6

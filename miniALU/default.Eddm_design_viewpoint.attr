@@ -1,0 +1,34 @@
+A 5 u Eddm_design_viewpoint 5dc9b736d31b.03.81.15.9a.06.00.48.7d 3 2 3 0
+V v 1 4 5dc9b736d31b.03.81.15.9a.06.01.48.7d
+F f 1 "default.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 5dc9b73c9a8b.03.81.15.9a.06.00.48.7d
+F f 2 "default.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+V v 3 4 5dc9b7416221.03.81.15.9a.06.00.48.7d
+F f 3 "default.dvpt_3"
+F o 0 
+F o 0 
+F o 0 
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU/part" 5 Eddm_part 5dc57ee6e6c8.03.81.15.9a.a7.00.20.13 5dc57ec01d93.03.81.15.9a.a7.00.16.ed
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU/miniALU" 1 mgc_symbol 5dc57ee37171.03.81.15.9a.a7.01.20.13 5dc57ee37171.03.81.15.9a.a7.00.20.13
+R cspuv 2 "$PYXIS_SPT/digicdesign/miniALU/schematic" 1 mgc_schematic 5dc57ee6626e.03.81.15.9a.a7.01.20.13 5dc57ee6626e.03.81.15.9a.a7.00.20.13
+P "eddm__refer_state" "eddm__refer_floating"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU/part" 5 Eddm_part 5dc57ee6e6c8.03.81.15.9a.a7.00.20.13 5dc57ec01d93.03.81.15.9a.a7.00.16.ed
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU/miniALU" 1 mgc_symbol 5dc57ee37171.03.81.15.9a.a7.01.20.13 5dc57ee37171.03.81.15.9a.a7.00.20.13
+R cspuv 2 "$PYXIS_SPT/digicdesign/miniALU/schematic" 1 mgc_schematic 5dc57ee6626e.03.81.15.9a.a7.01.20.13 5dc57ee6626e.03.81.15.9a.a7.00.20.13
+P "eddm__refer_state" "eddm__refer_floating"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU/part" 5 Eddm_part 5dc57ee6e6c8.03.81.15.9a.a7.00.20.13 5dc57ec01d93.03.81.15.9a.a7.00.16.ed
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU/miniALU" 1 mgc_symbol 5dc57ee37171.03.81.15.9a.a7.01.20.13 5dc57ee37171.03.81.15.9a.a7.00.20.13
+R cspuv 2 "$PYXIS_SPT/digicdesign/miniALU/schematic" 1 mgc_schematic 5dc57ee6626e.03.81.15.9a.a7.01.20.13 5dc57ee6626e.03.81.15.9a.a7.00.20.13
+P "eddm__refer_state" "eddm__refer_floating"

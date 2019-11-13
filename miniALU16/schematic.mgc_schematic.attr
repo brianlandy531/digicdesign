@@ -1,0 +1,16 @@
+A 5 u mgc_schematic 5dca137a8f52.03.81.15.9a.06.00.50.71 7 2 2 0
+V v 5 1 5dca1a01e8be.03.81.15.9a.06.00.5e.eb
+F o 0 ""
+V v 6 1 5dca1a094884.03.81.15.9a.06.00.5e.eb
+F o 0 ""
+V v 7 1 5dca1a53cb0b.03.81.15.9a.06.00.5e.eb
+F o 0 ""
+O 7
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU16/schematic/sheet1" 2 mgc_sheet 5dca1a53be65.03.81.15.9a.06.00.5e.eb 5dca137aa7e9.03.81.15.9a.06.00.50.71
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU16/schematic/sheet2" 3 mgc_sheet 5dca1a0943c4.03.81.15.9a.06.00.5e.eb 5dca137c47ef.03.81.15.9a.06.00.50.71
+O 6
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU16/schematic/sheet1" 1 mgc_sheet 5dca137aa7e9.03.81.15.9a.06.01.50.71 5dca137aa7e9.03.81.15.9a.06.00.50.71
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU16/schematic/sheet2" 3 mgc_sheet 5dca1a0943c4.03.81.15.9a.06.00.5e.eb 5dca137c47ef.03.81.15.9a.06.00.50.71
+O 5
+R cspuv 0 "$PYXIS_SPT/digicdesign/miniALU16/schematic/sheet1" 1 mgc_sheet 5dca137aa7e9.03.81.15.9a.06.01.50.71 5dca137aa7e9.03.81.15.9a.06.00.50.71
+R cspuv 1 "$PYXIS_SPT/digicdesign/miniALU16/schematic/sheet2" 2 mgc_sheet 5dca1a01e40e.03.81.15.9a.06.00.5e.eb 5dca137c47ef.03.81.15.9a.06.00.50.71

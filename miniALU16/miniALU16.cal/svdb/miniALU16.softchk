@@ -1,0 +1,31 @@
+miniALU16 1000
+SOFTCHK DNW CONTACT.
+0 0 0 Nov 12 13:50:24 2019                                                      
+SOFTCHK nxwell CONTACT.
+1 1 2 Nov 12 13:50:24 2019                                                      
+Net 2 is selected for stamping.
+Rejected nets: 466
+p 1 4
+CN miniALU16 c 1 0 0 1 0 0
+DN 466
+49860 49930
+49890 49930
+49890 50280
+49860 50280
+SOFTCHK psub CONTACT.
+2 2 2 Nov 12 13:50:24 2019                                                      
+Net 2 is selected for stamping.
+Rejected nets: 349 436
+p 1 4
+CN miniALU16 c 1 0 0 1 0 0
+DN 349
+14645 17165
+14650 17165
+14650 17515
+14645 17515
+p 2 4
+DN 436
+59235 59290
+59240 59290
+59240 59640
+59235 59640

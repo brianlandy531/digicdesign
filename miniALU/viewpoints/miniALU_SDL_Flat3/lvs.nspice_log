@@ -1,0 +1,125 @@
+
+//  Pyxis Netlister  v10.4_0.0  Tue Apr 22 13:18:07 PDT 2014
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+//  Invocation args:  -lvs -preserve_case -spice_top_sub -o /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU/miniALU.cal/miniALU.calibre.src.net /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU/viewpoints/miniALU_SDL_Flat3
+
+// **** Reading <$PYXIS_SPT/digicdesign/miniALU/viewpoints/miniALU_SDL_Flat3> for LVS netlist ****
+
+// Checking 8 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/ao32/@ncf.dir/ao32.ncf' succeeded.
+// Parsing file '/tools/mentor/pyxis/current/pyxis_home/mgc_icstd_lib/global.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xor2/@ncf.dir/xor2.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xnor2/@ncf.dir/xnor2.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nand02/@ncf.dir/nand02.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/inv01/@ncf.dir/inv01.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/oai22/@ncf.dir/oai22.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/aoi22/@ncf.dir/aoi22.ncf' succeeded.
+Processing [$PYXIS_SPT/digicdesign/miniALU] [miniALU/miniALU] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix49'
+
+ *** warning *** : Unable to evaluate expression 'ao32' in MODEL property on instance '/ix49'
+Processing [$GDKGATES/ao32] [ao32/ao32] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix118'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix118'
+Processing [$GDKGATES/xor2] [xor2/xor2] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix9'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix9'
+Processing [$GDKGATES/xnor2] [xnor2/xnor2] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix131'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix131'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix121'
+
+ *** warning *** : Unable to evaluate expression 'nand02' in MODEL property on instance '/ix121'
+Processing [$GDKGATES/nand02] [nand02/nand02] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix133'
+
+ *** warning *** : Unable to evaluate expression 'nand02' in MODEL property on instance '/ix133'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix123'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix123'
+Processing [$GDKGATES/inv01] [inv01/inv01] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix126'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix126'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix29'
+
+ *** warning *** : Unable to evaluate expression 'oai22' in MODEL property on instance '/ix29'
+Processing [$GDKGATES/oai22] [oai22/oai22] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix129'
+
+ *** warning *** : Unable to evaluate expression 'aoi22' in MODEL property on instance '/ix129'
+Processing [$GDKGATES/aoi22] [aoi22/aoi22] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+ COMPONENT [$GDKGATES/aoi22] CELL [$GDKGATES/aoi22]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/aoi22] CELL [$GDKGATES/aoi22]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/oai22] CELL [$GDKGATES/oai22]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/oai22] CELL [$GDKGATES/oai22]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/inv01] CELL [$GDKGATES/inv01]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/inv01] CELL [$GDKGATES/inv01]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/nand02] CELL [$GDKGATES/nand02]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/nand02] CELL [$GDKGATES/nand02]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/xnor2] CELL [$GDKGATES/xnor2]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/xnor2] CELL [$GDKGATES/xnor2]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/xor2] CELL [$GDKGATES/xor2]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/xor2] CELL [$GDKGATES/xor2]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/ao32] CELL [$GDKGATES/ao32]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/ao32] CELL [$GDKGATES/ao32]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+Primitive [$GENERIC13/symbols/pmos] [pmos/pmos] [SPICE=M] (NCF entry line: 7 file: $GENERIC13/symbols/pmos/@ncf.dir/pmos.ncf)
+Primitive [$GENERIC13/symbols/nmos] [nmos/nmos] [SPICE=M] (NCF entry line: 7 file: $GENERIC13/symbols/nmos/@ncf.dir/nmos.ncf)
+
+**** Writing <$PYXIS_SPT/digicdesign/miniALU/viewpoints/miniALU_SDL_Flat3> netlist for LVS ****
+
+Number of cells: 10
+Number of primitive instances: 72
+
+Done...
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/ao32/@ncf.dir/ao32.ncf' closed.
+// Registration file '/tools/mentor/pyxis/current/pyxis_home/mgc_icstd_lib/global.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xor2/@ncf.dir/xor2.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xnor2/@ncf.dir/xnor2.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nand02/@ncf.dir/nand02.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/inv01/@ncf.dir/inv01.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/oai22/@ncf.dir/oai22.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/aoi22/@ncf.dir/aoi22.ncf' closed.

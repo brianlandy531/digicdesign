@@ -1,0 +1,6 @@
+A 5 u Eddm_part 5dc57d7aa609.03.81.15.9a.a7.00.7b.0b 1 2 1 0
+V v 1 1 5dc57d7aa60a.03.81.15.9a.a7.00.7b.0b
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/fake_gnd/fake_gnd" 1 mgc_symbol 5dc57d78e82d.03.81.15.9a.a7.01.7b.0b 5dc57d78e82d.03.81.15.9a.a7.00.7b.0b

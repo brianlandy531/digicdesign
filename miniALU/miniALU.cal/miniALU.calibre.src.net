@@ -1,0 +1,129 @@
+* LVS netlist generated with ICnet by 'bxl1703' on Mon Nov 11 2019 at 20:05:46
+
+*
+* Globals.
+*
+.global VSS VDD
+
+*
+* Component pathname : $GDKGATES/aoi22
+*
+.subckt aoi22  Y A0 A1 B0 B1 VDD_esc1 VSS_esc2
+
+        M_I$13 Y B1 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$12 N$1 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$11 Y A0 N$1 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$14 Y B0 N$2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$7 Y B0 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$6 N$6 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$5 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$4 N$2 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends aoi22
+
+*
+* Component pathname : $GDKGATES/oai22
+*
+.subckt oai22  Y A0 A1 B0 B1 VDD_esc1 VSS_esc2
+
+        MP4 Y B1 N$5 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MN3 N$7 B0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 N$7 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A0 N$7 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 N$5 B0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MP2 Y A1 N$6 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MP1 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MN4 N$7 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends oai22
+
+*
+* Component pathname : $GDKGATES/inv01
+*
+.subckt inv01  Y A VDD_esc1 VSS_esc2
+
+        MP1 Y A VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN1 Y A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends inv01
+
+*
+* Component pathname : $GDKGATES/nand02
+*
+.subckt nand02  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP1 Y A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MN1 Y A0 N$5 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$5 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP2 Y A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+.ends nand02
+
+*
+* Component pathname : $GDKGATES/xnor2
+*
+.subckt xnor2  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP5 N$9 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP4 N$9 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN4 N$9 A0 N$8 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 N$3 N$9 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A0 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 Y A1 N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 Y N$9 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN5 N$8 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends xnor2
+
+*
+* Component pathname : $GDKGATES/xor2
+*
+.subckt xor2  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MN5 N$6 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN4 N$7 A0 N$6 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP4 N$7 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP3 N$7 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 Y N$4 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN3 N$3 N$7 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$4 A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 N$4 A0 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP6 N$4 A1 N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 N$4 N$7 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP5 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN6 Y N$4 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends xor2
+
+*
+* Component pathname : $GDKGATES/ao32
+*
+.subckt ao32  Y A0 A1 A2 B0 B1 VDD_esc1 VSS_esc2
+
+        MP6 Y N$12 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN6 Y N$12 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN5 N$5 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN4 N$12 B0 N$5 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 N$4 A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN2 N$3 A1 N$4 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN1 N$12 A0 N$3 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP5 N$12 B0 N$10 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP4 N$12 B1 N$10 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP3 N$10 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$10 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$10 A2 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+.ends ao32
+
+*
+* Component pathname : $PYXIS_SPT/digicdesign/miniALU
+*
+.subckt miniALU  Cout Output[0] Control[1] Control[0] Input1[0] Input2[0]
+
+        X_ix129 nx128 nx8 Input1[0] Control[0] nx117 VDD VSS aoi22
+        X_ix29 Output[0] Control[1] nx128 nx124 nx130 VDD VSS oai22
+        X_ix126 nx124 Control[1] VDD VSS inv01
+        X_ix123 nx122 Control[0] VDD VSS inv01
+        X_ix133 nx132 Control[0] Control[1] VDD VSS nand02
+        X_ix121 nx120 nx122 Control[1] VDD VSS nand02
+        X_ix131 nx130 nx132 nx117 VDD VSS xnor2
+        X_ix9 nx8 nx120 Input2[0] VDD VSS xnor2
+        X_ix118 nx117 Input1[0] nx8 VDD VSS xor2
+        X_ix49 Cout Control[1] nx117 Input2[0] Control[0] nx124 VDD VSS ao32
+.ends miniALU
+

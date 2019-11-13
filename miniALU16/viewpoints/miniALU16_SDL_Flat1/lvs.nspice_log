@@ -1,0 +1,703 @@
+
+//  Pyxis Netlister  v10.4_0.0  Tue Apr 22 13:18:07 PDT 2014
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+//  Invocation args:  -lvs -preserve_case -spice_top_sub -o /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU16/miniALU16.cal/miniALU16.calibre.src.net /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU16/viewpoints/miniALU16_SDL_Flat1
+
+// **** Reading <$PYXIS_SPT/digicdesign/miniALU16/viewpoints/miniALU16_SDL_Flat1> for LVS netlist ****
+
+// Checking 15 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xnor2/@ncf.dir/xnor2.ncf' succeeded.
+// Parsing file '/tools/mentor/pyxis/current/pyxis_home/mgc_icstd_lib/global.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/buf02/@ncf.dir/buf02.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/inv02/@ncf.dir/inv02.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nor02ii/@ncf.dir/nor02ii.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/ao22/@ncf.dir/ao22.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/inv01/@ncf.dir/inv01.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nand02/@ncf.dir/nand02.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/mux21/@ncf.dir/mux21.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/oai222/@ncf.dir/oai222.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xor2/@ncf.dir/xor2.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nor02/@ncf.dir/nor02.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/aoi32/@ncf.dir/aoi32.ncf' succeeded.
+// Parsing file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/aoi21/@ncf.dir/aoi21.ncf' succeeded.
+Processing [$PYXIS_SPT/digicdesign/miniALU16] [miniALU16/miniALU16] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix237'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix237'
+Processing [$GDKGATES/xnor2] [xnor2/xnor2] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix207'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix207'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix177'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix177'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix147'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix147'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix760'
+
+ *** warning *** : Unable to evaluate expression 'buf02' in MODEL property on instance '/ix760'
+Processing [$GDKGATES/buf02] [buf02/buf02] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix766'
+
+ *** warning *** : Unable to evaluate expression 'inv02' in MODEL property on instance '/ix766'
+Processing [$GDKGATES/inv02] [inv02/inv02] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix764'
+
+ *** warning *** : Unable to evaluate expression 'inv02' in MODEL property on instance '/ix764'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix19'
+
+ *** warning *** : Unable to evaluate expression 'nor02ii' in MODEL property on instance '/ix19'
+Processing [$GDKGATES/nor02ii] [nor02ii/nor02ii] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix507'
+
+ *** warning *** : Unable to evaluate expression 'ao22' in MODEL property on instance '/ix507'
+Processing [$GDKGATES/ao22] [ao22/ao22] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix745'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix745'
+Processing [$GDKGATES/inv01] [inv01/inv01] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix736'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix736'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix727'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix727'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix718'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix718'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix709'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix709'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix700'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix700'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix691'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix691'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix682'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix682'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix673'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix673'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix664'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix664'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix655'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix655'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix646'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix646'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix637'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix637'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix628'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix628'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix619'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix619'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix610'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix610'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix528'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix528'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix758'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix758'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix533'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix533'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix477'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix477'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix447'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix447'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix417'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix417'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix387'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix387'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix357'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix357'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix327'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix327'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix297'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix297'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix267'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix267'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix117'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix117'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix87'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix87'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix57'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix57'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix9'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix9'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix499'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix499'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix531'
+
+ *** warning *** : Unable to evaluate expression 'nand02' in MODEL property on instance '/ix531'
+Processing [$GDKGATES/nand02] [nand02/nand02] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix604'
+
+ *** warning *** : Unable to evaluate expression 'nand02' in MODEL property on instance '/ix604'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix535'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix535'
+Processing [$GDKGATES/mux21] [mux21/mux21] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix487'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix487'
+Processing [$GDKGATES/oai222] [oai222/oai222] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix457'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix457'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix427'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix427'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix397'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix397'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix367'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix367'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix337'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix337'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix307'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix307'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix277'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix277'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix247'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix247'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix217'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix217'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix187'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix187'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix157'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix157'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix127'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix127'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix97'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix97'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix67'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix67'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix37'
+
+ *** warning *** : Unable to evaluate expression 'oai222' in MODEL property on instance '/ix37'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix743'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix743'
+Processing [$GDKGATES/xor2] [xor2/xor2] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix602'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix602'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix25'
+
+ *** warning *** : Unable to evaluate expression 'nor02' in MODEL property on instance '/ix25'
+Processing [$GDKGATES/nor02] [nor02/nor02] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix762'
+
+ *** warning *** : Unable to evaluate expression 'buf02' in MODEL property on instance '/ix762'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix329'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix329'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix299'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix299'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix269'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix269'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix239'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix239'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix209'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix209'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix179'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix179'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix149'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix149'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix119'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix119'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix671'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix671'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix680'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix680'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix689'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix689'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix698'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix698'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix707'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix707'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix716'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix716'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix725'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix725'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix734'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix734'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix749'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix749'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix740'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix740'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix731'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix731'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix722'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix722'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix713'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix713'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix704'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix704'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix695'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix695'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix686'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix686'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix677'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix677'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix668'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix668'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix659'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix659'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix650'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix650'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix641'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix641'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix632'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix632'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix623'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix623'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix606'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix606'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix584'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix584'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix756'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix756'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix754'
+
+ *** warning *** : Unable to evaluate expression 'inv01' in MODEL property on instance '/ix754'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix479'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix479'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix449'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix449'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix419'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix419'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix389'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix389'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix359'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix359'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix89'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix89'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix59'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix59'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix11'
+
+ *** warning *** : Unable to evaluate expression 'xnor2' in MODEL property on instance '/ix11'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix577'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix577'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix574'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix574'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix571'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix571'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix568'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix568'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix565'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix565'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix562'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix562'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix559'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix559'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix556'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix556'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix553'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix553'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix550'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix550'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix547'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix547'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix544'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix544'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix541'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix541'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix538'
+
+ *** warning *** : Unable to evaluate expression 'mux21' in MODEL property on instance '/ix538'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix580'
+
+ *** warning *** : Unable to evaluate expression 'aoi32' in MODEL property on instance '/ix580'
+Processing [$GDKGATES/aoi32] [aoi32/aoi32] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix617'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix617'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix626'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix626'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix635'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix635'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix644'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix644'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix653'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix653'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix662'
+
+ *** warning *** : Unable to evaluate expression 'xor2' in MODEL property on instance '/ix662'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix747'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix747'
+Processing [$GDKGATES/aoi21] [aoi21/aoi21] [schematic] (NCF entry line: 17 file: $NCF_GLOBAL)
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix738'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix738'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix729'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix729'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix720'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix720'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix711'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix711'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix702'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix702'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix693'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix693'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix684'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix684'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix675'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix675'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix666'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix666'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix657'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix657'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix648'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix648'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix639'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix639'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix630'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix630'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix621'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix621'
+
+ *** warning *** : Unable to evaluate expression '$default()' in VIEW property on instance '/ix612'
+
+ *** warning *** : Unable to evaluate expression 'aoi21' in MODEL property on instance '/ix612'
+ COMPONENT [$GDKGATES/aoi21] CELL [$GDKGATES/aoi21]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/aoi21] CELL [$GDKGATES/aoi21]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/aoi32] CELL [$GDKGATES/aoi32]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/aoi32] CELL [$GDKGATES/aoi32]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/nor02] CELL [$GDKGATES/nor02]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/nor02] CELL [$GDKGATES/nor02]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/xor2] CELL [$GDKGATES/xor2]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/xor2] CELL [$GDKGATES/xor2]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/oai222] CELL [$GDKGATES/oai222]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/oai222] CELL [$GDKGATES/oai222]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/mux21] CELL [$GDKGATES/mux21]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/mux21] CELL [$GDKGATES/mux21]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/nand02] CELL [$GDKGATES/nand02]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/nand02] CELL [$GDKGATES/nand02]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/inv01] CELL [$GDKGATES/inv01]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/inv01] CELL [$GDKGATES/inv01]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/ao22] CELL [$GDKGATES/ao22]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/ao22] CELL [$GDKGATES/ao22]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/nor02ii] CELL [$GDKGATES/nor02ii]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/nor02ii] CELL [$GDKGATES/nor02ii]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/inv02] CELL [$GDKGATES/inv02]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/inv02] CELL [$GDKGATES/inv02]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/buf02] CELL [$GDKGATES/buf02]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/buf02] CELL [$GDKGATES/buf02]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+ COMPONENT [$GDKGATES/xnor2] CELL [$GDKGATES/xnor2]
+ *** warning *** : The net 'VDD' has a name that conflicts with a global net.  It is being renamed to 'VDD_esc1'.
+ COMPONENT [$GDKGATES/xnor2] CELL [$GDKGATES/xnor2]
+ *** warning *** : The net 'VSS' has a name that conflicts with a global net.  It is being renamed to 'VSS_esc2'.
+Primitive [$GENERIC13/symbols/nmos] [nmos/nmos] [SPICE=M] (NCF entry line: 7 file: $GENERIC13/symbols/nmos/@ncf.dir/nmos.ncf)
+Primitive [$GENERIC13/symbols/pmos] [pmos/pmos] [SPICE=M] (NCF entry line: 7 file: $GENERIC13/symbols/pmos/@ncf.dir/pmos.ncf)
+
+**** Writing <$PYXIS_SPT/digicdesign/miniALU16/viewpoints/miniALU16_SDL_Flat1> netlist for LVS ****
+
+Number of cells: 16
+Number of primitive instances: 1116
+
+Done...
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xnor2/@ncf.dir/xnor2.ncf' closed.
+// Registration file '/tools/mentor/pyxis/current/pyxis_home/mgc_icstd_lib/global.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/nmos/@ncf.dir/nmos.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/symbols/pmos/@ncf.dir/pmos.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/buf02/@ncf.dir/buf02.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/inv02/@ncf.dir/inv02.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nor02ii/@ncf.dir/nor02ii.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/ao22/@ncf.dir/ao22.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/inv01/@ncf.dir/inv01.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nand02/@ncf.dir/nand02.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/mux21/@ncf.dir/mux21.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/oai222/@ncf.dir/oai222.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/xor2/@ncf.dir/xor2.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/nor02/@ncf.dir/nor02.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/aoi32/@ncf.dir/aoi32.ncf' closed.
+// Registration file '/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/aoi21/@ncf.dir/aoi21.ncf' closed.
