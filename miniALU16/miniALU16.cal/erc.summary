@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Tue Nov 12 19:02:46 2019
+Execution Date/Time:          Wed Nov 13 08:58:39 2019
 Calibre Version:              v2013.4_26.18    Fri Dec 13 14:55:29 PST 2013
 Rule File Pathname:           /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU16/miniALU16.cal/_LVS_
 Rule File Title:              
@@ -28,11 +28,11 @@ Keep Empty Checks:            YES
 ----------------------------------------------------------------------------------
 --- RUNTIME WARNINGS
 ---
-Path endsegment length 0.035 at location (3.36,7.175) in cell aoi32 on layer 31 datatype 0 is less than 1/2 of path width 0.21.
-Path endsegment length 0.035 at location (2.31,7.175) in cell aoi32 on layer 31 datatype 0 is less than 1/2 of path width 0.21.
 Path endsegment length 0.015 at location (2.24,7.175) in cell ao22 on layer 31 datatype 0 is less than 1/2 of path width 0.21.
 Path endsegment length 0.015 at location (1.19,7.175) in cell ao22 on layer 31 datatype 0 is less than 1/2 of path width 0.21.
 Path endsegment length 0.015 at location (1.435,5.845) in cell ao22 on layer 17 datatype 0 is less than 1/2 of path width 0.14.
+Path endsegment length 0.035 at location (3.36,7.175) in cell aoi32 on layer 31 datatype 0 is less than 1/2 of path width 0.21.
+Path endsegment length 0.035 at location (2.31,7.175) in cell aoi32 on layer 31 datatype 0 is less than 1/2 of path width 0.21.
 Layer 6 contains unmapped objects and is the source layer of LAYER MAP == 6 DATATYPE == 3.
 Layer 31 contains unmapped objects and is the source layer of LAYER MAP == 31 DATATYPE == 1.
 Layer 31 contains unmapped objects and is the source layer of LAYER MAP == 31 DATATYPE == 2.
