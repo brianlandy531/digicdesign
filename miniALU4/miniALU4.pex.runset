@@ -1,0 +1,7 @@
+*pexRulesFile: /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/PEX
+*pexRunDir: /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU4/miniALU4.cal
+*pexLayoutPaths: miniALU4.calibre.gds
+*pexLayoutPrimary: miniALU4
+*pexLayoutGetFromViewer: 1
+*pexResultsFile: miniALU4.pex.results
+*pexSummaryFile: miniALU4.pex.summary

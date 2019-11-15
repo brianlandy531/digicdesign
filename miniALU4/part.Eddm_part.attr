@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5dce050154ef.03.81.15.9a.06.00.07.c9 2 2 2 0
+V v 1 1 5dce050154f0.03.81.15.9a.06.00.07.c9
+F f 1 "part.part_1"
+V v 2 1 5dce0502b210.03.81.15.9a.06.00.07.c9
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/miniALU4/miniALU4" 1 mgc_symbol 5dce04feb4b8.03.81.15.9a.06.00.07.c9 5dce04feb4b7.03.81.15.9a.06.00.07.c9
+R csduv 1 "$PYXIS_SPT/digicdesign/miniALU4/schematic" 1 mgc_schematic 5dce05018347.03.81.15.9a.06.01.07.c9 5dce05018347.03.81.15.9a.06.00.07.c9
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/miniALU4/miniALU4" 1 mgc_symbol 5dce04feb4b8.03.81.15.9a.06.00.07.c9 5dce04feb4b7.03.81.15.9a.06.00.07.c9

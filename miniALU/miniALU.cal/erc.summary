@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Mon Nov 11 20:05:48 2019
+Execution Date/Time:          Wed Nov 13 08:58:16 2019
 Calibre Version:              v2013.4_26.18    Fri Dec 13 14:55:29 PST 2013
 Rule File Pathname:           /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU/miniALU.cal/_LVS_
 Rule File Title:              
@@ -140,7 +140,7 @@ LAYER VIA6 ...... TOTAL Original Geometry Count = 8   (8)
 --- SUMMARY
 ---
 TOTAL CPU Time:                              0
-TOTAL REAL Time:                             0
+TOTAL REAL Time:                             1
 TOTAL Original Layer Geometries:             1275 (1575)
 TOTAL ERC PATHCHK Operations Executed:       4
 TOTAL ERC PATHCHK POLYGON Results Generated: 16 (16)

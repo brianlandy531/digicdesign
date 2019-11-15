@@ -1,9 +1,9 @@
-  Run on eng-2500-27 (Linux 3.10.0-957.12.2.el7.x86_64)
+  Run on eng-2500-01 (Linux 3.10.0-957.12.2.el7.x86_64)
 
 
 ***** SYSTEM INFORMATION ...
 
-*** User  : bxl1703@eng-2500-27
+*** User  : bxl1703@eng-2500-01
 *** OS    : \S [VCO = aol]
 *** CPU   :
     AMD A10-7850K APU with Radeon(TM) R7 Graphics
@@ -13,15 +13,15 @@
     Number of logical processors      : 4
 *** Freq  : 3700.000MHz
 *** Cache : 2048 KB
-*** MEM   : 15241148 kB
-*** Date  : Wed Oct 23 13:09:11 2019
+*** MEM   : 15240904 kB
+*** Date  : Wed Nov 13 15:57:49 2019
 
 /tools/mentor/ams/2013.12.2d/aol/bin/eldo_64.exe -i layout_test.cir 
 
 
 ***** PRE-PROCESSING ...
 
-1*******23-Oct-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******13:09:11******
+1*******13-Nov-19 *******  ELDO 12.2d (64 bits)  (v7.8_5.1)  *******15:57:49******
 
 0* Example circuit file for simulating PEX
 
@@ -7769,13 +7769,13 @@ Warning 117:  NODE "VSS": Not connected to any power supply.
 
 Eldo VERSION : ELDO 12.2d (64 bits) Mon Dec 16 16:33:30 GMT 2013
 
-*** DATE: 23-Oct-2019 13:09:12
+*** DATE: 13-Nov-2019 15:57:49
 
 *** TITLE: * Example circuit file for simulating PEX
 
 TEMPERATURE : 125.000000 degrees C
 
-1***************23-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************13:09:12*****************
+1***************13-Nov-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:57:49*****************
 
 0* Example circuit file for simulating PE
 0****                 MODELS PARAMETERS                                    TEMPERATURE =   125.000 DEG C
@@ -8583,7 +8583,7 @@ unit6 represents 1/degK^2
 
 
 
-1***************23-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************13:09:12*****************
+1***************13-Nov-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:57:49*****************
 
 0* Example circuit file for simulating PEX
 0****                 OPTION SUMMARY                                        TEMPERATURE =   125.000 DEG C
@@ -8652,14 +8652,14 @@ TIMING         = 0        MODWL          = 1        ULOGIC         = 0
 
 
 
-***> DC CPU TIME 0s 060ms <***
+***> DC CPU TIME 0s 070ms <***
 
 DC:24 iterations FOR DC analysis
 
 
 
 
-1***************23-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************13:09:12*****************
+1***************13-Nov-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:57:49*****************
 
 0* Example circuit file for simulating PEX
 0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   125.000 DEG C
@@ -10719,44 +10719,44 @@ Elapsed CPU time                   :  0h  0mn  0s 690   ( 0h  0mn  0s 690)
 CPU Usage                          :  99%               ( 99%)
 ................................................
 Simulation progress                : 20% (t = 2.0330 U)
-Elapsed CPU time                   :  0h  0mn  0s 710   ( 0h  0mn  1s 400)
-CPU Usage                          : 100%               (100%)
-................................................
-Simulation progress                : 30% (t = 3.0252 U)
-Elapsed CPU time                   :  0h  0mn  0s 810   ( 0h  0mn  2s 210)
+Elapsed CPU time                   :  0h  0mn  0s 730   ( 0h  0mn  1s 420)
 CPU Usage                          :  98%               ( 99%)
 ................................................
+Simulation progress                : 30% (t = 3.0252 U)
+Elapsed CPU time                   :  0h  0mn  0s 800   ( 0h  0mn  2s 220)
+CPU Usage                          :  98%               ( 98%)
+................................................
 Simulation progress                : 40% (t = 4.0442 U)
-Elapsed CPU time                   :  0h  0mn  0s 780   ( 0h  0mn  2s 990)
-CPU Usage                          : 100%               ( 99%)
-................................................
-Simulation progress                : 50% (t = 5.0330 U)
-Elapsed CPU time                   :  0h  0mn  0s 730   ( 0h  0mn  3s 720)
-CPU Usage                          :  97%               ( 99%)
-................................................
-Simulation progress                : 60% (t = 6.0252 U)
-Elapsed CPU time                   :  0h  0mn  0s 730   ( 0h  0mn  4s 450)
+Elapsed CPU time                   :  0h  0mn  0s 880   ( 0h  0mn  3s 100)
 CPU Usage                          :  99%               ( 99%)
 ................................................
+Simulation progress                : 50% (t = 5.0330 U)
+Elapsed CPU time                   :  0h  0mn  0s 710   ( 0h  0mn  3s 810)
+CPU Usage                          :  99%               ( 99%)
+................................................
+Simulation progress                : 60% (t = 6.0252 U)
+Elapsed CPU time                   :  0h  0mn  0s 780   ( 0h  0mn  4s 590)
+CPU Usage                          :  98%               ( 99%)
+................................................
 Simulation progress                : 70% (t = 7.0442 U)
-Elapsed CPU time                   :  0h  0mn  0s 720   ( 0h  0mn  5s 170)
+Elapsed CPU time                   :  0h  0mn  0s 790   ( 0h  0mn  5s 380)
 CPU Usage                          :  98%               ( 99%)
 ................................................
 Simulation progress                : 80% (t = 8.0330 U)
-Elapsed CPU time                   :  0h  0mn  0s 680   ( 0h  0mn  5s 850)
+Elapsed CPU time                   :  0h  0mn  0s 770   ( 0h  0mn  6s 150)
 CPU Usage                          :  99%               ( 99%)
 ................................................
 Simulation progress                : 90% (t = 9.0252 U)
-Elapsed CPU time                   :  0h  0mn  0s 740   ( 0h  0mn  6s 590)
-CPU Usage                          : 100%               ( 99%)
+Elapsed CPU time                   :  0h  0mn  0s 720   ( 0h  0mn  6s 870)
+CPU Usage                          :  99%               ( 99%)
 ................................................
 Simulation progress                : 100% (t = 10.0000 U)
-Elapsed CPU time                   :  0h  0mn  0s 730   ( 0h  0mn  7s 320)
-CPU Usage                          :  98%               ( 99%)
+Elapsed CPU time                   :  0h  0mn  0s 750   ( 0h  0mn  7s 620)
+CPU Usage                          :  97%               ( 99%)
 
 
 
-1***************23-Oct-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************13:09:12*****************
+1***************13-Nov-2019 ***********************  ELDO 12.2d (64 bits)  (v7.8_5.1)  ***********************15:57:49*****************
 
 0* Example circuit file for simulating PEX
 0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   125.000 DEG C
@@ -10796,18 +10796,18 @@ Number of rejected time steps       0
 Evaluation of active devices        450483
 Memory size (MB)                    298.9
 
-***>CPU TIME 7s 320ms <***
+***>CPU TIME 7s 630ms <***
 
 ***>MESSAGE SUMMARY: 18 warnings
 
-***>GLOBAL CPU TIME 7s 470ms <***
+***>GLOBAL CPU TIME 7s 810ms <***
 
 
 ***>GLOBAL ELAPSED TIME 9s <***
 
 
-  Job started at 23-Oct-2019 13:09:11
-  Job end at     23-Oct-2019 13:09:20
+  Job started at 13-Nov-2019 15:57:49
+  Job end at     13-Nov-2019 15:57:58
 
-  Run on eng-2500-27 (Linux 3.10.0-957.12.2.el7.x86_64)
+  Run on eng-2500-01 (Linux 3.10.0-957.12.2.el7.x86_64)
 

@@ -1,10 +1,10 @@
 miniALU 1000
 ERC PATHCHK GROUND && ! POWER
-0 0 0 Nov 11 20:05:49 2019                                                      
+0 0 0 Nov 13 08:58:17 2019                                                      
 ERC PATHCHK POWER && ! GROUND
-0 0 0 Nov 11 20:05:49 2019                                                      
+0 0 0 Nov 13 08:58:17 2019                                                      
 ERC PATHCHK ! POWER && ! GROUND
-8 8 0 Nov 11 20:05:49 2019                                                      
+8 8 0 Nov 13 08:58:17 2019                                                      
 p 1 6
 CN miniALU c 1 0 0 1 0 0
 -14180 8080
@@ -59,7 +59,7 @@ p 8 10
 20725 8830
 20185 8830
 ERC PATHCHK ! LABELED
-8 8 0 Nov 11 20:05:49 2019                                                      
+8 8 0 Nov 13 08:58:17 2019                                                      
 p 1 6
 CN miniALU c 1 0 0 1 0 0
 -14180 8080

@@ -1,0 +1,21 @@
+A 5 u Ic_cell_template 5dce068d35cf.03.81.15.9a.06.00.1b.95 1 4 17 0
+V v 1 2 5dce0d04c379.03.81.15.9a.06.00.1b.95
+F f 1 "miniALU4.iccel_1"
+F o 0 
+O 1
+R csduv 1 "$GENERIC13/process/generic13" 75 Ic_persist_process 51bf7c9f2c7e.03.93.22.28.46.00.31.23 4aef38f1eeca.03.93.22.28.e1.00.3f.b3
+R csduv 2 "$PYXIS_SPT/digicdesign/miniALU4/viewpoints/miniALU4_SDL_Flat3" 1 Eddm_design_viewpoint 5dce068d0abb.03.81.15.9a.06.01.1b.95 5dce068d0abb.03.81.15.9a.06.00.1b.95
+R csduv 3 "$GDKGATES/xnor2/xnor2" 7 Ic_cell_template 50c6b6e7d0e1.03.93.22.28.46.00.42.de 503d3d68681f.03.93.22.28.96.12.7e.63
+R csduv 4 "$GDKGATES/inv01/inv01" 15 Ic_cell_template 5d9519e87837.03.81.15.9a.a7.00.3a.d7 503d3cc570cd.03.93.22.28.96.07.7e.63
+R csduv 5 "$GDKGATES/mux21/mux21" 24 Ic_cell_template 50c6b6e733ed.03.93.22.28.46.00.42.de 503d3cc570ce.03.93.22.28.96.13.7e.63
+R csduv 6 "$GDKGATES/ao22/ao22" 19 Ic_cell_template 50c6b6e5de3c.03.93.22.28.46.00.42.de 503d3ceec93c.03.93.22.28.96.00.7e.63
+R csduv 7 "$GDKGATES/nand02/nand02" 10 Ic_cell_template 50c6b6e73b9f.03.93.22.28.46.00.42.de 503d3cc570ce.03.93.22.28.96.19.7e.63
+R csduv 8 "$GDKGATES/aoi222/aoi222" 20 Ic_cell_template 50c6b6e4cf8e.03.93.22.28.46.00.42.de 503d3ceec93c.03.93.22.28.96.24.7e.63
+R csduv 9 "$GDKGATES/aoi21/aoi21" 19 Ic_cell_template 50c6b6e5a60f.03.93.22.28.46.00.42.de 503d3ceec93c.03.93.22.28.96.12.7e.63
+R csduv 10 "$GDKGATES/nor02ii/nor02ii" 15 Ic_cell_template 50c6b6e79b3e.03.93.22.28.46.00.42.de 503d3cc570cf.03.93.22.28.96.1e.7e.63
+R csduv 11 "$GDKGATES/aoi32/aoi32" 19 Ic_cell_template 50c6b6e58130.03.93.22.28.46.00.42.de 503d3ceec93d.03.93.22.28.96.04.7e.63
+R csduv 12 "$GENERIC13/process/vias/M1M2" 13 Ic_cell_template 4a60aad6e40c.03.93.22.28.e1.00.3a.ee 488e22b5722d.03.93.22.28.e1.03.11.a3
+R csduv 13 "$GENERIC13/process/vias/M2M3" 14 Ic_cell_template 4a60aad6db43.03.93.22.28.e1.00.3a.ee 4a561a47b55d.03.93.22.28.e1.00.1c.08
+R csduv 14 "$GENERIC13/process/vias/M3M4" 15 Ic_cell_template 4a60aad6d285.03.93.22.28.e1.00.3a.ee 4a561bb13417.03.93.22.28.e1.00.25.b6
+R csduv 15 "$GENERIC13/process/vias/M4M5" 15 Ic_cell_template 4a561c1a8648.03.93.22.28.e1.00.26.11 4a561bdc32ae.03.93.22.28.e1.00.25.b6
+R csdui 16 "$GENERIC13/process/sdl_process_rules" 0 Mgc_file 43349f1b0e3a.03.93.22.46.d8.01.02.fa

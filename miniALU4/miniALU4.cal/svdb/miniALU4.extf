@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1573784096 1573784097
+lvs_ExtOutFile RUNDIR /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU4/miniALU4.cal
+lvs_ExtOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU4/miniALU4.cal/_PEX_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/miniALU4.sp
+lvs_ExtOutFile EXTRACTION_REPORT miniALU4.lvs.report.ext
+lvs_ExtOutFile SOFTCHK_DATABASE svdb/miniALU4.softchk

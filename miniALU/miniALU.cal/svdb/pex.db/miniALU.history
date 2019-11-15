@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Wed Nov 13 15:49:28 2019 " "v2013.4_26.18" "-xrc -pdb -rc -turbo 1 /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU/miniALU.cal/_PEX_"
+"Wed Nov 13 15:49:30 2019 " "v2013.4_26.18" "-xrc -fmt -all /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU/miniALU.cal/_PEX_"

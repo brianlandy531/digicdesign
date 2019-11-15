@@ -1,0 +1,121 @@
+* Example circuit file for simulating PEX
+
+.OPTION DOTNODE
+.HIER /
+
+
+.INCLUDE "/home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU4/miniALU4.cal/miniALU4.pex.netlist"
+
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT_33
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT_lwt
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT_hwt
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT_BIP
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT_BIP_NPN
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo DIO
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo DIO_33
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo TT_RES
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo MOS_CAP
+.LIB /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/res.spi res_t
+
+
+* - Instantiate your parasitic netlist and add the load capacitor
+** FORMAT : 
+* XLAYOUT [all inputs as listed by the ".subckt" line in the included netlist, in the order that they appear there] [name of the subcircuit as listed in the included netlist]
+XLAYOUT COUT OUTPUT[3] INPUT1[2] INPUT2[2] INPUT1[3] INPUT1[1] CONTROL[1] OUTPUT[1] INPUT2[1] INPUT2[3] OUTPUT[2] CONTROL[0] INPUT1[0] INPUT2[0] OUTPUT[0] MINIALU4
+
+**--GROUND
+
+COUT COUT 0 120f
+
+COUT OUTPUT[0] 0 120f
+COUT OUTPUT[1] 0 120f
+COUT OUTPUT[2] 0 120f
+COUT OUTPUT[3] 0 120f
+
+
+
+* - Analysis Setup - DC sweep
+* FORMAT : .DC [name] [low] [high] [step]
+* .DC VFORCE__VIN 0 1.08 0.01
+
+* - Analysis Setup - Trans
+* FORMAT : .TRAN [start time] [end time] [time step]
+** .TRAN 0 10000n 0.001n
+.TRAN 0 2400n 0.05n
+
+
+* --- Forces
+* FORMAT -- PULSE : [name] [port] [reference (0 means ground)] PULSE [low] [high] [delay] [fall time] [rise time] [pulse width] [period]
+*
+* FORMAT -- DC    : [name] [port] [reference (0 means ground)] DC [voltage]
+*
+** VFORCE__Vin VIN 0 PULSE (0 1.08 100n 0.1n 0.1n 50n 200n)
+
+VFORCE__VDD VDD 0 DC 1.08
+VFORCE__VSS VSS 0 DC 0
+
+** control 00 to 01 to 10 to 11
+
+**00 and 
+**01 or 
+**10 add 
+**11 sub
+
+** each test case will have a zero out period in between
+** zero out
+** control_0 - 0
+** control_1 - 0
+** Input2_0 - 0
+** Input1_0 - 0
+
+
+**VFORCE__CONTROL[1] CONTROL[1] 0 pattern 1.08 0 50n .01n .01n 100n 0011111111 R
+**VFORCE__CONTROL[0] CONTROL[0] 0 pattern 1.08 0 50n .01n .01n 100n 0100001111 R
+
+.SIGBUS CONTROL[1:0] VHI=1.08 VLO=0 TRISE=0.1n TFALL=0.1n TDELAY=0n THOLD=50n BASE=BIN  PATTERN 00 00 00 00 00 00 01 01 01 01 01 01 10 10 10 10 10 10 11 11 11 11 11 11 P
+.SIGBUS INPUT1[3:0] VHI=1.08 VLO=0 TRISE=0.1n TFALL=0.1n TDELAY=0n THOLD=50n BASE=HEXA PATTERN 0 F F 1 0 D 0 F F 1 0 D 0 F F 1 0 D 0 F F 1 0 D P
+.SIGBUS INPUT2[3:0] VHI=1.08 VLO=0 TRISE=0.1n TFALL=0.1n TDELAY=0n THOLD=50n BASE=HEXA PATTERN 0 F 1 F 1 F 0 F 1 F 1 F 0 F 1 F 1 F 0 F 1 F 1 F P
+
+
+**.SIGBUS CONTROL[1:0] VHI=1.08 VLO=0 TRISE=0.1n TFALL=0.1n TDELAY=0n THOLD=50n BASE=BIN  PATTERN 0000 0000 0000 0000 0000 0000 P
+**.SIGBUS INPUT1[15:0] VHI=1.08 VLO=0 TRISE=0.1n TFALL=0.1n TDELAY=0n THOLD=50n BASE=HEXA PATTERN 1111 2222 3333 4444 5555 6666 P
+**.SIGBUS INPUT2[15:0] VHI=1.08 VLO=0 TRISE=0.1n TFALL=0.1n TDELAY=0n THOLD=50n BASE=HEXA PATTERN 1111 2222 3333 4444 5555 6666 P
+
+
+
+**VFORCE__INPUT1[0] INPUT1[0] 0 pattern 1.08 0 50n .01n .01n 100n   1101010101 R
+**VFORCE__INPUT2[0] INPUT2[0] 0 pattern 1.08 0 50n .01n .01n 100n   0000110011 R
+
+.measure tran static_pwr_hi AVG power from=1534.42ns to=1690.0ns
+.measure tran static_pwr_low AVG power from=0ns to=37.5ns
+
+.measure tran inst_pwr MAX power from=0ns to=3000ns
+
+* --- Waveform Outputs
+*.PLOT DC V(VIN)
+*.PLOT DC V(VOUT)
+
+**.PLOT TRAN V(CONTROL[0])
+**.PLOT TRAN V(CONTROL[1])
+
+
+.PLOTBUS INPUT1[3:0]
+.PLOTBUS INPUT2[3:0]
+.PLOTBUS CONTROL[1:0]
+.PLOTBUS OUTPUT[3:0]
+
+.PLOT TRAN V(COUT)
+
+
+**V(INPUT1[0])
+
+**.PLOT TRAN V(INPUT2[0])
+**.PLOT TRAN V(OUTPUT[0])
+
+
+
+* --- Params
+.TEMP 125
+
+

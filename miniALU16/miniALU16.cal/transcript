@@ -1,0 +1,61 @@
+# //  Questa Sim-64
+# //  Version 10.2c_6 linux_x86_64 Dec 17 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project ALU_PROJ
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# Compile of 16bitALU.vhd was successful.
+# Compile of miniAlu4.vhd was successful.
+# 13 compiles, 0 failed with no errors. 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Break key hit 
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# Compile of 16bitALU.vhd was successful.
+# Compile of miniAlu4.vhd was successful.
+# Compile of 4bitALU.vhd was successful.
+# 14 compiles, 0 failed with no errors. 
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# Compile of 16bitALU.vhd was successful.
+# Compile of miniAlu4.vhd was successful.
+# Compile of 4bitALU.vhd was successful.
+# 14 compiles, 0 failed with no errors. 
+# Break key hit 

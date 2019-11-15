@@ -1,0 +1,11 @@
+*lvsRulesFile: /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS
+*lvsRunDir: /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/miniALU4/miniALU4.cal
+*lvsLayoutPaths: miniALU4.calibre.gds
+*lvsLayoutPrimary: miniALU4
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: miniALU4.lvs.results
+*lvsSummaryFile: miniALU4.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: miniALU4.calibre.src.net
+*lvsSourcePrimary: miniALU4

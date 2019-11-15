@@ -1,4 +1,4 @@
-START report: Wed Nov 13 19:47:15 2019 
+START report: Thu Nov 14 02:04:15 2019 
 ** Warning: (eldo - 406)  In file "./layout_test.cir" line 11:
 +   COMMAND .LIB cannot find corner TT_lwt in library /home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo
 ** Warning: (eldo - 406)  In file "./layout_test.cir" line 12:
@@ -32,4 +32,4 @@ START report: Wed Nov 13 19:47:15 2019
 +   Previous definition was in file "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/models/lib.eldo" line 8
 ** Warning: (eldo - 1615)  In file "./layout_test.cir" line 57:
 +   COMMAND ".TRAN": TPRINT can not be <= 0.0.
-+   It is set to TSTOP/20.0 = 5.000e-08 s.
++   It is set to TSTOP/20.0 = 1.200e-07 s.
