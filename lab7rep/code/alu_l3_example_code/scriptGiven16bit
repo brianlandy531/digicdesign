@@ -1,0 +1,10 @@
+set exclude_gates {PadInC PadOut}
+load_library ~/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/GDKgates_utilities/hdl_libs/gdk.syn
+read {16bitALU.vhd}
+set sdf_write_flat_netlist TRUE
+optimize
+write -format verilog 16bitALU.v
+write -format vhdl 16bitALU.vhdl
+write -format sdf 16bitALU.sdf
+write 16bitALU.vhdl
+write 16bitALU.sdf

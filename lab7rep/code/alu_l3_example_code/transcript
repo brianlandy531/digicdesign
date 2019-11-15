@@ -1,0 +1,177 @@
+# //  Questa Sim-64
+# //  Version 10.2c_6 linux_x86_64 Dec 17 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project ALU_PROJ
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# 11 compiles, 0 failed with no errors. 
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd failed with 1 errors.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# 11 compiles, 1 failed with 1 error. 
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# 11 compiles, 0 failed with no errors. 
+vsim work.minialu1bit_tb(bench)
+# vsim work.minialu1bit_tb(bench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.minialu1bit_tb(bench)
+# Loading gdk.gdk_comps(body)
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.minialu(behavioral)
+add wave -position insertpoint  \
+sim/:minialu1bit_tb:Control \
+sim/:minialu1bit_tb:Cout \
+sim/:minialu1bit_tb:Input1 \
+sim/:minialu1bit_tb:Input2 \
+sim/:minialu1bit_tb:N \
+sim/:minialu1bit_tb:Output
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 3 (0 to 2).
+#    Time: 30 ns  Iteration: 1  Process: :minialu1bit_tb:uut:outproc File: /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd
+# Fatal error in Process outproc at /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd line 57
+# 
+# HDL call sequence:
+# Stopped at /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd 57 Process outproc
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd 57 Process outproc
+# 
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# 11 compiles, 0 failed with no errors. 
+vsim work.minialu1bit_tb(bench)
+# vsim work.minialu1bit_tb(bench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.minialu1bit_tb(bench)
+# Loading gdk.gdk_comps(body)
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.minialu(behavioral)
+add wave -position insertpoint  \
+sim/:minialu1bit_tb:Output \
+sim/:minialu1bit_tb:N \
+sim/:minialu1bit_tb:Input2 \
+sim/:minialu1bit_tb:Input1 \
+sim/:minialu1bit_tb:Cout \
+sim/:minialu1bit_tb:Control
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 2 (1 downto 0). Right is 3 (0 to 2).
+#    Time: 60 ns  Iteration: 1  Process: :minialu1bit_tb:uut:outproc File: /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd
+# Fatal error in Process outproc at /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd line 65
+# 
+# HDL call sequence:
+# Stopped at /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/newALU.vhd 65 Process outproc
+# 
+# Compile of ALU.vhd was successful.
+# Compile of ALU_tb.vhd was successful with warnings.
+# Compile of fadder.vhd was successful.
+# Compile of fadder_tb.vhd was successful with warnings.
+# Compile of RippleCarryAdder.vhd was successful.
+# Compile of RippleCarryAdder_tb.vhd was successful with warnings.
+# Compile of gate_and.vhd was successful.
+# Compile of newALU.vhd was successful.
+# Compile of gate_or.vhd was successful.
+# Compile of newALU_tb.vhd was successful with warnings.
+# Compile of newAlu1bit_tb.vhd was successful with warnings.
+# 11 compiles, 0 failed with no errors. 
+vsim work.minialu1bit_tb(bench)
+# vsim work.minialu1bit_tb(bench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.minialu1bit_tb(bench)
+# Loading gdk.gdk_comps(body)
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.minialu(behavioral)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: :minialu1bit_tb:uut
+add wave -position insertpoint  \
+sim/:minialu1bit_tb:Output \
+sim/:minialu1bit_tb:N \
+sim/:minialu1bit_tb:Input2 \
+sim/:minialu1bit_tb:Input1 \
+sim/:minialu1bit_tb:Cout \
+sim/:minialu1bit_tb:Control
+run
+# Causality operation skipped due to absence of debug database file

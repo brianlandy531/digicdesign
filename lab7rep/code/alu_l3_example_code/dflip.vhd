@@ -1,0 +1,35 @@
+
+Library IEEE;
+USE IEEE.Std_logic_1164.all;
+--DFLIP FLOP CODE
+--PORT DEFS
+
+
+
+entity dflipflop is 
+  
+  generic( N : Integer :=16);
+  
+   port(
+      Q : out STD_LOGIC_VECTOR (N-1 downto 0);    
+      Clk :in STD_LOGIC ;   
+      D :in  STD_LOGIC_VECTOR (N-1 downto 0)    
+   );
+end dflipflop;
+
+--ARCHITECTURE
+architecture Behavioral of dflipflop is 
+
+--START
+begin
+  --base it on clock only
+  process(Clk)
+  begin     
+    --if clock goes high
+    if(rising_edge(Clk)) then
+      --send input to output terminal
+      Q <= D; 
+    end if;       
+  end process;  
+end Behavioral; 
+--end
