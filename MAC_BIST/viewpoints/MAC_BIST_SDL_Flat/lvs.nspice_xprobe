@@ -1,0 +1,2949 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VSS VSS
+   VDD VDD
+End Globals
+
+Cell nmos
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell pmos
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell dff
+   Pin Q Q
+   Pin QB QB
+   Pin CLK CLK
+   Pin D D
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$291 N$291
+   Net bclk bclk
+   Net bclk- bclk-
+   Net N$8 N$8
+   Net N$249 N$249
+   Net N$239 N$239
+   Net N$238 N$238
+   Net N$235 N$235
+   Net N$234 N$234
+   Net N$26 N$26
+   Net N$23 N$23
+   Net N$22 N$22
+   Net N$20 N$20
+   Net N$19 N$19
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$4 N$4
+   Net N$2 N$2
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN10 MN10 nmos
+   Inst MN11 MN11 nmos
+   Inst MN7 MN7 nmos
+   Inst MN14 MN14 nmos
+   Inst MP14 MP14 pmos
+   Inst MP1 MP1 pmos
+   Inst MP8 MP8 pmos
+   Inst MP9 MP9 pmos
+   Inst MP10 MP10 pmos
+   Inst MP11 MP11 pmos
+   Inst MP12 MP12 pmos
+   Inst MN8 MN8 nmos
+   Inst MN9 MN9 nmos
+   Inst MN13 MN13 nmos
+   Inst MP6 MP6 pmos
+   Inst MN6 MN6 nmos
+   Inst MP13 MP13 pmos
+   Inst MN12 MN12 nmos
+   Inst MN1 MN1 nmos
+   Inst MN2 MN2 nmos
+   Inst MN3 MN3 nmos
+   Inst MN5 MN5 nmos
+   Inst MN4 MN4 nmos
+   Inst MP7 MP7 pmos
+   Inst MP2 MP2 pmos
+   Inst MP3 MP3 pmos
+   Inst MP4 MP4 pmos
+   Inst MP5 MP5 pmos
+End Cell
+
+Cell nor02ii
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$4 N$4
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN1 MN1 nmos
+   Inst MP1 MP1 pmos
+   Inst MN4 MN4 nmos
+   Inst MN2 MN2 nmos
+   Inst MP4 MP4 pmos
+   Inst MP2 MP2 pmos
+End Cell
+
+Cell nor04
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin A3 A3
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$6 N$6
+   Net N$3 N$3
+   Net N$1 N$1
+   Net Y Y
+   Net A2 A2
+   Net A0 A0
+   Net A1 A1
+   Net A3 A3
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP4 MP4 pmos
+   Inst MN3 MN3 nmos
+   Inst MP3 MP3 pmos
+   Inst MN4 MN4 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+End Cell
+
+Cell nand02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$5 N$5
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP1 MP1 pmos
+   Inst MN1 MN1 nmos
+   Inst MN2 MN2 nmos
+   Inst MP2 MP2 pmos
+End Cell
+
+Cell xnor2
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$9 N$9
+   Net N$8 N$8
+   Net N$3 N$3
+   Net N$1 N$1
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP5 MP5 pmos
+   Inst MP4 MP4 pmos
+   Inst MN4 MN4 nmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN5 MN5 nmos
+End Cell
+
+Cell mux21
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin S0 S0
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$231 N$231
+   Net N$11 N$11
+   Net N$3 N$3
+   Net N$7 N$7
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net S0 S0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN4 MN4 nmos
+   Inst M1 M1 pmos
+   Inst MN5 MN5 nmos
+   Inst M2 M2 nmos
+   Inst MP5 MP5 pmos
+   Inst MP4 MP4 pmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MP2 MP2 pmos
+   Inst MN1 MN1 nmos
+   Inst MP1 MP1 pmos
+   Inst MP3 MP3 pmos
+End Cell
+
+Cell or02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$5 N$5
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP4 MP4 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MN3 MN3 nmos
+End Cell
+
+Cell nand03
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$5 N$5
+   Net N$4 N$4
+   Net A2 A2
+   Net A0 A0
+   Net Y Y
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP3 MP3 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MN3 MN3 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+End Cell
+
+Cell inv01
+   Pin Y Y
+   Pin A A
+   Pin VDD VDD
+   Pin VSS VSS
+   Net Y Y
+   Net A A
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP1 MP1 pmos
+   Inst MN1 MN1 nmos
+End Cell
+
+Cell xor2
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$4 N$4
+   Net N$3 N$3
+   Net N$1 N$1
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN5 MN5 nmos
+   Inst MN4 MN4 nmos
+   Inst MP4 MP4 pmos
+   Inst MP3 MP3 pmos
+   Inst MP1 MP1 pmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP6 MP6 pmos
+   Inst MP2 MP2 pmos
+   Inst MP5 MP5 pmos
+   Inst MN6 MN6 nmos
+End Cell
+
+Cell inv02
+   Pin Y Y
+   Pin A A
+   Pin VDD VDD
+   Pin VSS VSS
+   Net Y Y
+   Net A A
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP1 MP1 pmos
+   Inst MN1 MN1 nmos
+End Cell
+
+Cell nand04
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin A3 A3
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$9 N$9
+   Net N$6 N$6
+   Net N$2 N$2
+   Net A2 A2
+   Net A0 A0
+   Net Y Y
+   Net A1 A1
+   Net A3 A3
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP4 MP4 pmos
+   Inst MP3 MP3 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MN3 MN3 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN4 MN4 nmos
+End Cell
+
+Cell and04
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin A3 A3
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$11 N$11
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$2 N$2
+   Net A2 A2
+   Net A0 A0
+   Net Y Y
+   Net A1 A1
+   Net A3 A3
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN4 MN4 nmos
+   Inst MN3 MN3 nmos
+   Inst MP4 MP4 pmos
+   Inst MP3 MP3 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MN5 MN5 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MP5 MP5 pmos
+End Cell
+
+Cell nor02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+End Cell
+
+Cell oai22
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin B1 B1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$5 N$5
+   Net Y Y
+   Net A0 A0
+   Net A1 A1
+   Net B1 B1
+   Net B0 B0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP4 MP4 pmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN4 MN4 nmos
+End Cell
+
+Cell aoi22
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin B1 B1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$6 N$6
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net A0 A0
+   Net A1 A1
+   Net B1 B1
+   Net B0 B0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst I$13 M_I$13 pmos
+   Inst I$12 M_I$12 nmos
+   Inst I$11 M_I$11 nmos
+   Inst I$14 M_I$14 nmos
+   Inst I$7 M_I$7 pmos
+   Inst I$6 M_I$6 pmos
+   Inst I$5 M_I$5 pmos
+   Inst I$4 M_I$4 nmos
+End Cell
+
+Cell aoi21
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net B0 B0
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst I$11 M_I$11 nmos
+   Inst I$7 M_I$7 pmos
+   Inst I$6 M_I$6 pmos
+   Inst I$5 M_I$5 pmos
+   Inst I$4 M_I$4 nmos
+   Inst I$12 M_I$12 nmos
+End Cell
+
+Cell nor03
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$3 N$3
+   Net N$1 N$1
+   Net Y Y
+   Net A2 A2
+   Net A0 A0
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP3 MP3 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN3 MN3 nmos
+End Cell
+
+Cell aoi221
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin B1 B1
+   Pin C0 C0
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$10 N$10
+   Net N$4 N$4
+   Net N$3 N$3
+   Net N$2 N$2
+   Net Y Y
+   Net C0 C0
+   Net B1 B1
+   Net B0 B0
+   Net A0 A0
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN5 MN5 nmos
+   Inst MN4 MN4 nmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP5 MP5 pmos
+   Inst MP4 MP4 pmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+End Cell
+
+Cell and02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$6 N$6
+   Net N$1 N$1
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+End Cell
+
+Cell and03
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin VDD VDD
+   Pin VSS VSS
+   Net A A
+   Net N$215 N$215
+   Net N$214 N$214
+   Net A2 A2
+   Net A0 A0
+   Net Y Y
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP3 MP3 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MN3 MN3 nmos
+   Inst MN4 MN4 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MP4 MP4 pmos
+End Cell
+
+Cell dffr
+   Pin Q Q
+   Pin QB QB
+   Pin CLK CLK
+   Pin D D
+   Pin R R
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$22 N$22
+   Net N$29 N$29
+   Net N$28 N$28
+   Net N$27 N$27
+   Net N$25 N$25
+   Net N$23 N$23
+   Net N$21 N$21
+   Net N$18 N$18
+   Net N$16 N$16
+   Net N$14 N$14
+   Net N$13 N$13
+   Net N$12 N$12
+   Net N$11 N$11
+   Net bclk bclk
+   Net bclk- bclk-
+   Net N$10 N$10
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Net R R
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN17 MN17 nmos
+   Inst MP9 MP9 pmos
+   Inst MP17 MP17 pmos
+   Inst MP8 MP8 pmos
+   Inst MN16 MN16 nmos
+   Inst MN12 MN12 nmos
+   Inst MN11 MN11 nmos
+   Inst MN10 MN10 nmos
+   Inst MP12 MP12 pmos
+   Inst MP11 MP11 pmos
+   Inst MP13 MP13 pmos
+   Inst MN13 MN13 nmos
+   Inst MN6 MN6 nmos
+   Inst MP4 MP4 pmos
+   Inst MN4 MN4 nmos
+   Inst MN2 MN2 nmos
+   Inst MN7 MN7 nmos
+   Inst MN9 MN9 nmos
+   Inst MP10 MP10 pmos
+   Inst MP15 MP15 pmos
+   Inst MP14 MP14 pmos
+   Inst MP1 MP1 pmos
+   Inst MN5 MN5 nmos
+   Inst MN15 MN15 nmos
+   Inst MP16 MP16 pmos
+   Inst MP2 MP2 pmos
+   Inst MN1 MN1 nmos
+   Inst MN3 MN3 nmos
+   Inst MP3 MP3 pmos
+   Inst MN14 MN14 nmos
+   Inst MP7 MP7 pmos
+   Inst MP6 MP6 pmos
+   Inst MP5 MP5 pmos
+   Inst MN8 MN8 nmos
+End Cell
+
+Cell dffs
+   Pin Q Q
+   Pin QB QB
+   Pin CLK CLK
+   Pin D D
+   Pin S S
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$261 N$261
+   Net N$250 N$250
+   Net N$31 N$31
+   Net N$28 N$28
+   Net N$27 N$27
+   Net N$26 N$26
+   Net N$23 N$23
+   Net N$22 N$22
+   Net N$21 N$21
+   Net N$19 N$19
+   Net N$17 N$17
+   Net N$13 N$13
+   Net N$12 N$12
+   Net bclk bclk
+   Net bclk- bclk-
+   Net N$11 N$11
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Net S S
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MP6 MP6 pmos
+   Inst MP7 MP7 pmos
+   Inst MP8 MP8 pmos
+   Inst MN6 MN6 nmos
+   Inst MP12 MP12 pmos
+   Inst MP4 MP4 pmos
+   Inst MP11 MP11 pmos
+   Inst MN2 MN2 nmos
+   Inst MN4 MN4 nmos
+   Inst MN17 MN17 nmos
+   Inst MP15 MP15 pmos
+   Inst MN13 MN13 nmos
+   Inst MP14 MP14 pmos
+   Inst MP13 MP13 pmos
+   Inst MP16 MP16 pmos
+   Inst MN16 MN16 nmos
+   Inst MN3 MN3 nmos
+   Inst MP3 MP3 pmos
+   Inst MP9 MP9 pmos
+   Inst MN10 MN10 nmos
+   Inst MN14 MN14 nmos
+   Inst MN9 MN9 nmos
+   Inst MN15 MN15 nmos
+   Inst MN8 MN8 nmos
+   Inst MN7 MN7 nmos
+   Inst MP17 MP17 pmos
+   Inst MN11 MN11 nmos
+   Inst MN5 MN5 nmos
+   Inst MP5 MP5 pmos
+   Inst MP2 MP2 pmos
+   Inst MN1 MN1 nmos
+   Inst MN12 MN12 nmos
+   Inst MP1 MP1 pmos
+   Inst MP10 MP10 pmos
+End Cell
+
+Cell oai32
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin B0 B0
+   Pin B1 B1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$4 N$4
+   Net N$12 N$12
+   Net N$6 N$6
+   Net N$5 N$5
+   Net Y Y
+   Net A0 A0
+   Net A2 A2
+   Net B1 B1
+   Net B0 B0
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN5 MN5 nmos
+   Inst MN4 MN4 nmos
+   Inst MP5 MP5 pmos
+   Inst MN3 MN3 nmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MP4 MP4 pmos
+End Cell
+
+Cell or04
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin A3 A3
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$9 N$9
+   Net N$6 N$6
+   Net N$3 N$3
+   Net N$1 N$1
+   Net Y Y
+   Net A2 A2
+   Net A0 A0
+   Net A1 A1
+   Net A3 A3
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN4 MN4 nmos
+   Inst MP4 MP4 pmos
+   Inst MN3 MN3 nmos
+   Inst MP3 MP3 pmos
+   Inst MP5 MP5 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN5 MN5 nmos
+End Cell
+
+Cell oai21
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$7 N$7
+   Net N$6 N$6
+   Net Y Y
+   Net B0 B0
+   Net A1 A1
+   Net A0 A0
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN1 MN1 nmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN2 MN2 nmos
+   Inst MN3 MN3 nmos
+End Cell
+
+Cell ao22
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin B1 B1
+   Pin VDD VDD
+   Pin VSS VSS
+   Net N$13 N$13
+   Net N$6 N$6
+   Net N$2 N$2
+   Net N$1 N$1
+   Net B1 B1
+   Net Y Y
+   Net B0 B0
+   Net A0 A0
+   Net A1 A1
+   Net VDD_esc1 VDD_esc1
+   Net VSS_esc2 VSS_esc2
+   Inst MN4 MN4 nmos
+   Inst MP4 MP4 pmos
+   Inst MN2 MN2 nmos
+   Inst MN1 MN1 nmos
+   Inst MP5 MP5 pmos
+   Inst MP3 MP3 pmos
+   Inst MP2 MP2 pmos
+   Inst MP1 MP1 pmos
+   Inst MN3 MN3 nmos
+   Inst MN5 MN5 nmos
+End Cell
+
+Cell #top#
+   Pin multiplierOut[31] multiplierOut[31]
+   Pin multiplierOut[30] multiplierOut[30]
+   Pin multiplierOut[29] multiplierOut[29]
+   Pin multiplierOut[28] multiplierOut[28]
+   Pin multiplierOut[27] multiplierOut[27]
+   Pin multiplierOut[26] multiplierOut[26]
+   Pin multiplierOut[25] multiplierOut[25]
+   Pin multiplierOut[24] multiplierOut[24]
+   Pin multiplierOut[23] multiplierOut[23]
+   Pin multiplierOut[22] multiplierOut[22]
+   Pin multiplierOut[21] multiplierOut[21]
+   Pin multiplierOut[20] multiplierOut[20]
+   Pin multiplierOut[19] multiplierOut[19]
+   Pin multiplierOut[18] multiplierOut[18]
+   Pin multiplierOut[17] multiplierOut[17]
+   Pin multiplierOut[16] multiplierOut[16]
+   Pin multiplierOut[15] multiplierOut[15]
+   Pin multiplierOut[14] multiplierOut[14]
+   Pin multiplierOut[13] multiplierOut[13]
+   Pin multiplierOut[12] multiplierOut[12]
+   Pin multiplierOut[11] multiplierOut[11]
+   Pin multiplierOut[10] multiplierOut[10]
+   Pin multiplierOut[9] multiplierOut[9]
+   Pin multiplierOut[8] multiplierOut[8]
+   Pin multiplierOut[7] multiplierOut[7]
+   Pin multiplierOut[6] multiplierOut[6]
+   Pin multiplierOut[5] multiplierOut[5]
+   Pin multiplierOut[4] multiplierOut[4]
+   Pin multiplierOut[3] multiplierOut[3]
+   Pin multiplierOut[2] multiplierOut[2]
+   Pin multiplierOut[1] multiplierOut[1]
+   Pin multiplierOut[0] multiplierOut[0]
+   Pin tst_output_flag tst_output_flag
+   Pin A[15] A[15]
+   Pin A[14] A[14]
+   Pin A[13] A[13]
+   Pin A[12] A[12]
+   Pin A[11] A[11]
+   Pin A[10] A[10]
+   Pin A[9] A[9]
+   Pin A[8] A[8]
+   Pin A[7] A[7]
+   Pin A[6] A[6]
+   Pin A[5] A[5]
+   Pin A[4] A[4]
+   Pin A[3] A[3]
+   Pin A[2] A[2]
+   Pin A[1] A[1]
+   Pin A[0] A[0]
+   Pin B[15] B[15]
+   Pin B[14] B[14]
+   Pin B[13] B[13]
+   Pin B[12] B[12]
+   Pin B[11] B[11]
+   Pin B[10] B[10]
+   Pin B[9] B[9]
+   Pin B[8] B[8]
+   Pin B[7] B[7]
+   Pin B[6] B[6]
+   Pin B[5] B[5]
+   Pin B[4] B[4]
+   Pin B[3] B[3]
+   Pin B[2] B[2]
+   Pin B[1] B[1]
+   Pin B[0] B[0]
+   Pin clk clk
+   Pin rst rst
+   Pin tst_mode tst_mode
+   Net $dummy[99] N$dummy_esc3[99]
+   Net $dummy[98] N$dummy_esc3[98]
+   Net $dummy[97] N$dummy_esc3[97]
+   Net $dummy[96] N$dummy_esc3[96]
+   Net $dummy[104] N$dummy_esc3[104]
+   Net $dummy[103] N$dummy_esc3[103]
+   Net $dummy[102] N$dummy_esc3[102]
+   Net $dummy[101] N$dummy_esc3[101]
+   Net $dummy[100] N$dummy_esc3[100]
+   Net $dummy[95] N$dummy_esc3[95]
+   Net $dummy[94] N$dummy_esc3[94]
+   Net $dummy[93] N$dummy_esc3[93]
+   Net $dummy[92] N$dummy_esc3[92]
+   Net $dummy[91] N$dummy_esc3[91]
+   Net $dummy[90] N$dummy_esc3[90]
+   Net $dummy[89] N$dummy_esc3[89]
+   Net $dummy[88] N$dummy_esc3[88]
+   Net $dummy[87] N$dummy_esc3[87]
+   Net $dummy[86] N$dummy_esc3[86]
+   Net $dummy[85] N$dummy_esc3[85]
+   Net $dummy[84] N$dummy_esc3[84]
+   Net $dummy[83] N$dummy_esc3[83]
+   Net $dummy[82] N$dummy_esc3[82]
+   Net $dummy[81] N$dummy_esc3[81]
+   Net $dummy[80] N$dummy_esc3[80]
+   Net $dummy[126] N$dummy_esc3[126]
+   Net $dummy[125] N$dummy_esc3[125]
+   Net $dummy[124] N$dummy_esc3[124]
+   Net $dummy[123] N$dummy_esc3[123]
+   Net $dummy[122] N$dummy_esc3[122]
+   Net $dummy[121] N$dummy_esc3[121]
+   Net $dummy[120] N$dummy_esc3[120]
+   Net $dummy[119] N$dummy_esc3[119]
+   Net $dummy[118] N$dummy_esc3[118]
+   Net $dummy[117] N$dummy_esc3[117]
+   Net $dummy[116] N$dummy_esc3[116]
+   Net $dummy[115] N$dummy_esc3[115]
+   Net $dummy[114] N$dummy_esc3[114]
+   Net $dummy[113] N$dummy_esc3[113]
+   Net $dummy[112] N$dummy_esc3[112]
+   Net $dummy[111] N$dummy_esc3[111]
+   Net $dummy[110] N$dummy_esc3[110]
+   Net $dummy[109] N$dummy_esc3[109]
+   Net $dummy[108] N$dummy_esc3[108]
+   Net $dummy[107] N$dummy_esc3[107]
+   Net $dummy[106] N$dummy_esc3[106]
+   Net $dummy[105] N$dummy_esc3[105]
+   Net $dummy[79] N$dummy_esc3[79]
+   Net $dummy[78] N$dummy_esc3[78]
+   Net $dummy[77] N$dummy_esc3[77]
+   Net $dummy[76] N$dummy_esc3[76]
+   Net $dummy[75] N$dummy_esc3[75]
+   Net $dummy[74] N$dummy_esc3[74]
+   Net $dummy[73] N$dummy_esc3[73]
+   Net $dummy[72] N$dummy_esc3[72]
+   Net $dummy[70] N$dummy_esc3[70]
+   Net $dummy[69] N$dummy_esc3[69]
+   Net $dummy[68] N$dummy_esc3[68]
+   Net $dummy[37] N$dummy_esc3[37]
+   Net $dummy[36] N$dummy_esc3[36]
+   Net $dummy[35] N$dummy_esc3[35]
+   Net $dummy[34] N$dummy_esc3[34]
+   Net $dummy[33] N$dummy_esc3[33]
+   Net $dummy[32] N$dummy_esc3[32]
+   Net $dummy[31] N$dummy_esc3[31]
+   Net $dummy[29] N$dummy_esc3[29]
+   Net $dummy[28] N$dummy_esc3[28]
+   Net $dummy[27] N$dummy_esc3[27]
+   Net $dummy[26] N$dummy_esc3[26]
+   Net $dummy[25] N$dummy_esc3[25]
+   Net $dummy[24] N$dummy_esc3[24]
+   Net $dummy[23] N$dummy_esc3[23]
+   Net $dummy[22] N$dummy_esc3[22]
+   Net $dummy[17] N$dummy_esc3[17]
+   Net $dummy[16] N$dummy_esc3[16]
+   Net $dummy[15] N$dummy_esc3[15]
+   Net $dummy[14] N$dummy_esc3[14]
+   Net $dummy[13] N$dummy_esc3[13]
+   Net $dummy[12] N$dummy_esc3[12]
+   Net $dummy[11] N$dummy_esc3[11]
+   Net $dummy[10] N$dummy_esc3[10]
+   Net $dummy[9] N$dummy_esc3[9]
+   Net $dummy[8] N$dummy_esc3[8]
+   Net $dummy[7] N$dummy_esc3[7]
+   Net $dummy[6] N$dummy_esc3[6]
+   Net $dummy[5] N$dummy_esc3[5]
+   Net $dummy[4] N$dummy_esc3[4]
+   Net $dummy[3] N$dummy_esc3[3]
+   Net $dummy[2] N$dummy_esc3[2]
+   Net $dummy[1] N$dummy_esc3[1]
+   Net $dummy[71] N$dummy_esc3[71]
+   Net $dummy[67] N$dummy_esc3[67]
+   Net $dummy[66] N$dummy_esc3[66]
+   Net $dummy[65] N$dummy_esc3[65]
+   Net $dummy[64] N$dummy_esc3[64]
+   Net $dummy[63] N$dummy_esc3[63]
+   Net $dummy[62] N$dummy_esc3[62]
+   Net $dummy[61] N$dummy_esc3[61]
+   Net $dummy[60] N$dummy_esc3[60]
+   Net $dummy[59] N$dummy_esc3[59]
+   Net $dummy[58] N$dummy_esc3[58]
+   Net $dummy[57] N$dummy_esc3[57]
+   Net $dummy[56] N$dummy_esc3[56]
+   Net $dummy[55] N$dummy_esc3[55]
+   Net $dummy[54] N$dummy_esc3[54]
+   Net $dummy[53] N$dummy_esc3[53]
+   Net $dummy[52] N$dummy_esc3[52]
+   Net $dummy[51] N$dummy_esc3[51]
+   Net $dummy[50] N$dummy_esc3[50]
+   Net $dummy[49] N$dummy_esc3[49]
+   Net $dummy[48] N$dummy_esc3[48]
+   Net $dummy[47] N$dummy_esc3[47]
+   Net $dummy[46] N$dummy_esc3[46]
+   Net $dummy[45] N$dummy_esc3[45]
+   Net $dummy[44] N$dummy_esc3[44]
+   Net $dummy[43] N$dummy_esc3[43]
+   Net $dummy[42] N$dummy_esc3[42]
+   Net $dummy[41] N$dummy_esc3[41]
+   Net $dummy[40] N$dummy_esc3[40]
+   Net $dummy[39] N$dummy_esc3[39]
+   Net $dummy[38] N$dummy_esc3[38]
+   Net $dummy[21] N$dummy_esc3[21]
+   Net $dummy[20] N$dummy_esc3[20]
+   Net $dummy[19] N$dummy_esc3[19]
+   Net $dummy[18] N$dummy_esc3[18]
+   Net $dummy[0] N$dummy_esc3[0]
+   Net $dummy[30] N$dummy_esc3[30]
+   Net nx3406 nx3406
+   Net nx3836 nx3836
+   Net nx3829 nx3829
+   Net nx3114 nx3114
+   Net nx2904 nx2904
+   Net nx2454 nx2454
+   Net nx2476 nx2476
+   Net nx2362 nx2362
+   Net nx2384 nx2384
+   Net nx2410 nx2410
+   Net nx2406 nx2406
+   Net nx2428 nx2428
+   Net nx2974 nx2974
+   Net nx3767 nx3767
+   Net nx3466 nx3466
+   Net nx3824 nx3824
+   Net nx3779 nx3779
+   Net nx3590 nx3590
+   Net nx2634 nx2634
+   Net nx3595 nx3595
+   Net nx3570 nx3570
+   Net nx2652 nx2652
+   Net nx3575 nx3575
+   Net nx2646 nx2646
+   Net nx3580 nx3580
+   Net nx2640 nx2640
+   Net nx3585 nx3585
+   Net nx2450 nx2450
+   Net nx1195 nx1195
+   Net nx2472 nx2472
+   Net nx3413 nx3413
+   Net nx3368 nx3368
+   Net nx1191 nx1191
+   Net nx3380 nx3380
+   Net nx1193 nx1193
+   Net nx1867 nx1867
+   Net nx2167 nx2167
+   Net nx2628 nx2628
+   Net nx2658 nx2658
+   Net nx3402 nx3402
+   Net nx1197 nx1197
+   Net nx3417 nx3417
+   Net nx1187 nx1187
+   Net nx1189 nx1189
+   Net nx3384 nx3384
+   Net nx3391 nx3391
+   Net nx3395 nx3395
+   Net nx3771 nx3771
+   Net misr_out_17 misr_out_17
+   Net nx1997 nx1997
+   Net misr_out_18 misr_out_18
+   Net nx1987 nx1987
+   Net nx3725 nx3725
+   Net misr_out_31 misr_out_31
+   Net nx3787 nx3787
+   Net misr_out_13 misr_out_13
+   Net nx2037 nx2037
+   Net misr_out_0 misr_out_0
+   Net misr_out_2 misr_out_2
+   Net nx2147 nx2147
+   Net nx3398 nx3398
+   Net nx3409 nx3409
+   Net nx3350 nx3350
+   Net nx2366 nx2366
+   Net nx3364 nx3364
+   Net nx2388 nx2388
+   Net nx3376 nx3376
+   Net nx3387 nx3387
+   Net nx2432 nx2432
+   Net nx3088 nx3088
+   Net nx2300 nx2300
+   Net nx2208 nx2208
+   Net nx3276 nx3276
+   Net nx3310 nx3310
+   Net nx3284 nx3284
+   Net nx3281 nx3281
+   Net nx3080 nx3080
+   Net nx3139 nx3139
+   Net nx3184 nx3184
+   Net nx3191 nx3191
+   Net nx1175 nx1175
+   Net nx3535 nx3535
+   Net nx3550 nx3550
+   Net nx3565 nx3565
+   Net nx1183 nx1183
+   Net nx3313 nx3313
+   Net nx3143 nx3143
+   Net nx1179 nx1179
+   Net nx3243 nx3243
+   Net nx3239 nx3239
+   Net nx2706 nx2706
+   Net nx3530 nx3530
+   Net nx2694 nx2694
+   Net nx3540 nx3540
+   Net nx3545 nx3545
+   Net nx2682 nx2682
+   Net nx3555 nx3555
+   Net nx2670 nx2670
+   Net nx3560 nx3560
+   Net nx2296 nx2296
+   Net nx2294 nx2294
+   Net nx2206 nx2206
+   Net nx3083 nx3083
+   Net nx2252 nx2252
+   Net nx2250 nx2250
+   Net nx3188 nx3188
+   Net nx3195 nx3195
+   Net nx2700 nx2700
+   Net nx2688 nx2688
+   Net nx2676 nx2676
+   Net nx2664 nx2664
+   Net nx3305 nx3305
+   Net nx3132 nx3132
+   Net nx2212 nx2212
+   Net nx3232 nx3232
+   Net nx2256 nx2256
+   Net nx2278 nx2278
+   Net nx3279 nx3279
+   Net nx2190 nx2190
+   Net nx2234 nx2234
+   Net nx3439 nx3439
+   Net nx3296 nx3296
+   Net nx2554 nx2554
+   Net nx2550 nx2550
+   Net nx2498 nx2498
+   Net nx2494 nx2494
+   Net nx2526 nx2526
+   Net nx2522 nx2522
+   Net nx1530 nx1530
+   Net nx1500 nx1500
+   Net nx3428 nx3428
+   Net nx3455 nx3455
+   Net nx3459 nx3459
+   Net nx3320 nx3320
+   Net nx3217 nx3217
+   Net nx3457 nx3457
+   Net nx2548 nx2548
+   Net nx3446 nx3446
+   Net nx1199 nx1199
+   Net nx3424 nx3424
+   Net nx2520 nx2520
+   Net nx3435 nx3435
+   Net nx3259 nx3259
+   Net nx3300 nx3300
+   Net nx3255 nx3255
+   Net nx3209 nx3209
+   Net nx3257 nx3257
+   Net nx3442 nx3442
+   Net nx3420 nx3420
+   Net nx3431 nx3431
+   Net nx3253 nx3253
+   Net nx3203 nx3203
+   Net nx1422 nx1422
+   Net nx3212 nx3212
+   Net nx3361 nx3361
+   Net nx1524 nx1524
+   Net nx3298 nx3298
+   Net nx3292 nx3292
+   Net nx1942 nx1942
+   Net nx2506 nx2506
+   Net nx3450 nx3450
+   Net nx3252 nx3252
+   Net nx1558 nx1558
+   Net nx2269 nx2269
+   Net nx1872 nx1872
+   Net nx1153 nx1153
+   Net nx1536 nx1536
+   Net nx1147 nx1147
+   Net nx2437 nx2437
+   Net nx2501 nx2501
+   Net nx2447 nx2447
+   Net nx3289 nx3289
+   Net nx2443 nx2443
+   Net nx2560 nx2560
+   Net nx2425 nx2425
+   Net nx1686 nx1686
+   Net nx1670 nx1670
+   Net nx3358 nx3358
+   Net nx3372 nx3372
+   Net nx1612 nx1612
+   Net nx3869 nx3869
+   Net nx2279 nx2279
+   Net nx1150 nx1150
+   Net nx1864 nx1864
+   Net nx1868 nx1868
+   Net nx2539 nx2539
+   Net nx2405 nx2405
+   Net nx1760 nx1760
+   Net nx3318 nx3318
+   Net nx2777 nx2777
+   Net nx2391 nx2391
+   Net nx2389 nx2389
+   Net nx2497 nx2497
+   Net nx1768 nx1768
+   Net nx1626 nx1626
+   Net nx1764 nx1764
+   Net nx1706 nx1706
+   Net nx1690 nx1690
+   Net nx1564 nx1564
+   Net nx1674 nx1674
+   Net nx1542 nx1542
+   Net nx1742 nx1742
+   Net nx3877 nx3877
+   Net nx1722 nx1722
+   Net nx2383 nx2383
+   Net nx2493 nx2493
+   Net nx442 nx442
+   Net nx362 nx362
+   Net nx900 nx900
+   Net nx820 nx820
+   Net nx1904 nx1904
+   Net nx2387 nx2387
+   Net nx1948 nx1948
+   Net nx1926 nx1926
+   Net nx2440 nx2440
+   Net nx1149 nx1149
+   Net nx2183 nx2183
+   Net nx3153 nx3153
+   Net nx3270 nx3270
+   Net nx3181 nx3181
+   Net nx3179 nx3179
+   Net nx3229 nx3229
+   Net nx3227 nx3227
+   Net nx3220 nx3220
+   Net nx3225 nx3225
+   Net nx3104 nx3104
+   Net nx1128 nx1128
+   Net nx3095 nx3095
+   Net nx3101 nx3101
+   Net nx3161 nx3161
+   Net nx3149 nx3149
+   Net nx3000 nx3000
+   Net nx1164 nx1164
+   Net nx2997 nx2997
+   Net nx3052 nx3052
+   Net nx1146 nx1146
+   Net nx3045 nx3045
+   Net nx3165 nx3165
+   Net nx3111 nx3111
+   Net nx3006 nx3006
+   Net nx3065 nx3065
+   Net nx3058 nx3058
+   Net nx3294 nx3294
+   Net nx3268 nx3268
+   Net nx3273 nx3273
+   Net nx3266 nx3266
+   Net nx3177 nx3177
+   Net nx3223 nx3223
+   Net nx3097 nx3097
+   Net nx3205 nx3205
+   Net nx3155 nx3155
+   Net nx3207 nx3207
+   Net nx3151 nx3151
+   Net nx3047 nx3047
+   Net nx3049 nx3049
+   Net nx3099 nx3099
+   Net nx3215 nx3215
+   Net nx3163 nx3163
+   Net nx3170 nx3170
+   Net nx3109 nx3109
+   Net nx3118 nx3118
+   Net nx3106 nx3106
+   Net nx3004 nx3004
+   Net nx3014 nx3014
+   Net nx3056 nx3056
+   Net nx3054 nx3054
+   Net nx1494 nx1494
+   Net nx3264 nx3264
+   Net nx756 nx756
+   Net nx3173 nx3173
+   Net nx1442 nx1442
+   Net nx1110 nx1110
+   Net nx3159 nx3159
+   Net nx3643 nx3643
+   Net nx1143 nx1143
+   Net nx3525 nx3525
+   Net nx2712 nx2712
+   Net nx2977 nx2977
+   Net nx3845 nx3845
+   Net nx3620 nx3620
+   Net nx3608 nx3608
+   Net nx3638 nx3638
+   Net instance0_MISR_cntr_4 instance0_MISR_cntr_4
+   Net nx56 nx56
+   Net instance0_MISR_cntr_2 instance0_MISR_cntr_2
+   Net nx28 nx28
+   Net nx3633 nx3633
+   Net instance0_MISR_cntr_3 instance0_MISR_cntr_3
+   Net nx42 nx42
+   Net nx3627 nx3627
+   Net nx2098 nx2098
+   Net nx2124 nx2124
+   Net nx2120 nx2120
+   Net nx2168 nx2168
+   Net nx2164 nx2164
+   Net nx2983 nx2983
+   Net nx3085 nx3085
+   Net nx1171 nx1171
+   Net nx3631 nx3631
+   Net nx3635 nx3635
+   Net nx3510 nx3510
+   Net nx3515 nx3515
+   Net nx3520 nx3520
+   Net nx3652 nx3652
+   Net nx3612 nx3612
+   Net nx3037 nx3037
+   Net nx3034 nx3034
+   Net nx78 nx78
+   Net nx2730 nx2730
+   Net nx2724 nx2724
+   Net nx1168 nx1168
+   Net nx2932 nx2932
+   Net nx2162 nx2162
+   Net nx2985 nx2985
+   Net nx2718 nx2718
+   Net nx3881 nx3881
+   Net nx1167 nx1167
+   Net nx2890 nx2890
+   Net nx2936 nx2936
+   Net nx2881 nx2881
+   Net nx2102 nx2102
+   Net nx2928 nx2928
+   Net nx3029 nx3029
+   Net nx2146 nx2146
+   Net nx2981 nx2981
+   Net nx3659 nx3659
+   Net nx3657 nx3657
+   Net nx1145 nx1145
+   Net nx1137 nx1137
+   Net nx3616 nx3616
+   Net nx3625 nx3625
+   Net nx3129 nx3129
+   Net nx2943 nx2943
+   Net nx2971 nx2971
+   Net nx3127 nx3127
+   Net nx2957 nx2957
+   Net nx2945 nx2945
+   Net nx2973 nx2973
+   Net nx2965 nx2965
+   Net nx2969 nx2969
+   Net nx3023 nx3023
+   Net nx3019 nx3019
+   Net nx3077 nx3077
+   Net nx3075 nx3075
+   Net nx3072 nx3072
+   Net nx3070 nx3070
+   Net nx3123 nx3123
+   Net nx1200 nx1200
+   Net nx2893 nx2893
+   Net nx2899 nx2899
+   Net nx2954 nx2954
+   Net nx1182 nx1182
+   Net nx2941 nx2941
+   Net nx1218 nx1218
+   Net nx2845 nx2845
+   Net nx2814 nx2814
+   Net nx2809 nx2809
+   Net nx2858 nx2858
+   Net nx2914 nx2914
+   Net nx2909 nx2909
+   Net nx3021 nx3021
+   Net nx3025 nx3025
+   Net nx3175 nx3175
+   Net nx3125 nx3125
+   Net nx2895 nx2895
+   Net nx2993 nx2993
+   Net nx2947 nx2947
+   Net nx2995 nx2995
+   Net nx2799 nx2799
+   Net nx2847 nx2847
+   Net nx2849 nx2849
+   Net nx2897 nx2897
+   Net nx2807 nx2807
+   Net nx2856 nx2856
+   Net nx2866 nx2866
+   Net nx2854 nx2854
+   Net nx2907 nx2907
+   Net nx2905 nx2905
+   Net nx3002 nx3002
+   Net nx2962 nx2962
+   Net nx2952 nx2952
+   Net nx1176 nx1176
+   Net nx1158 nx1158
+   Net nx3017 nx3017
+   Net nx1140 nx1140
+   Net nx3068 nx3068
+   Net nx1122 nx1122
+   Net nx3121 nx3121
+   Net nx2903 nx2903
+   Net nx2950 nx2950
+   Net nx1236 nx1236
+   Net nx2803 nx2803
+   Net nx2852 nx2852
+   Net nx2838 nx2838
+   Net nx2789 nx2789
+   Net nx2587 nx2587
+   Net nx3354 nx3354
+   Net nx3875 nx3875
+   Net nx358 nx358
+   Net nx3867 nx3867
+   Net nx2625 nx2625
+   Net nx2843 nx2843
+   Net nx2737 nx2737
+   Net nx3334 nx3334
+   Net nx3346 nx3346
+   Net nx2827 nx2827
+   Net max_inst_Counter_sig_0 max_inst_Counter_sig_0
+   Net nx2014 nx2014
+   Net nx2010 nx2010
+   Net nx2036 nx2036
+   Net nx2032 nx2032
+   Net nx2322 nx2322
+   Net nx2318 nx2318
+   Net nx2344 nx2344
+   Net nx2058 nx2058
+   Net nx2054 nx2054
+   Net nx2080 nx2080
+   Net nx2076 nx2076
+   Net nx1970 nx1970
+   Net nx1966 nx1966
+   Net nx1992 nx1992
+   Net nx1988 nx1988
+   Net nx3043 nx3043
+   Net nx1594 nx1594
+   Net nx1582 nx1582
+   Net NOT_max_inst_Counter_sig_0 NOT_max_inst_Counter_sig_0
+   Net nx2792 nx2792
+   Net nx2990 nx2990
+   Net nx1702 nx1702
+   Net nx1718 nx1718
+   Net nx340 nx340
+   Net nx1450 nx1450
+   Net nx1654 nx1654
+   Net nx1576 nx1576
+   Net nx1640 nx1640
+   Net nx1738 nx1738
+   Net nx2639 nx2639
+   Net nx1808 nx1808
+   Net nx1788 nx1788
+   Net nx3201 nx3201
+   Net nx3251 nx3251
+   Net nx2627 nx2627
+   Net nx2685 nx2685
+   Net nx1161 nx1161
+   Net nx2733 nx2733
+   Net nx2340 nx2340
+   Net nx2785 nx2785
+   Net nx2834 nx2834
+   Net nx2579 nx2579
+   Net nx2635 nx2635
+   Net nx1159 nx1159
+   Net nx2689 nx2689
+   Net nx1185 nx1185
+   Net nx3329 nx3329
+   Net nx1186 nx1186
+   Net nx3342 nx3342
+   Net nx1163 nx1163
+   Net nx2886 nx2886
+   Net nx1165 nx1165
+   Net nx1155 nx1155
+   Net nx1157 nx1157
+   Net nx1796 nx1796
+   Net nx1792 nx1792
+   Net nx1812 nx1812
+   Net nx2680 nx2680
+   Net nx2728 nx2728
+   Net nx3325 nx3325
+   Net nx3338 nx3338
+   Net nx2780 nx2780
+   Net nx2830 nx2830
+   Net nx2573 nx2573
+   Net nx2631 nx2631
+   Net nx2825 nx2825
+   Net nx2821 nx2821
+   Net nx2823 nx2823
+   Net nx2743 nx2743
+   Net nx2773 nx2773
+   Net nx2923 nx2923
+   Net nx2757 nx2757
+   Net nx2745 nx2745
+   Net nx2775 nx2775
+   Net nx2766 nx2766
+   Net nx2771 nx2771
+   Net nx2819 nx2819
+   Net nx2877 nx2877
+   Net nx2875 nx2875
+   Net nx2873 nx2873
+   Net nx2871 nx2871
+   Net nx2919 nx2919
+   Net nx1272 nx1272
+   Net nx2692 nx2692
+   Net nx2699 nx2699
+   Net nx2755 nx2755
+   Net nx1254 nx1254
+   Net nx2740 nx2740
+   Net nx2591 nx2591
+   Net nx1290 nx1290
+   Net nx2643 nx2643
+   Net nx2645 nx2645
+   Net nx2613 nx2613
+   Net nx2605 nx2605
+   Net nx2659 nx2659
+   Net nx2714 nx2714
+   Net nx2709 nx2709
+   Net nx2967 nx2967
+   Net nx2921 nx2921
+   Net nx2925 nx2925
+   Net nx2695 nx2695
+   Net nx2795 nx2795
+   Net nx2747 nx2747
+   Net nx2797 nx2797
+   Net nx2595 nx2595
+   Net nx2647 nx2647
+   Net nx2649 nx2649
+   Net nx2697 nx2697
+   Net nx2603 nx2603
+   Net nx2657 nx2657
+   Net nx2665 nx2665
+   Net nx2655 nx2655
+   Net nx2707 nx2707
+   Net nx2705 nx2705
+   Net nx2805 nx2805
+   Net nx2763 nx2763
+   Net nx2753 nx2753
+   Net nx1248 nx1248
+   Net nx1230 nx1230
+   Net nx2817 nx2817
+   Net nx1212 nx1212
+   Net nx2869 nx2869
+   Net nx1194 nx1194
+   Net nx2917 nx2917
+   Net nx2703 nx2703
+   Net nx2751 nx2751
+   Net nx1308 nx1308
+   Net nx2599 nx2599
+   Net nx2653 nx2653
+   Net nx2489 nx2489
+   Net nx1354 nx1354
+   Net nx822 nx822
+   Net nx2431 nx2431
+   Net nx2567 nx2567
+   Net nx2477 nx2477
+   Net nx1328 nx1328
+   Net nx2299 nx2299
+   Net nx2675 nx2675
+   Net nx364 nx364
+   Net nx2723 nx2723
+   Net nx2621 nx2621
+   Net nx444 nx444
+   Net nx2535 nx2535
+   Net nx2395 nx2395
+   Net nx1784 nx1784
+   Net nx902 nx902
+   Net nx2453 nx2453
+   Net nx2301 nx2301
+   Net nx1752 nx1752
+   Net nx2457 nx2457
+   Net nx2187 nx2187
+   Net nx2668 nx2668
+   Net nx2673 nx2673
+   Net nx2671 nx2671
+   Net nx2719 nx2719
+   Net nx2623 nx2623
+   Net nx2523 nx2523
+   Net nx2533 nx2533
+   Net nx1338 nx1338
+   Net nx2511 nx2511
+   Net nx2481 nx2481
+   Net nx2525 nx2525
+   Net nx2677 nx2677
+   Net nx2769 nx2769
+   Net nx2721 nx2721
+   Net nx2725 nx2725
+   Net nx2619 nx2619
+   Net nx2593 nx2593
+   Net nx1340 nx1340
+   Net nx2479 nx2479
+   Net nx2486 nx2486
+   Net nx2397 nx2397
+   Net nx2601 nx2601
+   Net nx2531 nx2531
+   Net nx2521 nx2521
+   Net nx1284 nx1284
+   Net nx1266 nx1266
+   Net nx2717 nx2717
+   Net nx1302 nx1302
+   Net nx2617 nx2617
+   Net nx2519 nx2519
+   Net nx1734 nx1734
+   Net nx1804 nx1804
+   Net nx204 nx204
+   Net nx3863 nx3863
+   Net nx3865 nx3865
+   Net nx2260 nx2260
+   Net nx134 nx134
+   Net nx138 nx138
+   Net nx2372 nx2372
+   Net nx208 nx208
+   Net nx3859 nx3859
+   Net nx190 nx190
+   Net nx114 nx114
+   Net nx3861 nx3861
+   Net nx3717 nx3717
+   Net mac_out_9 mac_out_9
+   Net mac_out_10 mac_out_10
+   Net mac_out_11 mac_out_11
+   Net mac_out_12 mac_out_12
+   Net mac_out_13 mac_out_13
+   Net mac_out_14 mac_out_14
+   Net mac_out_15 mac_out_15
+   Net mac_out_16 mac_out_16
+   Net mac_out_17 mac_out_17
+   Net mac_out_18 mac_out_18
+   Net mac_out_19 mac_out_19
+   Net mac_out_20 mac_out_20
+   Net mac_out_21 mac_out_21
+   Net mac_out_22 mac_out_22
+   Net mac_out_23 mac_out_23
+   Net mac_out_24 mac_out_24
+   Net mac_out_25 mac_out_25
+   Net mac_out_26 mac_out_26
+   Net mac_out_27 mac_out_27
+   Net mac_out_28 mac_out_28
+   Net mac_out_5 mac_out_5
+   Net mac_out_6 mac_out_6
+   Net mac_out_7 mac_out_7
+   Net mac_out_8 mac_out_8
+   Net mac_out_29 mac_out_29
+   Net mac_out_30 mac_out_30
+   Net nx3707 nx3707
+   Net mac_out_2 mac_out_2
+   Net nx3689 nx3689
+   Net mac_out_4 mac_out_4
+   Net nx3712 nx3712
+   Net mac_out_3 mac_out_3
+   Net mac_out_1 mac_out_1
+   Net nx3490 nx3490
+   Net nx2748 nx2748
+   Net nx3495 nx3495
+   Net nx2742 nx2742
+   Net nx3500 nx3500
+   Net nx3505 nx3505
+   Net nx2800 nx2800
+   Net nx3485 nx3485
+   Net nx3473 nx3473
+   Net nx3478 nx3478
+   Net nx3697 nx3697
+   Net nx2788 nx2788
+   Net nx3702 nx3702
+   Net nx3600 nx3600
+   Net nx3605 nx3605
+   Net nx2754 nx2754
+   Net nx2736 nx2736
+   Net nx2804 nx2804
+   Net nx2822 nx2822
+   Net nx3879 nx3879
+   Net nx2816 nx2816
+   Net nx2782 nx2782
+   Net nx2762 nx2762
+   Net nx2776 nx2776
+   Net nx2794 nx2794
+   Net nx3883 nx3883
+   Net nx2622 nx2622
+   Net nx2616 nx2616
+   Net misr_out_1 misr_out_1
+   Net misr_out_3 misr_out_3
+   Net misr_out_8 misr_out_8
+   Net misr_out_9 misr_out_9
+   Net misr_out_11 misr_out_11
+   Net misr_out_12 misr_out_12
+   Net misr_out_14 misr_out_14
+   Net misr_out_15 misr_out_15
+   Net misr_out_16 misr_out_16
+   Net misr_out_19 misr_out_19
+   Net misr_out_21 misr_out_21
+   Net misr_out_22 misr_out_22
+   Net misr_out_23 misr_out_23
+   Net misr_out_24 misr_out_24
+   Net misr_out_25 misr_out_25
+   Net misr_out_26 misr_out_26
+   Net misr_out_27 misr_out_27
+   Net misr_out_28 misr_out_28
+   Net misr_out_29 misr_out_29
+   Net instance0_MISR_misrreg_4 instance0_MISR_misrreg_4
+   Net instance0_MISR_misrreg_3 instance0_MISR_misrreg_3
+   Net instance0_MISR_misrreg_5 instance0_MISR_misrreg_5
+   Net instance0_MISR_misrreg_22 instance0_MISR_misrreg_22
+   Net instance0_MISR_misrreg_21 instance0_MISR_misrreg_21
+   Net instance0_MISR_misrreg_14 instance0_MISR_misrreg_14
+   Net nx1777 nx1777
+   Net nx1787 nx1787
+   Net nx1807 nx1807
+   Net nx1767 nx1767
+   Net nx2 nx2
+   Net nx14 nx14
+   Net nx1527 nx1527
+   Net nx1537 nx1537
+   Net nx1547 nx1547
+   Net nx1557 nx1557
+   Net nx1567 nx1567
+   Net nx1577 nx1577
+   Net nx1587 nx1587
+   Net nx1597 nx1597
+   Net nx1607 nx1607
+   Net nx1617 nx1617
+   Net nx1627 nx1627
+   Net nx1637 nx1637
+   Net nx1647 nx1647
+   Net nx1657 nx1657
+   Net nx1677 nx1677
+   Net nx3735 nx3735
+   Net nx3809 nx3809
+   Net misr_out_4 misr_out_4
+   Net misr_out_5 misr_out_5
+   Net misr_out_7 misr_out_7
+   Net nx3794 nx3794
+   Net nx3799 nx3799
+   Net instance0_MISR_cntr_6 instance0_MISR_cntr_6
+   Net nx80 nx80
+   Net instance0_MISR_cntr_5 instance0_MISR_cntr_5
+   Net nx70 nx70
+   Net instance0_MISR_cntr_0 instance0_MISR_cntr_0
+   Net instance0_MISR_cntr_1 instance0_MISR_cntr_1
+   Net nx2940 nx2940
+   Net nx3759 nx3759
+   Net nx2107 nx2107
+   Net nx2067 nx2067
+   Net instance0_MISR_misrreg_20 instance0_MISR_misrreg_20
+   Net nx3851 nx3851
+   Net instance0_MISR_misrreg_1 instance0_MISR_misrreg_1
+   Net nx3887 nx3887
+   Net nx2077 nx2077
+   Net nx2027 nx2027
+   Net instance0_MISR_misrreg_15 instance0_MISR_misrreg_15
+   Net nx2007 nx2007
+   Net instance0_MISR_misrreg_16 instance0_MISR_misrreg_16
+   Net instance0_MISR_misrreg_19 instance0_MISR_misrreg_19
+   Net nx1947 nx1947
+   Net nx3885 nx3885
+   Net instance0_MISR_misrreg_23 instance0_MISR_misrreg_23
+   Net instance0_MISR_misrreg_24 instance0_MISR_misrreg_24
+   Net instance0_MISR_misrreg_25 instance0_MISR_misrreg_25
+   Net instance0_MISR_misrreg_26 instance0_MISR_misrreg_26
+   Net instance0_MISR_misrreg_27 instance0_MISR_misrreg_27
+   Net instance0_MISR_misrreg_28 instance0_MISR_misrreg_28
+   Net nx1877 nx1877
+   Net instance0_MISR_misrreg_29 instance0_MISR_misrreg_29
+   Net instance0_MISR_misrreg_2 instance0_MISR_misrreg_2
+   Net nx1797 nx1797
+   Net instance0_MISR_misrreg_18 instance0_MISR_misrreg_18
+   Net instance0_MISR_misrreg_17 instance0_MISR_misrreg_17
+   Net nx1667 nx1667
+   Net nx3814 nx3814
+   Net misr_out_6 misr_out_6
+   Net misr_out_10 misr_out_10
+   Net misr_out_20 misr_out_20
+   Net nx1967 nx1967
+   Net nx2157 nx2157
+   Net nx2137 nx2137
+   Net nx2127 nx2127
+   Net nx2117 nx2117
+   Net nx2097 nx2097
+   Net nx2087 nx2087
+   Net nx2057 nx2057
+   Net nx2047 nx2047
+   Net nx2017 nx2017
+   Net nx1977 nx1977
+   Net nx1957 nx1957
+   Net nx1937 nx1937
+   Net nx1927 nx1927
+   Net nx1917 nx1917
+   Net nx1907 nx1907
+   Net nx1897 nx1897
+   Net nx1887 nx1887
+   Net nx1687 nx1687
+   Net nx1697 nx1697
+   Net nx1707 nx1707
+   Net nx1717 nx1717
+   Net nx1727 nx1727
+   Net nx1737 nx1737
+   Net nx1747 nx1747
+   Net nx1757 nx1757
+   Net nx1817 nx1817
+   Net nx1827 nx1827
+   Net nx1837 nx1837
+   Net nx1847 nx1847
+   Net nx1857 nx1857
+   Net nx3260 nx3260
+   Net nx1092 nx1092
+   Net nx830 nx830
+   Net nx738 nx738
+   Net nx372 nx372
+   Net nx194 nx194
+   Net nx458 nx458
+   Net nx480 nx480
+   Net nx502 nx502
+   Net nx524 nx524
+   Net nx546 nx546
+   Net nx568 nx568
+   Net nx590 nx590
+   Net nx276 nx276
+   Net nx312 nx312
+   Net nx330 nx330
+   Net nx348 nx348
+   Net nx612 nx612
+   Net nx634 nx634
+   Net nx418 nx418
+   Net nx432 nx432
+   Net nx384 nx384
+   Net nx400 nx400
+   Net nx762 nx762
+   Net nx778 nx778
+   Net nx796 nx796
+   Net nx810 nx810
+   Net nx656 nx656
+   Net nx1886 nx1886
+   Net nx1257 nx1257
+   Net nx1267 nx1267
+   Net nx1277 nx1277
+   Net nx1287 nx1287
+   Net nx1297 nx1297
+   Net nx1307 nx1307
+   Net nx1317 nx1317
+   Net nx1327 nx1327
+   Net nx1337 nx1337
+   Net nx1347 nx1347
+   Net nx1357 nx1357
+   Net nx1207 nx1207
+   Net nx1217 nx1217
+   Net nx1227 nx1227
+   Net nx1237 nx1237
+   Net nx1247 nx1247
+   Net nx678 nx678
+   Net nx876 nx876
+   Net nx890 nx890
+   Net nx842 nx842
+   Net nx292 nx292
+   Net nx1377 nx1377
+   Net nx1387 nx1387
+   Net nx1397 nx1397
+   Net nx1407 nx1407
+   Net nx1417 nx1417
+   Net nx1427 nx1427
+   Net nx1437 nx1437
+   Net nx1447 nx1447
+   Net nx1457 nx1457
+   Net nx1467 nx1467
+   Net nx1477 nx1477
+   Net nx1487 nx1487
+   Net nx1497 nx1497
+   Net nx1507 nx1507
+   Net nx1517 nx1517
+   Net nx1367 nx1367
+   Net nx858 nx858
+   Net instance0_MISR_misrreg_13 instance0_MISR_misrreg_13
+   Net instance0_MISR_misrreg_12 instance0_MISR_misrreg_12
+   Net instance0_MISR_misrreg_11 instance0_MISR_misrreg_11
+   Net instance0_MISR_misrreg_10 instance0_MISR_misrreg_10
+   Net instance0_MISR_misrreg_9 instance0_MISR_misrreg_9
+   Net instance0_MISR_misrreg_8 instance0_MISR_misrreg_8
+   Net instance0_MISR_misrreg_7 instance0_MISR_misrreg_7
+   Net instance0_MISR_misrreg_6 instance0_MISR_misrreg_6
+   Net instance0_MISR_misrreg_0 instance0_MISR_misrreg_0
+   Net instance0_MISR_misrreg_31 instance0_MISR_misrreg_31
+   Net instance0_MISR_misrreg_30 instance0_MISR_misrreg_30
+   Net lfsr_out1_1 lfsr_out1_1
+   Net lfsr_out1_2 lfsr_out1_2
+   Net lfsr_out1_3 lfsr_out1_3
+   Net lfsr_out1_4 lfsr_out1_4
+   Net lfsr_out1_5 lfsr_out1_5
+   Net lfsr_out1_6 lfsr_out1_6
+   Net lfsr_out1_7 lfsr_out1_7
+   Net lfsr_out1_8 lfsr_out1_8
+   Net lfsr_out1_9 lfsr_out1_9
+   Net lfsr_out1_10 lfsr_out1_10
+   Net lfsr_out1_11 lfsr_out1_11
+   Net lfsr_out1_12 lfsr_out1_12
+   Net lfsr_out1_13 lfsr_out1_13
+   Net lfsr_out1_14 lfsr_out1_14
+   Net lfsr_out1_15 lfsr_out1_15
+   Net lfsr_out1_0 lfsr_out1_0
+   Net nx2281 nx2281
+   Net lfsr_out2_1 lfsr_out2_1
+   Net lfsr_out2_2 lfsr_out2_2
+   Net lfsr_out2_3 lfsr_out2_3
+   Net lfsr_out2_4 lfsr_out2_4
+   Net lfsr_out2_5 lfsr_out2_5
+   Net lfsr_out2_6 lfsr_out2_6
+   Net lfsr_out2_7 lfsr_out2_7
+   Net lfsr_out2_8 lfsr_out2_8
+   Net lfsr_out2_9 lfsr_out2_9
+   Net lfsr_out2_10 lfsr_out2_10
+   Net lfsr_out2_11 lfsr_out2_11
+   Net lfsr_out2_12 lfsr_out2_12
+   Net lfsr_out2_13 lfsr_out2_13
+   Net lfsr_out2_14 lfsr_out2_14
+   Net lfsr_out2_15 lfsr_out2_15
+   Net lfsr_out2_0 lfsr_out2_0
+   Net instance0_MISR_allTaps instance0_MISR_allTaps
+   Net misr_out_30 misr_out_30
+   Net mac_out_31 mac_out_31
+   Net nx3169 nx3169
+   Net max_inst_YA_14 max_inst_YA_14
+   Net max_inst_YA_13 max_inst_YA_13
+   Net max_inst_YA_12 max_inst_YA_12
+   Net max_inst_YA_11 max_inst_YA_11
+   Net max_inst_YA_10 max_inst_YA_10
+   Net max_inst_YA_9 max_inst_YA_9
+   Net max_inst_YA_8 max_inst_YA_8
+   Net max_inst_YA_7 max_inst_YA_7
+   Net max_inst_YA_6 max_inst_YA_6
+   Net max_inst_YA_5 max_inst_YA_5
+   Net max_inst_YA_4 max_inst_YA_4
+   Net max_inst_YB_15 max_inst_YB_15
+   Net max_inst_YB_3 max_inst_YB_3
+   Net max_inst_YB_11 max_inst_YB_11
+   Net max_inst_YB_7 max_inst_YB_7
+   Net max_inst_YA_3 max_inst_YA_3
+   Net max_inst_YA_2 max_inst_YA_2
+   Net max_inst_YB_10 max_inst_YB_10
+   Net max_inst_YB_6 max_inst_YB_6
+   Net max_inst_YB_14 max_inst_YB_14
+   Net max_inst_YB_2 max_inst_YB_2
+   Net max_inst_YB_13 max_inst_YB_13
+   Net max_inst_YB_1 max_inst_YB_1
+   Net max_inst_YB_9 max_inst_YB_9
+   Net max_inst_YB_5 max_inst_YB_5
+   Net nx2403 nx2403
+   Net mac_out_0 mac_out_0
+   Net nx2376 nx2376
+   Net max_inst_YB_8 max_inst_YB_8
+   Net max_inst_YB_4 max_inst_YB_4
+   Net max_inst_YB_12 max_inst_YB_12
+   Net max_inst_YB_0 max_inst_YB_0
+   Net clk clk
+   Net rst rst
+   Net tst_mode tst_mode
+   Net tst_output_flag tst_output_flag
+   Net multiplierOut[31] multiplierOut[31]
+   Net multiplierOut[30] multiplierOut[30]
+   Net multiplierOut[29] multiplierOut[29]
+   Net multiplierOut[28] multiplierOut[28]
+   Net multiplierOut[27] multiplierOut[27]
+   Net multiplierOut[26] multiplierOut[26]
+   Net multiplierOut[25] multiplierOut[25]
+   Net multiplierOut[24] multiplierOut[24]
+   Net multiplierOut[23] multiplierOut[23]
+   Net multiplierOut[22] multiplierOut[22]
+   Net multiplierOut[21] multiplierOut[21]
+   Net multiplierOut[20] multiplierOut[20]
+   Net multiplierOut[19] multiplierOut[19]
+   Net multiplierOut[18] multiplierOut[18]
+   Net multiplierOut[17] multiplierOut[17]
+   Net multiplierOut[16] multiplierOut[16]
+   Net multiplierOut[15] multiplierOut[15]
+   Net multiplierOut[14] multiplierOut[14]
+   Net multiplierOut[13] multiplierOut[13]
+   Net multiplierOut[12] multiplierOut[12]
+   Net multiplierOut[11] multiplierOut[11]
+   Net multiplierOut[10] multiplierOut[10]
+   Net multiplierOut[9] multiplierOut[9]
+   Net multiplierOut[8] multiplierOut[8]
+   Net multiplierOut[7] multiplierOut[7]
+   Net multiplierOut[6] multiplierOut[6]
+   Net multiplierOut[5] multiplierOut[5]
+   Net multiplierOut[4] multiplierOut[4]
+   Net multiplierOut[3] multiplierOut[3]
+   Net multiplierOut[2] multiplierOut[2]
+   Net multiplierOut[1] multiplierOut[1]
+   Net multiplierOut[0] multiplierOut[0]
+   Net B[15] B[15]
+   Net B[14] B[14]
+   Net B[13] B[13]
+   Net B[12] B[12]
+   Net B[11] B[11]
+   Net B[10] B[10]
+   Net B[9] B[9]
+   Net B[8] B[8]
+   Net B[7] B[7]
+   Net B[6] B[6]
+   Net B[5] B[5]
+   Net B[4] B[4]
+   Net B[3] B[3]
+   Net B[2] B[2]
+   Net B[1] B[1]
+   Net B[0] B[0]
+   Net A[15] A[15]
+   Net A[14] A[14]
+   Net A[13] A[13]
+   Net A[12] A[12]
+   Net A[11] A[11]
+   Net A[10] A[10]
+   Net A[9] A[9]
+   Net A[8] A[8]
+   Net A[7] A[7]
+   Net A[6] A[6]
+   Net A[5] A[5]
+   Net A[4] A[4]
+   Net A[3] A[3]
+   Net A[2] A[2]
+   Net A[1] A[1]
+   Net A[0] A[0]
+   Global VSS VSS
+   Global VDD VDD
+   Inst max_inst_instance3_RegC_reg_output_22 X_max_inst_instance3_RegC_reg_output_22 dff
+   Inst max_inst_instance3_RegC_reg_output_23 X_max_inst_instance3_RegC_reg_output_23 dff
+   Inst max_inst_instance3_RegC_reg_output_24 X_max_inst_instance3_RegC_reg_output_24 dff
+   Inst max_inst_instance3_RegC_reg_output_25 X_max_inst_instance3_RegC_reg_output_25 dff
+   Inst ix2389 X_ix2389 nor02ii
+   Inst ix2411 X_ix2411 nor02ii
+   Inst ix2433 X_ix2433 nor02ii
+   Inst ix2975 X_ix2975 nor04
+   Inst ix2905 X_ix2905 nor04
+   Inst ix3115 X_ix3115 nor04
+   Inst ix109 X_ix109 nand02
+   Inst ix3886 X_ix3886 nand02
+   Inst ix3884 X_ix3884 nand02
+   Inst ix3591 X_ix3591 nand02
+   Inst ix3596 X_ix3596 nand02
+   Inst ix3571 X_ix3571 nand02
+   Inst ix3576 X_ix3576 nand02
+   Inst ix2429 X_ix2429 xnor2
+   Inst ix1998 X_ix1998 mux21
+   Inst ix1988 X_ix1988 mux21
+   Inst ix1858 X_ix1858 mux21
+   Inst ix1868 X_ix1868 mux21
+   Inst ix2038 X_ix2038 mux21
+   Inst ix2168 X_ix2168 mux21
+   Inst ix2148 X_ix2148 mux21
+   Inst ix1558 X_ix1558 mux21
+   Inst ix1548 X_ix1548 mux21
+   Inst ix1598 X_ix1598 mux21
+   Inst ix1588 X_ix1588 mux21
+   Inst ix1578 X_ix1578 mux21
+   Inst ix2473 X_ix2473 xnor2
+   Inst ix2363 X_ix2363 xnor2
+   Inst ix2385 X_ix2385 xnor2
+   Inst ix2407 X_ix2407 xnor2
+   Inst ix1568 X_ix1568 mux21
+   Inst ix3414 X_ix3414 mux21
+   Inst ix3425 X_ix3425 mux21
+   Inst ix3369 X_ix3369 mux21
+   Inst ix3381 X_ix3381 mux21
+   Inst ix3392 X_ix3392 mux21
+   Inst ix3403 X_ix3403 mux21
+   Inst instance0_MISR_reg_last_sig_17 X_instance0_MISR_reg_last_sig_17 dff
+   Inst instance0_MISR_reg_last_sig_18 X_instance0_MISR_reg_last_sig_18 dff
+   Inst instance0_MISR_reg_last_sig_31 X_instance0_MISR_reg_last_sig_31 dff
+   Inst instance0_MISR_reg_last_sig_13 X_instance0_MISR_reg_last_sig_13 dff
+   Inst instance0_MISR_reg_last_sig_0 X_instance0_MISR_reg_last_sig_0 dff
+   Inst instance0_MISR_reg_last_sig_2 X_instance0_MISR_reg_last_sig_2 dff
+   Inst max_inst_instance3_RegC_reg_output_26 X_max_inst_instance3_RegC_reg_output_26 dff
+   Inst max_inst_instance3_RegC_reg_output_27 X_max_inst_instance3_RegC_reg_output_27 dff
+   Inst ix3718 X_ix3718 or02
+   Inst ix2455 X_ix2455 nor02ii
+   Inst ix2477 X_ix2477 nor02ii
+   Inst ix2367 X_ix2367 nor02ii
+   Inst ix3581 X_ix3581 nand02
+   Inst ix3586 X_ix3586 nand02
+   Inst ix3407 X_ix3407 nand02
+   Inst ix3418 X_ix3418 nand02
+   Inst ix3385 X_ix3385 nand02
+   Inst ix3396 X_ix3396 nand02
+   Inst ix3467 X_ix3467 nand03
+   Inst ix2302 X_ix2302 inv01
+   Inst ix2635 X_ix2635 xnor2
+   Inst ix2629 X_ix2629 xnor2
+   Inst ix2659 X_ix2659 xnor2
+   Inst ix2653 X_ix2653 xnor2
+   Inst ix2647 X_ix2647 xnor2
+   Inst ix2641 X_ix2641 xnor2
+   Inst ix2451 X_ix2451 xnor2
+   Inst ix2463 X_ix2463 xor2
+   Inst ix2485 X_ix2485 xor2
+   Inst ix2375 X_ix2375 xor2
+   Inst ix2397 X_ix2397 xor2
+   Inst ix2419 X_ix2419 xor2
+   Inst ix2441 X_ix2441 xor2
+   Inst ix3882 X_ix3882 inv02
+   Inst ix3780 X_ix3780 nand04
+   Inst ix3825 X_ix3825 nand04
+   Inst ix3117 X_ix3117 and04
+   Inst ix2689 X_ix2689 xnor2
+   Inst ix2683 X_ix2683 xnor2
+   Inst ix2677 X_ix2677 xnor2
+   Inst ix2671 X_ix2671 xnor2
+   Inst ix2665 X_ix2665 xnor2
+   Inst ix2297 X_ix2297 xnor2
+   Inst ix3280 X_ix3280 xnor2
+   Inst ix2209 X_ix2209 xnor2
+   Inst ix3084 X_ix3084 xnor2
+   Inst ix2253 X_ix2253 xnor2
+   Inst ix3190 X_ix3190 xnor2
+   Inst ix1678 X_ix1678 mux21
+   Inst ix1668 X_ix1668 mux21
+   Inst ix1658 X_ix1658 mux21
+   Inst ix1648 X_ix1648 mux21
+   Inst ix1638 X_ix1638 mux21
+   Inst ix1628 X_ix1628 mux21
+   Inst ix1618 X_ix1618 mux21
+   Inst ix1608 X_ix1608 mux21
+   Inst max_inst_instance3_RegC_reg_output_19 X_max_inst_instance3_RegC_reg_output_19 dff
+   Inst max_inst_instance3_RegC_reg_output_18 X_max_inst_instance3_RegC_reg_output_18 dff
+   Inst max_inst_instance3_RegC_reg_output_15 X_max_inst_instance3_RegC_reg_output_15 dff
+   Inst max_inst_instance3_RegC_reg_output_14 X_max_inst_instance3_RegC_reg_output_14 dff
+   Inst max_inst_instance3_RegC_reg_output_17 X_max_inst_instance3_RegC_reg_output_17 dff
+   Inst max_inst_instance3_RegC_reg_output_16 X_max_inst_instance3_RegC_reg_output_16 dff
+   Inst ix2279 X_ix2279 nor02
+   Inst ix2191 X_ix2191 nor02
+   Inst ix2235 X_ix2235 nor02
+   Inst ix3240 X_ix3240 inv01
+   Inst ix3314 X_ix3314 xor2
+   Inst ix3285 X_ix3285 xor2
+   Inst ix3144 X_ix3144 xor2
+   Inst ix3089 X_ix3089 xor2
+   Inst ix3244 X_ix3244 xor2
+   Inst ix3196 X_ix3196 xor2
+   Inst ix2301 X_ix2301 nor02ii
+   Inst ix2213 X_ix2213 nor02ii
+   Inst ix2257 X_ix2257 nor02ii
+   Inst ix2295 X_ix2295 oai22
+   Inst ix2207 X_ix2207 oai22
+   Inst ix2251 X_ix2251 oai22
+   Inst ix3330 X_ix3330 aoi22
+   Inst ix3192 X_ix3192 aoi22
+   Inst ix3282 X_ix3282 aoi22
+   Inst ix3531 X_ix3531 nand02
+   Inst ix3536 X_ix3536 nand02
+   Inst ix3541 X_ix3541 nand02
+   Inst ix3546 X_ix3546 nand02
+   Inst ix3551 X_ix3551 nand02
+   Inst ix3556 X_ix3556 nand02
+   Inst ix3561 X_ix3561 nand02
+   Inst ix3566 X_ix3566 nand02
+   Inst ix2309 X_ix2309 inv01
+   Inst ix3311 X_ix3311 inv01
+   Inst ix2221 X_ix2221 inv01
+   Inst ix3140 X_ix3140 inv01
+   Inst ix2265 X_ix2265 inv01
+   Inst ix2707 X_ix2707 xnor2
+   Inst ix2701 X_ix2701 xnor2
+   Inst ix2695 X_ix2695 xnor2
+   Inst ix3258 X_ix3258 inv01
+   Inst ix2551 X_ix2551 xnor2
+   Inst ix3460 X_ix3460 xnor2
+   Inst ix3456 X_ix3456 xnor2
+   Inst ix2495 X_ix2495 xnor2
+   Inst ix2523 X_ix2523 xnor2
+   Inst ix3293 X_ix3293 xnor2
+   Inst ix3321 X_ix3321 xnor2
+   Inst ix3254 X_ix3254 xnor2
+   Inst ix3204 X_ix3204 xnor2
+   Inst ix3260 X_ix3260 xnor2
+   Inst ix3214 X_ix3214 xnor2
+   Inst ix3210 X_ix3210 xnor2
+   Inst ix3458 X_ix3458 mux21
+   Inst ix3436 X_ix3436 mux21
+   Inst ix3447 X_ix3447 mux21
+   Inst ix3299 X_ix3299 mux21
+   Inst ix3256 X_ix3256 mux21
+   Inst max_inst_instance3_RegC_reg_output_30 X_max_inst_instance3_RegC_reg_output_30 dff
+   Inst max_inst_instance3_RegC_reg_output_28 X_max_inst_instance3_RegC_reg_output_28 dff
+   Inst max_inst_instance3_RegC_reg_output_29 X_max_inst_instance3_RegC_reg_output_29 dff
+   Inst ix3261 X_ix3261 nor02
+   Inst ix1537 X_ix1537 nor02
+   Inst ix1577 X_ix1577 nor02
+   Inst ix1451 X_ix1451 nor02
+   Inst ix1423 X_ix1423 nor02
+   Inst ix1559 X_ix1559 aoi21
+   Inst ix1525 X_ix1525 nor03
+   Inst ix1501 X_ix1501 nor04
+   Inst ix2549 X_ix2549 xor2
+   Inst ix2507 X_ix2507 xor2
+   Inst ix2521 X_ix2521 xor2
+   Inst ix3362 X_ix3362 or02
+   Inst ix3297 X_ix3297 or02
+   Inst ix3218 X_ix3218 or02
+   Inst ix2555 X_ix2555 nor02ii
+   Inst ix2499 X_ix2499 nor02ii
+   Inst ix2527 X_ix2527 nor02ii
+   Inst ix1531 X_ix1531 nor04
+   Inst ix3429 X_ix3429 nand02
+   Inst ix3440 X_ix3440 nand02
+   Inst ix3301 X_ix3301 inv01
+   Inst ix2568 X_ix2568 aoi221
+   Inst ix2188 X_ix2188 aoi221
+   Inst ix2432 X_ix2432 aoi221
+   Inst ix1905 X_ix1905 nor02
+   Inst ix1949 X_ix1949 nor02
+   Inst ix1927 X_ix1927 nor02
+   Inst ix2184 X_ix2184 aoi21
+   Inst ix1887 X_ix1887 nor03
+   Inst ix303 X_ix303 or02
+   Inst ix3253 X_ix3253 nor02ii
+   Inst ix293 X_ix293 nor02ii
+   Inst ix1873 X_ix1873 nor02ii
+   Inst ix1869 X_ix1869 nor02ii
+   Inst ix1943 X_ix1943 oai22
+   Inst ix1627 X_ix1627 oai22
+   Inst ix1765 X_ix1765 oai22
+   Inst ix1687 X_ix1687 oai22
+   Inst ix1565 X_ix1565 oai22
+   Inst ix1543 X_ix1543 oai22
+   Inst ix443 X_ix443 inv01
+   Inst ix363 X_ix363 inv01
+   Inst ix2280 X_ix2280 inv01
+   Inst ix901 X_ix901 inv01
+   Inst ix821 X_ix821 inv01
+   Inst ix3868 X_ix3868 inv01
+   Inst ix1761 X_ix1761 inv01
+   Inst ix3290 X_ix3290 inv01
+   Inst ix3319 X_ix3319 inv01
+   Inst ix3876 X_ix3876 inv01
+   Inst ix2778 X_ix2778 inv01
+   Inst ix3451 X_ix3451 nand02
+   Inst ix2690 X_ix2690 nand02
+   Inst ix2508 X_ix2508 nand02
+   Inst ix2390 X_ix2390 nand03
+   Inst ix1899 X_ix1899 inv01
+   Inst ix1913 X_ix1913 inv01
+   Inst ix1865 X_ix1865 inv01
+   Inst ix2502 X_ix2502 inv01
+   Inst ix2388 X_ix2388 xnor2
+   Inst ix2498 X_ix2498 xnor2
+   Inst ix2442 X_ix2442 xnor2
+   Inst ix1769 X_ix1769 mux21
+   Inst ix1707 X_ix1707 mux21
+   Inst ix1691 X_ix1691 mux21
+   Inst ix1675 X_ix1675 mux21
+   Inst ix1743 X_ix1743 mux21
+   Inst ix1723 X_ix1723 mux21
+   Inst max_inst_instance3_RegC_reg_output_1 X_max_inst_instance3_RegC_reg_output_1 dff
+   Inst max_inst_instance3_RegC_reg_output_3 X_max_inst_instance3_RegC_reg_output_3 dff
+   Inst max_inst_instance3_RegC_reg_output_2 X_max_inst_instance3_RegC_reg_output_2 dff
+   Inst ix2458 X_ix2458 aoi221
+   Inst ix2270 X_ix2270 and02
+   Inst ix2392 X_ix2392 xor2
+   Inst ix1957 X_ix1957 xor2
+   Inst ix2448 X_ix2448 xor2
+   Inst ix1739 X_ix1739 oai22
+   Inst ix1671 X_ix1671 oai22
+   Inst ix1613 X_ix1613 oai22
+   Inst ix2444 X_ix2444 aoi22
+   Inst ix2580 X_ix2580 aoi22
+   Inst ix2561 X_ix2561 aoi22
+   Inst ix2540 X_ix2540 aoi22
+   Inst ix2426 X_ix2426 aoi22
+   Inst ix2406 X_ix2406 aoi22
+   Inst ix2891 X_ix2891 aoi22
+   Inst ix2938 X_ix2938 aoi22
+   Inst ix3359 X_ix3359 aoi22
+   Inst ix3373 X_ix3373 aoi22
+   Inst ix3230 X_ix3230 nand02
+   Inst ix3171 X_ix3171 nand02
+   Inst ix3112 X_ix3112 nand02
+   Inst ix3119 X_ix3119 nand02
+   Inst ix3008 X_ix3008 nand02
+   Inst ix3015 X_ix3015 nand02
+   Inst ix3060 X_ix3060 nand02
+   Inst ix3066 X_ix3066 nand02
+   Inst ix3154 X_ix3154 inv01
+   Inst ix3096 X_ix3096 xnor2
+   Inst ix3160 X_ix3160 xnor2
+   Inst ix3156 X_ix3156 xnor2
+   Inst ix3150 X_ix3150 xnor2
+   Inst ix3001 X_ix3001 xnor2
+   Inst ix2998 X_ix2998 xnor2
+   Inst ix2991 X_ix2991 xnor2
+   Inst ix3053 X_ix3053 xnor2
+   Inst ix3050 X_ix3050 xnor2
+   Inst ix3044 X_ix3044 xnor2
+   Inst ix3164 X_ix3164 xnor2
+   Inst ix3110 X_ix3110 xnor2
+   Inst ix3005 X_ix3005 xnor2
+   Inst ix3057 X_ix3057 xnor2
+   Inst ix3295 X_ix3295 mux21
+   Inst ix3224 X_ix3224 mux21
+   Inst ix3267 X_ix3267 mux21
+   Inst ix3152 X_ix3152 mux21
+   Inst ix3206 X_ix3206 mux21
+   Inst ix3046 X_ix3046 mux21
+   Inst ix3098 X_ix3098 mux21
+   Inst ix3216 X_ix3216 mux21
+   Inst ix3162 X_ix3162 mux21
+   Inst ix3055 X_ix3055 mux21
+   Inst ix3108 X_ix3108 mux21
+   Inst ix1495 X_ix1495 nor02
+   Inst ix757 X_ix757 nor02
+   Inst ix1443 X_ix1443 nor02
+   Inst ix1129 X_ix1129 nor02
+   Inst ix1111 X_ix1111 nor02
+   Inst ix1165 X_ix1165 nor02
+   Inst ix1147 X_ix1147 nor02
+   Inst ix3272 X_ix3272 or02
+   Inst ix3166 X_ix3166 or02
+   Inst ix3274 X_ix3274 nand02
+   Inst ix3180 X_ix3180 nand02
+   Inst ix3182 X_ix3182 nand02
+   Inst ix3228 X_ix3228 nand02
+   Inst ix3208 X_ix3208 inv01
+   Inst ix3048 X_ix3048 inv01
+   Inst ix3100 X_ix3100 inv01
+   Inst ix3269 X_ix3269 xnor2
+   Inst ix3265 X_ix3265 xnor2
+   Inst ix3178 X_ix3178 xnor2
+   Inst ix3174 X_ix3174 xnor2
+   Inst ix3226 X_ix3226 xnor2
+   Inst ix3222 X_ix3222 xnor2
+   Inst ix3105 X_ix3105 xnor2
+   Inst ix3102 X_ix3102 xnor2
+   Inst ix103 X_ix103 and03
+   Inst ix3626 X_ix3626 and02
+   Inst ix2111 X_ix2111 xor2
+   Inst ix2133 X_ix2133 xor2
+   Inst ix3038 X_ix3038 xor2
+   Inst ix2986 X_ix2986 xor2
+   Inst ix3844 X_ix3844 inv02
+   Inst ix3878 X_ix3878 inv02
+   Inst ix3880 X_ix3880 inv02
+   Inst ix3628 X_ix3628 nand04
+   Inst reg_instance0_MISR_cntr_4 X_reg_instance0_MISR_cntr_4 dffr
+   Inst reg_instance0_MISR_cntr_2 X_reg_instance0_MISR_cntr_2 dffr
+   Inst reg_instance0_MISR_cntr_3 X_reg_instance0_MISR_cntr_3 dffr
+   Inst ix81 X_ix81 nor02ii
+   Inst ix63 X_ix63 nor02ii
+   Inst ix2103 X_ix2103 nor02ii
+   Inst ix2125 X_ix2125 nor02ii
+   Inst ix2169 X_ix2169 nor02ii
+   Inst ix2163 X_ix2163 oai22
+   Inst ix3086 X_ix3086 aoi22
+   Inst ix3653 X_ix3653 nand02
+   Inst ix3613 X_ix3613 nand02
+   Inst ix3660 X_ix3660 nand02
+   Inst ix3636 X_ix3636 nand02
+   Inst ix3511 X_ix3511 nand02
+   Inst ix3516 X_ix3516 nand02
+   Inst ix3521 X_ix3521 nand02
+   Inst ix3526 X_ix3526 nand02
+   Inst ix95 X_ix95 nand03
+   Inst ix3632 X_ix3632 nand03
+   Inst ix77 X_ix77 inv01
+   Inst ix21 X_ix21 inv01
+   Inst ix3035 X_ix3035 inv01
+   Inst ix79 X_ix79 xnor2
+   Inst ix2731 X_ix2731 xnor2
+   Inst ix2725 X_ix2725 xnor2
+   Inst ix2719 X_ix2719 xnor2
+   Inst ix2177 X_ix2177 inv01
+   Inst ix2099 X_ix2099 xnor2
+   Inst ix2121 X_ix2121 xnor2
+   Inst ix2165 X_ix2165 xnor2
+   Inst ix2982 X_ix2982 xnor2
+   Inst ix1718 X_ix1718 mux21
+   Inst ix1708 X_ix1708 mux21
+   Inst ix1698 X_ix1698 mux21
+   Inst ix1688 X_ix1688 mux21
+   Inst ix2933 X_ix2933 mux21
+   Inst ix2984 X_ix2984 mux21
+   Inst max_inst_instance3_RegC_reg_output_10 X_max_inst_instance3_RegC_reg_output_10 dff
+   Inst max_inst_instance3_RegC_reg_output_11 X_max_inst_instance3_RegC_reg_output_11 dff
+   Inst max_inst_instance3_RegC_reg_output_13 X_max_inst_instance3_RegC_reg_output_13 dff
+   Inst max_inst_instance3_RegC_reg_output_12 X_max_inst_instance3_RegC_reg_output_12 dff
+   Inst ix2713 X_ix2713 xnor2
+   Inst ix3 X_ix3 nor02
+   Inst ix3617 X_ix3617 nor02
+   Inst ix2147 X_ix2147 nor02
+   Inst ix29 X_ix29 aoi21
+   Inst ix43 X_ix43 aoi21
+   Inst ix71 X_ix71 nor03
+   Inst ix15 X_ix15 nor03
+   Inst ix57 X_ix57 nor03
+   Inst ix3644 X_ix3644 nor02
+   Inst ix3073 X_ix3073 xnor2
+   Inst ix3069 X_ix3069 xnor2
+   Inst ix3126 X_ix3126 xnor2
+   Inst ix2948 X_ix2948 xnor2
+   Inst ix2942 X_ix2942 xnor2
+   Inst ix2804 X_ix2804 xnor2
+   Inst ix2800 X_ix2800 xnor2
+   Inst ix2793 X_ix2793 xnor2
+   Inst ix2853 X_ix2853 xnor2
+   Inst ix2850 X_ix2850 xnor2
+   Inst ix2844 X_ix2844 xnor2
+   Inst ix2808 X_ix2808 xnor2
+   Inst ix2857 X_ix2857 xnor2
+   Inst ix2908 X_ix2908 xnor2
+   Inst ix2956 X_ix2956 xnor2
+   Inst ix3020 X_ix3020 mux21
+   Inst ix3071 X_ix3071 mux21
+   Inst ix3124 X_ix3124 mux21
+   Inst ix3176 X_ix3176 mux21
+   Inst ix2944 X_ix2944 mux21
+   Inst ix2994 X_ix2994 mux21
+   Inst ix2846 X_ix2846 mux21
+   Inst ix2896 X_ix2896 mux21
+   Inst ix2855 X_ix2855 mux21
+   Inst ix2906 X_ix2906 mux21
+   Inst ix2953 X_ix2953 mux21
+   Inst ix3003 X_ix3003 mux21
+   Inst ix1177 X_ix1177 nor02
+   Inst ix1159 X_ix1159 nor02
+   Inst ix1141 X_ix1141 nor02
+   Inst ix3122 X_ix3122 xnor2
+   Inst ix2904 X_ix2904 xnor2
+   Inst ix2900 X_ix2900 xnor2
+   Inst ix2894 X_ix2894 xnor2
+   Inst ix2951 X_ix2951 xnor2
+   Inst ix3130 X_ix3130 nand02
+   Inst ix1123 X_ix1123 nor02
+   Inst ix1201 X_ix1201 nor02
+   Inst ix1183 X_ix1183 nor02
+   Inst ix1237 X_ix1237 nor02
+   Inst ix1219 X_ix1219 nor02
+   Inst ix2972 X_ix2972 nand02
+   Inst ix2974 X_ix2974 nand02
+   Inst ix3024 X_ix3024 nand02
+   Inst ix3026 X_ix3026 nand02
+   Inst ix3076 X_ix3076 nand02
+   Inst ix3078 X_ix3078 nand02
+   Inst ix3128 X_ix3128 nand02
+   Inst ix2810 X_ix2810 nand02
+   Inst ix2815 X_ix2815 nand02
+   Inst ix2860 X_ix2860 nand02
+   Inst ix2867 X_ix2867 nand02
+   Inst ix2910 X_ix2910 nand02
+   Inst ix2915 X_ix2915 nand02
+   Inst ix2958 X_ix2958 nand02
+   Inst ix2963 X_ix2963 nand02
+   Inst ix2946 X_ix2946 inv01
+   Inst ix2996 X_ix2996 inv01
+   Inst ix2848 X_ix2848 inv01
+   Inst ix2898 X_ix2898 inv01
+   Inst ix2970 X_ix2970 xnor2
+   Inst ix2966 X_ix2966 xnor2
+   Inst ix3022 X_ix3022 xnor2
+   Inst ix3018 X_ix3018 xnor2
+   Inst max_inst_instance3_RegC_reg_output_8 X_max_inst_instance3_RegC_reg_output_8 dff
+   Inst max_inst_instance3_RegC_reg_output_9 X_max_inst_instance3_RegC_reg_output_9 dff
+   Inst max_inst_instance3_RegC_reg_output_4 X_max_inst_instance3_RegC_reg_output_4 dff
+   Inst max_inst_instance3_RegC_reg_output_5 X_max_inst_instance3_RegC_reg_output_5 dff
+   Inst ix2353 X_ix2353 xor2
+   Inst ix2067 X_ix2067 xor2
+   Inst ix2089 X_ix2089 xor2
+   Inst ix1979 X_ix1979 xor2
+   Inst ix2001 X_ix2001 xor2
+   Inst ix2828 X_ix2828 or02
+   Inst ix2626 X_ix2626 or02
+   Inst ix2015 X_ix2015 nor02ii
+   Inst ix2037 X_ix2037 nor02ii
+   Inst ix2323 X_ix2323 nor02ii
+   Inst ix2345 X_ix2345 nor02ii
+   Inst ix2059 X_ix2059 nor02ii
+   Inst ix2081 X_ix2081 nor02ii
+   Inst ix3866 X_ix3866 inv01
+   Inst ix3874 X_ix3874 inv01
+   Inst ix3202 X_ix3202 inv01
+   Inst ix3252 X_ix3252 inv01
+   Inst ix2628 X_ix2628 inv01
+   Inst ix2011 X_ix2011 xnor2
+   Inst ix2033 X_ix2033 xnor2
+   Inst ix2319 X_ix2319 xnor2
+   Inst ix2341 X_ix2341 xnor2
+   Inst ix2055 X_ix2055 xnor2
+   Inst ix2077 X_ix2077 xnor2
+   Inst ix1967 X_ix1967 xnor2
+   Inst ix1989 X_ix1989 xnor2
+   Inst ix2738 X_ix2738 nand02
+   Inst ix2640 X_ix2640 nand02
+   Inst ix2588 X_ix2588 nand02
+   Inst ix1789 X_ix1789 inv01
+   Inst ix2734 X_ix2734 mux21
+   Inst ix2786 X_ix2786 mux21
+   Inst ix3343 X_ix3343 mux21
+   Inst ix3355 X_ix3355 mux21
+   Inst ix2835 X_ix2835 mux21
+   Inst ix2887 X_ix2887 mux21
+   Inst ix2636 X_ix2636 mux21
+   Inst ix2686 X_ix2686 mux21
+   Inst ix1797 X_ix1797 mux21
+   Inst ix1813 X_ix1813 mux21
+   Inst max_inst_instance0_counter_reg_output_0 X_max_inst_instance0_counter_reg_output_0 dffs
+   Inst max_inst_instance3_RegC_reg_output_6 X_max_inst_instance3_RegC_reg_output_6 dff
+   Inst max_inst_instance3_RegC_reg_output_7 X_max_inst_instance3_RegC_reg_output_7 dff
+   Inst max_inst_instance3_RegC_reg_output_20 X_max_inst_instance3_RegC_reg_output_20 dff
+   Inst max_inst_instance3_RegC_reg_output_21 X_max_inst_instance3_RegC_reg_output_21 dff
+   Inst ix359 X_ix359 and02
+   Inst ix2023 X_ix2023 xor2
+   Inst ix2045 X_ix2045 xor2
+   Inst ix2331 X_ix2331 xor2
+   Inst ix1971 X_ix1971 nor02ii
+   Inst ix1993 X_ix1993 nor02ii
+   Inst ix341 X_ix341 nor02ii
+   Inst ix1641 X_ix1641 oai22
+   Inst ix1793 X_ix1793 oai22
+   Inst ix1703 X_ix1703 oai22
+   Inst ix1595 X_ix1595 oai22
+   Inst ix1583 X_ix1583 oai22
+   Inst ix1809 X_ix1809 oai22
+   Inst ix1719 X_ix1719 oai22
+   Inst ix1655 X_ix1655 oai22
+   Inst ix2839 X_ix2839 aoi22
+   Inst ix2790 X_ix2790 aoi22
+   Inst ix3335 X_ix3335 aoi22
+   Inst ix3347 X_ix3347 aoi22
+   Inst ix2874 X_ix2874 xnor2
+   Inst ix2870 X_ix2870 xnor2
+   Inst ix2922 X_ix2922 xnor2
+   Inst ix2748 X_ix2748 xnor2
+   Inst ix2741 X_ix2741 xnor2
+   Inst ix2600 X_ix2600 xnor2
+   Inst ix2596 X_ix2596 xnor2
+   Inst ix2592 X_ix2592 xnor2
+   Inst ix2654 X_ix2654 xnor2
+   Inst ix2650 X_ix2650 xnor2
+   Inst ix2644 X_ix2644 xnor2
+   Inst ix2604 X_ix2604 xnor2
+   Inst ix2658 X_ix2658 xnor2
+   Inst ix2708 X_ix2708 xnor2
+   Inst ix2756 X_ix2756 xnor2
+   Inst ix2820 X_ix2820 mux21
+   Inst ix2872 X_ix2872 mux21
+   Inst ix2920 X_ix2920 mux21
+   Inst ix2968 X_ix2968 mux21
+   Inst ix2744 X_ix2744 mux21
+   Inst ix2796 X_ix2796 mux21
+   Inst ix2646 X_ix2646 mux21
+   Inst ix2696 X_ix2696 mux21
+   Inst ix2656 X_ix2656 mux21
+   Inst ix2706 X_ix2706 mux21
+   Inst ix2754 X_ix2754 mux21
+   Inst ix2806 X_ix2806 mux21
+   Inst ix1249 X_ix1249 nor02
+   Inst ix1231 X_ix1231 nor02
+   Inst ix1213 X_ix1213 nor02
+   Inst ix2918 X_ix2918 xnor2
+   Inst ix2704 X_ix2704 xnor2
+   Inst ix2700 X_ix2700 xnor2
+   Inst ix2693 X_ix2693 xnor2
+   Inst ix2752 X_ix2752 xnor2
+   Inst ix2822 X_ix2822 xnor2
+   Inst ix1195 X_ix1195 nor02
+   Inst ix1273 X_ix1273 nor02
+   Inst ix1255 X_ix1255 nor02
+   Inst ix1309 X_ix1309 nor02
+   Inst ix1291 X_ix1291 nor02
+   Inst ix2774 X_ix2774 nand02
+   Inst ix2776 X_ix2776 nand02
+   Inst ix2824 X_ix2824 nand02
+   Inst ix2826 X_ix2826 nand02
+   Inst ix2876 X_ix2876 nand02
+   Inst ix2878 X_ix2878 nand02
+   Inst ix2924 X_ix2924 nand02
+   Inst ix2926 X_ix2926 nand02
+   Inst ix2606 X_ix2606 nand02
+   Inst ix2614 X_ix2614 nand02
+   Inst ix2660 X_ix2660 nand02
+   Inst ix2666 X_ix2666 nand02
+   Inst ix2710 X_ix2710 nand02
+   Inst ix2715 X_ix2715 nand02
+   Inst ix2758 X_ix2758 nand02
+   Inst ix2764 X_ix2764 nand02
+   Inst ix2746 X_ix2746 inv01
+   Inst ix2798 X_ix2798 inv01
+   Inst ix2648 X_ix2648 inv01
+   Inst ix2698 X_ix2698 inv01
+   Inst ix2772 X_ix2772 xnor2
+   Inst ix2767 X_ix2767 xnor2
+   Inst ix2818 X_ix2818 xnor2
+   Inst ix2672 X_ix2672 mux21
+   Inst ix2594 X_ix2594 mux21
+   Inst ix2522 X_ix2522 mux21
+   Inst ix2602 X_ix2602 mux21
+   Inst ix1285 X_ix1285 nor02
+   Inst ix1267 X_ix1267 nor02
+   Inst ix1303 X_ix1303 nor02
+   Inst ix1339 X_ix1339 nor02
+   Inst ix1735 X_ix1735 nor02
+   Inst ix1805 X_ix1805 nor02
+   Inst ix2526 X_ix2526 nand02
+   Inst ix2532 X_ix2532 nand02
+   Inst ix2454 X_ix2454 nand03
+   Inst ix365 X_ix365 inv01
+   Inst ix445 X_ix445 inv01
+   Inst ix2490 X_ix2490 inv01
+   Inst ix823 X_ix823 inv01
+   Inst ix903 X_ix903 inv01
+   Inst ix2674 X_ix2674 xnor2
+   Inst ix2669 X_ix2669 xnor2
+   Inst ix1329 X_ix1329 oai32
+   Inst ix1785 X_ix1785 oai32
+   Inst ix2676 X_ix2676 nand02
+   Inst ix2678 X_ix2678 nand02
+   Inst ix2724 X_ix2724 nand02
+   Inst ix2726 X_ix2726 nand02
+   Inst ix2622 X_ix2622 nand02
+   Inst ix2534 X_ix2534 nand02
+   Inst ix2396 X_ix2396 nand02
+   Inst ix2482 X_ix2482 nand02
+   Inst ix2722 X_ix2722 xnor2
+   Inst ix2718 X_ix2718 xnor2
+   Inst ix2620 X_ix2620 xnor2
+   Inst ix2618 X_ix2618 xnor2
+   Inst ix2520 X_ix2520 xnor2
+   Inst ix1341 X_ix1341 xnor2
+   Inst ix2512 X_ix2512 xnor2
+   Inst ix2480 X_ix2480 xnor2
+   Inst ix2478 X_ix2478 xnor2
+   Inst ix2524 X_ix2524 xnor2
+   Inst ix2720 X_ix2720 mux21
+   Inst ix2770 X_ix2770 mux21
+   Inst ix2536 X_ix2536 or04
+   Inst ix2398 X_ix2398 or04
+   Inst ix2624 X_ix2624 or02
+   Inst ix2300 X_ix2300 or02
+   Inst ix2488 X_ix2488 or02
+   Inst ix1355 X_ix1355 nor04
+   Inst ix1753 X_ix1753 oai21
+   Inst ix1408 X_ix1408 mux21
+   Inst ix1438 X_ix1438 mux21
+   Inst ix1428 X_ix1428 mux21
+   Inst ix1458 X_ix1458 mux21
+   Inst ix1448 X_ix1448 mux21
+   Inst ix1478 X_ix1478 mux21
+   Inst ix1468 X_ix1468 mux21
+   Inst ix1498 X_ix1498 mux21
+   Inst ix1488 X_ix1488 mux21
+   Inst ix1518 X_ix1518 mux21
+   Inst ix1508 X_ix1508 mux21
+   Inst ix1258 X_ix1258 mux21
+   Inst ix1248 X_ix1248 mux21
+   Inst ix1278 X_ix1278 mux21
+   Inst ix313 X_ix313 ao22
+   Inst ix891 X_ix891 ao22
+   Inst ix811 X_ix811 ao22
+   Inst ix433 X_ix433 ao22
+   Inst ix349 X_ix349 ao22
+   Inst ix877 X_ix877 ao22
+   Inst ix797 X_ix797 ao22
+   Inst ix419 X_ix419 ao22
+   Inst ix331 X_ix331 ao22
+   Inst ix843 X_ix843 ao22
+   Inst ix763 X_ix763 ao22
+   Inst ix385 X_ix385 ao22
+   Inst ix277 X_ix277 ao22
+   Inst ix679 X_ix679 ao22
+   Inst ix657 X_ix657 ao22
+   Inst ix635 X_ix635 ao22
+   Inst ix613 X_ix613 ao22
+   Inst ix591 X_ix591 ao22
+   Inst ix569 X_ix569 ao22
+   Inst ix547 X_ix547 ao22
+   Inst ix525 X_ix525 ao22
+   Inst ix503 X_ix503 ao22
+   Inst ix481 X_ix481 ao22
+   Inst ix459 X_ix459 ao22
+   Inst ix195 X_ix195 ao22
+   Inst ix373 X_ix373 ao22
+   Inst ix739 X_ix739 ao22
+   Inst ix831 X_ix831 ao22
+   Inst ix1093 X_ix1093 ao22
+   Inst ix3860 X_ix3860 nor02
+   Inst ix115 X_ix115 nor02
+   Inst ix3858 X_ix3858 nor02
+   Inst ix1388 X_ix1388 mux21
+   Inst ix1418 X_ix1418 mux21
+   Inst ix1268 X_ix1268 mux21
+   Inst ix1298 X_ix1298 mux21
+   Inst ix1288 X_ix1288 mux21
+   Inst ix1318 X_ix1318 mux21
+   Inst ix1308 X_ix1308 mux21
+   Inst ix1338 X_ix1338 mux21
+   Inst ix1328 X_ix1328 mux21
+   Inst ix1358 X_ix1358 mux21
+   Inst ix1348 X_ix1348 mux21
+   Inst ix1218 X_ix1218 mux21
+   Inst ix1208 X_ix1208 mux21
+   Inst ix1238 X_ix1238 mux21
+   Inst ix1228 X_ix1228 mux21
+   Inst ix859 X_ix859 ao22
+   Inst ix779 X_ix779 ao22
+   Inst ix401 X_ix401 ao22
+   Inst ix205 X_ix205 xor2
+   Inst ix135 X_ix135 xor2
+   Inst ix3862 X_ix3862 nor02ii
+   Inst ix3864 X_ix3864 nor02ii
+   Inst ix191 X_ix191 nor02ii
+   Inst ix2261 X_ix2261 xnor2
+   Inst ix209 X_ix209 xnor2
+   Inst ix2373 X_ix2373 xnor2
+   Inst ix139 X_ix139 xnor2
+   Inst ix1378 X_ix1378 mux21
+   Inst ix1368 X_ix1368 mux21
+   Inst ix1398 X_ix1398 mux21
+   Inst ix3181 X_ix3181 nor02ii
+   Inst ix3185 X_ix3185 nor02ii
+   Inst ix3189 X_ix3189 nor02ii
+   Inst ix3193 X_ix3193 nor02ii
+   Inst ix3197 X_ix3197 nor02ii
+   Inst ix3201 X_ix3201 nor02ii
+   Inst ix3205 X_ix3205 nor02ii
+   Inst ix3209 X_ix3209 nor02ii
+   Inst ix3213 X_ix3213 nor02ii
+   Inst ix3217 X_ix3217 nor02ii
+   Inst ix3221 X_ix3221 nor02ii
+   Inst ix3225 X_ix3225 nor02ii
+   Inst ix3229 X_ix3229 nor02ii
+   Inst ix3601 X_ix3601 nand02
+   Inst ix3606 X_ix3606 nand02
+   Inst ix2755 X_ix2755 xnor2
+   Inst ix2749 X_ix2749 xnor2
+   Inst ix2743 X_ix2743 xnor2
+   Inst ix2737 X_ix2737 xnor2
+   Inst ix3486 X_ix3486 xnor2
+   Inst ix2805 X_ix2805 xnor2
+   Inst ix2823 X_ix2823 xnor2
+   Inst ix2817 X_ix2817 xnor2
+   Inst ix2783 X_ix2783 xnor2
+   Inst ix2763 X_ix2763 xnor2
+   Inst ix2777 X_ix2777 xnor2
+   Inst ix2795 X_ix2795 xnor2
+   Inst ix2789 X_ix2789 xnor2
+   Inst ix2623 X_ix2623 xnor2
+   Inst ix2617 X_ix2617 xnor2
+   Inst ix1758 X_ix1758 mux21
+   Inst ix1748 X_ix1748 mux21
+   Inst ix1738 X_ix1738 mux21
+   Inst ix1728 X_ix1728 mux21
+   Inst ix1818 X_ix1818 mux21
+   Inst ix1848 X_ix1848 mux21
+   Inst ix1828 X_ix1828 mux21
+   Inst ix1838 X_ix1838 mux21
+   Inst ix1788 X_ix1788 mux21
+   Inst ix1768 X_ix1768 mux21
+   Inst ix1778 X_ix1778 mux21
+   Inst ix1808 X_ix1808 mux21
+   Inst ix1798 X_ix1798 mux21
+   Inst ix1538 X_ix1538 mux21
+   Inst ix1528 X_ix1528 mux21
+   Inst ix3165 X_ix3165 nor02ii
+   Inst ix3169 X_ix3169 nor02ii
+   Inst ix3173 X_ix3173 nor02ii
+   Inst ix3177 X_ix3177 nor02ii
+   Inst ix3233 X_ix3233 nor02ii
+   Inst ix3237 X_ix3237 nor02ii
+   Inst ix3241 X_ix3241 nor02ii
+   Inst ix3271 X_ix3271 nor02ii
+   Inst ix3491 X_ix3491 nand02
+   Inst ix3496 X_ix3496 nand02
+   Inst ix3501 X_ix3501 nand02
+   Inst ix3506 X_ix3506 nand02
+   Inst ix3474 X_ix3474 nand02
+   Inst ix3479 X_ix3479 nand02
+   Inst ix3708 X_ix3708 nand02
+   Inst ix3690 X_ix3690 nand02
+   Inst ix3713 X_ix3713 nand02
+   Inst ix3698 X_ix3698 nand02
+   Inst ix3703 X_ix3703 nand02
+   Inst ix2801 X_ix2801 xor2
+   Inst ix3121 X_ix3121 nor02ii
+   Inst ix3125 X_ix3125 nor02ii
+   Inst ix3129 X_ix3129 nor02ii
+   Inst ix3133 X_ix3133 nor02ii
+   Inst ix3137 X_ix3137 nor02ii
+   Inst ix3141 X_ix3141 nor02ii
+   Inst ix3145 X_ix3145 nor02ii
+   Inst ix3149 X_ix3149 nor02ii
+   Inst ix3153 X_ix3153 nor02ii
+   Inst ix3157 X_ix3157 nor02ii
+   Inst ix3161 X_ix3161 nor02ii
+   Inst instance0_MISR_reg_last_sig_19 X_instance0_MISR_reg_last_sig_19 dff
+   Inst instance0_MISR_reg_last_sig_21 X_instance0_MISR_reg_last_sig_21 dff
+   Inst instance0_MISR_reg_last_sig_22 X_instance0_MISR_reg_last_sig_22 dff
+   Inst instance0_MISR_reg_last_sig_23 X_instance0_MISR_reg_last_sig_23 dff
+   Inst instance0_MISR_reg_last_sig_24 X_instance0_MISR_reg_last_sig_24 dff
+   Inst instance0_MISR_reg_last_sig_25 X_instance0_MISR_reg_last_sig_25 dff
+   Inst instance0_MISR_reg_last_sig_26 X_instance0_MISR_reg_last_sig_26 dff
+   Inst instance0_MISR_reg_last_sig_27 X_instance0_MISR_reg_last_sig_27 dff
+   Inst instance0_MISR_reg_last_sig_28 X_instance0_MISR_reg_last_sig_28 dff
+   Inst instance0_MISR_reg_last_sig_29 X_instance0_MISR_reg_last_sig_29 dff
+   Inst ix2098 X_ix2098 mux21
+   Inst ix2088 X_ix2088 mux21
+   Inst ix2078 X_ix2078 mux21
+   Inst ix2058 X_ix2058 mux21
+   Inst ix2048 X_ix2048 mux21
+   Inst ix2028 X_ix2028 mux21
+   Inst ix2018 X_ix2018 mux21
+   Inst ix2008 X_ix2008 mux21
+   Inst ix1978 X_ix1978 mux21
+   Inst ix1958 X_ix1958 mux21
+   Inst instance0_MISR_reg_misrreg_20 X_instance0_MISR_reg_misrreg_20 dffs
+   Inst instance0_MISR_reg_misrreg_19 X_instance0_MISR_reg_misrreg_19 dffs
+   Inst instance0_MISR_reg_misrreg_18 X_instance0_MISR_reg_misrreg_18 dffs
+   Inst instance0_MISR_reg_misrreg_17 X_instance0_MISR_reg_misrreg_17 dffs
+   Inst instance0_MISR_reg_misrreg_16 X_instance0_MISR_reg_misrreg_16 dffs
+   Inst instance0_MISR_reg_misrreg_15 X_instance0_MISR_reg_misrreg_15 dffs
+   Inst instance0_MISR_reg_misrreg_14 X_instance0_MISR_reg_misrreg_14 dffs
+   Inst instance0_MISR_reg_last_sig_6 X_instance0_MISR_reg_last_sig_6 dff
+   Inst instance0_MISR_reg_last_sig_10 X_instance0_MISR_reg_last_sig_10 dff
+   Inst instance0_MISR_reg_last_sig_20 X_instance0_MISR_reg_last_sig_20 dff
+   Inst instance0_MISR_reg_misrreg_5 X_instance0_MISR_reg_misrreg_5 dffs
+   Inst instance0_MISR_reg_misrreg_29 X_instance0_MISR_reg_misrreg_29 dffs
+   Inst instance0_MISR_reg_misrreg_28 X_instance0_MISR_reg_misrreg_28 dffs
+   Inst instance0_MISR_reg_misrreg_27 X_instance0_MISR_reg_misrreg_27 dffs
+   Inst instance0_MISR_reg_misrreg_26 X_instance0_MISR_reg_misrreg_26 dffs
+   Inst instance0_MISR_reg_misrreg_25 X_instance0_MISR_reg_misrreg_25 dffs
+   Inst instance0_MISR_reg_misrreg_24 X_instance0_MISR_reg_misrreg_24 dffs
+   Inst instance0_MISR_reg_misrreg_23 X_instance0_MISR_reg_misrreg_23 dffs
+   Inst instance0_MISR_reg_misrreg_22 X_instance0_MISR_reg_misrreg_22 dffs
+   Inst instance0_MISR_reg_misrreg_21 X_instance0_MISR_reg_misrreg_21 dffs
+   Inst instance0_MISR_reg_last_sig_1 X_instance0_MISR_reg_last_sig_1 dff
+   Inst instance0_MISR_reg_last_sig_3 X_instance0_MISR_reg_last_sig_3 dff
+   Inst instance0_MISR_reg_last_sig_4 X_instance0_MISR_reg_last_sig_4 dff
+   Inst instance0_MISR_reg_last_sig_5 X_instance0_MISR_reg_last_sig_5 dff
+   Inst instance0_MISR_reg_last_sig_7 X_instance0_MISR_reg_last_sig_7 dff
+   Inst instance0_MISR_reg_last_sig_8 X_instance0_MISR_reg_last_sig_8 dff
+   Inst instance0_MISR_reg_last_sig_9 X_instance0_MISR_reg_last_sig_9 dff
+   Inst instance0_MISR_reg_last_sig_11 X_instance0_MISR_reg_last_sig_11 dff
+   Inst instance0_MISR_reg_last_sig_12 X_instance0_MISR_reg_last_sig_12 dff
+   Inst instance0_MISR_reg_last_sig_14 X_instance0_MISR_reg_last_sig_14 dff
+   Inst instance0_MISR_reg_last_sig_15 X_instance0_MISR_reg_last_sig_15 dff
+   Inst instance0_MISR_reg_last_sig_16 X_instance0_MISR_reg_last_sig_16 dff
+   Inst reg_instance0_MISR_cntr_0 X_reg_instance0_MISR_cntr_0 dffr
+   Inst reg_instance0_MISR_cntr_1 X_reg_instance0_MISR_cntr_1 dffr
+   Inst ix2941 X_ix2941 nor04
+   Inst ix2108 X_ix2108 mux21
+   Inst ix2068 X_ix2068 mux21
+   Inst ix1968 X_ix1968 mux21
+   Inst ix2158 X_ix2158 mux21
+   Inst ix2138 X_ix2138 mux21
+   Inst ix2128 X_ix2128 mux21
+   Inst ix2118 X_ix2118 mux21
+   Inst ix1948 X_ix1948 mux21
+   Inst ix1938 X_ix1938 mux21
+   Inst ix1928 X_ix1928 mux21
+   Inst ix1918 X_ix1918 mux21
+   Inst ix1908 X_ix1908 mux21
+   Inst ix1898 X_ix1898 mux21
+   Inst ix1888 X_ix1888 mux21
+   Inst ix1878 X_ix1878 mux21
+   Inst instance0_MISR_reg_misrreg_4 X_instance0_MISR_reg_misrreg_4 dffs
+   Inst instance0_MISR_reg_misrreg_3 X_instance0_MISR_reg_misrreg_3 dffs
+   Inst instance0_MISR_reg_misrreg_2 X_instance0_MISR_reg_misrreg_2 dffs
+   Inst instance0_MISR_reg_misrreg_1 X_instance0_MISR_reg_misrreg_1 dffs
+   Inst ix3736 X_ix3736 or04
+   Inst ix3810 X_ix3810 nand04
+   Inst ix3795 X_ix3795 nand04
+   Inst reg_instance0_MISR_cntr_6 X_reg_instance0_MISR_cntr_6 dffr
+   Inst reg_instance0_MISR_cntr_5 X_reg_instance0_MISR_cntr_5 dffr
+   Inst max_inst_instance1_regB_reg_output_3 X_max_inst_instance1_regB_reg_output_3 dff
+   Inst max_inst_instance1_regB_reg_output_11 X_max_inst_instance1_regB_reg_output_11 dff
+   Inst max_inst_instance1_regB_reg_output_7 X_max_inst_instance1_regB_reg_output_7 dff
+   Inst max_inst_instance0_regA_reg_output_3 X_max_inst_instance0_regA_reg_output_3 dff
+   Inst max_inst_instance0_regA_reg_output_2 X_max_inst_instance0_regA_reg_output_2 dff
+   Inst max_inst_instance1_regB_reg_output_10 X_max_inst_instance1_regB_reg_output_10 dff
+   Inst max_inst_instance1_regB_reg_output_6 X_max_inst_instance1_regB_reg_output_6 dff
+   Inst max_inst_instance1_regB_reg_output_14 X_max_inst_instance1_regB_reg_output_14 dff
+   Inst max_inst_instance1_regB_reg_output_2 X_max_inst_instance1_regB_reg_output_2 dff
+   Inst max_inst_instance1_regB_reg_output_13 X_max_inst_instance1_regB_reg_output_13 dff
+   Inst max_inst_instance1_regB_reg_output_1 X_max_inst_instance1_regB_reg_output_1 dff
+   Inst max_inst_instance1_regB_reg_output_9 X_max_inst_instance1_regB_reg_output_9 dff
+   Inst max_inst_instance1_regB_reg_output_5 X_max_inst_instance1_regB_reg_output_5 dff
+   Inst max_inst_instance0_regA_reg_output_1 X_max_inst_instance0_regA_reg_output_1 dff
+   Inst max_inst_instance3_RegC_reg_output_0 X_max_inst_instance3_RegC_reg_output_0 dff
+   Inst max_inst_instance0_regA_reg_output_0 X_max_inst_instance0_regA_reg_output_0 dff
+   Inst max_inst_instance1_regB_reg_output_8 X_max_inst_instance1_regB_reg_output_8 dff
+   Inst max_inst_instance1_regB_reg_output_4 X_max_inst_instance1_regB_reg_output_4 dff
+   Inst max_inst_instance1_regB_reg_output_12 X_max_inst_instance1_regB_reg_output_12 dff
+   Inst max_inst_instance1_regB_reg_output_0 X_max_inst_instance1_regB_reg_output_0 dff
+   Inst instance0_LFSR_Instance6_df_reg_Q X_instance0_LFSR_Instance6_df_reg_Q dffs
+   Inst instance0_LFSR_Instance7_df_reg_Q X_instance0_LFSR_Instance7_df_reg_Q dffs
+   Inst instance0_LFSR_Instance8_df_reg_Q X_instance0_LFSR_Instance8_df_reg_Q dffs
+   Inst instance0_LFSR_Instance9_df_reg_Q X_instance0_LFSR_Instance9_df_reg_Q dffs
+   Inst instance0_LFSR_Instance10_df_reg_Q X_instance0_LFSR_Instance10_df_reg_Q dffs
+   Inst max_inst_instance0_regA_reg_output_14 X_max_inst_instance0_regA_reg_output_14 dff
+   Inst max_inst_instance0_regA_reg_output_13 X_max_inst_instance0_regA_reg_output_13 dff
+   Inst max_inst_instance0_regA_reg_output_12 X_max_inst_instance0_regA_reg_output_12 dff
+   Inst max_inst_instance0_regA_reg_output_11 X_max_inst_instance0_regA_reg_output_11 dff
+   Inst max_inst_instance0_regA_reg_output_10 X_max_inst_instance0_regA_reg_output_10 dff
+   Inst instance1_LFSR_Instance1_df_reg_Q X_instance1_LFSR_Instance1_df_reg_Q dffs
+   Inst instance1_LFSR_Instance2_df_reg_Q X_instance1_LFSR_Instance2_df_reg_Q dffs
+   Inst instance1_LFSR_Instance3_df_reg_Q X_instance1_LFSR_Instance3_df_reg_Q dffs
+   Inst instance1_LFSR_Instance4_df_reg_Q X_instance1_LFSR_Instance4_df_reg_Q dffs
+   Inst instance1_LFSR_Instance5_df_reg_Q X_instance1_LFSR_Instance5_df_reg_Q dffs
+   Inst instance1_LFSR_Instance6_df_reg_Q X_instance1_LFSR_Instance6_df_reg_Q dffs
+   Inst instance1_LFSR_Instance7_df_reg_Q X_instance1_LFSR_Instance7_df_reg_Q dffs
+   Inst instance1_LFSR_Instance8_df_reg_Q X_instance1_LFSR_Instance8_df_reg_Q dffs
+   Inst instance1_LFSR_Instance9_df_reg_Q X_instance1_LFSR_Instance9_df_reg_Q dffs
+   Inst instance1_LFSR_Instance10_df_reg_Q X_instance1_LFSR_Instance10_df_reg_Q dffs
+   Inst instance1_LFSR_Instance11_df_reg_Q X_instance1_LFSR_Instance11_df_reg_Q dffs
+   Inst instance1_LFSR_Instance12_df_reg_Q X_instance1_LFSR_Instance12_df_reg_Q dffs
+   Inst instance1_LFSR_Instance13_df_reg_Q X_instance1_LFSR_Instance13_df_reg_Q dffs
+   Inst instance1_LFSR_Instance14_df_reg_Q X_instance1_LFSR_Instance14_df_reg_Q dffs
+   Inst instance1_LFSR_Instance15_df_reg_Q X_instance1_LFSR_Instance15_df_reg_Q dffs
+   Inst instance1_LFSR_Instance0_df_reg_Q X_instance1_LFSR_Instance0_df_reg_Q dffs
+   Inst instance0_MISR_reg_allTaps X_instance0_MISR_reg_allTaps dff
+   Inst instance0_MISR_reg_last_sig_30 X_instance0_MISR_reg_last_sig_30 dff
+   Inst max_inst_instance3_RegC_reg_output_31 X_max_inst_instance3_RegC_reg_output_31 dff
+   Inst max_inst_instance0_regA_reg_output_15 X_max_inst_instance0_regA_reg_output_15 dff
+   Inst max_inst_instance0_regA_reg_output_9 X_max_inst_instance0_regA_reg_output_9 dff
+   Inst max_inst_instance0_regA_reg_output_8 X_max_inst_instance0_regA_reg_output_8 dff
+   Inst max_inst_instance0_regA_reg_output_7 X_max_inst_instance0_regA_reg_output_7 dff
+   Inst max_inst_instance0_regA_reg_output_6 X_max_inst_instance0_regA_reg_output_6 dff
+   Inst max_inst_instance0_regA_reg_output_5 X_max_inst_instance0_regA_reg_output_5 dff
+   Inst max_inst_instance0_regA_reg_output_4 X_max_inst_instance0_regA_reg_output_4 dff
+   Inst max_inst_instance1_regB_reg_output_15 X_max_inst_instance1_regB_reg_output_15 dff
+   Inst instance0_MISR_reg_misrreg_13 X_instance0_MISR_reg_misrreg_13 dffs
+   Inst instance0_MISR_reg_misrreg_12 X_instance0_MISR_reg_misrreg_12 dffs
+   Inst instance0_MISR_reg_misrreg_11 X_instance0_MISR_reg_misrreg_11 dffs
+   Inst instance0_MISR_reg_misrreg_10 X_instance0_MISR_reg_misrreg_10 dffs
+   Inst instance0_MISR_reg_misrreg_9 X_instance0_MISR_reg_misrreg_9 dffs
+   Inst instance0_MISR_reg_misrreg_8 X_instance0_MISR_reg_misrreg_8 dffs
+   Inst instance0_MISR_reg_misrreg_7 X_instance0_MISR_reg_misrreg_7 dffs
+   Inst instance0_MISR_reg_misrreg_6 X_instance0_MISR_reg_misrreg_6 dffs
+   Inst instance0_MISR_reg_misrreg_0 X_instance0_MISR_reg_misrreg_0 dffs
+   Inst instance0_MISR_reg_misrreg_31 X_instance0_MISR_reg_misrreg_31 dffs
+   Inst instance0_MISR_reg_misrreg_30 X_instance0_MISR_reg_misrreg_30 dffs
+   Inst instance0_LFSR_Instance1_df_reg_Q X_instance0_LFSR_Instance1_df_reg_Q dffs
+   Inst instance0_LFSR_Instance2_df_reg_Q X_instance0_LFSR_Instance2_df_reg_Q dffs
+   Inst instance0_LFSR_Instance3_df_reg_Q X_instance0_LFSR_Instance3_df_reg_Q dffs
+   Inst instance0_LFSR_Instance4_df_reg_Q X_instance0_LFSR_Instance4_df_reg_Q dffs
+   Inst instance0_LFSR_Instance5_df_reg_Q X_instance0_LFSR_Instance5_df_reg_Q dffs
+   Inst instance0_LFSR_Instance11_df_reg_Q X_instance0_LFSR_Instance11_df_reg_Q dffs
+   Inst instance0_LFSR_Instance12_df_reg_Q X_instance0_LFSR_Instance12_df_reg_Q dffs
+   Inst instance0_LFSR_Instance13_df_reg_Q X_instance0_LFSR_Instance13_df_reg_Q dffs
+   Inst instance0_LFSR_Instance14_df_reg_Q X_instance0_LFSR_Instance14_df_reg_Q dffs
+   Inst instance0_LFSR_Instance15_df_reg_Q X_instance0_LFSR_Instance15_df_reg_Q dffs
+   Inst instance0_LFSR_Instance0_df_reg_Q X_instance0_LFSR_Instance0_df_reg_Q dffs
+   Inst max_inst_instance0_counter_reg_output_1 X_max_inst_instance0_counter_reg_output_1 dffs
+End Cell
+

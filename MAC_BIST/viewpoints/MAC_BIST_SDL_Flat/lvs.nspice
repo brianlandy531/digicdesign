@@ -1,0 +1,1623 @@
+* LVS netlist generated with ICnet by 'bxl1703' on Thu Dec  5 2019 at 10:25:50
+
+*
+* Globals.
+*
+.global VSS VDD
+
+*
+* Component pathname : $GDKGATES/dff
+*
+.subckt dff  Q QB CLK D VDD_esc1 VSS_esc2
+
+        MN10 N$26 bclk- N$23 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN11 N$23 N$291 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN7 bclk bclk- VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN14 Q QB VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP14 Q QB VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP1 N$2 bclk VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP8 N$19 bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP9 N$26 N$8 N$19 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP10 N$20 N$291 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP11 N$26 bclk N$20 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP12 N$291 N$26 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN8 N$26 N$8 N$22 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN9 N$22 bclk VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN13 QB N$26 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP6 bclk- CLK VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN6 bclk- CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP13 QB N$26 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN12 N$291 N$26 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN1 N$8 D N$6 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN2 N$6 bclk- VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN3 N$8 N$249 N$7 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN5 N$249 N$8 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN4 N$7 bclk VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP7 bclk bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP2 N$8 D N$2 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP3 N$4 bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP4 N$8 N$249 N$4 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP5 N$249 N$8 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+.ends dff
+
+*
+* Component pathname : $GDKGATES/nor02ii
+*
+.subckt nor02ii  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MN1 N$4 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP1 N$4 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN4 Y A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN2 Y N$4 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP4 Y N$4 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+.ends nor02ii
+
+*
+* Component pathname : $GDKGATES/nor04
+*
+.subckt nor04  Y A0 A1 A2 A3 VDD_esc1 VSS_esc2
+
+        MP4 Y A3 N$6 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN3 Y A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 N$6 A2 N$3 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN4 Y A3 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP2 N$3 A1 N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+.ends nor04
+
+*
+* Component pathname : $GDKGATES/nand02
+*
+.subckt nand02  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP1 Y A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MN1 Y A0 N$5 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$5 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP2 Y A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+.ends nand02
+
+*
+* Component pathname : $GDKGATES/xnor2
+*
+.subckt xnor2  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP5 N$9 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP4 N$9 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN4 N$9 A0 N$8 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 N$3 N$9 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A0 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 Y A1 N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 Y N$9 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN5 N$8 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends xnor2
+
+*
+* Component pathname : $GDKGATES/mux21
+*
+.subckt mux21  Y A0 A1 S0 VDD_esc1 VSS_esc2
+
+        MN4 N$11 A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M1 Y N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN5 N$3 S0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M2 Y N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 N$11 A1 N$2 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP4 N$2 N$231 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN3 N$1 N$231 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$11 A0 N$1 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP2 N$7 S0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN1 N$231 S0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP1 N$231 S0 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP3 N$11 A0 N$7 VDD_esc1 pmos l=0.14u w=1.54u m=1
+.ends mux21
+
+*
+* Component pathname : $GDKGATES/or02
+*
+.subckt or02  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MP4 Y N$5 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN2 N$5 A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN1 N$5 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP3 N$5 A1 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN3 Y N$5 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends or02
+
+*
+* Component pathname : $GDKGATES/nand03
+*
+.subckt nand03  Y A0 A1 A2 VDD_esc1 VSS_esc2
+
+        MP3 Y A2 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.26u m=1
+        MN2 Y A0 N$4 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN1 N$5 A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN3 N$4 A1 N$5 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP2 Y A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.26u m=1
+        MP1 Y A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.26u m=1
+.ends nand03
+
+*
+* Component pathname : $GDKGATES/inv01
+*
+.subckt inv01  Y A VDD_esc1 VSS_esc2
+
+        MP1 Y A VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN1 Y A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends inv01
+
+*
+* Component pathname : $GDKGATES/xor2
+*
+.subckt xor2  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MN5 N$6 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN4 N$7 A0 N$6 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP4 N$7 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP3 N$7 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 Y N$4 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN3 N$3 N$7 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$4 A1 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 N$4 A0 N$3 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP6 N$4 A1 N$1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP2 N$4 N$7 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP5 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN6 Y N$4 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends xor2
+
+*
+* Component pathname : $GDKGATES/inv02
+*
+.subckt inv02  Y A VDD_esc1 VSS_esc2
+
+        MP1 Y A VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN1 Y A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends inv02
+
+*
+* Component pathname : $GDKGATES/nand04
+*
+.subckt nand04  Y A0 A1 A2 A3 VDD_esc1 VSS_esc2
+
+        MP4 Y A3 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MP3 Y A2 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MN2 N$2 A3 VSS_esc2 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MN1 N$9 A2 N$2 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MN3 Y A0 N$6 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MP2 Y A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MP1 Y A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MN4 N$6 A1 N$9 VSS_esc2 nmos l=0.14u w=1.61u m=1
+.ends nand04
+
+*
+* Component pathname : $GDKGATES/and04
+*
+.subckt and04  Y A0 A1 A2 A3 VDD_esc1 VSS_esc2
+
+        MN4 N$6 A1 N$7 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MN3 N$11 A0 N$6 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MP4 N$11 A3 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.75u m=1
+        MP3 N$11 A2 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.75u m=1
+        MN2 N$2 A3 VSS_esc2 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MN1 N$7 A2 N$2 VSS_esc2 nmos l=0.14u w=1.61u m=1
+        MN5 Y N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP2 N$11 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.75u m=1
+        MP1 N$11 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.75u m=1
+        MP5 Y N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+.ends and04
+
+*
+* Component pathname : $GDKGATES/nor02
+*
+.subckt nor02  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MN2 Y A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN1 Y A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP2 Y A1 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+.ends nor02
+
+*
+* Component pathname : $GDKGATES/oai22
+*
+.subckt oai22  Y A0 A1 B0 B1 VDD_esc1 VSS_esc2
+
+        MP4 Y B1 N$5 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MN3 N$7 B0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 N$7 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A0 N$7 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 N$5 B0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MP2 Y A1 N$6 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MP1 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MN4 N$7 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends oai22
+
+*
+* Component pathname : $GDKGATES/aoi22
+*
+.subckt aoi22  Y A0 A1 B0 B1 VDD_esc1 VSS_esc2
+
+        M_I$13 Y B1 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$12 N$1 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$11 Y A0 N$1 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$14 Y B0 N$2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$7 Y B0 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$6 N$6 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$5 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$4 N$2 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends aoi22
+
+*
+* Component pathname : $GDKGATES/aoi21
+*
+.subckt aoi21  Y A0 A1 B0 VDD_esc1 VSS_esc2
+
+        M_I$11 Y A0 N$2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        M_I$7 Y B0 N$1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$6 N$1 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$5 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        M_I$4 Y B0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        M_I$12 N$2 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends aoi21
+
+*
+* Component pathname : $GDKGATES/nor03
+*
+.subckt nor03  Y A0 A1 A2 VDD_esc1 VSS_esc2
+
+        MP3 Y A2 N$3 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MN2 Y A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.42u m=1
+        MN1 Y A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.42u m=1
+        MP2 N$3 A1 N$1 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.68u m=1
+        MN3 Y A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.42u m=1
+.ends nor03
+
+*
+* Component pathname : $GDKGATES/aoi221
+*
+.subckt aoi221  Y A0 A1 B0 B1 C0 VDD_esc1 VSS_esc2
+
+        MN5 Y C0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN4 N$4 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 Y B0 N$4 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 N$3 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.91u m=1
+        MN1 Y A0 N$3 VSS_esc2 nmos l=0.14u w=0.91u m=1
+        MP5 Y C0 N$2 VDD_esc1 pmos l=0.14u w=1.61u m=1
+        MP4 N$2 B0 N$10 VDD_esc1 pmos l=0.14u w=1.61u m=1
+        MP3 N$2 B1 N$10 VDD_esc1 pmos l=0.14u w=1.61u m=1
+        MP2 N$10 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.61u m=1
+        MP1 N$10 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.61u m=1
+.ends aoi221
+
+*
+* Component pathname : $GDKGATES/and02
+*
+.subckt and02  Y A0 A1 VDD_esc1 VSS_esc2
+
+        MN3 Y N$1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN2 N$6 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 N$1 A0 N$6 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 Y N$1 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP2 N$1 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+.ends and02
+
+*
+* Component pathname : $GDKGATES/and03
+*
+.subckt and03  Y A0 A1 A2 VDD_esc1 VSS_esc2
+
+        MP3 A A2 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.4u m=1
+        MN2 A A0 N$214 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN1 N$215 A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN3 N$214 A1 N$215 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN4 Y A VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP2 A A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.4u m=1
+        MP1 A A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.4u m=1
+        MP4 Y A VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+.ends and03
+
+*
+* Component pathname : $GDKGATES/dffr
+*
+.subckt dffr  Q QB CLK D R VDD_esc1 VSS_esc2
+
+        MN17 N$25 bclk- N$27 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP9 N$29 N$28 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP17 N$27 R N$29 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP8 N$25 bclk N$27 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN16 N$27 N$28 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN12 N$14 bclk VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN11 N$12 bclk- VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN10 N$11 D N$12 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP12 N$11 D N$10 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP11 N$10 bclk VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP13 N$11 N$16 N$18 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN13 N$11 N$16 N$14 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN6 N$21 bclk VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP4 Q QB VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN4 Q QB VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 bclk bclk- VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN7 N$28 N$25 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN9 N$22 N$16 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP10 N$22 N$16 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP15 N$18 bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP14 N$13 N$11 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MP1 bclk- CLK VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN5 N$25 N$22 N$21 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN15 N$16 R VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP16 N$16 R N$13 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MP2 bclk bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN1 bclk- CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 QB N$25 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 QB N$25 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN14 N$16 N$11 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP7 N$28 N$25 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP6 N$25 N$22 N$23 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP5 N$23 bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN8 N$27 R VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends dffr
+
+*
+* Component pathname : $GDKGATES/dffs
+*
+.subckt dffs  Q QB CLK D S VDD_esc1 VSS_esc2
+
+        MP6 N$11 bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP7 N$12 N$250 N$11 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP8 N$27 N$12 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN6 N$12 N$250 N$13 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP12 N$261 D N$17 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MP4 Q QB VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP11 N$17 bclk VDD_esc1 VDD_esc1 pmos l=0.14u w=2.24u m=1
+        MN2 bclk bclk- VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN4 Q QB VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN17 N$28 S N$31 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP15 N$21 bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN13 N$22 bclk VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MP14 N$26 N$261 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MP13 N$261 N$26 N$21 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MP16 N$26 S VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MN16 N$26 S N$23 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 QB N$12 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 QB N$12 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP9 N$12 bclk N$28 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN10 N$12 bclk- N$28 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN14 N$261 N$26 N$22 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN9 N$31 N$27 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN15 N$23 N$261 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN8 N$27 N$12 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+        MN7 N$13 bclk VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP17 N$28 N$27 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+        MN11 N$261 D N$19 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MN5 N$250 N$26 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 N$250 N$26 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP2 bclk bclk- VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MN1 bclk- CLK VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN12 N$19 bclk- VSS_esc2 VSS_esc2 nmos l=0.14u w=1.19u m=1
+        MP1 bclk- CLK VDD_esc1 VDD_esc1 pmos l=0.14u w=1.54u m=1
+        MP10 N$28 S VDD_esc1 VDD_esc1 pmos l=0.14u w=0.35u m=1
+.ends dffs
+
+*
+* Component pathname : $GDKGATES/oai32
+*
+.subckt oai32  Y A0 A1 A2 B0 B1 VDD_esc1 VSS_esc2
+
+        MN5 Y A2 N$6 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN4 N$6 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 Y B1 N$4 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MN3 N$6 B0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN2 Y A1 N$6 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 Y A0 N$6 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 Y A2 N$12 VDD_esc1 pmos l=0.14u w=2.73u m=1
+        MP2 N$12 A1 N$5 VDD_esc1 pmos l=0.14u w=2.73u m=1
+        MP1 N$5 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.73u m=1
+        MP4 N$4 B0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.03u m=1
+.ends oai32
+
+*
+* Component pathname : $GDKGATES/or04
+*
+.subckt or04  Y A0 A1 A2 A3 VDD_esc1 VSS_esc2
+
+        MN4 N$9 A3 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.49u m=1
+        MP4 N$9 A3 N$6 VDD_esc1 pmos l=0.14u w=3.01u m=1
+        MN3 N$9 A0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.49u m=1
+        MP3 N$6 A2 N$3 VDD_esc1 pmos l=0.14u w=3.01u m=1
+        MP5 Y N$9 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MN2 N$9 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.49u m=1
+        MN1 N$9 A2 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.49u m=1
+        MP2 N$3 A1 N$1 VDD_esc1 pmos l=0.14u w=3.01u m=1
+        MP1 N$1 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=3.01u m=1
+        MN5 Y N$9 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends or04
+
+*
+* Component pathname : $GDKGATES/oai21
+*
+.subckt oai21  Y A0 A1 B0 VDD_esc1 VSS_esc2
+
+        MN1 Y A0 N$7 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP3 Y B0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.05u m=1
+        MP2 Y A1 N$6 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MP1 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=2.03u m=1
+        MN2 Y A1 N$7 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN3 N$7 B0 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+.ends oai21
+
+*
+* Component pathname : $GDKGATES/ao22
+*
+.subckt ao22  Y A0 A1 B0 B1 VDD_esc1 VSS_esc2
+
+        MN4 N$13 B0 N$2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP4 N$13 B1 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN2 N$1 A1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN1 N$13 A0 N$1 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MP5 Y N$13 VDD_esc1 VDD_esc1 pmos l=0.14u w=0.77u m=1
+        MP3 N$13 B0 N$6 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP2 N$6 A1 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MP1 N$6 A0 VDD_esc1 VDD_esc1 pmos l=0.14u w=1.19u m=1
+        MN3 N$2 B1 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.77u m=1
+        MN5 Y N$13 VSS_esc2 VSS_esc2 nmos l=0.14u w=0.35u m=1
+.ends ao22
+
+*
+* Component pathname : $PYXIS_SPT/digicdesign/MAC_BIST
+*
+.subckt MAC_BIST  multiplierOut[31] multiplierOut[30] multiplierOut[29]
++ multiplierOut[28] multiplierOut[27] multiplierOut[26] multiplierOut[25]
++ multiplierOut[24] multiplierOut[23] multiplierOut[22] multiplierOut[21]
++ multiplierOut[20] multiplierOut[19] multiplierOut[18] multiplierOut[17]
++ multiplierOut[16] multiplierOut[15] multiplierOut[14] multiplierOut[13]
++ multiplierOut[12] multiplierOut[11] multiplierOut[10] multiplierOut[9]
++ multiplierOut[8] multiplierOut[7] multiplierOut[6] multiplierOut[5] multiplierOut[4]
++ multiplierOut[3] multiplierOut[2] multiplierOut[1] multiplierOut[0] tst_output_flag
++ A[15] A[14] A[13] A[12] A[11] A[10] A[9] A[8] A[7] A[6] A[5] A[4] A[3]
++ A[2] A[1] A[0] B[15] B[14] B[13] B[12] B[11] B[10] B[9] B[8] B[7] B[6]
++ B[5] B[4] B[3] B[2] B[1] B[0] clk rst tst_mode
+
+        X_max_inst_instance3_RegC_reg_output_22 mac_out_22 nx3350 clk nx2366
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_23 mac_out_23 nx3364 clk nx2388
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_24 mac_out_24 nx3376 clk nx2410
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_25 mac_out_25 nx3387 clk nx2432
++ VDD VSS dff
+        X_ix2389 nx2388 rst nx2384 VDD VSS nor02ii
+        X_ix2411 nx2410 rst nx2406 VDD VSS nor02ii
+        X_ix2433 nx2432 rst nx2428 VDD VSS nor02ii
+        X_ix2975 nx2974 misr_out_19 nx3767 nx3771 misr_out_16 VDD VSS nor04
+        X_ix2905 nx2904 nx3466 misr_out_29 misr_out_28 nx3735 VDD VSS nor04
+        X_ix3115 nx3114 nx3779 nx3794 nx3809 nx3824 VDD VSS nor04
+        X_ix109 nx3851 nx2301 nx3883 VDD VSS nand02
+        X_ix3886 nx3887 nx2301 nx3883 VDD VSS nand02
+        X_ix3884 nx3885 nx2301 nx3883 VDD VSS nand02
+        X_ix3591 nx3590 tst_mode mac_out_25 VDD VSS nand02
+        X_ix3596 nx3595 tst_mode mac_out_26 VDD VSS nand02
+        X_ix3571 nx3570 tst_mode mac_out_21 VDD VSS nand02
+        X_ix3576 nx3575 tst_mode mac_out_22 VDD VSS nand02
+        X_ix2429 nx2428 nx3391 nx1193 VDD VSS xnor2
+        X_ix1998 nx1997 instance0_MISR_misrreg_17 misr_out_17 nx3887 VDD
++ VSS mux21
+        X_ix1988 nx1987 instance0_MISR_misrreg_18 misr_out_18 nx3887 VDD
++ VSS mux21
+        X_ix1858 nx1857 instance0_MISR_misrreg_30 misr_out_30 nx3885 VDD
++ VSS mux21
+        X_ix1868 nx1867 instance0_MISR_misrreg_31 misr_out_31 nx3885 VDD
++ VSS mux21
+        X_ix2038 nx2037 instance0_MISR_misrreg_13 misr_out_13 nx3887 VDD
++ VSS mux21
+        X_ix2168 nx2167 instance0_MISR_misrreg_0 misr_out_0 nx3851 VDD VSS mux21
+        X_ix2148 nx2147 instance0_MISR_misrreg_2 misr_out_2 nx3851 VDD VSS mux21
+        X_ix1558 nx1557 nx2634 instance0_MISR_misrreg_26 nx3881 VDD VSS mux21
+        X_ix1548 nx1547 nx2628 instance0_MISR_misrreg_27 nx3881 VDD VSS mux21
+        X_ix1598 nx1597 nx2658 instance0_MISR_misrreg_22 nx3881 VDD VSS mux21
+        X_ix1588 nx1587 nx2652 instance0_MISR_misrreg_23 nx3881 VDD VSS mux21
+        X_ix1578 nx1577 nx2646 instance0_MISR_misrreg_24 nx3881 VDD VSS mux21
+        X_ix2473 nx2472 nx3413 nx1197 VDD VSS xnor2
+        X_ix2363 nx2362 nx3354 nx1187 VDD VSS xnor2
+        X_ix2385 nx2384 nx3368 nx1189 VDD VSS xnor2
+        X_ix2407 nx2406 nx3380 nx1191 VDD VSS xnor2
+        X_ix1568 nx1567 nx2640 instance0_MISR_misrreg_25 nx3881 VDD VSS mux21
+        X_ix3414 nx3413 nx3406 nx3402 nx1195 VDD VSS mux21
+        X_ix3425 nx3424 nx3417 nx3413 nx1197 VDD VSS mux21
+        X_ix3369 nx3368 nx3358 nx3354 nx1187 VDD VSS mux21
+        X_ix3381 nx3380 nx3372 nx3368 nx1189 VDD VSS mux21
+        X_ix3392 nx3391 nx3384 nx3380 nx1191 VDD VSS mux21
+        X_ix3403 nx3402 nx3395 nx3391 nx1193 VDD VSS mux21
+        X_instance0_MISR_reg_last_sig_17 misr_out_17 nx3771 clk nx1997 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_18 misr_out_18 nx3767 clk nx1987 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_31 misr_out_31 nx3725 clk nx1867 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_13 misr_out_13 nx3787 clk nx2037 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_0 misr_out_0 nx3836 clk nx2167 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_2 misr_out_2 nx3829 clk nx2147 VDD
++ VSS dff
+        X_max_inst_instance3_RegC_reg_output_26 mac_out_26 nx3398 clk nx2454
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_27 mac_out_27 nx3409 clk nx2476
++ VDD VSS dff
+        X_ix3718 nx3717 rst nx3883 VDD VSS or02
+        X_ix2455 nx2454 rst nx2450 VDD VSS nor02ii
+        X_ix2477 nx2476 rst nx2472 VDD VSS nor02ii
+        X_ix2367 nx2366 rst nx2362 VDD VSS nor02ii
+        X_ix3581 nx3580 tst_mode mac_out_23 VDD VSS nand02
+        X_ix3586 nx3585 tst_mode mac_out_24 VDD VSS nand02
+        X_ix3407 nx3406 nx3869 nx1564 VDD VSS nand02
+        X_ix3418 nx3417 nx3869 nx1542 VDD VSS nand02
+        X_ix3385 nx3384 nx3869 nx1594 VDD VSS nand02
+        X_ix3396 nx3395 nx3869 nx1582 VDD VSS nand02
+        X_ix3467 nx3466 misr_out_30 tst_mode nx3725 VDD VSS nand03
+        X_ix2302 nx2301 rst VDD VSS inv01
+        X_ix2635 nx2634 nx3590 instance0_MISR_misrreg_27 VDD VSS xnor2
+        X_ix2629 nx2628 nx3595 instance0_MISR_misrreg_28 VDD VSS xnor2
+        X_ix2659 nx2658 nx3570 instance0_MISR_misrreg_23 VDD VSS xnor2
+        X_ix2653 nx2652 nx3575 instance0_MISR_misrreg_24 VDD VSS xnor2
+        X_ix2647 nx2646 nx3580 instance0_MISR_misrreg_25 VDD VSS xnor2
+        X_ix2641 nx2640 nx3585 instance0_MISR_misrreg_26 VDD VSS xnor2
+        X_ix2451 nx2450 nx3402 nx1195 VDD VSS xnor2
+        X_ix2463 nx1195 nx3398 nx3406 VDD VSS xor2
+        X_ix2485 nx1197 nx3409 nx3417 VDD VSS xor2
+        X_ix2375 nx1187 nx3350 nx3358 VDD VSS xor2
+        X_ix2397 nx1189 nx3364 nx3372 VDD VSS xor2
+        X_ix2419 nx1191 nx3376 nx3384 VDD VSS xor2
+        X_ix2441 nx1193 nx3387 nx3395 VDD VSS xor2
+        X_ix3882 nx3883 nx3845 VDD VSS inv02
+        X_ix3780 nx3779 misr_out_15 misr_out_14 nx3787 misr_out_12 VDD VSS nand04
+        X_ix3825 nx3824 misr_out_3 nx3829 misr_out_1 nx3836 VDD VSS nand04
+        X_ix3117 tst_output_flag nx2904 nx2940 nx2974 nx3114 VDD VSS and04
+        X_ix2689 nx2688 nx3545 instance0_MISR_misrreg_18 VDD VSS xnor2
+        X_ix2683 nx2682 nx3550 instance0_MISR_misrreg_19 VDD VSS xnor2
+        X_ix2677 nx2676 nx3555 instance0_MISR_misrreg_20 VDD VSS xnor2
+        X_ix2671 nx2670 nx3560 instance0_MISR_misrreg_21 VDD VSS xnor2
+        X_ix2665 nx2664 nx3565 instance0_MISR_misrreg_22 VDD VSS xnor2
+        X_ix2297 nx2296 nx2294 nx3313 VDD VSS xnor2
+        X_ix3280 nx3279 nx3281 nx3284 VDD VSS xnor2
+        X_ix2209 nx2208 nx2206 nx3143 VDD VSS xnor2
+        X_ix3084 nx3083 nx3085 nx3088 VDD VSS xnor2
+        X_ix2253 nx2252 nx2250 nx3243 VDD VSS xnor2
+        X_ix3190 nx3188 nx3191 nx3195 VDD VSS xnor2
+        X_ix1678 nx1677 nx2706 instance0_MISR_misrreg_14 nx3881 VDD VSS mux21
+        X_ix1668 nx1667 nx2700 instance0_MISR_misrreg_15 nx3881 VDD VSS mux21
+        X_ix1658 nx1657 nx2694 instance0_MISR_misrreg_16 nx3881 VDD VSS mux21
+        X_ix1648 nx1647 nx2688 instance0_MISR_misrreg_17 nx3881 VDD VSS mux21
+        X_ix1638 nx1637 nx2682 instance0_MISR_misrreg_18 nx3881 VDD VSS mux21
+        X_ix1628 nx1627 nx2676 instance0_MISR_misrreg_19 nx3881 VDD VSS mux21
+        X_ix1618 nx1617 nx2670 instance0_MISR_misrreg_20 nx3881 VDD VSS mux21
+        X_ix1608 nx1607 nx2664 instance0_MISR_misrreg_21 nx3881 VDD VSS mux21
+        X_max_inst_instance3_RegC_reg_output_19 mac_out_19 nx3305 clk nx2300
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_18 mac_out_18 nx3276 clk nx2278
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_15 mac_out_15 nx3132 clk nx2212
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_14 mac_out_14 nx3080 clk nx2190
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_17 mac_out_17 nx3232 clk nx2256
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_16 mac_out_16 nx3184 clk nx2234
++ VDD VSS dff
+        X_ix2279 nx2278 rst nx3279 VDD VSS nor02
+        X_ix2191 nx2190 rst nx3083 VDD VSS nor02
+        X_ix2235 nx2234 rst nx3188 VDD VSS nor02
+        X_ix3240 nx3239 nx1722 VDD VSS inv01
+        X_ix3314 nx3313 nx3305 nx1674 VDD VSS xor2
+        X_ix3285 nx3284 nx3276 nx1690 VDD VSS xor2
+        X_ix3144 nx3143 nx3132 nx1742 VDD VSS xor2
+        X_ix3089 nx3088 nx3080 nx1768 VDD VSS xor2
+        X_ix3244 nx3243 nx3232 nx1706 VDD VSS xor2
+        X_ix3196 nx3195 nx3184 nx1722 VDD VSS xor2
+        X_ix2301 nx2300 rst nx2296 VDD VSS nor02ii
+        X_ix2213 nx2212 rst nx2208 VDD VSS nor02ii
+        X_ix2257 nx2256 rst nx2252 VDD VSS nor02ii
+        X_ix2295 nx2294 nx3281 nx3284 nx3310 nx3276 VDD VSS oai22
+        X_ix2207 nx2206 nx3085 nx3088 nx3139 nx3080 VDD VSS oai22
+        X_ix2251 nx2250 nx3191 nx3195 nx3239 nx3184 VDD VSS oai22
+        X_ix3330 nx3329 nx1674 mac_out_19 nx2294 nx1183 VDD VSS aoi22
+        X_ix3192 nx3191 nx1742 mac_out_15 nx2206 nx1175 VDD VSS aoi22
+        X_ix3282 nx3281 nx1706 mac_out_17 nx2250 nx1179 VDD VSS aoi22
+        X_ix3531 nx3530 tst_mode mac_out_13 VDD VSS nand02
+        X_ix3536 nx3535 tst_mode mac_out_14 VDD VSS nand02
+        X_ix3541 nx3540 tst_mode mac_out_15 VDD VSS nand02
+        X_ix3546 nx3545 tst_mode mac_out_16 VDD VSS nand02
+        X_ix3551 nx3550 tst_mode mac_out_17 VDD VSS nand02
+        X_ix3556 nx3555 tst_mode mac_out_18 VDD VSS nand02
+        X_ix3561 nx3560 tst_mode mac_out_19 VDD VSS nand02
+        X_ix3566 nx3565 tst_mode mac_out_20 VDD VSS nand02
+        X_ix2309 nx1183 nx3313 VDD VSS inv01
+        X_ix3311 nx3310 nx1690 VDD VSS inv01
+        X_ix2221 nx1175 nx3143 VDD VSS inv01
+        X_ix3140 nx3139 nx1768 VDD VSS inv01
+        X_ix2265 nx1179 nx3243 VDD VSS inv01
+        X_ix2707 nx2706 nx3530 instance0_MISR_misrreg_15 VDD VSS xnor2
+        X_ix2701 nx2700 nx3535 instance0_MISR_misrreg_16 VDD VSS xnor2
+        X_ix2695 nx2694 nx3540 instance0_MISR_misrreg_17 VDD VSS xnor2
+        X_ix3258 nx3257 nx1442 VDD VSS inv01
+        X_ix2551 nx2550 nx3446 nx2548 VDD VSS xnor2
+        X_ix3460 nx3459 mac_out_31 nx3252 VDD VSS xnor2
+        X_ix3456 nx3455 nx3457 nx3459 VDD VSS xnor2
+        X_ix2495 nx2494 nx3424 nx1199 VDD VSS xnor2
+        X_ix2523 nx2522 nx3435 nx2520 VDD VSS xnor2
+        X_ix3293 nx3292 nx3294 nx3296 VDD VSS xnor2
+        X_ix3321 nx3320 nx1524 nx1530 VDD VSS xnor2
+        X_ix3254 nx3253 nx3255 nx3259 VDD VSS xnor2
+        X_ix3204 nx3203 nx3205 nx3209 VDD VSS xnor2
+        X_ix3260 nx3259 nx1500 nx1494 VDD VSS xnor2
+        X_ix3214 nx3212 nx3215 nx3217 VDD VSS xnor2
+        X_ix3210 nx3209 nx1422 nx1442 VDD VSS xnor2
+        X_ix3458 nx3457 nx3450 nx3446 nx2548 VDD VSS mux21
+        X_ix3436 nx3435 nx3428 nx3424 nx1199 VDD VSS mux21
+        X_ix3447 nx3446 nx3439 nx3435 nx2520 VDD VSS mux21
+        X_ix3299 nx3298 nx3255 nx3300 nx3259 VDD VSS mux21
+        X_ix3256 nx3255 nx3205 nx3257 nx3209 VDD VSS mux21
+        X_max_inst_instance3_RegC_reg_output_30 mac_out_30 nx3442 clk nx2554
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_28 mac_out_28 nx3420 clk nx2498
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_29 mac_out_29 nx3431 clk nx2526
++ VDD VSS dff
+        X_ix3261 nx3260 rst nx3455 VDD VSS nor02
+        X_ix1537 nx1536 rst nx3320 VDD VSS nor02
+        X_ix1577 nx1576 rst nx3253 VDD VSS nor02
+        X_ix1451 nx1450 rst nx3203 VDD VSS nor02
+        X_ix1423 nx1422 rst nx3212 VDD VSS nor02
+        X_ix1559 nx1558 nx3292 nx3298 nx3361 VDD VSS aoi21
+        X_ix1525 nx1524 nx3292 rst nx3298 VDD VSS nor03
+        X_ix1501 nx1500 nx3215 rst nx3169 nx2431 VDD VSS nor04
+        X_ix2549 nx2548 nx3442 nx3450 VDD VSS xor2
+        X_ix2507 nx1199 nx3420 nx3428 VDD VSS xor2
+        X_ix2521 nx2520 nx3431 nx3439 VDD VSS xor2
+        X_ix3362 nx3361 rst nx1524 VDD VSS or02
+        X_ix3297 nx3296 nx3169 nx2567 VDD VSS or02
+        X_ix3218 nx3217 nx3169 nx2431 VDD VSS or02
+        X_ix2555 nx2554 rst nx2550 VDD VSS nor02ii
+        X_ix2499 nx2498 rst nx2494 VDD VSS nor02ii
+        X_ix2527 nx2526 rst nx2522 VDD VSS nor02ii
+        X_ix1531 nx1530 nx3169 nx2567 rst nx3294 VDD VSS nor04
+        X_ix3429 nx3428 nx1450 nx2279 VDD VSS nand02
+        X_ix3440 nx3439 nx1576 nx2279 VDD VSS nand02
+        X_ix3301 nx3300 nx1494 VDD VSS inv01
+        X_ix2568 nx2567 max_inst_YB_3 nx2269 max_inst_YB_15 nx2279 nx362
++ VDD VSS aoi221
+        X_ix2188 nx2187 max_inst_YB_0 nx2269 max_inst_YB_12 nx2279 nx900
++ VDD VSS aoi221
+        X_ix2432 nx2431 max_inst_YB_1 nx2269 max_inst_YB_13 nx2279 nx820
++ VDD VSS aoi221
+        X_ix1905 nx1904 rst nx2387 VDD VSS nor02
+        X_ix1949 nx1948 rst nx2497 VDD VSS nor02
+        X_ix1927 nx1926 rst nx2440 VDD VSS nor02
+        X_ix2184 nx2183 nx1804 nx2269 mac_out_0 VDD VSS aoi21
+        X_ix1887 nx1886 nx2183 rst nx1149 VDD VSS nor03
+        X_ix303 nx1147 NOT_max_inst_Counter_sig_0 nx3877 VDD VSS or02
+        X_ix3253 nx3252 nx1147 nx1536 VDD VSS nor02ii
+        X_ix293 nx292 nx2269 nx1147 VDD VSS nor02ii
+        X_ix1873 nx1872 nx2395 nx2269 VDD VSS nor02ii
+        X_ix1869 nx1868 nx2453 nx2269 VDD VSS nor02ii
+        X_ix1943 nx1942 nx2443 nx2447 nx2501 nx2437 VDD VSS oai22
+        X_ix1627 nx1626 nx3095 nx2625 nx2893 nx2827 VDD VSS oai22
+        X_ix1765 nx1764 nx2692 nx2625 NOT_max_inst_Counter_sig_0 nx2453
++ VDD VSS oai22
+        X_ix1687 nx1686 nx2893 nx2625 nx2692 nx2827 VDD VSS oai22
+        X_ix1565 nx1564 max_inst_Counter_sig_0 nx3289 nx3095 nx2827 VDD
++ VSS oai22
+        X_ix1543 nx1542 max_inst_Counter_sig_0 nx3318 nx3149 nx2827 VDD
++ VSS oai22
+        X_ix443 nx442 nx2560 VDD VSS inv01
+        X_ix363 nx362 nx2539 VDD VSS inv01
+        X_ix2280 nx2279 nx1147 VDD VSS inv01
+        X_ix901 nx900 nx2425 VDD VSS inv01
+        X_ix821 nx820 nx2405 VDD VSS inv01
+        X_ix3868 nx3869 nx3875 VDD VSS inv01
+        X_ix1761 nx1760 nx2453 VDD VSS inv01
+        X_ix3290 nx3289 nx1558 VDD VSS inv01
+        X_ix3319 nx3318 nx1536 VDD VSS inv01
+        X_ix3876 nx3877 nx3867 VDD VSS inv01
+        X_ix2778 nx2777 nx1734 VDD VSS inv01
+        X_ix3451 nx3450 nx1558 nx2279 VDD VSS nand02
+        X_ix2690 nx2689 nx3875 nx1764 VDD VSS nand02
+        X_ix2508 nx2506 nx1734 nx2269 VDD VSS nand02
+        X_ix2390 nx2389 nx2269 mac_out_0 nx1804 VDD VSS nand03
+        X_ix1899 nx1149 nx2389 VDD VSS inv01
+        X_ix1913 nx1150 nx2391 VDD VSS inv01
+        X_ix1865 nx1864 nx2506 VDD VSS inv01
+        X_ix2502 nx2501 nx1868 VDD VSS inv01
+        X_ix2388 nx2387 nx2389 nx2391 VDD VSS xnor2
+        X_ix2498 nx2497 nx1942 nx1153 VDD VSS xnor2
+        X_ix2442 nx2440 nx2443 nx2447 VDD VSS xnor2
+        X_ix1769 nx1768 nx1764 nx1626 nx3875 VDD VSS mux21
+        X_ix1707 nx1706 nx1702 nx1582 nx3877 VDD VSS mux21
+        X_ix1691 nx1690 nx1686 nx1564 nx3877 VDD VSS mux21
+        X_ix1675 nx1674 nx1670 nx1542 nx3877 VDD VSS mux21
+        X_ix1743 nx1742 nx1738 nx1612 nx3877 VDD VSS mux21
+        X_ix1723 nx1722 nx1718 nx1594 nx3877 VDD VSS mux21
+        X_max_inst_instance3_RegC_reg_output_1 mac_out_1 nx2383 clk nx1904
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_3 mac_out_3 nx2493 clk nx1948
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_2 mac_out_2 nx2437 clk nx1926
++ VDD VSS dff
+        X_ix2458 nx2457 max_inst_YB_2 nx2269 max_inst_YB_14 nx2279 nx442
++ VDD VSS aoi221
+        X_ix2270 nx2269 NOT_max_inst_Counter_sig_0 nx3875 VDD VSS and02
+        X_ix2392 nx2391 nx2383 nx1872 VDD VSS xor2
+        X_ix1957 nx1153 nx2493 nx2506 VDD VSS xor2
+        X_ix2448 nx2447 nx2437 nx1868 VDD VSS xor2
+        X_ix1739 nx1738 nx2740 nx2625 NOT_max_inst_Counter_sig_0 nx2777
++ VDD VSS oai22
+        X_ix1671 nx1670 nx2941 nx2625 nx2740 nx2827 VDD VSS oai22
+        X_ix1613 nx1612 nx3149 nx2625 nx2941 nx2827 VDD VSS oai22
+        X_ix2444 nx2443 nx1872 mac_out_1 nx1149 nx1150 VDD VSS aoi22
+        X_ix2580 nx2579 nx1864 mac_out_3 nx1942 nx1153 VDD VSS aoi22
+        X_ix2561 nx2560 max_inst_YB_6 nx358 max_inst_YB_10 nx340 VDD VSS aoi22
+        X_ix2540 nx2539 max_inst_YB_7 nx358 max_inst_YB_11 nx340 VDD VSS aoi22
+        X_ix2426 nx2425 max_inst_YB_4 nx358 max_inst_YB_8 nx340 VDD VSS aoi22
+        X_ix2406 nx2405 max_inst_YB_5 nx358 max_inst_YB_9 nx340 VDD VSS aoi22
+        X_ix2891 nx2890 nx1760 nx340 nx3875 nx1686 VDD VSS aoi22
+        X_ix2938 nx2936 nx1734 nx340 nx3875 nx1670 VDD VSS aoi22
+        X_ix3359 nx3358 nx3869 nx1626 nx1558 nx358 VDD VSS aoi22
+        X_ix3373 nx3372 nx3869 nx1612 nx1536 nx358 VDD VSS aoi22
+        X_ix3230 nx3229 max_inst_YA_13 nx364 VDD VSS nand02
+        X_ix3171 nx3170 max_inst_YA_14 nx822 VDD VSS nand02
+        X_ix3112 nx3111 max_inst_YA_14 nx902 VDD VSS nand02
+        X_ix3119 nx3118 max_inst_YA_13 nx822 VDD VSS nand02
+        X_ix3008 nx3006 max_inst_YA_12 nx902 VDD VSS nand02
+        X_ix3015 nx3014 max_inst_YA_11 nx822 VDD VSS nand02
+        X_ix3060 nx3058 max_inst_YA_13 nx902 VDD VSS nand02
+        X_ix3066 nx3065 max_inst_YA_12 nx822 VDD VSS nand02
+        X_ix3154 nx3153 nx1122 VDD VSS inv01
+        X_ix3096 nx3095 nx3097 nx3101 VDD VSS xnor2
+        X_ix3160 nx3159 nx3161 nx3163 VDD VSS xnor2
+        X_ix3156 nx3155 nx1110 nx756 VDD VSS xnor2
+        X_ix3150 nx3149 nx3151 nx3155 VDD VSS xnor2
+        X_ix3001 nx3000 nx3002 nx3004 VDD VSS xnor2
+        X_ix2998 nx2997 nx1164 nx1158 VDD VSS xnor2
+        X_ix2991 nx2990 nx2993 nx2997 VDD VSS xnor2
+        X_ix3053 nx3052 nx3054 nx3056 VDD VSS xnor2
+        X_ix3050 nx3049 nx1146 nx1140 VDD VSS xnor2
+        X_ix3044 nx3043 nx3045 nx3049 VDD VSS xnor2
+        X_ix3164 nx3163 nx3165 nx3170 VDD VSS xnor2
+        X_ix3110 nx3109 nx3111 nx3118 VDD VSS xnor2
+        X_ix3005 nx3004 nx3006 nx3014 VDD VSS xnor2
+        X_ix3057 nx3056 nx3058 nx3065 VDD VSS xnor2
+        X_ix3295 nx3294 nx3266 nx3273 nx3268 VDD VSS mux21
+        X_ix3224 nx3223 nx3175 nx3181 nx3177 VDD VSS mux21
+        X_ix3267 nx3266 nx3223 nx3229 nx3225 VDD VSS mux21
+        X_ix3152 nx3151 nx3097 nx3153 nx3101 VDD VSS mux21
+        X_ix3206 nx3205 nx3151 nx3207 nx3155 VDD VSS mux21
+        X_ix3046 nx3045 nx2993 nx3047 nx2997 VDD VSS mux21
+        X_ix3098 nx3097 nx3045 nx3099 nx3049 VDD VSS mux21
+        X_ix3216 nx3215 nx3161 nx3170 nx3163 VDD VSS mux21
+        X_ix3162 nx3161 nx3106 nx3118 nx3109 VDD VSS mux21
+        X_ix3055 nx3054 nx3002 nx3014 nx3004 VDD VSS mux21
+        X_ix3108 nx3106 nx3054 nx3065 nx3056 VDD VSS mux21
+        X_ix1495 nx1494 rst nx3264 VDD VSS nor02
+        X_ix757 nx756 rst nx3173 VDD VSS nor02
+        X_ix1443 nx1442 rst nx3220 VDD VSS nor02
+        X_ix1129 nx1128 rst nx3104 VDD VSS nor02
+        X_ix1111 nx1110 rst nx3159 VDD VSS nor02
+        X_ix1165 nx1164 rst nx3000 VDD VSS nor02
+        X_ix1147 nx1146 rst nx3052 VDD VSS nor02
+        X_ix3272 nx3270 nx3169 nx2457 VDD VSS or02
+        X_ix3166 nx3165 nx3169 nx2187 VDD VSS or02
+        X_ix3274 nx3273 max_inst_YA_14 nx364 VDD VSS nand02
+        X_ix3180 nx3179 max_inst_YA_13 nx444 VDD VSS nand02
+        X_ix3182 nx3181 max_inst_YA_12 nx364 VDD VSS nand02
+        X_ix3228 nx3227 max_inst_YA_14 nx444 VDD VSS nand02
+        X_ix3208 nx3207 nx756 VDD VSS inv01
+        X_ix3048 nx3047 nx1158 VDD VSS inv01
+        X_ix3100 nx3099 nx1140 VDD VSS inv01
+        X_ix3269 nx3268 nx3270 nx3273 VDD VSS xnor2
+        X_ix3265 nx3264 nx3266 nx3268 VDD VSS xnor2
+        X_ix3178 nx3177 nx3179 nx3181 VDD VSS xnor2
+        X_ix3174 nx3173 nx3175 nx3177 VDD VSS xnor2
+        X_ix3226 nx3225 nx3227 nx3229 VDD VSS xnor2
+        X_ix3222 nx3220 nx3223 nx3225 VDD VSS xnor2
+        X_ix3105 nx3104 nx3106 nx3109 VDD VSS xnor2
+        X_ix3102 nx3101 nx1128 nx1122 VDD VSS xnor2
+        X_ix103 nx3620 nx3608 instance0_MISR_cntr_5 instance0_MISR_cntr_6
++ VDD VSS and03
+        X_ix3626 nx3625 nx3638 nx3627 VDD VSS and02
+        X_ix2111 nx1167 nx2881 nx2890 VDD VSS xor2
+        X_ix2133 nx1168 nx2928 nx2936 VDD VSS xor2
+        X_ix3038 nx3037 nx3029 nx1796 VDD VSS xor2
+        X_ix2986 nx2985 nx2977 nx1812 VDD VSS xor2
+        X_ix3844 nx3845 nx3620 VDD VSS inv02
+        X_ix3878 nx3879 nx3845 VDD VSS inv02
+        X_ix3880 nx3881 nx3845 VDD VSS inv02
+        X_ix3628 nx3627 instance0_MISR_cntr_3 instance0_MISR_cntr_2 instance0_MISR_cntr_1
++ instance0_MISR_cntr_0 VDD VSS nand04
+        X_reg_instance0_MISR_cntr_4 instance0_MISR_cntr_4 nx3638 clk nx56
++ rst VDD VSS dffr
+        X_reg_instance0_MISR_cntr_2 instance0_MISR_cntr_2 nx3657 clk nx28
++ rst VDD VSS dffr
+        X_reg_instance0_MISR_cntr_3 instance0_MISR_cntr_3 nx3633 clk nx42
++ rst VDD VSS dffr
+        X_ix81 nx80 nx3879 nx78 VDD VSS nor02ii
+        X_ix63 nx1143 nx3627 instance0_MISR_cntr_4 VDD VSS nor02ii
+        X_ix2103 nx2102 rst nx2098 VDD VSS nor02ii
+        X_ix2125 nx2124 rst nx2120 VDD VSS nor02ii
+        X_ix2169 nx2168 rst nx2164 VDD VSS nor02ii
+        X_ix2163 nx2162 nx2983 nx2985 nx3034 nx2977 VDD VSS oai22
+        X_ix3086 nx3085 nx1796 mac_out_13 nx2162 nx1171 VDD VSS aoi22
+        X_ix3653 nx3652 instance0_MISR_cntr_5 nx1143 VDD VSS nand02
+        X_ix3613 nx3612 instance0_MISR_cntr_1 instance0_MISR_cntr_0 VDD
++ VSS nand02
+        X_ix3660 nx3659 nx3845 nx3631 VDD VSS nand02
+        X_ix3636 nx3635 nx3845 nx3627 VDD VSS nand02
+        X_ix3511 nx3510 tst_mode mac_out_9 VDD VSS nand02
+        X_ix3516 nx3515 tst_mode mac_out_10 VDD VSS nand02
+        X_ix3521 nx3520 tst_mode mac_out_11 VDD VSS nand02
+        X_ix3526 nx3525 tst_mode mac_out_12 VDD VSS nand02
+        X_ix95 nx3608 nx3657 nx3638 nx3633 VDD VSS nand03
+        X_ix3632 nx3631 instance0_MISR_cntr_2 instance0_MISR_cntr_1 instance0_MISR_cntr_0
++ VDD VSS nand03
+        X_ix77 nx1145 nx3652 VDD VSS inv01
+        X_ix21 nx1137 nx3612 VDD VSS inv01
+        X_ix3035 nx3034 nx1812 VDD VSS inv01
+        X_ix79 nx78 instance0_MISR_cntr_6 nx3652 VDD VSS xnor2
+        X_ix2731 nx2730 nx3510 instance0_MISR_misrreg_11 VDD VSS xnor2
+        X_ix2725 nx2724 nx3515 instance0_MISR_misrreg_12 VDD VSS xnor2
+        X_ix2719 nx2718 nx3520 instance0_MISR_misrreg_13 VDD VSS xnor2
+        X_ix2177 nx1171 nx3037 VDD VSS inv01
+        X_ix2099 nx2098 nx2886 nx1167 VDD VSS xnor2
+        X_ix2121 nx2120 nx2932 nx1168 VDD VSS xnor2
+        X_ix2165 nx2164 nx2162 nx3037 VDD VSS xnor2
+        X_ix2982 nx2981 nx2983 nx2985 VDD VSS xnor2
+        X_ix1718 nx1717 nx2730 instance0_MISR_misrreg_10 nx3879 VDD VSS mux21
+        X_ix1708 nx1707 nx2724 instance0_MISR_misrreg_11 nx3879 VDD VSS mux21
+        X_ix1698 nx1697 nx2718 instance0_MISR_misrreg_12 nx3879 VDD VSS mux21
+        X_ix1688 nx1687 nx2712 instance0_MISR_misrreg_13 nx3881 VDD VSS mux21
+        X_ix2933 nx2932 nx2890 nx2886 nx1167 VDD VSS mux21
+        X_ix2984 nx2983 nx2936 nx2932 nx1168 VDD VSS mux21
+        X_max_inst_instance3_RegC_reg_output_10 mac_out_10 nx2881 clk nx2102
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_11 mac_out_11 nx2928 clk nx2124
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_13 mac_out_13 nx3029 clk nx2168
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_12 mac_out_12 nx2977 clk nx2146
++ VDD VSS dff
+        X_ix2713 nx2712 nx3525 instance0_MISR_misrreg_14 VDD VSS xnor2
+        X_ix3 nx2 instance0_MISR_cntr_0 nx3879 VDD VSS nor02
+        X_ix3617 nx3616 instance0_MISR_cntr_0 instance0_MISR_cntr_1 VDD
++ VSS nor02
+        X_ix2147 nx2146 rst nx2981 VDD VSS nor02
+        X_ix29 nx28 nx3612 nx3657 nx3659 VDD VSS aoi21
+        X_ix43 nx42 nx3631 nx3633 nx3635 VDD VSS aoi21
+        X_ix71 nx70 nx3643 nx3879 nx1145 VDD VSS nor03
+        X_ix15 nx14 nx3616 nx3879 nx1137 VDD VSS nor03
+        X_ix57 nx56 nx3625 nx3879 nx1143 VDD VSS nor03
+        X_ix3644 nx3643 nx1143 instance0_MISR_cntr_5 VDD VSS nor02
+        X_ix3073 nx3072 nx3075 nx3077 VDD VSS xnor2
+        X_ix3069 nx3068 nx3070 nx3072 VDD VSS xnor2
+        X_ix3126 nx3125 nx3127 nx3129 VDD VSS xnor2
+        X_ix2948 nx2947 nx1182 nx1176 VDD VSS xnor2
+        X_ix2942 nx2941 nx2943 nx2947 VDD VSS xnor2
+        X_ix2804 nx2803 nx2805 nx2807 VDD VSS xnor2
+        X_ix2800 nx2799 nx1236 nx1230 VDD VSS xnor2
+        X_ix2793 nx2792 nx2795 nx2799 VDD VSS xnor2
+        X_ix2853 nx2852 nx2854 nx2856 VDD VSS xnor2
+        X_ix2850 nx2849 nx1218 nx1212 VDD VSS xnor2
+        X_ix2844 nx2843 nx2845 nx2849 VDD VSS xnor2
+        X_ix2808 nx2807 nx2809 nx2814 VDD VSS xnor2
+        X_ix2857 nx2856 nx2858 nx2866 VDD VSS xnor2
+        X_ix2908 nx2907 nx2909 nx2914 VDD VSS xnor2
+        X_ix2956 nx2954 nx2957 nx2962 VDD VSS xnor2
+        X_ix3020 nx3019 nx2967 nx2973 nx2969 VDD VSS mux21
+        X_ix3071 nx3070 nx3019 nx3025 nx3021 VDD VSS mux21
+        X_ix3124 nx3123 nx3070 nx3077 nx3072 VDD VSS mux21
+        X_ix3176 nx3175 nx3123 nx3129 nx3125 VDD VSS mux21
+        X_ix2944 nx2943 nx2895 nx2945 nx2899 VDD VSS mux21
+        X_ix2994 nx2993 nx2943 nx2995 nx2947 VDD VSS mux21
+        X_ix2846 nx2845 nx2795 nx2847 nx2799 VDD VSS mux21
+        X_ix2896 nx2895 nx2845 nx2897 nx2849 VDD VSS mux21
+        X_ix2855 nx2854 nx2805 nx2814 nx2807 VDD VSS mux21
+        X_ix2906 nx2905 nx2854 nx2866 nx2856 VDD VSS mux21
+        X_ix2953 nx2952 nx2905 nx2914 nx2907 VDD VSS mux21
+        X_ix3003 nx3002 nx2952 nx2962 nx2954 VDD VSS mux21
+        X_ix1177 nx1176 rst nx2965 VDD VSS nor02
+        X_ix1159 nx1158 rst nx3017 VDD VSS nor02
+        X_ix1141 nx1140 rst nx3068 VDD VSS nor02
+        X_ix3122 nx3121 nx3123 nx3125 VDD VSS xnor2
+        X_ix2904 nx2903 nx2905 nx2907 VDD VSS xnor2
+        X_ix2900 nx2899 nx1200 nx1194 VDD VSS xnor2
+        X_ix2894 nx2893 nx2895 nx2899 VDD VSS xnor2
+        X_ix2951 nx2950 nx2952 nx2954 VDD VSS xnor2
+        X_ix3130 nx3129 max_inst_YA_11 nx364 VDD VSS nand02
+        X_ix1123 nx1122 rst nx3121 VDD VSS nor02
+        X_ix1201 nx1200 rst nx2903 VDD VSS nor02
+        X_ix1183 nx1182 rst nx2950 VDD VSS nor02
+        X_ix1237 nx1236 rst nx2803 VDD VSS nor02
+        X_ix1219 nx1218 rst nx2852 VDD VSS nor02
+        X_ix2972 nx2971 max_inst_YA_9 nx444 VDD VSS nand02
+        X_ix2974 nx2973 max_inst_YA_8 nx364 VDD VSS nand02
+        X_ix3024 nx3023 max_inst_YA_10 nx444 VDD VSS nand02
+        X_ix3026 nx3025 max_inst_YA_9 nx364 VDD VSS nand02
+        X_ix3076 nx3075 max_inst_YA_11 nx444 VDD VSS nand02
+        X_ix3078 nx3077 max_inst_YA_10 nx364 VDD VSS nand02
+        X_ix3128 nx3127 max_inst_YA_12 nx444 VDD VSS nand02
+        X_ix2810 nx2809 max_inst_YA_8 nx902 VDD VSS nand02
+        X_ix2815 nx2814 max_inst_YA_7 nx822 VDD VSS nand02
+        X_ix2860 nx2858 max_inst_YA_9 nx902 VDD VSS nand02
+        X_ix2867 nx2866 max_inst_YA_8 nx822 VDD VSS nand02
+        X_ix2910 nx2909 max_inst_YA_10 nx902 VDD VSS nand02
+        X_ix2915 nx2914 max_inst_YA_9 nx822 VDD VSS nand02
+        X_ix2958 nx2957 max_inst_YA_11 nx902 VDD VSS nand02
+        X_ix2963 nx2962 max_inst_YA_10 nx822 VDD VSS nand02
+        X_ix2946 nx2945 nx1194 VDD VSS inv01
+        X_ix2996 nx2995 nx1176 VDD VSS inv01
+        X_ix2848 nx2847 nx1230 VDD VSS inv01
+        X_ix2898 nx2897 nx1212 VDD VSS inv01
+        X_ix2970 nx2969 nx2971 nx2973 VDD VSS xnor2
+        X_ix2966 nx2965 nx2967 nx2969 VDD VSS xnor2
+        X_ix3022 nx3021 nx3023 nx3025 VDD VSS xnor2
+        X_ix3018 nx3017 nx3019 nx3021 VDD VSS xnor2
+        X_max_inst_instance3_RegC_reg_output_8 mac_out_8 nx2780 clk nx2058
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_9 mac_out_9 nx2830 clk nx2080
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_4 mac_out_4 nx2573 clk nx1970
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_5 mac_out_5 nx2631 clk nx1992
++ VDD VSS dff
+        X_ix2353 nx1186 nx3338 nx3346 VDD VSS xor2
+        X_ix2067 nx1163 nx2780 nx2789 VDD VSS xor2
+        X_ix2089 nx1165 nx2830 nx2838 VDD VSS xor2
+        X_ix1979 nx1155 nx2573 nx2587 VDD VSS xor2
+        X_ix2001 nx1157 nx2631 nx2639 VDD VSS xor2
+        X_ix2828 nx2827 rst NOT_max_inst_Counter_sig_0 VDD VSS or02
+        X_ix2626 nx2625 rst max_inst_Counter_sig_0 VDD VSS or02
+        X_ix2015 nx2014 rst nx2010 VDD VSS nor02ii
+        X_ix2037 nx2036 rst nx2032 VDD VSS nor02ii
+        X_ix2323 nx2322 rst nx2318 VDD VSS nor02ii
+        X_ix2345 nx2344 rst nx2340 VDD VSS nor02ii
+        X_ix2059 nx2058 rst nx2054 VDD VSS nor02ii
+        X_ix2081 nx2080 rst nx2076 VDD VSS nor02ii
+        X_ix3866 nx3867 nx2281 VDD VSS inv01
+        X_ix3874 nx3875 nx3867 VDD VSS inv01
+        X_ix3202 nx3201 nx1450 VDD VSS inv01
+        X_ix3252 nx3251 nx1576 VDD VSS inv01
+        X_ix2628 nx2627 nx1804 VDD VSS inv01
+        X_ix2011 nx2010 nx2685 nx1159 VDD VSS xnor2
+        X_ix2033 nx2032 nx2733 nx1161 VDD VSS xnor2
+        X_ix2319 nx2318 nx3329 nx1185 VDD VSS xnor2
+        X_ix2341 nx2340 nx3342 nx1186 VDD VSS xnor2
+        X_ix2055 nx2054 nx2785 nx1163 VDD VSS xnor2
+        X_ix2077 nx2076 nx2834 nx1165 VDD VSS xnor2
+        X_ix1967 nx1966 nx2579 nx1155 VDD VSS xnor2
+        X_ix1989 nx1988 nx2635 nx1157 VDD VSS xnor2
+        X_ix2738 nx2737 nx3875 nx1738 VDD VSS nand02
+        X_ix2640 nx2639 nx3875 nx1792 VDD VSS nand02
+        X_ix2588 nx2587 nx3875 nx1808 VDD VSS nand02
+        X_ix1789 nx1788 nx2395 VDD VSS inv01
+        X_ix2734 nx2733 nx2689 nx2685 nx1159 VDD VSS mux21
+        X_ix2786 nx2785 nx2737 nx2733 nx1161 VDD VSS mux21
+        X_ix3343 nx3342 nx3334 nx3329 nx1185 VDD VSS mux21
+        X_ix3355 nx3354 nx3346 nx3342 nx1186 VDD VSS mux21
+        X_ix2835 nx2834 nx2789 nx2785 nx1163 VDD VSS mux21
+        X_ix2887 nx2886 nx2838 nx2834 nx1165 VDD VSS mux21
+        X_ix2636 nx2635 nx2587 nx2579 nx1155 VDD VSS mux21
+        X_ix2686 nx2685 nx2639 nx2635 nx1157 VDD VSS mux21
+        X_ix1797 nx1796 nx1792 nx1640 nx3875 VDD VSS mux21
+        X_ix1813 nx1812 nx1808 nx1654 nx3875 VDD VSS mux21
+        X_max_inst_instance0_counter_reg_output_0 max_inst_Counter_sig_0
++ NOT_max_inst_Counter_sig_0 clk NOT_max_inst_Counter_sig_0 rst VDD VSS dffs
+        X_max_inst_instance3_RegC_reg_output_6 mac_out_6 nx2680 clk nx2014
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_7 mac_out_7 nx2728 clk nx2036
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_20 mac_out_20 nx3325 clk nx2322
++ VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_21 mac_out_21 nx3338 clk nx2344
++ VDD VSS dff
+        X_ix359 nx358 nx3875 max_inst_Counter_sig_0 VDD VSS and02
+        X_ix2023 nx1159 nx2680 nx2689 VDD VSS xor2
+        X_ix2045 nx1161 nx2728 nx2737 VDD VSS xor2
+        X_ix2331 nx1185 nx3325 nx3334 VDD VSS xor2
+        X_ix1971 nx1970 rst nx1966 VDD VSS nor02ii
+        X_ix1993 nx1992 rst nx1988 VDD VSS nor02ii
+        X_ix341 nx340 nx3875 NOT_max_inst_Counter_sig_0 VDD VSS nor02ii
+        X_ix1641 nx1640 nx3043 nx2625 nx2843 nx2827 VDD VSS oai22
+        X_ix1793 nx1792 nx2643 nx2625 NOT_max_inst_Counter_sig_0 nx2395
++ VDD VSS oai22
+        X_ix1703 nx1702 nx2843 nx2625 nx2643 nx2827 VDD VSS oai22
+        X_ix1595 nx1594 max_inst_Counter_sig_0 nx3201 nx2990 nx2827 VDD
++ VSS oai22
+        X_ix1583 nx1582 max_inst_Counter_sig_0 nx3251 nx3043 nx2827 VDD
++ VSS oai22
+        X_ix1809 nx1808 nx2591 nx2625 NOT_max_inst_Counter_sig_0 nx2627
++ VDD VSS oai22
+        X_ix1719 nx1718 nx2792 nx2625 nx2591 nx2827 VDD VSS oai22
+        X_ix1655 nx1654 nx2990 nx2625 nx2792 nx2827 VDD VSS oai22
+        X_ix2839 nx2838 nx1788 nx340 nx3875 nx1702 VDD VSS aoi22
+        X_ix2790 nx2789 nx1804 nx340 nx3875 nx1718 VDD VSS aoi22
+        X_ix3335 nx3334 nx3867 nx1654 nx1450 nx358 VDD VSS aoi22
+        X_ix3347 nx3346 nx3867 nx1640 nx1576 nx358 VDD VSS aoi22
+        X_ix2874 nx2873 nx2875 nx2877 VDD VSS xnor2
+        X_ix2870 nx2869 nx2871 nx2873 VDD VSS xnor2
+        X_ix2922 nx2921 nx2923 nx2925 VDD VSS xnor2
+        X_ix2748 nx2747 nx1254 nx1248 VDD VSS xnor2
+        X_ix2741 nx2740 nx2743 nx2747 VDD VSS xnor2
+        X_ix2600 nx2599 nx2601 nx2603 VDD VSS xnor2
+        X_ix2596 nx2595 nx1308 nx1302 VDD VSS xnor2
+        X_ix2592 nx2591 nx2593 nx2595 VDD VSS xnor2
+        X_ix2654 nx2653 nx2655 nx2657 VDD VSS xnor2
+        X_ix2650 nx2649 nx1290 nx1284 VDD VSS xnor2
+        X_ix2644 nx2643 nx2645 nx2649 VDD VSS xnor2
+        X_ix2604 nx2603 nx2605 nx2613 VDD VSS xnor2
+        X_ix2658 nx2657 nx2659 nx2665 VDD VSS xnor2
+        X_ix2708 nx2707 nx2709 nx2714 VDD VSS xnor2
+        X_ix2756 nx2755 nx2757 nx2763 VDD VSS xnor2
+        X_ix2820 nx2819 nx2769 nx2775 nx2771 VDD VSS mux21
+        X_ix2872 nx2871 nx2819 nx2825 nx2821 VDD VSS mux21
+        X_ix2920 nx2919 nx2871 nx2877 nx2873 VDD VSS mux21
+        X_ix2968 nx2967 nx2919 nx2925 nx2921 VDD VSS mux21
+        X_ix2744 nx2743 nx2695 nx2745 nx2699 VDD VSS mux21
+        X_ix2796 nx2795 nx2743 nx2797 nx2747 VDD VSS mux21
+        X_ix2646 nx2645 nx2593 nx2647 nx2595 VDD VSS mux21
+        X_ix2696 nx2695 nx2645 nx2697 nx2649 VDD VSS mux21
+        X_ix2656 nx2655 nx2601 nx2613 nx2603 VDD VSS mux21
+        X_ix2706 nx2705 nx2655 nx2665 nx2657 VDD VSS mux21
+        X_ix2754 nx2753 nx2705 nx2714 nx2707 VDD VSS mux21
+        X_ix2806 nx2805 nx2753 nx2763 nx2755 VDD VSS mux21
+        X_ix1249 nx1248 rst nx2766 VDD VSS nor02
+        X_ix1231 nx1230 rst nx2817 VDD VSS nor02
+        X_ix1213 nx1212 rst nx2869 VDD VSS nor02
+        X_ix2918 nx2917 nx2919 nx2921 VDD VSS xnor2
+        X_ix2704 nx2703 nx2705 nx2707 VDD VSS xnor2
+        X_ix2700 nx2699 nx1272 nx1266 VDD VSS xnor2
+        X_ix2693 nx2692 nx2695 nx2699 VDD VSS xnor2
+        X_ix2752 nx2751 nx2753 nx2755 VDD VSS xnor2
+        X_ix2822 nx2821 nx2823 nx2825 VDD VSS xnor2
+        X_ix1195 nx1194 rst nx2917 VDD VSS nor02
+        X_ix1273 nx1272 rst nx2703 VDD VSS nor02
+        X_ix1255 nx1254 rst nx2751 VDD VSS nor02
+        X_ix1309 nx1308 rst nx2599 VDD VSS nor02
+        X_ix1291 nx1290 rst nx2653 VDD VSS nor02
+        X_ix2774 nx2773 max_inst_YA_5 nx444 VDD VSS nand02
+        X_ix2776 nx2775 max_inst_YA_4 nx364 VDD VSS nand02
+        X_ix2824 nx2823 max_inst_YA_6 nx444 VDD VSS nand02
+        X_ix2826 nx2825 max_inst_YA_5 nx364 VDD VSS nand02
+        X_ix2876 nx2875 max_inst_YA_7 nx444 VDD VSS nand02
+        X_ix2878 nx2877 max_inst_YA_6 nx364 VDD VSS nand02
+        X_ix2924 nx2923 max_inst_YA_8 nx444 VDD VSS nand02
+        X_ix2926 nx2925 max_inst_YA_7 nx364 VDD VSS nand02
+        X_ix2606 nx2605 max_inst_YA_4 nx902 VDD VSS nand02
+        X_ix2614 nx2613 max_inst_YA_3 nx822 VDD VSS nand02
+        X_ix2660 nx2659 max_inst_YA_5 nx902 VDD VSS nand02
+        X_ix2666 nx2665 max_inst_YA_4 nx822 VDD VSS nand02
+        X_ix2710 nx2709 max_inst_YA_6 nx902 VDD VSS nand02
+        X_ix2715 nx2714 max_inst_YA_5 nx822 VDD VSS nand02
+        X_ix2758 nx2757 max_inst_YA_7 nx902 VDD VSS nand02
+        X_ix2764 nx2763 max_inst_YA_6 nx822 VDD VSS nand02
+        X_ix2746 nx2745 nx1266 VDD VSS inv01
+        X_ix2798 nx2797 nx1248 VDD VSS inv01
+        X_ix2648 nx2647 nx1302 VDD VSS inv01
+        X_ix2698 nx2697 nx1284 VDD VSS inv01
+        X_ix2772 nx2771 nx2773 nx2775 VDD VSS xnor2
+        X_ix2767 nx2766 nx2769 nx2771 VDD VSS xnor2
+        X_ix2818 nx2817 nx2819 nx2821 VDD VSS xnor2
+        X_ix2672 nx2671 nx2535 nx2623 nx2619 VDD VSS mux21
+        X_ix2594 nx2593 nx2533 nx2489 nx1340 VDD VSS mux21
+        X_ix2522 nx2521 nx2397 nx2486 nx2479 VDD VSS mux21
+        X_ix2602 nx2601 nx2521 nx2531 nx2523 VDD VSS mux21
+        X_ix1285 nx1284 rst nx2668 VDD VSS nor02
+        X_ix1267 nx1266 rst nx2717 VDD VSS nor02
+        X_ix1303 nx1302 rst nx2617 VDD VSS nor02
+        X_ix1339 nx1338 rst nx2519 VDD VSS nor02
+        X_ix1735 nx1734 rst nx2511 VDD VSS nor02
+        X_ix1805 nx1804 nx2187 nx2299 VDD VSS nor02
+        X_ix2526 nx2525 max_inst_YA_3 nx902 VDD VSS nand02
+        X_ix2532 nx2531 max_inst_YA_2 nx822 VDD VSS nand02
+        X_ix2454 nx2453 nx1752 nx2301 nx2489 VDD VSS nand03
+        X_ix365 nx364 nx2567 VDD VSS inv01
+        X_ix445 nx444 nx2457 VDD VSS inv01
+        X_ix2490 nx2489 nx1354 VDD VSS inv01
+        X_ix823 nx822 nx2431 VDD VSS inv01
+        X_ix903 nx902 nx2187 VDD VSS inv01
+        X_ix2674 nx2673 nx2675 nx2677 VDD VSS xnor2
+        X_ix2669 nx2668 nx2671 nx2673 VDD VSS xnor2
+        X_ix1329 nx1328 nx2457 rst nx2403 nx2567 nx2299 VDD VSS oai32
+        X_ix1785 nx1784 nx2187 rst nx2403 nx2431 nx2299 VDD VSS oai32
+        X_ix2676 nx2675 max_inst_YA_3 nx444 VDD VSS nand02
+        X_ix2678 nx2677 max_inst_YA_2 nx364 VDD VSS nand02
+        X_ix2724 nx2723 max_inst_YA_4 nx444 VDD VSS nand02
+        X_ix2726 nx2725 max_inst_YA_3 nx364 VDD VSS nand02
+        X_ix2622 nx2621 max_inst_YA_2 nx444 VDD VSS nand02
+        X_ix2534 nx2533 nx2535 nx1328 VDD VSS nand02
+        X_ix2396 nx2395 nx2397 nx1784 VDD VSS nand02
+        X_ix2482 nx2481 max_inst_YA_2 nx902 VDD VSS nand02
+        X_ix2722 nx2721 nx2723 nx2725 VDD VSS xnor2
+        X_ix2718 nx2717 nx2719 nx2721 VDD VSS xnor2
+        X_ix2620 nx2619 nx2621 nx2623 VDD VSS xnor2
+        X_ix2618 nx2617 nx2535 nx2619 VDD VSS xnor2
+        X_ix2520 nx2519 nx2521 nx2523 VDD VSS xnor2
+        X_ix1341 nx1340 nx1338 nx2533 VDD VSS xnor2
+        X_ix2512 nx2511 nx1354 nx1340 VDD VSS xnor2
+        X_ix2480 nx2479 nx2481 nx2486 VDD VSS xnor2
+        X_ix2478 nx2477 nx2397 nx2479 VDD VSS xnor2
+        X_ix2524 nx2523 nx2525 nx2531 VDD VSS xnor2
+        X_ix2720 nx2719 nx2671 nx2677 nx2673 VDD VSS mux21
+        X_ix2770 nx2769 nx2719 nx2725 nx2721 VDD VSS mux21
+        X_ix2536 nx2535 nx2403 nx2567 nx2376 nx2457 VDD VSS or04
+        X_ix2398 nx2397 nx2403 nx2431 nx2376 nx2187 VDD VSS or04
+        X_ix2624 nx2623 nx2403 nx2567 VDD VSS or02
+        X_ix2300 nx2299 rst nx2376 VDD VSS or02
+        X_ix2488 nx2486 nx2403 nx2431 VDD VSS or02
+        X_ix1355 nx1354 rst nx2457 nx2477 nx2376 VDD VSS nor04
+        X_ix1753 nx1752 nx2457 nx2299 nx2477 VDD VSS oai21
+        X_ix1408 nx1407 lfsr_out2_4 lfsr_out2_3 tst_mode VDD VSS mux21
+        X_ix1438 nx1437 lfsr_out2_7 lfsr_out2_6 tst_mode VDD VSS mux21
+        X_ix1428 nx1427 lfsr_out2_6 lfsr_out2_5 tst_mode VDD VSS mux21
+        X_ix1458 nx1457 lfsr_out2_9 lfsr_out2_8 tst_mode VDD VSS mux21
+        X_ix1448 nx1447 lfsr_out2_8 lfsr_out2_7 tst_mode VDD VSS mux21
+        X_ix1478 nx1477 lfsr_out2_11 lfsr_out2_10 tst_mode VDD VSS mux21
+        X_ix1468 nx1467 lfsr_out2_10 lfsr_out2_9 tst_mode VDD VSS mux21
+        X_ix1498 nx1497 lfsr_out2_13 lfsr_out2_12 tst_mode VDD VSS mux21
+        X_ix1488 nx1487 lfsr_out2_12 lfsr_out2_11 tst_mode VDD VSS mux21
+        X_ix1518 nx1517 lfsr_out2_15 lfsr_out2_14 tst_mode VDD VSS mux21
+        X_ix1508 nx1507 lfsr_out2_14 lfsr_out2_13 tst_mode VDD VSS mux21
+        X_ix1258 nx1257 lfsr_out1_1 lfsr_out1_0 tst_mode VDD VSS mux21
+        X_ix1248 nx1247 lfsr_out1_0 nx138 tst_mode VDD VSS mux21
+        X_ix1278 nx1277 lfsr_out1_3 lfsr_out1_2 tst_mode VDD VSS mux21
+        X_ix313 nx312 B[3] nx3861 lfsr_out2_3 nx3865 VDD VSS ao22
+        X_ix891 nx890 B[4] nx3859 lfsr_out2_4 nx3863 VDD VSS ao22
+        X_ix811 nx810 B[5] nx3859 lfsr_out2_5 nx3863 VDD VSS ao22
+        X_ix433 nx432 B[6] nx3859 lfsr_out2_6 nx3863 VDD VSS ao22
+        X_ix349 nx348 B[7] nx3861 lfsr_out2_7 nx3865 VDD VSS ao22
+        X_ix877 nx876 B[8] nx3859 lfsr_out2_8 nx3863 VDD VSS ao22
+        X_ix797 nx796 B[9] nx3859 lfsr_out2_9 nx3863 VDD VSS ao22
+        X_ix419 nx418 B[10] nx3859 lfsr_out2_10 nx3863 VDD VSS ao22
+        X_ix331 nx330 B[11] nx3861 lfsr_out2_11 nx3865 VDD VSS ao22
+        X_ix843 nx842 B[12] nx3859 lfsr_out2_12 nx3863 VDD VSS ao22
+        X_ix763 nx762 B[13] nx3859 lfsr_out2_13 nx3863 VDD VSS ao22
+        X_ix385 nx384 B[14] nx3859 lfsr_out2_14 nx3863 VDD VSS ao22
+        X_ix277 nx276 B[15] nx3861 lfsr_out2_15 nx3865 VDD VSS ao22
+        X_ix679 nx678 A[0] nx3859 lfsr_out1_0 nx3863 VDD VSS ao22
+        X_ix657 nx656 A[1] nx3859 lfsr_out1_1 nx3863 VDD VSS ao22
+        X_ix635 nx634 A[2] nx3859 lfsr_out1_2 nx3863 VDD VSS ao22
+        X_ix613 nx612 A[3] nx3861 lfsr_out1_3 nx3865 VDD VSS ao22
+        X_ix591 nx590 A[4] nx3861 lfsr_out1_4 nx3865 VDD VSS ao22
+        X_ix569 nx568 A[5] nx3861 lfsr_out1_5 nx3865 VDD VSS ao22
+        X_ix547 nx546 A[6] nx3861 lfsr_out1_6 nx3865 VDD VSS ao22
+        X_ix525 nx524 A[7] nx3861 lfsr_out1_7 nx3865 VDD VSS ao22
+        X_ix503 nx502 A[8] nx3861 lfsr_out1_8 nx3865 VDD VSS ao22
+        X_ix481 nx480 A[9] nx3861 lfsr_out1_9 nx3865 VDD VSS ao22
+        X_ix459 nx458 A[10] nx3861 lfsr_out1_10 nx3865 VDD VSS ao22
+        X_ix195 nx194 A[11] nx3861 lfsr_out1_11 nx3865 VDD VSS ao22
+        X_ix373 nx372 A[12] nx3861 lfsr_out1_12 nx3865 VDD VSS ao22
+        X_ix739 nx738 A[13] nx3861 lfsr_out1_13 nx3865 VDD VSS ao22
+        X_ix831 nx830 A[14] nx114 lfsr_out1_14 nx190 VDD VSS ao22
+        X_ix1093 nx1092 A[15] nx114 lfsr_out1_15 nx190 VDD VSS ao22
+        X_ix3860 nx3861 rst tst_mode VDD VSS nor02
+        X_ix115 nx114 rst tst_mode VDD VSS nor02
+        X_ix3858 nx3859 rst tst_mode VDD VSS nor02
+        X_ix1388 nx1387 lfsr_out2_2 lfsr_out2_1 tst_mode VDD VSS mux21
+        X_ix1418 nx1417 lfsr_out2_5 lfsr_out2_4 tst_mode VDD VSS mux21
+        X_ix1268 nx1267 lfsr_out1_2 lfsr_out1_1 tst_mode VDD VSS mux21
+        X_ix1298 nx1297 lfsr_out1_5 lfsr_out1_4 tst_mode VDD VSS mux21
+        X_ix1288 nx1287 lfsr_out1_4 lfsr_out1_3 tst_mode VDD VSS mux21
+        X_ix1318 nx1317 lfsr_out1_7 lfsr_out1_6 tst_mode VDD VSS mux21
+        X_ix1308 nx1307 lfsr_out1_6 lfsr_out1_5 tst_mode VDD VSS mux21
+        X_ix1338 nx1337 lfsr_out1_9 lfsr_out1_8 tst_mode VDD VSS mux21
+        X_ix1328 nx1327 lfsr_out1_8 lfsr_out1_7 tst_mode VDD VSS mux21
+        X_ix1358 nx1357 lfsr_out1_11 lfsr_out1_10 tst_mode VDD VSS mux21
+        X_ix1348 nx1347 lfsr_out1_10 lfsr_out1_9 tst_mode VDD VSS mux21
+        X_ix1218 nx1217 lfsr_out1_13 lfsr_out1_12 tst_mode VDD VSS mux21
+        X_ix1208 nx1207 lfsr_out1_12 lfsr_out1_11 tst_mode VDD VSS mux21
+        X_ix1238 nx1237 lfsr_out1_15 lfsr_out1_14 tst_mode VDD VSS mux21
+        X_ix1228 nx1227 lfsr_out1_14 lfsr_out1_13 tst_mode VDD VSS mux21
+        X_ix859 nx858 B[0] nx3859 lfsr_out2_0 nx3863 VDD VSS ao22
+        X_ix779 nx778 B[1] nx3859 lfsr_out2_1 nx3863 VDD VSS ao22
+        X_ix401 nx400 B[2] nx3859 lfsr_out2_2 nx3863 VDD VSS ao22
+        X_ix205 nx204 lfsr_out2_1 lfsr_out2_2 VDD VSS xor2
+        X_ix135 nx134 lfsr_out1_1 lfsr_out1_2 VDD VSS xor2
+        X_ix3862 nx3863 rst tst_mode VDD VSS nor02ii
+        X_ix3864 nx3865 rst tst_mode VDD VSS nor02ii
+        X_ix191 nx190 rst tst_mode VDD VSS nor02ii
+        X_ix2261 nx2260 lfsr_out2_4 nx204 VDD VSS xnor2
+        X_ix209 nx208 lfsr_out2_15 nx2260 VDD VSS xnor2
+        X_ix2373 nx2372 lfsr_out1_4 nx134 VDD VSS xnor2
+        X_ix139 nx138 lfsr_out1_15 nx2372 VDD VSS xnor2
+        X_ix1378 nx1377 lfsr_out2_1 lfsr_out2_0 tst_mode VDD VSS mux21
+        X_ix1368 nx1367 lfsr_out2_0 nx208 tst_mode VDD VSS mux21
+        X_ix1398 nx1397 lfsr_out2_3 lfsr_out2_2 tst_mode VDD VSS mux21
+        X_ix3181 multiplierOut[15] tst_mode mac_out_15 VDD VSS nor02ii
+        X_ix3185 multiplierOut[16] tst_mode mac_out_16 VDD VSS nor02ii
+        X_ix3189 multiplierOut[17] tst_mode mac_out_17 VDD VSS nor02ii
+        X_ix3193 multiplierOut[18] tst_mode mac_out_18 VDD VSS nor02ii
+        X_ix3197 multiplierOut[19] tst_mode mac_out_19 VDD VSS nor02ii
+        X_ix3201 multiplierOut[20] tst_mode mac_out_20 VDD VSS nor02ii
+        X_ix3205 multiplierOut[21] tst_mode mac_out_21 VDD VSS nor02ii
+        X_ix3209 multiplierOut[22] tst_mode mac_out_22 VDD VSS nor02ii
+        X_ix3213 multiplierOut[23] tst_mode mac_out_23 VDD VSS nor02ii
+        X_ix3217 multiplierOut[24] tst_mode mac_out_24 VDD VSS nor02ii
+        X_ix3221 multiplierOut[25] tst_mode mac_out_25 VDD VSS nor02ii
+        X_ix3225 multiplierOut[26] tst_mode mac_out_26 VDD VSS nor02ii
+        X_ix3229 multiplierOut[27] tst_mode mac_out_27 VDD VSS nor02ii
+        X_ix3601 nx3600 tst_mode mac_out_27 VDD VSS nand02
+        X_ix3606 nx3605 tst_mode mac_out_28 VDD VSS nand02
+        X_ix2755 nx2754 nx3490 instance0_MISR_misrreg_7 VDD VSS xnor2
+        X_ix2749 nx2748 nx3495 instance0_MISR_misrreg_8 VDD VSS xnor2
+        X_ix2743 nx2742 nx3500 instance0_MISR_misrreg_9 VDD VSS xnor2
+        X_ix2737 nx2736 nx3505 instance0_MISR_misrreg_10 VDD VSS xnor2
+        X_ix3486 nx3485 instance0_MISR_misrreg_6 nx2800 VDD VSS xnor2
+        X_ix2805 nx2804 instance0_MISR_misrreg_31 nx3485 VDD VSS xnor2
+        X_ix2823 nx2822 nx3473 instance0_MISR_misrreg_31 VDD VSS xnor2
+        X_ix2817 nx2816 nx3478 instance0_MISR_misrreg_0 VDD VSS xnor2
+        X_ix2783 nx2782 nx3707 instance0_MISR_misrreg_4 VDD VSS xnor2
+        X_ix2763 nx2762 nx3689 instance0_MISR_misrreg_6 VDD VSS xnor2
+        X_ix2777 nx2776 nx3712 instance0_MISR_misrreg_5 VDD VSS xnor2
+        X_ix2795 nx2794 nx3697 instance0_MISR_misrreg_2 VDD VSS xnor2
+        X_ix2789 nx2788 nx3702 instance0_MISR_misrreg_3 VDD VSS xnor2
+        X_ix2623 nx2622 nx3600 instance0_MISR_misrreg_29 VDD VSS xnor2
+        X_ix2617 nx2616 nx3605 instance0_MISR_misrreg_30 VDD VSS xnor2
+        X_ix1758 nx1757 nx2754 instance0_MISR_misrreg_6 nx3879 VDD VSS mux21
+        X_ix1748 nx1747 nx2748 instance0_MISR_misrreg_7 nx3879 VDD VSS mux21
+        X_ix1738 nx1737 nx2742 instance0_MISR_misrreg_8 nx3879 VDD VSS mux21
+        X_ix1728 nx1727 nx2736 instance0_MISR_misrreg_9 nx3879 VDD VSS mux21
+        X_ix1818 nx1817 nx2804 instance0_MISR_allTaps nx3717 VDD VSS mux21
+        X_ix1848 nx1847 nx2822 instance0_MISR_misrreg_30 nx3879 VDD VSS mux21
+        X_ix1828 nx1827 instance0_MISR_allTaps instance0_MISR_misrreg_0
++ nx3879 VDD VSS mux21
+        X_ix1838 nx1837 nx2816 instance0_MISR_misrreg_31 nx3879 VDD VSS mux21
+        X_ix1788 nx1787 nx2782 instance0_MISR_misrreg_3 nx3883 VDD VSS mux21
+        X_ix1768 nx1767 nx2762 instance0_MISR_misrreg_5 nx3883 VDD VSS mux21
+        X_ix1778 nx1777 nx2776 instance0_MISR_misrreg_4 nx3883 VDD VSS mux21
+        X_ix1808 nx1807 nx2794 instance0_MISR_misrreg_1 nx3883 VDD VSS mux21
+        X_ix1798 nx1797 nx2788 instance0_MISR_misrreg_2 nx3883 VDD VSS mux21
+        X_ix1538 nx1537 nx2622 instance0_MISR_misrreg_28 nx3883 VDD VSS mux21
+        X_ix1528 nx1527 nx2616 instance0_MISR_misrreg_29 nx3883 VDD VSS mux21
+        X_ix3165 multiplierOut[11] tst_mode mac_out_11 VDD VSS nor02ii
+        X_ix3169 multiplierOut[12] tst_mode mac_out_12 VDD VSS nor02ii
+        X_ix3173 multiplierOut[13] tst_mode mac_out_13 VDD VSS nor02ii
+        X_ix3177 multiplierOut[14] tst_mode mac_out_14 VDD VSS nor02ii
+        X_ix3233 multiplierOut[28] tst_mode mac_out_28 VDD VSS nor02ii
+        X_ix3237 multiplierOut[29] tst_mode mac_out_29 VDD VSS nor02ii
+        X_ix3241 multiplierOut[30] tst_mode mac_out_30 VDD VSS nor02ii
+        X_ix3271 multiplierOut[31] tst_mode mac_out_31 VDD VSS nor02ii
+        X_ix3491 nx3490 tst_mode mac_out_5 VDD VSS nand02
+        X_ix3496 nx3495 tst_mode mac_out_6 VDD VSS nand02
+        X_ix3501 nx3500 tst_mode mac_out_7 VDD VSS nand02
+        X_ix3506 nx3505 tst_mode mac_out_8 VDD VSS nand02
+        X_ix3474 nx3473 tst_mode mac_out_29 VDD VSS nand02
+        X_ix3479 nx3478 tst_mode mac_out_30 VDD VSS nand02
+        X_ix3708 nx3707 tst_mode mac_out_2 VDD VSS nand02
+        X_ix3690 nx3689 tst_mode mac_out_4 VDD VSS nand02
+        X_ix3713 nx3712 tst_mode mac_out_3 VDD VSS nand02
+        X_ix3698 nx3697 tst_mode mac_out_0 VDD VSS nand02
+        X_ix3703 nx3702 tst_mode mac_out_1 VDD VSS nand02
+        X_ix2801 nx2800 instance0_MISR_misrreg_5 instance0_MISR_misrreg_1
++ VDD VSS xor2
+        X_ix3121 multiplierOut[0] tst_mode mac_out_0 VDD VSS nor02ii
+        X_ix3125 multiplierOut[1] tst_mode mac_out_1 VDD VSS nor02ii
+        X_ix3129 multiplierOut[2] tst_mode mac_out_2 VDD VSS nor02ii
+        X_ix3133 multiplierOut[3] tst_mode mac_out_3 VDD VSS nor02ii
+        X_ix3137 multiplierOut[4] tst_mode mac_out_4 VDD VSS nor02ii
+        X_ix3141 multiplierOut[5] tst_mode mac_out_5 VDD VSS nor02ii
+        X_ix3145 multiplierOut[6] tst_mode mac_out_6 VDD VSS nor02ii
+        X_ix3149 multiplierOut[7] tst_mode mac_out_7 VDD VSS nor02ii
+        X_ix3153 multiplierOut[8] tst_mode mac_out_8 VDD VSS nor02ii
+        X_ix3157 multiplierOut[9] tst_mode mac_out_9 VDD VSS nor02ii
+        X_ix3161 multiplierOut[10] tst_mode mac_out_10 VDD VSS nor02ii
+        X_instance0_MISR_reg_last_sig_19 misr_out_19 N$dummy_esc3[114] clk
++ nx1977 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_21 misr_out_21 N$dummy_esc3[113] clk
++ nx1957 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_22 misr_out_22 N$dummy_esc3[112] clk
++ nx1947 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_23 misr_out_23 N$dummy_esc3[111] clk
++ nx1937 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_24 misr_out_24 N$dummy_esc3[110] clk
++ nx1927 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_25 misr_out_25 N$dummy_esc3[109] clk
++ nx1917 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_26 misr_out_26 N$dummy_esc3[108] clk
++ nx1907 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_27 misr_out_27 N$dummy_esc3[107] clk
++ nx1897 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_28 misr_out_28 N$dummy_esc3[106] clk
++ nx1887 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_29 misr_out_29 N$dummy_esc3[105] clk
++ nx1877 VDD VSS dff
+        X_ix2098 nx2097 instance0_MISR_misrreg_7 misr_out_7 nx3887 VDD VSS mux21
+        X_ix2088 nx2087 instance0_MISR_misrreg_8 misr_out_8 nx3887 VDD VSS mux21
+        X_ix2078 nx2077 instance0_MISR_misrreg_9 misr_out_9 nx3887 VDD VSS mux21
+        X_ix2058 nx2057 instance0_MISR_misrreg_11 misr_out_11 nx3887 VDD
++ VSS mux21
+        X_ix2048 nx2047 instance0_MISR_misrreg_12 misr_out_12 nx3887 VDD
++ VSS mux21
+        X_ix2028 nx2027 instance0_MISR_misrreg_14 misr_out_14 nx3887 VDD
++ VSS mux21
+        X_ix2018 nx2017 instance0_MISR_misrreg_15 misr_out_15 nx3887 VDD
++ VSS mux21
+        X_ix2008 nx2007 instance0_MISR_misrreg_16 misr_out_16 nx3887 VDD
++ VSS mux21
+        X_ix1978 nx1977 instance0_MISR_misrreg_19 misr_out_19 nx3885 VDD
++ VSS mux21
+        X_ix1958 nx1957 instance0_MISR_misrreg_21 misr_out_21 nx3885 VDD
++ VSS mux21
+        X_instance0_MISR_reg_misrreg_20 instance0_MISR_misrreg_20 N$dummy_esc3[86]
++ clk nx1617 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_19 instance0_MISR_misrreg_19 N$dummy_esc3[85]
++ clk nx1627 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_18 instance0_MISR_misrreg_18 N$dummy_esc3[84]
++ clk nx1637 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_17 instance0_MISR_misrreg_17 N$dummy_esc3[83]
++ clk nx1647 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_16 instance0_MISR_misrreg_16 N$dummy_esc3[82]
++ clk nx1657 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_15 instance0_MISR_misrreg_15 N$dummy_esc3[81]
++ clk nx1667 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_14 instance0_MISR_misrreg_14 N$dummy_esc3[80]
++ clk nx1677 rst VDD VSS dffs
+        X_instance0_MISR_reg_last_sig_6 misr_out_6 nx3814 clk nx2107 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_10 misr_out_10 nx3799 clk nx2067 VDD
++ VSS dff
+        X_instance0_MISR_reg_last_sig_20 misr_out_20 nx3759 clk nx1967 VDD
++ VSS dff
+        X_instance0_MISR_reg_misrreg_5 instance0_MISR_misrreg_5 N$dummy_esc3[100]
++ clk nx1767 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_29 instance0_MISR_misrreg_29 N$dummy_esc3[95]
++ clk nx1527 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_28 instance0_MISR_misrreg_28 N$dummy_esc3[94]
++ clk nx1537 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_27 instance0_MISR_misrreg_27 N$dummy_esc3[93]
++ clk nx1547 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_26 instance0_MISR_misrreg_26 N$dummy_esc3[92]
++ clk nx1557 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_25 instance0_MISR_misrreg_25 N$dummy_esc3[91]
++ clk nx1567 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_24 instance0_MISR_misrreg_24 N$dummy_esc3[90]
++ clk nx1577 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_23 instance0_MISR_misrreg_23 N$dummy_esc3[89]
++ clk nx1587 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_22 instance0_MISR_misrreg_22 N$dummy_esc3[88]
++ clk nx1597 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_21 instance0_MISR_misrreg_21 N$dummy_esc3[87]
++ clk nx1607 rst VDD VSS dffs
+        X_instance0_MISR_reg_last_sig_1 misr_out_1 N$dummy_esc3[126] clk
++ nx2157 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_3 misr_out_3 N$dummy_esc3[125] clk
++ nx2137 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_4 misr_out_4 N$dummy_esc3[124] clk
++ nx2127 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_5 misr_out_5 N$dummy_esc3[123] clk
++ nx2117 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_7 misr_out_7 N$dummy_esc3[122] clk
++ nx2097 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_8 misr_out_8 N$dummy_esc3[121] clk
++ nx2087 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_9 misr_out_9 N$dummy_esc3[120] clk
++ nx2077 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_11 misr_out_11 N$dummy_esc3[119] clk
++ nx2057 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_12 misr_out_12 N$dummy_esc3[118] clk
++ nx2047 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_14 misr_out_14 N$dummy_esc3[117] clk
++ nx2027 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_15 misr_out_15 N$dummy_esc3[116] clk
++ nx2017 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_16 misr_out_16 N$dummy_esc3[115] clk
++ nx2007 VDD VSS dff
+        X_reg_instance0_MISR_cntr_0 instance0_MISR_cntr_0 N$dummy_esc3[97]
++ clk nx2 rst VDD VSS dffr
+        X_reg_instance0_MISR_cntr_1 instance0_MISR_cntr_1 N$dummy_esc3[96]
++ clk nx14 rst VDD VSS dffr
+        X_ix2941 nx2940 misr_out_23 misr_out_22 misr_out_21 nx3759 VDD VSS nor04
+        X_ix2108 nx2107 instance0_MISR_misrreg_6 misr_out_6 nx3887 VDD VSS mux21
+        X_ix2068 nx2067 instance0_MISR_misrreg_10 misr_out_10 nx3887 VDD
++ VSS mux21
+        X_ix1968 nx1967 instance0_MISR_misrreg_20 misr_out_20 nx3885 VDD
++ VSS mux21
+        X_ix2158 nx2157 instance0_MISR_misrreg_1 misr_out_1 nx3851 VDD VSS mux21
+        X_ix2138 nx2137 instance0_MISR_misrreg_3 misr_out_3 nx3851 VDD VSS mux21
+        X_ix2128 nx2127 instance0_MISR_misrreg_4 misr_out_4 nx3851 VDD VSS mux21
+        X_ix2118 nx2117 instance0_MISR_misrreg_5 misr_out_5 nx3851 VDD VSS mux21
+        X_ix1948 nx1947 instance0_MISR_misrreg_22 misr_out_22 nx3885 VDD
++ VSS mux21
+        X_ix1938 nx1937 instance0_MISR_misrreg_23 misr_out_23 nx3885 VDD
++ VSS mux21
+        X_ix1928 nx1927 instance0_MISR_misrreg_24 misr_out_24 nx3885 VDD
++ VSS mux21
+        X_ix1918 nx1917 instance0_MISR_misrreg_25 misr_out_25 nx3885 VDD
++ VSS mux21
+        X_ix1908 nx1907 instance0_MISR_misrreg_26 misr_out_26 nx3885 VDD
++ VSS mux21
+        X_ix1898 nx1897 instance0_MISR_misrreg_27 misr_out_27 nx3885 VDD
++ VSS mux21
+        X_ix1888 nx1887 instance0_MISR_misrreg_28 misr_out_28 nx3885 VDD
++ VSS mux21
+        X_ix1878 nx1877 instance0_MISR_misrreg_29 misr_out_29 nx3885 VDD
++ VSS mux21
+        X_instance0_MISR_reg_misrreg_4 instance0_MISR_misrreg_4 N$dummy_esc3[104]
++ clk nx1777 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_3 instance0_MISR_misrreg_3 N$dummy_esc3[103]
++ clk nx1787 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_2 instance0_MISR_misrreg_2 N$dummy_esc3[102]
++ clk nx1797 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_1 instance0_MISR_misrreg_1 N$dummy_esc3[101]
++ clk nx1807 rst VDD VSS dffs
+        X_ix3736 nx3735 misr_out_27 misr_out_26 misr_out_25 misr_out_24
++ VDD VSS or04
+        X_ix3810 nx3809 misr_out_7 nx3814 misr_out_5 misr_out_4 VDD VSS nand04
+        X_ix3795 nx3794 misr_out_11 nx3799 misr_out_9 misr_out_8 VDD VSS nand04
+        X_reg_instance0_MISR_cntr_6 instance0_MISR_cntr_6 N$dummy_esc3[99]
++ clk nx80 rst VDD VSS dffr
+        X_reg_instance0_MISR_cntr_5 instance0_MISR_cntr_5 N$dummy_esc3[98]
++ clk nx70 rst VDD VSS dffr
+        X_max_inst_instance1_regB_reg_output_3 max_inst_YB_3 N$dummy_esc3[52]
++ clk nx312 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_11 max_inst_YB_11 N$dummy_esc3[51]
++ clk nx330 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_7 max_inst_YB_7 N$dummy_esc3[50]
++ clk nx348 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_3 max_inst_YA_3 N$dummy_esc3[49]
++ clk nx612 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_2 max_inst_YA_2 N$dummy_esc3[48]
++ clk nx634 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_10 max_inst_YB_10 N$dummy_esc3[47]
++ clk nx418 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_6 max_inst_YB_6 N$dummy_esc3[46]
++ clk nx432 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_14 max_inst_YB_14 N$dummy_esc3[45]
++ clk nx384 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_2 max_inst_YB_2 N$dummy_esc3[44]
++ clk nx400 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_13 max_inst_YB_13 N$dummy_esc3[43]
++ clk nx762 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_1 max_inst_YB_1 N$dummy_esc3[42]
++ clk nx778 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_9 max_inst_YB_9 N$dummy_esc3[41]
++ clk nx796 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_5 max_inst_YB_5 N$dummy_esc3[40]
++ clk nx810 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_1 N$dummy_esc3[39] nx2403 clk
++ nx656 VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_0 mac_out_0 N$dummy_esc3[38]
++ clk nx1886 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_0 N$dummy_esc3[21] nx2376 clk
++ nx678 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_8 max_inst_YB_8 N$dummy_esc3[20]
++ clk nx876 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_4 max_inst_YB_4 N$dummy_esc3[19]
++ clk nx890 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_12 max_inst_YB_12 N$dummy_esc3[18]
++ clk nx842 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_0 max_inst_YB_0 N$dummy_esc3[0]
++ clk nx858 VDD VSS dff
+        X_instance0_LFSR_Instance6_df_reg_Q lfsr_out1_6 N$dummy_esc3[32]
++ clk nx1307 rst VDD VSS dffs
+        X_instance0_LFSR_Instance7_df_reg_Q lfsr_out1_7 N$dummy_esc3[31]
++ clk nx1317 rst VDD VSS dffs
+        X_instance0_LFSR_Instance8_df_reg_Q lfsr_out1_8 N$dummy_esc3[30]
++ clk nx1327 rst VDD VSS dffs
+        X_instance0_LFSR_Instance9_df_reg_Q lfsr_out1_9 N$dummy_esc3[29]
++ clk nx1337 rst VDD VSS dffs
+        X_instance0_LFSR_Instance10_df_reg_Q lfsr_out1_10 N$dummy_esc3[28]
++ clk nx1347 rst VDD VSS dffs
+        X_max_inst_instance0_regA_reg_output_14 max_inst_YA_14 N$dummy_esc3[64]
++ clk nx830 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_13 max_inst_YA_13 N$dummy_esc3[63]
++ clk nx738 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_12 max_inst_YA_12 N$dummy_esc3[62]
++ clk nx372 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_11 max_inst_YA_11 N$dummy_esc3[61]
++ clk nx194 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_10 max_inst_YA_10 N$dummy_esc3[60]
++ clk nx458 VDD VSS dff
+        X_instance1_LFSR_Instance1_df_reg_Q lfsr_out2_1 N$dummy_esc3[16]
++ clk nx1377 rst VDD VSS dffs
+        X_instance1_LFSR_Instance2_df_reg_Q lfsr_out2_2 N$dummy_esc3[15]
++ clk nx1387 rst VDD VSS dffs
+        X_instance1_LFSR_Instance3_df_reg_Q lfsr_out2_3 N$dummy_esc3[14]
++ clk nx1397 rst VDD VSS dffs
+        X_instance1_LFSR_Instance4_df_reg_Q lfsr_out2_4 N$dummy_esc3[13]
++ clk nx1407 rst VDD VSS dffs
+        X_instance1_LFSR_Instance5_df_reg_Q lfsr_out2_5 N$dummy_esc3[12]
++ clk nx1417 rst VDD VSS dffs
+        X_instance1_LFSR_Instance6_df_reg_Q lfsr_out2_6 N$dummy_esc3[11]
++ clk nx1427 rst VDD VSS dffs
+        X_instance1_LFSR_Instance7_df_reg_Q lfsr_out2_7 N$dummy_esc3[10]
++ clk nx1437 rst VDD VSS dffs
+        X_instance1_LFSR_Instance8_df_reg_Q lfsr_out2_8 N$dummy_esc3[9]
++ clk nx1447 rst VDD VSS dffs
+        X_instance1_LFSR_Instance9_df_reg_Q lfsr_out2_9 N$dummy_esc3[8]
++ clk nx1457 rst VDD VSS dffs
+        X_instance1_LFSR_Instance10_df_reg_Q lfsr_out2_10 N$dummy_esc3[7]
++ clk nx1467 rst VDD VSS dffs
+        X_instance1_LFSR_Instance11_df_reg_Q lfsr_out2_11 N$dummy_esc3[6]
++ clk nx1477 rst VDD VSS dffs
+        X_instance1_LFSR_Instance12_df_reg_Q lfsr_out2_12 N$dummy_esc3[5]
++ clk nx1487 rst VDD VSS dffs
+        X_instance1_LFSR_Instance13_df_reg_Q lfsr_out2_13 N$dummy_esc3[4]
++ clk nx1497 rst VDD VSS dffs
+        X_instance1_LFSR_Instance14_df_reg_Q lfsr_out2_14 N$dummy_esc3[3]
++ clk nx1507 rst VDD VSS dffs
+        X_instance1_LFSR_Instance15_df_reg_Q lfsr_out2_15 N$dummy_esc3[2]
++ clk nx1517 rst VDD VSS dffs
+        X_instance1_LFSR_Instance0_df_reg_Q lfsr_out2_0 N$dummy_esc3[1]
++ clk nx1367 rst VDD VSS dffs
+        X_instance0_MISR_reg_allTaps instance0_MISR_allTaps N$dummy_esc3[71]
++ clk nx1817 VDD VSS dff
+        X_instance0_MISR_reg_last_sig_30 misr_out_30 N$dummy_esc3[67] clk
++ nx1857 VDD VSS dff
+        X_max_inst_instance3_RegC_reg_output_31 mac_out_31 N$dummy_esc3[66]
++ clk nx3260 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_15 N$dummy_esc3[65] nx3169
++ clk nx1092 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_9 max_inst_YA_9 N$dummy_esc3[59]
++ clk nx480 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_8 max_inst_YA_8 N$dummy_esc3[58]
++ clk nx502 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_7 max_inst_YA_7 N$dummy_esc3[57]
++ clk nx524 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_6 max_inst_YA_6 N$dummy_esc3[56]
++ clk nx546 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_5 max_inst_YA_5 N$dummy_esc3[55]
++ clk nx568 VDD VSS dff
+        X_max_inst_instance0_regA_reg_output_4 max_inst_YA_4 N$dummy_esc3[54]
++ clk nx590 VDD VSS dff
+        X_max_inst_instance1_regB_reg_output_15 max_inst_YB_15 N$dummy_esc3[53]
++ clk nx276 VDD VSS dff
+        X_instance0_MISR_reg_misrreg_13 instance0_MISR_misrreg_13 N$dummy_esc3[79]
++ clk nx1687 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_12 instance0_MISR_misrreg_12 N$dummy_esc3[78]
++ clk nx1697 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_11 instance0_MISR_misrreg_11 N$dummy_esc3[77]
++ clk nx1707 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_10 instance0_MISR_misrreg_10 N$dummy_esc3[76]
++ clk nx1717 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_9 instance0_MISR_misrreg_9 N$dummy_esc3[75]
++ clk nx1727 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_8 instance0_MISR_misrreg_8 N$dummy_esc3[74]
++ clk nx1737 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_7 instance0_MISR_misrreg_7 N$dummy_esc3[73]
++ clk nx1747 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_6 instance0_MISR_misrreg_6 N$dummy_esc3[72]
++ clk nx1757 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_0 instance0_MISR_misrreg_0 N$dummy_esc3[70]
++ clk nx1827 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_31 instance0_MISR_misrreg_31 N$dummy_esc3[69]
++ clk nx1837 rst VDD VSS dffs
+        X_instance0_MISR_reg_misrreg_30 instance0_MISR_misrreg_30 N$dummy_esc3[68]
++ clk nx1847 rst VDD VSS dffs
+        X_instance0_LFSR_Instance1_df_reg_Q lfsr_out1_1 N$dummy_esc3[37]
++ clk nx1257 rst VDD VSS dffs
+        X_instance0_LFSR_Instance2_df_reg_Q lfsr_out1_2 N$dummy_esc3[36]
++ clk nx1267 rst VDD VSS dffs
+        X_instance0_LFSR_Instance3_df_reg_Q lfsr_out1_3 N$dummy_esc3[35]
++ clk nx1277 rst VDD VSS dffs
+        X_instance0_LFSR_Instance4_df_reg_Q lfsr_out1_4 N$dummy_esc3[34]
++ clk nx1287 rst VDD VSS dffs
+        X_instance0_LFSR_Instance5_df_reg_Q lfsr_out1_5 N$dummy_esc3[33]
++ clk nx1297 rst VDD VSS dffs
+        X_instance0_LFSR_Instance11_df_reg_Q lfsr_out1_11 N$dummy_esc3[27]
++ clk nx1357 rst VDD VSS dffs
+        X_instance0_LFSR_Instance12_df_reg_Q lfsr_out1_12 N$dummy_esc3[26]
++ clk nx1207 rst VDD VSS dffs
+        X_instance0_LFSR_Instance13_df_reg_Q lfsr_out1_13 N$dummy_esc3[25]
++ clk nx1217 rst VDD VSS dffs
+        X_instance0_LFSR_Instance14_df_reg_Q lfsr_out1_14 N$dummy_esc3[24]
++ clk nx1227 rst VDD VSS dffs
+        X_instance0_LFSR_Instance15_df_reg_Q lfsr_out1_15 N$dummy_esc3[23]
++ clk nx1237 rst VDD VSS dffs
+        X_instance0_LFSR_Instance0_df_reg_Q lfsr_out1_0 N$dummy_esc3[22]
++ clk nx1247 rst VDD VSS dffs
+        X_max_inst_instance0_counter_reg_output_1 N$dummy_esc3[17] nx2281
++ clk nx292 rst VDD VSS dffs
+.ends MAC_BIST
+

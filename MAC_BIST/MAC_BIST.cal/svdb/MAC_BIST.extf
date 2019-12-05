@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1575559554 1575559556
+lvs_ExtOutFile RUNDIR /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal
+lvs_ExtOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/_LVS_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {0 0 0 0 0 4 8 8 2 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext
+lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/MAC_BIST.pathchk.erc
+lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/MAC_BIST.pathchk.rep
