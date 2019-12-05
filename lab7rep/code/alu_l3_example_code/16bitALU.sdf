@@ -1,0 +1,1425 @@
+(DELAYFILE
+ (SDFVERSION "2.0")
+ (DESIGN "miniALU16")
+ (DATE "Mon Nov 11 21:03:38 2019")
+ (VENDOR "Exemplar Logic, Inc., Alameda")
+ (PROGRAM "LeonardoSpectrum Level 3")
+ (VERSION "2008b.3")
+ (DIVIDER /)
+ (VOLTAGE)
+ (PROCESS)
+ (TEMPERATURE)
+ (TIMESCALE 1 ns)
+(CELL
+ (CELLTYPE "ao22")
+ (INSTANCE ix507)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.08) (::0.09))
+   (IOPATH A1 Y (::0.12) (::0.18))
+   (IOPATH B0 Y (::0.06) (::0.07))
+   (IOPATH B1 Y (::0.07) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix528)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.18) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix499)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.07) (::0.07)))))
+(CELL
+ (CELLTYPE "nand02")
+ (INSTANCE ix531)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.06) (::0.05))
+   (IOPATH A1 Y (::0.06) (::0.05)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix533)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.03) (::0.03)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix535)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.17) (::0.18))
+   (IOPATH S0 Y (::0.24) (::0.24)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix477)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix538)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix447)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix541)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix417)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix544)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix387)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix547)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix357)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix550)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix327)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix553)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix297)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix556)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix267)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix559)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix237)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix562)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.22))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix207)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.21))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix565)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.21))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix177)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.16) (::0.18))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix568)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.21))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix147)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.16) (::0.18))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix571)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.21))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix117)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.16) (::0.18))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix574)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.21))
+   (IOPATH A1 Y (::0.19) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix87)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.16) (::0.18))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix577)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.19) (::0.21))
+   (IOPATH A1 Y (::0.20) (::0.20))
+   (IOPATH S0 Y (::0.25) (::0.25)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix57)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.16) (::0.18))
+   (IOPATH A1 Y (::0.11) (::0.10)))))
+(CELL
+ (CELLTYPE "aoi32")
+ (INSTANCE ix580)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT A2 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.15) (::0.10))
+   (IOPATH A1 Y (::0.17) (::0.11))
+   (IOPATH A2 Y (::0.21) (::0.13))
+   (IOPATH B0 Y (::0.12) (::0.09))
+   (IOPATH B1 Y (::0.11) (::0.09)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix11)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.12) (::0.11))
+   (IOPATH A1 Y (::0.15) (::0.13)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix9)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.15) (::0.17))
+   (IOPATH A1 Y (::0.10) (::0.09)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix59)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.16) (::0.14)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix89)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.16) (::0.14)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix119)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.16) (::0.14)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix149)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.16) (::0.14)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix179)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.16) (::0.14)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix209)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix239)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix269)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix299)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix329)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix359)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix389)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix419)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix449)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "xnor2")
+ (INSTANCE ix479)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.12))
+   (IOPATH A1 Y (::0.17) (::0.15)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix37)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.14) (::0.09))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.12) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix602)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.17) (::0.17))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "nand02")
+ (INSTANCE ix604)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.07) (::0.06))
+   (IOPATH A1 Y (::0.07) (::0.07)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix606)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix610)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix612)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.10))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "nor02")
+ (INSTANCE ix25)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.47) (::0.30))
+   (IOPATH A1 Y (::0.46) (::0.29)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix67)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix617)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.19))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix619)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix621)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix623)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix97)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix626)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix628)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix630)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix632)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix127)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix635)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix637)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix639)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix641)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix157)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix644)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix646)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix648)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix650)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix187)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix653)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix655)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix657)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix659)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix217)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix662)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix664)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix666)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix668)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix247)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix671)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix673)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix675)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix677)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix277)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix680)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix682)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix684)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix686)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix307)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix689)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix691)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix693)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix695)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix337)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.13))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix698)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix700)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix702)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix704)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix367)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.09) (::0.10))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix707)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix709)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix711)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix713)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix397)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.09) (::0.10))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix716)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix718)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix720)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix722)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix427)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.09) (::0.10))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix725)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix727)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix729)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix731)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix457)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.09) (::0.10))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.17) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix734)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix736)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix738)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.13) (::0.11)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix740)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "oai222")
+ (INSTANCE ix487)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (PORT C0 (::0.00) (::0.00))
+   (PORT C1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.09) (::0.10))
+   (IOPATH A1 Y (::0.06) (::0.06))
+   (IOPATH B0 Y (::0.09) (::0.09))
+   (IOPATH B1 Y (::0.10) (::0.08))
+   (IOPATH C0 Y (::0.11) (::0.10))
+   (IOPATH C1 Y (::0.10) (::0.09)))))
+(CELL
+ (CELLTYPE "xor2")
+ (INSTANCE ix743)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.18) (::0.18))
+   (IOPATH A1 Y (::0.21) (::0.18)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix745)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "aoi21")
+ (INSTANCE ix747)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.11) (::0.06))
+   (IOPATH A1 Y (::0.18) (::0.09))
+   (IOPATH B0 Y (::0.07) (::0.06)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix749)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.05)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix584)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.06) (::0.04)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix754)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.34) (::0.29)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix756)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.05) (::0.04)))))
+(CELL
+ (CELLTYPE "inv01")
+ (INSTANCE ix758)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.40) (::0.34)))))
+(CELL
+ (CELLTYPE "buf02")
+ (INSTANCE ix760)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.41) (::0.37)))))
+(CELL
+ (CELLTYPE "buf02")
+ (INSTANCE ix762)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.26) (::0.24)))))
+(CELL
+ (CELLTYPE "inv02")
+ (INSTANCE ix764)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.37) (::0.34)))))
+(CELL
+ (CELLTYPE "inv02")
+ (INSTANCE ix766)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.08) (::0.08)))))
+(CELL
+ (CELLTYPE "nor02ii")
+ (INSTANCE ix19)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.13) (::0.08))
+   (IOPATH A1 Y (::0.16) (::0.12)))))
+)

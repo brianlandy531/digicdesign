@@ -1,0 +1,46 @@
+/tools/mentor/leonardo/2008b/bin/Linux/spectrum -f scriptGiven4bit 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2008b.3 (Release Production Release, compiled Dec  8 2008 at 13:18:31)
+Copyright 1990-2008 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2008 Compuware Corporation
+
+Checking Security ...
+Info: setting exclude_gates to PadInC PadOut
+Reading library file `/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/GDKgates_utilities/hdl_libs/gdk.syn`...
+Library version = 1.0 GDK Release : July 18, 2012
+Delays assume: Process=typical Temp= 27.0 C  Voltage=1.80 V  
+Warning: Attempt to exclude unknown gate 'PadInC'
+Gate 'PadInC' excluded from library
+Warning: Attempt to exclude unknown gate 'PadOut'
+Gate 'PadOut' excluded from library
+Info: setting encoding to auto
+-- Reading file /tools/mentor/leonardo/2008b/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/4bitALU.vhd into library work
+"/home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/4bitALU.vhd",line 24: Warning, gdk_comps is not declared in library gdk.
+-- Reading file /tools/mentor/leonardo/2008b/data/std_1164.vhd for unit STD_LOGIC_1164
+-- Loading package std_logic_1164 into library IEEE
+"/home/bxl1703/Pyxis_SPT_HEP/alu_l3_example_code/4bitALU.vhd",line 26: Warning, math_real is not declared in library IEEE.
+-- Searching for SYNOPSYS package STD_LOGIC_UNSIGNED..
+-- Reading file /tools/mentor/leonardo/2008b/data/syn_unsi.vhd for unit STD_LOGIC_UNSIGNED
+-- Searching for SYNOPSYS package std_logic_arith..
+-- Reading file /tools/mentor/leonardo/2008b/data/syn_arit.vhd for unit std_logic_arith
+-- Loading package std_logic_arith into library IEEE
+-- Loading package STD_LOGIC_UNSIGNED into library IEEE
+-- Loading entity miniALU4 into library work
+-- Loading architecture Behavioral of miniALU4 into library work
+-- Compiling root entity miniALU4(Behavioral)
+Info: The target technology was not selected, gdk was automatically selected for you.
+-- Optimizing netlist .work.miniALU4.Behavioral
+-- Automatic IO buffer insertion...
+WARNING: cannot do IO mapping. Library has no plain input IO buffer
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+-- Writing file 4bitALU.v
+-- Writing file 4bitALU.vhdl
+-- Writing file 4bitALU.sdf
+-- Writing file 4bitALU.vhdl
+-- Writing file 4bitALU.sdf
