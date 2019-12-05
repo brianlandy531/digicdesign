@@ -1,0 +1,6 @@
+A 5 u mgc_symbol 5de88f36c721.03.81.15.c6.4c.00.20.ac 1 2 1 0
+V v 1 2 5de88f36c721.03.81.15.c6.4c.01.20.ac
+F f 1 "MAC_BIST.smbl_1"
+F o 0 
+O 1
+R csduv 0 "$PYXIS_SPT/digicdesign/MAC_BIST/part" 1 Eddm_part 5de88f3b0938.03.81.15.c6.4c.01.20.ac 5de88f3b0938.03.81.15.c6.4c.00.20.ac
