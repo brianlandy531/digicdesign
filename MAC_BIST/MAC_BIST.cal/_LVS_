@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Thu Dec 05 10:25:53 EST 2019
+//  Rule file generated on Fri Dec 06 18:14:08 EST 2019
 //     by Calibre Interactive - LVS (v2013.4_26.18)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -10,7 +10,7 @@ LAYOUT PATH  "MAC_BIST.calibre.gds"
 LAYOUT PRIMARY "MAC_BIST"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/MAC_BIST.calibre.src.net"
+SOURCE PATH "/home/ps9525/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/MAC_BIST.calibre.src.net"
 SOURCE PRIMARY "MAC_BIST"
 SOURCE SYSTEM SPICE
 
@@ -48,5 +48,5 @@ ERC MAXIMUM VERTEX 4096
 DRC ICSTATION YES
 
 
-INCLUDE "/home/bxl1703/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS"
+INCLUDE "/home/ps9525/Pyxis_SPT_HEP/ic_reflibs/tech_libs/generic13/rule_deck/LVS"
 

@@ -1,10 +1,6 @@
 # CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
 # FILE: svdb/MAC_BIST.dv
-dv_start unmatched                                
-dv_cell {MAC_BIST} {MAC_BIST} unmatched
-dv_obj_count -transformed_nets {2849 2848} -transformed_inst {4884 4884} -transformed_port {70 70}
-dv_discrep 1 {Incorrect Nets} -inst_count { 7 7}
-dv_discrep_line {Net } -lnet {228} {                                                   } -snet {lfsr_out2_8} {}
-dv_discrep_line {    } -lnet {1014} {                                                 }
-dv_discrep_line {}
+dv_start matched                                  
+dv_cell {MAC_BIST} {MAC_BIST} matched
+dv_obj_count -transformed_nets {2824 2824} -transformed_inst {4854 4854} -transformed_port {70 70}
 dv_end

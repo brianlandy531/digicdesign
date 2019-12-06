@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
-lvs_LvsOutFile RUNDIR /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal
+lvs_LvsOutFile RUNDIR /home/ps9525/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal
 lvs_LvsfVersion 2
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {5 0 2 0}
+lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT lvs.report
-lvs_LvsOutFile SOURCE_NETLIST /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/MAC_BIST.calibre.src.net
-lvs_LvsOutFile RULES_FILE /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/_LVS_
-lvs_LvsRunTimes 1575559556 1575559556
+lvs_LvsOutFile SOURCE_NETLIST /home/ps9525/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/MAC_BIST.calibre.src.net
+lvs_LvsOutFile RULES_FILE /home/ps9525/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal/_LVS_
+lvs_LvsRunTimes 1575674050 1575674050

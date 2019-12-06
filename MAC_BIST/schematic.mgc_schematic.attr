@@ -1,10 +1,40 @@
-A 5 u mgc_schematic 5dea85bb885c.03.81.15.9a.ac.00.5c.75 48 2 14 0
-V v 46 1 5dea9bce257b.03.81.15.c6.4c.00.4e.da
-F o 0 ""
-V v 47 1 5dea9bf12076.03.81.15.c6.4c.00.20.64
-F o 0 ""
+A 5 u mgc_schematic 5dea85bb885c.03.81.15.9a.ac.00.5c.75 50 2 14 0
 V v 48 1 5dea9bfe6111.03.81.15.c6.4c.00.20.64
 F o 0 ""
+V v 49 1 5deabc84c16f.03.81.15.9a.83.00.1b.b1
+F o 0 ""
+V v 50 1 5deabc90ab4c.03.81.15.9a.83.00.1b.b1
+F o 0 ""
+O 50
+R cspuv 0 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet1" 4 mgc_sheet 5deabc90a969.03.81.15.9a.83.00.1b.b1 5dea85bba915.03.81.15.9a.ac.00.5c.75
+R cspuv 1 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet2" 2 mgc_sheet 5dea9bc0625e.03.81.15.c6.4c.00.4e.da 5dea85bcbceb.03.81.15.9a.ac.00.5c.75
+R cspuv 2 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet3" 2 mgc_sheet 5dea9bc08cae.03.81.15.c6.4c.00.4e.da 5dea85bdc305.03.81.15.9a.ac.00.5c.75
+R cspuv 3 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet4" 2 mgc_sheet 5dea8697f39c.03.81.15.9a.ac.00.67.a7 5dea85be6ff6.03.81.15.9a.ac.00.5c.75
+R cspuv 4 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet5" 2 mgc_sheet 5dea9bc0acbd.03.81.15.c6.4c.00.4e.da 5dea85bf4f2b.03.81.15.9a.ac.00.5c.75
+R cspuv 5 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet6" 2 mgc_sheet 5dea9bc24302.03.81.15.c6.4c.00.4e.da 5dea85bfd51b.03.81.15.9a.ac.00.5c.75
+R cspuv 6 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet7" 2 mgc_sheet 5dea9bc494a3.03.81.15.c6.4c.00.4e.da 5dea85c07abe.03.81.15.9a.ac.00.5c.75
+R cspuv 7 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet8" 3 mgc_sheet 5dea9bcc999a.03.81.15.c6.4c.00.4e.da 5dea85c10539.03.81.15.9a.ac.00.5c.75
+R cspuv 8 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet9" 5 mgc_sheet 5deabc84bd9d.03.81.15.9a.83.00.1b.b1 5dea85c1885e.03.81.15.9a.ac.00.5c.75
+R cspuv 9 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet10" 2 mgc_sheet 5dea8ba0430a.03.81.15.c6.4c.00.4e.da 5dea85c24b53.03.81.15.9a.ac.00.5c.75
+R cspuv 10 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet11" 2 mgc_sheet 5dea9bcdea7e.03.81.15.c6.4c.00.4e.da 5dea85c33c8e.03.81.15.9a.ac.00.5c.75
+R cspuv 11 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet12" 2 mgc_sheet 5dea89bd8aac.03.81.15.c6.4c.00.4e.da 5dea85c3e810.03.81.15.9a.ac.00.5c.75
+R cspuv 12 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet13" 2 mgc_sheet 5dea9bce2322.03.81.15.c6.4c.00.4e.da 5dea85c4983b.03.81.15.9a.ac.00.5c.75
+R cspuv 13 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet14" 4 mgc_sheet 5dea9bab931a.03.81.15.c6.4c.00.4e.da 5dea85c5383a.03.81.15.9a.ac.00.5c.75
+O 49
+R cspuv 0 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet1" 3 mgc_sheet 5dea9bfe5ec6.03.81.15.c6.4c.00.20.64 5dea85bba915.03.81.15.9a.ac.00.5c.75
+R cspuv 1 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet2" 2 mgc_sheet 5dea9bc0625e.03.81.15.c6.4c.00.4e.da 5dea85bcbceb.03.81.15.9a.ac.00.5c.75
+R cspuv 2 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet3" 2 mgc_sheet 5dea9bc08cae.03.81.15.c6.4c.00.4e.da 5dea85bdc305.03.81.15.9a.ac.00.5c.75
+R cspuv 3 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet4" 2 mgc_sheet 5dea8697f39c.03.81.15.9a.ac.00.67.a7 5dea85be6ff6.03.81.15.9a.ac.00.5c.75
+R cspuv 4 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet5" 2 mgc_sheet 5dea9bc0acbd.03.81.15.c6.4c.00.4e.da 5dea85bf4f2b.03.81.15.9a.ac.00.5c.75
+R cspuv 5 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet6" 2 mgc_sheet 5dea9bc24302.03.81.15.c6.4c.00.4e.da 5dea85bfd51b.03.81.15.9a.ac.00.5c.75
+R cspuv 6 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet7" 2 mgc_sheet 5dea9bc494a3.03.81.15.c6.4c.00.4e.da 5dea85c07abe.03.81.15.9a.ac.00.5c.75
+R cspuv 7 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet8" 3 mgc_sheet 5dea9bcc999a.03.81.15.c6.4c.00.4e.da 5dea85c10539.03.81.15.9a.ac.00.5c.75
+R cspuv 8 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet9" 5 mgc_sheet 5deabc84bd9d.03.81.15.9a.83.00.1b.b1 5dea85c1885e.03.81.15.9a.ac.00.5c.75
+R cspuv 9 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet10" 2 mgc_sheet 5dea8ba0430a.03.81.15.c6.4c.00.4e.da 5dea85c24b53.03.81.15.9a.ac.00.5c.75
+R cspuv 10 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet11" 2 mgc_sheet 5dea9bcdea7e.03.81.15.c6.4c.00.4e.da 5dea85c33c8e.03.81.15.9a.ac.00.5c.75
+R cspuv 11 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet12" 2 mgc_sheet 5dea89bd8aac.03.81.15.c6.4c.00.4e.da 5dea85c3e810.03.81.15.9a.ac.00.5c.75
+R cspuv 12 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet13" 2 mgc_sheet 5dea9bce2322.03.81.15.c6.4c.00.4e.da 5dea85c4983b.03.81.15.9a.ac.00.5c.75
+R cspuv 13 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet14" 4 mgc_sheet 5dea9bab931a.03.81.15.c6.4c.00.4e.da 5dea85c5383a.03.81.15.9a.ac.00.5c.75
 O 48
 R cspuv 0 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet1" 3 mgc_sheet 5dea9bfe5ec6.03.81.15.c6.4c.00.20.64 5dea85bba915.03.81.15.9a.ac.00.5c.75
 R cspuv 1 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet2" 2 mgc_sheet 5dea9bc0625e.03.81.15.c6.4c.00.4e.da 5dea85bcbceb.03.81.15.9a.ac.00.5c.75
@@ -15,36 +45,6 @@ R cspuv 5 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet6" 2 mgc_sheet 5dea9bc
 R cspuv 6 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet7" 2 mgc_sheet 5dea9bc494a3.03.81.15.c6.4c.00.4e.da 5dea85c07abe.03.81.15.9a.ac.00.5c.75
 R cspuv 7 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet8" 3 mgc_sheet 5dea9bcc999a.03.81.15.c6.4c.00.4e.da 5dea85c10539.03.81.15.9a.ac.00.5c.75
 R cspuv 8 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet9" 4 mgc_sheet 5dea9bf11e4d.03.81.15.c6.4c.00.20.64 5dea85c1885e.03.81.15.9a.ac.00.5c.75
-R cspuv 9 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet10" 2 mgc_sheet 5dea8ba0430a.03.81.15.c6.4c.00.4e.da 5dea85c24b53.03.81.15.9a.ac.00.5c.75
-R cspuv 10 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet11" 2 mgc_sheet 5dea9bcdea7e.03.81.15.c6.4c.00.4e.da 5dea85c33c8e.03.81.15.9a.ac.00.5c.75
-R cspuv 11 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet12" 2 mgc_sheet 5dea89bd8aac.03.81.15.c6.4c.00.4e.da 5dea85c3e810.03.81.15.9a.ac.00.5c.75
-R cspuv 12 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet13" 2 mgc_sheet 5dea9bce2322.03.81.15.c6.4c.00.4e.da 5dea85c4983b.03.81.15.9a.ac.00.5c.75
-R cspuv 13 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet14" 4 mgc_sheet 5dea9bab931a.03.81.15.c6.4c.00.4e.da 5dea85c5383a.03.81.15.9a.ac.00.5c.75
-O 47
-R cspuv 0 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet1" 2 mgc_sheet 5dea8698408f.03.81.15.9a.ac.00.67.a7 5dea85bba915.03.81.15.9a.ac.00.5c.75
-R cspuv 1 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet2" 2 mgc_sheet 5dea9bc0625e.03.81.15.c6.4c.00.4e.da 5dea85bcbceb.03.81.15.9a.ac.00.5c.75
-R cspuv 2 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet3" 2 mgc_sheet 5dea9bc08cae.03.81.15.c6.4c.00.4e.da 5dea85bdc305.03.81.15.9a.ac.00.5c.75
-R cspuv 3 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet4" 2 mgc_sheet 5dea8697f39c.03.81.15.9a.ac.00.67.a7 5dea85be6ff6.03.81.15.9a.ac.00.5c.75
-R cspuv 4 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet5" 2 mgc_sheet 5dea9bc0acbd.03.81.15.c6.4c.00.4e.da 5dea85bf4f2b.03.81.15.9a.ac.00.5c.75
-R cspuv 5 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet6" 2 mgc_sheet 5dea9bc24302.03.81.15.c6.4c.00.4e.da 5dea85bfd51b.03.81.15.9a.ac.00.5c.75
-R cspuv 6 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet7" 2 mgc_sheet 5dea9bc494a3.03.81.15.c6.4c.00.4e.da 5dea85c07abe.03.81.15.9a.ac.00.5c.75
-R cspuv 7 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet8" 3 mgc_sheet 5dea9bcc999a.03.81.15.c6.4c.00.4e.da 5dea85c10539.03.81.15.9a.ac.00.5c.75
-R cspuv 8 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet9" 4 mgc_sheet 5dea9bf11e4d.03.81.15.c6.4c.00.20.64 5dea85c1885e.03.81.15.9a.ac.00.5c.75
-R cspuv 9 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet10" 2 mgc_sheet 5dea8ba0430a.03.81.15.c6.4c.00.4e.da 5dea85c24b53.03.81.15.9a.ac.00.5c.75
-R cspuv 10 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet11" 2 mgc_sheet 5dea9bcdea7e.03.81.15.c6.4c.00.4e.da 5dea85c33c8e.03.81.15.9a.ac.00.5c.75
-R cspuv 11 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet12" 2 mgc_sheet 5dea89bd8aac.03.81.15.c6.4c.00.4e.da 5dea85c3e810.03.81.15.9a.ac.00.5c.75
-R cspuv 12 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet13" 2 mgc_sheet 5dea9bce2322.03.81.15.c6.4c.00.4e.da 5dea85c4983b.03.81.15.9a.ac.00.5c.75
-R cspuv 13 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet14" 4 mgc_sheet 5dea9bab931a.03.81.15.c6.4c.00.4e.da 5dea85c5383a.03.81.15.9a.ac.00.5c.75
-O 46
-R cspuv 0 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet1" 2 mgc_sheet 5dea8698408f.03.81.15.9a.ac.00.67.a7 5dea85bba915.03.81.15.9a.ac.00.5c.75
-R cspuv 1 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet2" 2 mgc_sheet 5dea9bc0625e.03.81.15.c6.4c.00.4e.da 5dea85bcbceb.03.81.15.9a.ac.00.5c.75
-R cspuv 2 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet3" 2 mgc_sheet 5dea9bc08cae.03.81.15.c6.4c.00.4e.da 5dea85bdc305.03.81.15.9a.ac.00.5c.75
-R cspuv 3 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet4" 2 mgc_sheet 5dea8697f39c.03.81.15.9a.ac.00.67.a7 5dea85be6ff6.03.81.15.9a.ac.00.5c.75
-R cspuv 4 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet5" 2 mgc_sheet 5dea9bc0acbd.03.81.15.c6.4c.00.4e.da 5dea85bf4f2b.03.81.15.9a.ac.00.5c.75
-R cspuv 5 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet6" 2 mgc_sheet 5dea9bc24302.03.81.15.c6.4c.00.4e.da 5dea85bfd51b.03.81.15.9a.ac.00.5c.75
-R cspuv 6 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet7" 2 mgc_sheet 5dea9bc494a3.03.81.15.c6.4c.00.4e.da 5dea85c07abe.03.81.15.9a.ac.00.5c.75
-R cspuv 7 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet8" 3 mgc_sheet 5dea9bcc999a.03.81.15.c6.4c.00.4e.da 5dea85c10539.03.81.15.9a.ac.00.5c.75
-R cspuv 8 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet9" 3 mgc_sheet 5dea9b33bc7f.03.81.15.c6.4c.00.4e.da 5dea85c1885e.03.81.15.9a.ac.00.5c.75
 R cspuv 9 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet10" 2 mgc_sheet 5dea8ba0430a.03.81.15.c6.4c.00.4e.da 5dea85c24b53.03.81.15.9a.ac.00.5c.75
 R cspuv 10 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet11" 2 mgc_sheet 5dea9bcdea7e.03.81.15.c6.4c.00.4e.da 5dea85c33c8e.03.81.15.9a.ac.00.5c.75
 R cspuv 11 "$PYXIS_SPT/digicdesign/MAC_BIST/schematic/sheet12" 2 mgc_sheet 5dea89bd8aac.03.81.15.c6.4c.00.4e.da 5dea85c3e810.03.81.15.9a.ac.00.5c.75
