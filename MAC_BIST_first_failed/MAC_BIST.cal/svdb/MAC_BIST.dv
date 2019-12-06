@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/MAC_BIST.dv
+dv_start notcompared                              
+dv_cell {MAC_BIST} {MAC_BIST} notcompared
+dv_obj_count -transformed_nets {2634 2848} -transformed_inst {5607 4884} -transformed_port {41 70}
+dv_end

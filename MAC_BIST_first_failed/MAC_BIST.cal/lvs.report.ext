@@ -1,0 +1,260 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         lvs.report.ext
+LAYOUT NAME:              MAC_BIST.calibre.gds ('MAC_BIST')
+CREATION TIME:            Thu Dec  5 19:32:18 2019
+CURRENT DIRECTORY:        /home/bxl1703/Pyxis_SPT_HEP/ic_projects/Pyxis_SPT/digicdesign/MAC_BIST/MAC_BIST.cal
+USER NAME:                bxl1703
+CALIBRE VERSION:          v2013.4_26.18    Fri Dec 13 14:55:29 PST 2013
+
+
+
+Extraction Errors and Warnings for cell "MAC_BIST"
+--------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  1
+          (1)  name  "A[12]"  at location  (-13.98,189.795)  on layer  131
+          (2)  name  "A[13]"  at location  (359.055,228.38)  on layer  131
+          (3)  name  "A[15]"  at location  (201.83,358.49)  on layer  132
+          (4)  name  "A[1]"  at location  (160.32,358.49)  on layer  132
+          (5)  name  "A[3]"  at location  (-13.98,164.59)  on layer  131
+          (6)  name  "A[4]"  at location  (359.055,114.18)  on layer  131
+          (7)  name  "A[6]"  at location  (195.6,-5.575)  on layer  132
+          (8)  name  "A[7]"  at location  (359.055,38.565)  on layer  131
+          (9)  name  "A[8]"  at location  (359.055,230.82)  on layer  131
+          (10)  name  "B[10]"  at location  (33.27,-5.575)  on layer  132
+          (11)  name  "B[12]"  at location  (-13.98,240.205)  on layer  131
+          (12)  name  "B[13]"  at location  (165.73,358.49)  on layer  132
+          (13)  name  "B[15]"  at location  (274,358.49)  on layer  132
+          (14)  name  "B[1]"  at location  (-13.98,167.03)  on layer  131
+          (15)  name  "B[4]"  at location  (-13.98,290.615)  on layer  131
+          (16)  name  "clk"  at location  (42.35,358.49)  on layer  132
+          (17)  name  "multiplierOut[10]"  at location  (160.845,-5.575)  on layer  132
+          (18)  name  "multiplierOut[11]"  at location  (359.055,221.06)  on layer  131
+          (19)  name  "multiplierOut[12]"  at location  (170.435,-5.575)  on layer  132
+          (20)  name  "multiplierOut[16]"  at location  (359.055,213.74)  on layer  131
+          (21)  name  "multiplierOut[21]"  at location  (122.905,-5.575)  on layer  132
+          (22)  name  "multiplierOut[22]"  at location  (106.455,-5.575)  on layer  132
+          (23)  name  "multiplierOut[25]"  at location  (-13.98,162.15)  on layer  131
+          (24)  name  "multiplierOut[26]"  at location  (102.325,-5.575)  on layer  132
+          (25)  name  "multiplierOut[29]"  at location  (180.235,358.49)  on layer  132
+          (26)  name  "multiplierOut[3]"  at location  (51.575,-5.575)  on layer  132
+          (27)  name  "rst"  at location  (50.385,358.49)  on layer  132
+          (28)  name  "tst_mode"  at location  (278.025,358.49)  on layer  132
+          (29)  name  "VDD"  at location  (-13.98,176.46)  on layer  131
+          (30)  name  "VSS"  at location  (359.055,176.46)  on layer  131
+          The name "VDD" was assigned to the net.
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+
+WARNING: BAD DEVICE on layer nmos at location (69.275,261.72) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (69.275,261.867)
+         Pin on layer ndiff, net 733 at location (69.275,261.867)
+         Pin on layer ndiff, net 736 at location (69.49,261.692)
+         Pin on layer psub, net "VDD" at location (69.275,261.867)
+         Pin on layer ndiff, net "VDD" at location (69.705,261.84) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (111.675,85.23) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (111.675,85.825)
+         Pin on layer ndiff, net "VDD" at location (111.675,85.825)
+         Pin on layer ndiff, net 1161 at location (111.805,85.282)
+         Pin on layer psub, net "VDD" at location (111.675,85.825)
+         Pin on layer ndiff, net 1162 at location (111.805,86.035) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (118.205,186.595) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (118.205,186.725)
+         Pin on layer ndiff, net "VDD" at location (118.205,186.725)
+         Pin on layer ndiff, net 1239 at location (118.42,186.34)
+         Pin on layer psub, net "VDD" at location (118.205,186.725)
+         Pin on layer ndiff, net 1230 at location (118.635,186.47) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (131.555,160.88) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (131.555,160.95)
+         Pin on layer ndiff, net 1361 at location (131.555,160.95)
+         Pin on layer ndiff, net 1362 at location (131.555,161.685)
+         Pin on layer psub, net "VDD" at location (131.555,160.95)
+         Pin on layer ndiff, net "VDD" at location (131.685,161.475) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (134.705,60.025) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (134.705,60.62)
+         Pin on layer ndiff, net "VDD" at location (134.705,60.62)
+         Pin on layer ndiff, net 1394 at location (134.835,60.077)
+         Pin on layer psub, net "VDD" at location (134.705,60.62)
+         Pin on layer ndiff, net 1395 at location (134.835,60.83) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (193.955,211.255) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (193.955,211.43)
+         Pin on layer ndiff, net "VDD" at location (193.955,211.43)
+         Pin on layer ndiff, net 2002 at location (194.095,211.282)
+         Pin on layer psub, net "VDD" at location (193.955,211.43)
+         Pin on layer ndiff, net 2003 at location (194.3,211.282) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (238.545,186.05) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (238.545,186.225)
+         Pin on layer ndiff, net "VDD" at location (238.545,186.225)
+         Pin on layer ndiff, net 2408 at location (238.685,186.077)
+         Pin on layer psub, net "VDD" at location (238.545,186.225)
+         Pin on layer ndiff, net 2413 at location (238.89,186.077) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer nmos at location (309.595,337.28) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (309.595,337.455)
+         Pin on layer ndiff, net "VDD" at location (309.595,337.455)
+         Pin on layer ndiff, net 3138 at location (309.735,337.307)
+         Pin on layer psub, net "VDD" at location (309.595,337.455)
+         Pin on layer ndiff, net 3144 at location (309.94,337.307) (extra pin)
+         Possible Element Names: MN(nmos)
+
+WARNING: BAD DEVICE on layer pmos at location (31.055,215.595) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (31.055,215.647)
+         Pin on layer pdiff, net "VDD" at location (31.055,215.647)
+         Pin on layer pdiff, net 3647 at location (31.27,216.417)
+         Pin on layer nxwell, net "VDD" at location (31.055,215.647)
+         Pin on layer pdiff, net 326 at location (31.485,216.365) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (50.315,115.265) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (50.315,115.86)
+         Pin on layer pdiff, net 3754 at location (50.315,115.86)
+         Pin on layer pdiff, net 3756 at location (50.455,115.887)
+         Pin on layer nxwell, net "VDD" at location (50.315,115.86)
+         Pin on layer pdiff, net "VDD" at location (50.67,115.887) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (101.63,290.265) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (101.63,290.317)
+         Pin on layer pdiff, net 3989 at location (101.63,290.317)
+         Pin on layer pdiff, net 3992 at location (101.845,291.455)
+         Pin on layer nxwell, net "VDD" at location (101.63,290.317)
+         Pin on layer pdiff, net "VDD" at location (102.025,291.42) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (176.225,190.53) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (176.225,191.51)
+         Pin on layer pdiff, net "VDD" at location (176.225,191.51)
+         Pin on layer pdiff, net 4337 at location (176.355,191.3)
+         Pin on layer nxwell, net "VDD" at location (176.225,191.51)
+         Pin on layer pdiff, net 1821 at location (176.355,192.462) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (177.315,113.865) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (177.315,114.985)
+         Pin on layer pdiff, net "VDD" at location (177.315,114.985)
+         Pin on layer pdiff, net 4340 at location (177.455,115.02)
+         Pin on layer nxwell, net "VDD" at location (177.315,114.985)
+         Pin on layer pdiff, net 4343 at location (177.625,115.02) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (186.185,115.265) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (186.185,115.86)
+         Pin on layer pdiff, net 4388 at location (186.185,115.86)
+         Pin on layer pdiff, net 4390 at location (186.325,115.987)
+         Pin on layer nxwell, net "VDD" at location (186.185,115.86)
+         Pin on layer pdiff, net "VDD" at location (186.475,115.987) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (208.445,242.31) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (208.445,242.395)
+         Pin on layer pdiff, net "VDD" at location (208.445,242.395)
+         Pin on layer pdiff, net 4471 at location (208.66,241.625)
+         Pin on layer nxwell, net "VDD" at location (208.445,242.395)
+         Pin on layer pdiff, net 4472 at location (208.875,241.71) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (245.785,39.3) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (245.785,40.28)
+         Pin on layer pdiff, net "VDD" at location (245.785,40.28)
+         Pin on layer pdiff, net 4616 at location (245.915,40.07)
+         Pin on layer nxwell, net "VDD" at location (245.785,40.28)
+         Pin on layer pdiff, net 2480 at location (245.915,41.232) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (273.355,164.275) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (273.355,165.395)
+         Pin on layer pdiff, net "VDD" at location (273.355,165.395)
+         Pin on layer pdiff, net 4737 at location (273.495,165.43)
+         Pin on layer nxwell, net "VDD" at location (273.355,165.395)
+         Pin on layer pdiff, net 4738 at location (273.665,165.43) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (316.725,139.98) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (316.725,140.032)
+         Pin on layer pdiff, net "VDD" at location (316.725,140.032)
+         Pin on layer pdiff, net 4951 at location (316.94,140.802)
+         Pin on layer nxwell, net "VDD" at location (316.725,140.032)
+         Pin on layer pdiff, net 3227 at location (317.155,140.75) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: BAD DEVICE on layer pmos at location (342.445,239.89) in cell MAC_BIST
+         (Too many pins).
+         Found 5 interaction(s):
+         Pin on layer poly, net "VDD" at location (342.445,241.01)
+         Pin on layer pdiff, net "VDD" at location (342.445,241.01)
+         Pin on layer pdiff, net 5040 at location (342.585,241.045)
+         Pin on layer nxwell, net "VDD" at location (342.445,241.01)
+         Pin on layer pdiff, net 5043 at location (342.755,241.045) (extra pin)
+         Possible Element Names: MP(pmos)
+
+WARNING: Invalid PATHCHK request "GROUND && ! POWER": no GROUND nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "POWER && ! GROUND": no GROUND nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "! POWER && ! GROUND": no GROUND nets present, operation aborted.
+

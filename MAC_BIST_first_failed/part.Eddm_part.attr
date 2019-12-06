@@ -1,0 +1,18 @@
+A 5 u Eddm_part 5de88f3b0938.03.81.15.c6.4c.00.20.ac 3 2 2 0
+V v 1 1 5de88f3b0938.03.81.15.c6.4c.01.20.ac
+F f 1 "part.part_1"
+V v 2 1 5de88f3c346e.03.81.15.c6.4c.00.20.ac
+F f 2 "part.part_2"
+V v 3 1 5dea852fec87.03.81.15.9a.ac.00.59.08
+F f 3 "part.part_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/MAC_BIST_first_failed/MAC_BIST_first_failed" 1 mgc_symbol 5de88f36c721.03.81.15.c6.4c.01.20.ac 5de88f36c721.03.81.15.c6.4c.00.20.ac
+R csduv 1 "$PYXIS_SPT/digicdesign/MAC_BIST_first_failed/schematic" 1 mgc_schematic 5de88f3b16af.03.81.15.c6.4c.01.20.ac 5de88f3b16af.03.81.15.c6.4c.00.20.ac
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/MAC_BIST_first_failed/MAC_BIST_first_failed" 1 mgc_symbol 5de88f36c721.03.81.15.c6.4c.01.20.ac 5de88f36c721.03.81.15.c6.4c.00.20.ac
+R csduv 1 "$PYXIS_SPT/digicdesign/MAC_BIST_first_failed/schematic" 1 mgc_schematic 5de88f3b16af.03.81.15.c6.4c.01.20.ac 5de88f3b16af.03.81.15.c6.4c.00.20.ac
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$PYXIS_SPT/digicdesign/MAC_BIST_first_failed/MAC_BIST_first_failed" 1 mgc_symbol 5de88f36c721.03.81.15.c6.4c.01.20.ac 5de88f36c721.03.81.15.c6.4c.00.20.ac
